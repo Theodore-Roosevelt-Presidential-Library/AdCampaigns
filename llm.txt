@@ -37,7 +37,9 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 - creative/video/ ............ thumbnails of the Commercials playlist (YouTube IDs in plan.py).
 - creative/video/vertical/ ... 9:16 cuts for Stories/Reels (+ .jpg poster, .json crop log).
 - creative/kennerly/ ......... stills from the In the Room preview video (temporary until real exhibit photos).
-- creative/events/ ........... event hero images (film, etc.).
+- creative/events/ ........... event creative. atb/ = America the Beautiful media kit (trailer cut before the
+  distributor end card in 4:5, 16:9 and 9:16; poster; stills). Source: the distributor's shared Drive folder.
+  Local video files use media {type:"video", file, src(poster), feed:{file,src,ratio}, vertical:{src,poster}}.
 - scripts/vertical.py ........ makes 9:16 versions of 16:9 commercials (see below).
 - creative/saltscoria/ ....... Salt+Scoria food photos from saltandscoria.com (not yet in the DAM).
 - creative/brand/avatar.jpg .. profile image used in the mockups.

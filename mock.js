@@ -17,6 +17,11 @@
 
   function media(m, ratio, extra) {
     if (!m) return `<div class="media" style="aspect-ratio:${ratio}"></div>`;
+    if (m.type === "video" && m.feed && ratio !== "9/16") { m = m.feed; ratio = m.ratio || ratio; }  // e.g. a 4:5 cut for feeds
+    if (m.file) { // video file hosted in this repo: plays inline
+      const ph = extra && extra.placeholder ? '<span class="ph">PLACEHOLDER</span>' : "";
+      return `<div class="media" style="aspect-ratio:${ratio}"><video src="${esc(m.file)}" poster="${esc(m.src)}" preload="none" playsinline muted loop controls style="width:100%;height:100%;object-fit:cover;display:block"></video>${ph}</div>`;
+    }
     const ph = extra && extra.placeholder ? '<span class="ph">PLACEHOLDER</span>' : "";
     const vid = m.type === "video"
       ? `<div class="play" data-yt="${esc(m.youtube)}" title="Play ${esc(m.title)}"><span></span></div><span class="dur">${esc(m.duration || "")}</span>` : "";
@@ -36,7 +41,7 @@
       const cs = cards(ad).map(c => `<div class="card">${media(c.media, "1/1")}<div class="cf"><div class="l"><div class="hl">${esc(c.headline)}</div><div class="ds">${esc(c.desc || "")}</div></div><div class="cta">${esc(ad.cta)}</div></div></div>`).join("");
       return `<div><p class="mock-label">Facebook Feed</p><div class="m fb">${head}${text}<div class="car">${cs}</div>${rx}</div></div>`;
     }
-    const ratio = ad.format === "video" ? "16/9" : "1/1";
+    const ratio = ad.format === "video" ? (ad.media.feed ? ad.media.feed.ratio : "16/9") : "1/1";
     return `<div><p class="mock-label">Facebook Feed</p><div class="m fb">${head}${text}${media(ad.media, ratio, ad)}
       <div class="link"><div class="l"><div class="dom">${esc(domainOf(ad.url))}</div><div class="hl">${esc(ad.headline)}</div><div class="ds">${esc(ad.desc || "")}</div></div><div class="cta">${esc(ad.cta)}</div></div>${rx}</div></div>`;
   }

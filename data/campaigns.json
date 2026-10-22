@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:39:36+00:00",
+ "generated": "2026-10-22T23:55:11+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -1339,7 +1339,7 @@
     "metric": "Cost per landing page view",
     "why": "Screenings run Nov 11–25 only."
    },
-   "why": "Paid screenings in the auditorium, made for the giant screen. Starts after the Nov 3 political-ad window because the film touches the conservation movement.",
+   "why": "Paid screenings in the auditorium of a giant-screen nature film narrated by Kelsey Grammer. Uses the distributor's captioned trailer (their 'now playing in IMAX' end card cut off, since the Library is the venue) and their poster. Starts after the Nov 3 political-ad window because the film touches the conservation movement.",
    "audiences": [
     {
      "name": "Regional",
@@ -1350,29 +1350,107 @@
     }
    ],
    "open_items": [
-    "The event page lists two prices ($7/$5 and $7.35/$5.25). Fix before ads point there."
+    "The event page lists two prices ($7/$5 and $7.35/$5.25). Fix before ads point there.",
+    "Confirm with the distributor (MPEG Film) that the Library may run its trailer and poster in paid social, trimmed.",
+    "The poster shows Mount Rushmore and '250th anniversary' copy. Keep the ad text about the film, not politics, so it isn't flagged as a social-issue ad."
    ],
    "ads": [
     {
-     "id": "evt-film-hero",
-     "name": "On the big screen",
-     "format": "image",
-     "primary": "Mountains, plains, rivers and wetlands on the Library's big screen. America the Beautiful: Our Natural Wonders, narrated by Kelsey Grammer. Nov. 11–25.",
-     "headline": "America the Beautiful",
+     "id": "evt-film-trailer",
+     "name": "Trailer",
+     "format": "video",
+     "primary": "Mountains, plains, rivers and wetlands on the Library's big screen. America the Beautiful: Our Natural Wonders, narrated by Kelsey Grammer. Nov. 11–25 in Medora.",
+     "headline": "America the Beautiful, Nov. 11–25",
      "desc": "Afternoon and evening shows",
      "cta": "Get Tickets",
      "url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening",
      "media": {
-      "type": "image",
-      "src": "creative/events/america-the-beautiful.jpg",
-      "source": "trlibrary.com event page"
+      "type": "video",
+      "src": "creative/events/atb/trailer-16x9.jpg",
+      "file": "creative/events/atb/trailer-16x9.mp4",
+      "duration": "0:48",
+      "title": "America the Beautiful trailer (captioned)",
+      "source": "Film's media kit (MPEG Film, Google Drive) — distributor end card trimmed",
+      "feed": {
+       "src": "creative/events/atb/trailer-4x5.jpg",
+       "file": "creative/events/atb/trailer-4x5.mp4",
+       "ratio": "4/5"
+      },
+      "vertical": {
+       "src": "creative/events/atb/trailer-9x16.mp4",
+       "poster": "creative/events/atb/trailer-9x16.jpg"
+      }
      },
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-film&utm_content=evt-film-hero"
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-film&utm_content=evt-film-trailer"
+    },
+    {
+     "id": "evt-film-poster",
+     "name": "Poster",
+     "format": "image",
+     "primary": "A giant-screen tour of America's natural wonders, narrated by Kelsey Grammer, at the Library Nov. 11–25. Afternoon and evening shows.",
+     "headline": "See it on the big screen",
+     "desc": "Theodore Roosevelt Presidential Library",
+     "cta": "Get Tickets",
+     "url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening",
+     "media": {
+      "type": "image",
+      "src": "creative/events/atb/poster-4x5.jpg",
+      "source": "Film's media kit (MPEG Film, Google Drive)"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-film&utm_content=evt-film-poster"
+    },
+    {
+     "id": "evt-film-scenes",
+     "name": "Scenes from the film",
+     "format": "carousel",
+     "primary": "Rivers, elk country and wetlands at sunset, the way they were made to be seen. America the Beautiful plays at the Library Nov. 11–25.",
+     "cta": "Get Tickets",
+     "url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/events/atb/river-aerial.jpg",
+        "source": "Film's media kit (MPEG Film, Google Drive)"
+       },
+       "headline": "America the Beautiful",
+       "desc": "Nov. 11–25"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/events/atb/elk-meadow.jpg",
+        "source": "Film's media kit (MPEG Film, Google Drive)"
+       },
+       "headline": "Narrated by Kelsey Grammer",
+       "desc": "Giant screen"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/events/atb/wetland-sunset.jpg",
+        "source": "Film's media kit (MPEG Film, Google Drive)"
+       },
+       "headline": "Afternoon and evening shows",
+       "desc": "Medora, North Dakota"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-film&utm_content=evt-film-scenes"
     }
    ],
    "status": "proposed",

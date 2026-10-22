@@ -290,18 +290,37 @@ camp(id="evt-holiday", program="Events", revenue=False, priority=2,
          "media": img("store-interior"), "placeholder": True},
      ])
 
+A = "creative/events/atb/"
+ATB_TRAILER = {"type": "video", "src": A + "trailer-16x9.jpg", "file": A + "trailer-16x9.mp4", "duration": "0:48",
+               "title": "America the Beautiful trailer (captioned)", "source": "Film's media kit (MPEG Film, Google Drive) — distributor end card trimmed",
+               "feed": {"src": A + "trailer-4x5.jpg", "file": A + "trailer-4x5.mp4", "ratio": "4/5"},
+               "vertical": {"src": A + "trailer-9x16.mp4", "poster": A + "trailer-9x16.jpg"}}
+def atb(name): return {"type": "image", "src": A + name + ".jpg", "source": "Film's media kit (MPEG Film, Google Drive)"}
+
 camp(id="evt-film", program="Events", revenue=True, priority=3,
      name="EVENTS: America the Beautiful film screenings", objective="Sales", optimization="Landing page views",
      start="2026-11-05", end="2026-11-24", budget=3000,
      spend=BURST("Cost per landing page view", "Screenings run Nov 11–25 only."),
-     why="Paid screenings in the auditorium, made for the giant screen. Starts after the Nov 3 political-ad window because the film touches the conservation movement.",
+     why="Paid screenings in the auditorium of a giant-screen nature film narrated by Kelsey Grammer. Uses the distributor's captioned trailer (their 'now playing in IMAX' end card cut off, since the Library is the venue) and their poster. Starts after the Nov 3 political-ad window because the film touches the conservation movement.",
      audiences=[{"name": "Regional", "geo": REGION, "age": "25–70", "detail": "Nature films, national parks, outdoors", "share": 1.0}],
-     open_items=["The event page lists two prices ($7/$5 and $7.35/$5.25). Fix before ads point there."],
+     open_items=["The event page lists two prices ($7/$5 and $7.35/$5.25). Fix before ads point there.",
+                 "Confirm with the distributor (MPEG Film) that the Library may run its trailer and poster in paid social, trimmed.",
+                 "The poster shows Mount Rushmore and '250th anniversary' copy. Keep the ad text about the film, not politics, so it isn't flagged as a social-issue ad."],
      ads=[
-        {"id": "evt-film-hero", "name": "On the big screen", "format": "image",
-         "primary": "Mountains, plains, rivers and wetlands on the Library's big screen. America the Beautiful: Our Natural Wonders, narrated by Kelsey Grammer. Nov. 11–25.",
-         "headline": "America the Beautiful", "desc": "Afternoon and evening shows", "cta": "Get Tickets", "url": FILM,
-         "media": {"type": "image", "src": "creative/events/america-the-beautiful.jpg", "source": "trlibrary.com event page"}},
+        {"id": "evt-film-trailer", "name": "Trailer", "format": "video",
+         "primary": "Mountains, plains, rivers and wetlands on the Library's big screen. America the Beautiful: Our Natural Wonders, narrated by Kelsey Grammer. Nov. 11–25 in Medora.",
+         "headline": "America the Beautiful, Nov. 11–25", "desc": "Afternoon and evening shows", "cta": "Get Tickets", "url": FILM,
+         "media": ATB_TRAILER},
+        {"id": "evt-film-poster", "name": "Poster", "format": "image",
+         "primary": "A giant-screen tour of America's natural wonders, narrated by Kelsey Grammer, at the Library Nov. 11–25. Afternoon and evening shows.",
+         "headline": "See it on the big screen", "desc": "Theodore Roosevelt Presidential Library", "cta": "Get Tickets", "url": FILM,
+         "media": atb("poster-4x5")},
+        {"id": "evt-film-scenes", "name": "Scenes from the film", "format": "carousel",
+         "primary": "Rivers, elk country and wetlands at sunset, the way they were made to be seen. America the Beautiful plays at the Library Nov. 11–25.",
+         "cta": "Get Tickets", "url": FILM,
+         "cards": [{"media": atb("river-aerial"), "headline": "America the Beautiful", "desc": "Nov. 11–25"},
+                   {"media": atb("elk-meadow"), "headline": "Narrated by Kelsey Grammer", "desc": "Giant screen"},
+                   {"media": atb("wetland-sunset"), "headline": "Afternoon and evening shows", "desc": "Medora, North Dakota"}]},
      ])
 
 camp(id="evt-ffh", program="Events", revenue=False, priority=4,
