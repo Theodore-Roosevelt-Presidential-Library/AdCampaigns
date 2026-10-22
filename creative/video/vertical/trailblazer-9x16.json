@@ -1,0 +1,278 @@
+{
+ "source": "tb_h264.mp4",
+ "mode": "reframe",
+ "fit_from": 77.5,
+ "fit_until": null,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 0.5,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 0.5,
+   "end": 2.25,
+   "x": 1047,
+   "people": true
+  },
+  {
+   "start": 2.25,
+   "end": 3.88,
+   "x": 483,
+   "people": true
+  },
+  {
+   "start": 3.88,
+   "end": 5.08,
+   "x": 867,
+   "people": true
+  },
+  {
+   "start": 5.08,
+   "end": 6.58,
+   "x": 803,
+   "people": true
+  },
+  {
+   "start": 6.58,
+   "end": 8.79,
+   "x": 1048,
+   "people": true
+  },
+  {
+   "start": 8.79,
+   "end": 10.12,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 10.12,
+   "end": 11.33,
+   "x": 849,
+   "people": true
+  },
+  {
+   "start": 11.33,
+   "end": 12.38,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 12.38,
+   "end": 13.46,
+   "x": 622,
+   "people": true
+  },
+  {
+   "start": 13.46,
+   "end": 15.25,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 15.25,
+   "end": 18.46,
+   "x": 273,
+   "people": true
+  },
+  {
+   "start": 18.46,
+   "end": 19.67,
+   "x": 0,
+   "people": true
+  },
+  {
+   "start": 19.67,
+   "end": 21.12,
+   "x": 684,
+   "people": true
+  },
+  {
+   "start": 21.12,
+   "end": 22.58,
+   "x": 846,
+   "people": true
+  },
+  {
+   "start": 22.58,
+   "end": 25.17,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 25.17,
+   "end": 28.12,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 28.12,
+   "end": 29.12,
+   "x": 1103,
+   "people": true
+  },
+  {
+   "start": 29.12,
+   "end": 30.21,
+   "x": 0,
+   "people": true
+  },
+  {
+   "start": 30.21,
+   "end": 31.29,
+   "x": 402,
+   "people": true
+  },
+  {
+   "start": 31.29,
+   "end": 33.08,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 33.08,
+   "end": 34.71,
+   "x": 687,
+   "people": true
+  },
+  {
+   "start": 34.71,
+   "end": 35.96,
+   "x": 307,
+   "people": true
+  },
+  {
+   "start": 35.96,
+   "end": 37.92,
+   "x": 1312,
+   "people": true
+  },
+  {
+   "start": 37.92,
+   "end": 39.79,
+   "x": 384,
+   "people": true
+  },
+  {
+   "start": 39.79,
+   "end": 40.75,
+   "x": 1088,
+   "people": true
+  },
+  {
+   "start": 40.75,
+   "end": 43.21,
+   "x": 568,
+   "people": true
+  },
+  {
+   "start": 43.21,
+   "end": 45.25,
+   "x": 797,
+   "people": true
+  },
+  {
+   "start": 45.25,
+   "end": 46.83,
+   "x": 252,
+   "people": true
+  },
+  {
+   "start": 46.83,
+   "end": 48.29,
+   "x": 453,
+   "people": true
+  },
+  {
+   "start": 48.29,
+   "end": 50.38,
+   "x": 503,
+   "people": true
+  },
+  {
+   "start": 50.38,
+   "end": 52.12,
+   "x": 780,
+   "people": true
+  },
+  {
+   "start": 52.12,
+   "end": 53.88,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 53.88,
+   "end": 56.21,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 56.21,
+   "end": 57.58,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 57.58,
+   "end": 59.25,
+   "x": 420,
+   "people": true
+  },
+  {
+   "start": 59.25,
+   "end": 60.92,
+   "x": 1241,
+   "people": true
+  },
+  {
+   "start": 60.92,
+   "end": 62.58,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 62.58,
+   "end": 64.0,
+   "x": 551,
+   "people": true
+  },
+  {
+   "start": 64.0,
+   "end": 65.62,
+   "x": 1108,
+   "people": true
+  },
+  {
+   "start": 65.62,
+   "end": 67.17,
+   "x": 459,
+   "people": true
+  },
+  {
+   "start": 67.17,
+   "end": 68.54,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 68.54,
+   "end": 70.46,
+   "x": 312,
+   "people": true
+  },
+  {
+   "start": 70.46,
+   "end": 72.33,
+   "x": 778,
+   "people": true
+  },
+  {
+   "start": 72.33,
+   "end": 80.69,
+   "x": 292,
+   "people": true
+  }
+ ]
+}

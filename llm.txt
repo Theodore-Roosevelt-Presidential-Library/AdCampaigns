@@ -35,6 +35,10 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 - data/live.json ............. snapshot of what is really in the ad account (see "Refreshing live").
 - creative/dam/ .............. Library photos pulled from the Acquia DAM press portal + catalog.json.
 - creative/video/ ............ thumbnails of the Commercials playlist (YouTube IDs in plan.py).
+- creative/video/vertical/ ... 9:16 cuts for Stories/Reels (+ .jpg poster, .json crop log).
+- creative/kennerly/ ......... stills from the In the Room preview video (temporary until real exhibit photos).
+- creative/events/ ........... event hero images (film, etc.).
+- scripts/vertical.py ........ makes 9:16 versions of 16:9 commercials (see below).
 - creative/saltscoria/ ....... Salt+Scoria food photos from saltandscoria.com (not yet in the DAM).
 - creative/brand/avatar.jpg .. profile image used in the mockups.
 - index.html, app.js, mock.js, styles.css — the static dashboard. mock.js draws the
@@ -54,6 +58,56 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 - Full DAM (token): see Outline "Acquia DAM (Widen) — API Access". Never commit the token.
 - Preview URLs from Acquia are signed and expire; always download into creative/.
 - Use real Library photos only. No AI images, no architectural renderings.
+
+## Workflow: vertical (9:16) video
+- YouTube blocks cloud IPs. Download on Matt's Mac (linked computer) with yt-dlp in
+  ~/Developer/AdCampaigns/.work/venv (gitignored): yt-dlp --js-runtimes node -f "bv*+ba" -- <id>
+  (prefix IDs that start with "-" with "--"). The Library owns these commercials.
+- AV1 downloads must be transcoded to h264 first (ffmpeg -c:v libx264) or OpenCV can't read them.
+- python3 scripts/vertical.py src.mp4 creative/video/vertical/<slug>-9x16.mp4 --mode reframe
+  [--fit-until 6 --fit-from 73.5]  → crops each shot around the people in it; keeps titles
+  and end cards as "fit" (whole frame on a blurred fill). Use --mode fit for videos with
+  burned-in text (Resolute, Arena). Make a poster: ffmpeg -ss 5 -i out.mp4 -frames:v 1 out.jpg
+- Register the slug in VERT in plan.py; the Stories mock then plays the vertical cut.
+- An editor-made 15-second vertical edit beats both modes. Boardwalk and Discover are
+  summer-heavy and feature the outgoing CEO; don't use them this winter.
+
+## Season rule
+- creative/dam/catalog.json tags each photo season (summer/fall/any) and scene (indoor/outdoor).
+- Ads that run Nov 15–Mar 31 use indoor or fall/any photos. Summer photos only when the ad
+  sells a summer trip, marked "sells": "summer" on the ad. validate.py warns otherwise.
+- Winter's pitch is the indoor galleries (eight chapters; names from trlibrary.com/visit/exhibits)
+  and the temporary exhibition. Spring break/Easter and summer trips are sold to people farther
+  away starting late December/January, when search interest starts climbing.
+
+## Planning inputs (read before changing strategy)
+- Market Positioning Study (Outline: TRPL): best message is presidential history + the raw
+  beauty of the Badlands; second is a regional journey with Mount Rushmore, Yellowstone and
+  the national park; third is "step into history" through immersive exhibits. Barriers are
+  cost, lodging and distance, so give prices, a 3½-hour visit and trip context. Core market
+  is a 10-hour drive (ND, SD, MN, MT, WY, CO, NE, IA, IL), ages 35–54, $75K+. Building/
+  architecture messaging tested weakly; don't lead with the building.
+- Tourism data (tourismdata.labs.trlibrary.com, repo TourismData/docs/data): ticket buyers are
+  ND 41%, MN 15%, MT 5%, SD 5%, then TX, WI, CO, CA, FL, AZ, IL. 78–100% of tickets sell online,
+  so the ACME pixel matters. July/August ~100K tickets each vs ~11K in September.
+
+## Testing and budget protection
+Every campaign in plan.py has spend.mode:
+- "test": for test_days every ad runs at test_frac of the planned daily (schedule phase "test").
+  On spend.decide_on, judge each ad on spend.metric once it has ~$75 or 1,500 impressions:
+  pause ads over 1.5x the best ad's cost per result, keep the top two, then move to the
+  "scale" phase daily and raise no more than 25% every 3 days while on target.
+- "burst": the moment is happening now or ends soon (exhibition closing, screenings, Giving
+  Tuesday, Museum Store Sunday, holiday decor). All ads on from day one, Advantage+
+  placements, highest-volume bidding, spend it all. Move reserve in the same day if it delivers.
+- Guardrails (PLAN.guardrails, shown on Pacing): lifetime budgets equal to plan, account
+  spending limit $150K, no budget raised >30% in 72h, pause CTR <0.4% after $100 or frequency
+  >4/week regionally.
+- Daily check (weekday mornings once anything is live): refresh data/live.json, compare each
+  campaign's spend to its schedule, list proposed changes (pause/scale/reserve moves) for
+  Matt. Make no change without his OK. Log what was approved in the Outline Decision Log.
+- The reserve (plan.py RESERVE) funds test winners after week one and burst campaigns that
+  deliver, so the full credit is spent by Jan 19.
 
 ## Refreshing live
 - Daily the Action runs scripts/sync_live.py if the repo secret META_ACCESS_TOKEN exists
@@ -80,8 +134,9 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 ## Budget logic
 Total plan + reserve must equal $150,000 and every campaign must end by Jan 19.
 Priority is revenue (tickets, memberships, giving, store, Salt+Scoria), then the brand
-video that builds retargeting audiences. The reserve is reassigned to the best performers
-after two weeks of results. The Pacing tab shows planned weekly spend vs. the credit.
+video that builds retargeting audiences. plan.py computes each campaign's daily schedule
+(test then scale, or flat burst); the Pacing tab charts it against the credit. The reserve
+is reassigned to the best performers (see "Testing and budget protection").
 
 ## After any session that changes plans or the account
 Log one line in Outline: Decisions & Logs / Decision Log, format

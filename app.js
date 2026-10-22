@@ -104,10 +104,10 @@
     const live = liveFor(c.id);
     const status = live ? `<span class="chip ${String(live.effective_status || live.status).toLowerCase() === "active" ? "active" : "paused"}">In Meta: ${esc(live.effective_status || live.status)}</span>` : `<span class="chip proposed">Proposed</span>`;
     return `<div class="camp" id="c-${esc(c.id)}"><div class="camp-head">
-      <div class="camp-budget"><div class="big">${k(c.budget)}</div><div class="small">${money(c.daily)}/day</div><div class="small">${c.days} days</div></div>
+      <div class="camp-budget"><div class="big">${k(c.budget)}</div><div class="small">${money(c.daily)}/day avg</div><div class="small">${c.days} days</div></div>
       <div style="flex:1;min-width:0">
-        <h3>${esc(c.name)} ${status}${c.revenue ? '<span class="chip rev">Revenue</span>' : ""}</h3>
-        <p class="why">${esc(c.why)}</p>
+        <h3>${esc(c.name)} ${status}${c.revenue ? '<span class="chip rev">Revenue</span>' : ""}${c.spend ? `<span class="chip ${c.spend.mode}">${c.spend.mode === "test" ? "Test, then scale" : "Burst: spend it all"}</span>` : ""}</h3>
+        <p class="why">${esc(c.why)}</p>${spendPlan(c)}
         <dl class="spec">
           <dt>Flight</dt><dd>${fmtD(c.start)} – ${fmtD(c.end)}</dd>
           <dt>Objective</dt><dd>${esc(c.objective)}</dd>
@@ -121,6 +121,13 @@
       </div></div>
       <details class="ads" open><summary>${c.ads.length} ad${c.ads.length > 1 ? "s" : ""} — mockups</summary>${c.ads.map(ad).join("")}</details>
     </div>`;
+  }
+
+  function spendPlan(c) {
+    const sp = c.spend; if (!sp) return "";
+    if (sp.mode === "burst") return `<div class="spendplan"><b>Burst.</b> ${esc(sp.why)} All ads on from day one at ${money(c.daily)}/day. Judged on ${esc(sp.metric.toLowerCase())}; reserve moves in if it's delivering.</div>`;
+    const [t, r] = c.schedule;
+    return `<div class="spendplan"><b>Test, then scale.</b> ${fmtD(t.start)}–${fmtD(t.end)}: every ad runs at ${money(t.daily)}/day (${Math.round(sp.test_frac * 100)}% of plan). Decide on ${fmtD(sp.decide_on)} using ${esc(sp.metric.toLowerCase())} (target ${esc(sp.target)}): pause ads over 1.5× the best ad, keep the top two. Then ${money(r.daily)}/day through ${fmtD(r.end)}, raised no more than 25% every 3 days while on target.</div>`;
   }
 
   function ad(a) {
@@ -167,10 +174,13 @@
     while (d < end) { const n = new Date(d); n.setDate(n.getDate() + 7); out.push([new Date(d), n]); d = n; }
     return out;
   }
-  function spendIn(c, a, b) { // planned spend of campaign c between dates a (incl) and b (excl)
-    const s = D(c.start), e = D(c.end); e.setDate(e.getDate() + 1);
-    const lo = Math.max(s, a), hi = Math.min(e, b);
-    return hi > lo ? c.daily * Math.round((hi - lo) / 864e5) : 0;
+  function spendIn(c, a, b) { // planned spend of campaign c between dates a (incl) and b (excl), following its test→scale schedule
+    const parts = c.schedule || [{ start: c.start, end: c.end, daily: c.daily }];
+    return parts.reduce((sum, p) => {
+      const s = D(p.start), e = D(p.end); e.setDate(e.getDate() + 1);
+      const lo = Math.max(s, a), hi = Math.min(e, b);
+      return sum + (hi > lo ? p.daily * Math.round((hi - lo) / 864e5) : 0);
+    }, 0);
   }
   function renderPacing() {
     const W = weeks(), R = { start: "2026-12-14", end: "2027-01-19" };
@@ -208,6 +218,11 @@
           <text x="${nowX + 8}" y="${cy(sp) - 8}">Today · ${k(sp)} spent</text>
           ${rows.map((r, i) => i % 2 ? "" : `<text x="${L + i * BW + BW / 2}" y="${CH + 18}" text-anchor="middle">${r.a.toLocaleDateString("en-US", { month: "short", day: "numeric" })}</text>`).join("")}
         </svg></div>
+      <div class="chart"><h3>Testing and guardrails</h3><p class="cap">How the credit gets spent without burning it. Test campaigns start low and earn their budget; burst campaigns are tied to something happening now.</p>
+        <table class="data"><thead><tr><th>Campaign</th><th>Mode</th><th>Test window</th><th>Judged on</th><th class="num">Test $/day</th><th class="num">After $/day</th></tr></thead><tbody>
+        ${PLAN.campaigns.slice().sort((x, y) => x.start.localeCompare(y.start)).map(c => { const sc = c.schedule || []; const t = c.spend.mode === "test"; return `<tr><td>${esc(c.name)}</td><td>${t ? "Test" : "Burst"}</td><td>${t ? fmtD(sc[0].start) + "–" + fmtD(sc[0].end) : "—"}</td><td>${esc(c.spend.metric)}${t ? " (" + esc(c.spend.target) + ")" : ""}</td><td class="num">${t ? money(sc[0].daily) : "—"}</td><td class="num">${money(sc[sc.length - 1].daily)}</td></tr>`; }).join("")}
+        </tbody></table>
+        <ul class="guard">${(PLAN.guardrails || []).map(g => `<li>${esc(g)}</li>`).join("")}</ul></div>
       <div class="chart"><h3>Table view</h3><table class="data"><thead><tr><th>Week of</th>${keys.map(p => `<th class="num">${esc(p)}</th>`).join("")}<th class="num">Total</th><th class="num">Cumulative</th></tr></thead><tbody>
         ${rows.map((r, i) => `<tr><td>${r.a.toLocaleDateString("en-US", { month: "short", day: "numeric" })}</td>${keys.map(p => `<td class="num">${r.v[p] ? money(r.v[p]) : "—"}</td>`).join("")}<td class="num"><b>${money(r.tot)}</b></td><td class="num">${money(cum[i])}</td></tr>`).join("")}
       </tbody></table></div>`;

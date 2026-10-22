@@ -53,10 +53,17 @@
       <div class="cap"><b>${IG}</b>${clip(ad.primary, 90).replace("… See more", "… more")}</div></div></div>`;
   }
 
+  // 9:16 video (scripts/vertical.py) plays inline in the Stories/Reels mock.
+  function vertical(m, extra) {
+    const ph = extra && extra.placeholder ? '<span class="ph">PLACEHOLDER</span>' : "";
+    return `<div class="media" style="aspect-ratio:9/16"><video src="${esc(m.vertical.src)}" poster="${esc(m.vertical.poster)}" preload="none" playsinline muted loop onclick="this.paused?this.play():this.pause()" title="Click to play the 9:16 cut"></video><span class="vtag">▶ 9:16</span>${ph}</div>`;
+  }
+
   function igStory(ad) {
     const multi = ad.format === "carousel" || ad.format === "catalog";
     const m = multi ? (cards(ad)[0] || {}).media : ad.media;
-    return `<div><p class="mock-label">Stories / Reels</p><div class="m st"><div class="prog"></div>${media(m, "9/16", ad)}
+    const md = m && m.vertical ? vertical(m, ad) : media(m, "9/16", ad);
+    return `<div><p class="mock-label">Stories / Reels${m && m.vertical ? " · vertical cut" : ""}</p><div class="m st"><div class="prog"></div>${md}
       <div class="hd"><img class="av" src="${AV}" alt=""><div><div class="nm">${IG}</div><div class="sp">Sponsored</div></div></div>
       <div class="bt"><div class="t">${esc(ad.primary)}</div><span class="c">${esc(ad.cta)}</span></div></div></div>`;
   }

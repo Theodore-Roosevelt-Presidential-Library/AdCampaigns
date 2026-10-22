@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:37:58+00:00",
+ "generated": "2026-10-22T23:39:36+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -12,10 +12,354 @@
   "instagram_id": "17841426268646366"
  },
  "reserve": {
-  "budget": 11500,
-  "why": "Unassigned until the first two weeks of results. Goes to whichever revenue campaigns hit their targets, so the whole credit is spent by Jan 19."
+  "budget": 9500,
+  "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."
  },
+ "guardrails": [
+  "Every campaign gets a lifetime budget equal to its plan. Meta can't spend past it.",
+  "Account spending limit set to $150,000 on TRPL FB Grant.",
+  "No budget raised more than 30% in any 72 hours (lets Meta's learning settle).",
+  "Test campaigns: each ad gets about $75 or 1,500 impressions before any call. Then pause ads whose cost per result is over 1.5× the campaign's best ad; keep the top two; scale by 25% every 3 days while they stay on target.",
+  "Burst campaigns: all ads on from day one, Advantage+ placements, highest-volume bidding. If one delivers under target, move reserve into it the same day.",
+  "Pause any ad with CTR under 0.4% after $100, or frequency over 4 a week in a regional audience.",
+  "An agent checks the account every weekday morning, writes data/live.json, and posts changes for Matt's OK. No budget or status change without it."
+ ],
  "campaigns": [
+  {
+   "id": "tix-galleries",
+   "program": "Tickets & visits",
+   "revenue": true,
+   "priority": 1,
+   "name": "TICKETS: Eight chapters, all indoors",
+   "objective": "Sales",
+   "optimization": "Landing page views → Purchase once the ACME pixel is live",
+   "start": "2026-11-04",
+   "end": "2027-01-19",
+   "budget": 16000,
+   "spend": {
+    "mode": "test",
+    "test_days": 7,
+    "test_frac": 0.35,
+    "metric": "Cost per landing page view",
+    "target": "$1.50 or less",
+    "decide_on": "2026-11-10"
+   },
+   "why": "Winter's best reason to come is inside: eight chapters of Theodore Roosevelt's life in immersive galleries — the Memory Train, the campfire at Elkhorn, San Juan Heights, the Amazon. The study's third-strongest message is 'you won't just read about history, you'll step into it.' Aimed at people within a day's drive.",
+   "audiences": [
+    {
+     "name": "Regional",
+     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
+     "age": "25–70",
+     "detail": "Broad (Advantage+ audience)",
+     "share": 0.5
+    },
+    {
+     "name": "Drive market",
+     "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
+     "age": "35–65",
+     "detail": "Museums, history, family travel. ND is 41% of ticket buyers, MN 15%",
+     "share": 0.5
+    }
+   ],
+   "open_items": [
+    "Hours change Dec 1 (Wed–Sun, 9–4). Copy avoids hours so it works in both seasons.",
+    "Chapter names come from trlibrary.com/visit/exhibits/main; confirm each photo shows the gallery named on its card."
+   ],
+   "ads": [
+    {
+     "id": "gal-carousel",
+     "name": "Eight chapters carousel",
+     "format": "carousel",
+     "primary": "Theodore Roosevelt's life in eight chapters, all under one roof. Ride the Memory Train, sit by the Elkhorn campfire and step into the Amazon. Plan 3½ hours.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/memory-train.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Ride the Memory Train",
+       "desc": "The Badlands chapter"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/family-campfire.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Sit by the campfire",
+       "desc": "Stories from the ranch"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/target-practice.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Try ranch life",
+       "desc": "Target practice, brands, roundup"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/rough-riders-photo.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Stand with the Rough Riders",
+       "desc": "Photo station"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/white-house-gang.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Join the White House Gang",
+       "desc": "For kids who climb"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/arena-exhibit.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Step into the Arena",
+       "desc": "After the White House"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/amazon-gallery.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Run the River of Doubt",
+       "desc": "Immersive film"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-galleries&utm_content=gal-carousel"
+    },
+    {
+     "id": "gal-trailblazer",
+     "name": "Trailblazer video",
+     "format": "video",
+     "primary": "Follow your own path through the galleries with the Trailblazer. Eight chapters, all indoors, at the edge of the Badlands. Plan 3½ hours.",
+     "headline": "History you step into",
+     "desc": "Medora, North Dakota",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "video",
+      "src": "creative/video/yt_qrwdZmqFO5A.jpg",
+      "youtube": "qrwdZmqFO5A",
+      "duration": "1:21",
+      "title": "Your Journey Starts Here — The Trailblazer",
+      "source": "TRPL Commercials playlist",
+      "vertical": {
+       "src": "creative/video/vertical/trailblazer-9x16.mp4",
+       "poster": "creative/video/vertical/trailblazer-9x16.jpg"
+      }
+     },
+     "verify": "Confirm how the Trailblazer is described to visitors",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-galleries&utm_content=gal-trailblazer"
+    },
+    {
+     "id": "gal-holiday-guests",
+     "name": "Holiday guests",
+     "format": "image",
+     "primary": "Family in town for the holidays? Bring them to the Library: campfire stories, the Rough Riders and the Amazon, all indoors.",
+     "headline": "Plans for holiday guests",
+     "desc": "Adults $26 · Youth $16",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "image",
+      "src": "creative/dam/family-campfire-cabin.jpg",
+      "source": "Acquia DAM"
+     },
+     "flight": "Dec 2–Jan 3",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-galleries&utm_content=gal-holiday-guests"
+    },
+    {
+     "id": "gal-memory-train",
+     "name": "Memory Train",
+     "format": "image",
+     "primary": "Board the Memory Train and ride into the Badlands with a young Theodore Roosevelt. One of eight chapters inside the Library.",
+     "headline": "All aboard the Memory Train",
+     "desc": "Plan 3½ hours",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "image",
+      "src": "creative/dam/memory-train-family.jpg",
+      "source": "Acquia DAM"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-galleries&utm_content=gal-memory-train"
+    }
+   ],
+   "status": "proposed",
+   "days": 77,
+   "daily": 207.79,
+   "schedule": [
+    {
+     "start": "2026-11-04",
+     "end": "2026-11-10",
+     "daily": 72.73,
+     "phase": "test"
+    },
+    {
+     "start": "2026-11-11",
+     "end": "2027-01-19",
+     "daily": 221.3,
+     "phase": "scale"
+    }
+   ]
+  },
+  {
+   "id": "tix-spring",
+   "program": "Tickets & visits",
+   "revenue": true,
+   "priority": 1,
+   "name": "TICKETS: Spring break and Easter in the Badlands",
+   "objective": "Sales",
+   "optimization": "Landing page views",
+   "start": "2026-12-29",
+   "end": "2027-01-19",
+   "budget": 10000,
+   "spend": {
+    "mode": "test",
+    "test_days": 5,
+    "test_frac": 0.35,
+    "metric": "Cost per landing page view",
+    "target": "$1.75 or less",
+    "decide_on": "2027-01-02"
+   },
+   "why": "Families start booking spring break and Easter trips in January (searches for the national park start climbing then). Pairs the galleries with Theodore Roosevelt National Park next door, the study's top message.",
+   "audiences": [
+    {
+     "name": "Families, drive market",
+     "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
+     "age": "30–55",
+     "detail": "Parents, family travel, national parks",
+     "share": 0.55
+    },
+    {
+     "name": "Families, farther away",
+     "geo": "MN (Twin Cities), CO (Denver), NE, IA, WI, IL, plus TX, CA, FL, AZ — the next-largest origin states after the drive market",
+     "age": "30–55",
+     "detail": "Parents, road trips, national parks, American history",
+     "share": 0.45
+    }
+   ],
+   "open_items": [
+    "Spring hours (after Mar 1) aren't published yet.",
+    "Easter dates and school breaks vary; copy says 'spring break' and doesn't name a date."
+   ],
+   "ads": [
+    {
+     "id": "spring-family",
+     "name": "Spring break family",
+     "format": "image",
+     "primary": "Spring break idea: Theodore Roosevelt's story in eight immersive chapters, with the national park named for him right next door. Plan 3½ hours at the Library.",
+     "headline": "Spring break in the Badlands",
+     "desc": "Adults $26 · Youth $16",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "image",
+      "src": "creative/dam/kids-interactive.jpg",
+      "source": "Acquia DAM"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-family"
+    },
+    {
+     "id": "spring-carousel",
+     "name": "A spring road trip",
+     "format": "carousel",
+     "primary": "Presidential history and the Badlands in one trip. Start at the Library, then drive the Scenic Loop in Theodore Roosevelt National Park.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/kid-laughing.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Morning at the Library",
+       "desc": "Plan 3½ hours"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/rust-walls-golden.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Afternoon in the park",
+       "desc": "Next door in Medora"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/cuba-family.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Stories kids remember",
+       "desc": "Eight chapters"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-carousel"
+    }
+   ],
+   "status": "proposed",
+   "days": 22,
+   "daily": 454.55,
+   "schedule": [
+    {
+     "start": "2026-12-29",
+     "end": "2027-01-02",
+     "daily": 159.09,
+     "phase": "test"
+    },
+    {
+     "start": "2027-01-03",
+     "end": "2027-01-19",
+     "daily": 541.44,
+     "phase": "scale"
+    }
+   ]
+  },
   {
    "id": "tix-summer",
    "program": "Tickets & visits",
@@ -23,25 +367,33 @@
    "priority": 1,
    "name": "TICKETS: Plan your summer trip",
    "objective": "Sales",
-   "optimization": "Purchase (ACME pixel) — falls back to Landing page views until the ticketing site fires the pixel",
+   "optimization": "Purchase (ACME pixel) — Landing page views until the ticketing site fires the pixel",
    "start": "2026-12-03",
    "end": "2027-01-19",
-   "budget": 32000,
-   "why": "Biggest revenue lever. Summer trips to the Badlands are planned in winter, and the 2027 ticket launch lands in early December. Drive-market families and national-park travelers are the core buyers.",
+   "budget": 24000,
+   "spend": {
+    "mode": "test",
+    "test_days": 7,
+    "test_frac": 0.35,
+    "metric": "Cost per landing page view",
+    "target": "$1.50 or less",
+    "decide_on": "2026-12-09"
+   },
+   "why": "The summer trip is planned in winter. July and August each sold about 100,000 tickets, and visitors who live farther away decide early. Leads with the study's two strongest messages: history plus the raw beauty of the Badlands, and the Library as part of a regional journey with Mount Rushmore and Yellowstone. Summer photos are honest here because the ad sells a summer trip.",
    "audiences": [
     {
      "name": "Drive market",
      "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
-     "age": "28–65",
+     "age": "30–65",
      "detail": "Parents, road trips, national parks, museums",
-     "share": 0.45
+     "share": 0.4
     },
     {
-     "name": "National park travelers",
-     "geo": "United States",
+     "name": "Farther away",
+     "geo": "MN (Twin Cities), CO (Denver), NE, IA, WI, IL, plus TX, CA, FL, AZ — the next-largest origin states after the drive market",
      "age": "35–70",
-     "detail": "Interests: Theodore Roosevelt National Park, Yellowstone, Glacier, Black Hills, RV travel, American history",
-     "share": 0.4
+     "detail": "Interests: Theodore Roosevelt National Park, Yellowstone, Mount Rushmore, Glacier, RV travel, American history",
+     "share": 0.45
     },
     {
      "name": "Warm audiences",
@@ -57,30 +409,21 @@
    ],
    "ads": [
     {
-     "id": "tix-summer-carousel",
-     "name": "A 3½-hour visit, card by card",
+     "id": "sum-journey",
+     "name": "The big Western road trip",
      "format": "carousel",
-     "primary": "Give yourself 3½ hours at the edge of the Badlands. Sit by the campfire at Elkhorn, stand with the Rough Riders, and watch the light change over the canyon.",
+     "primary": "Mount Rushmore, Yellowstone, Theodore Roosevelt National Park, and the presidential library at the edge of the Badlands. Put it on this summer's route.",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
      "cards": [
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/overlook-visitors.jpg",
+        "src": "creative/dam/hero-badlands-wide.jpg",
         "source": "Acquia DAM"
        },
-       "headline": "Start at the canyon's edge",
+       "headline": "Presidential history meets the Badlands",
        "desc": "Medora, North Dakota"
-      },
-      {
-       "media": {
-        "type": "image",
-        "src": "creative/dam/family-campfire.jpg",
-        "source": "Acquia DAM"
-       },
-       "headline": "Sit by TR's ranch fire",
-       "desc": "Elkhorn gallery"
       },
       {
        "media": {
@@ -88,63 +431,64 @@
         "src": "creative/dam/rough-riders-photo.jpg",
         "source": "Acquia DAM"
        },
-       "headline": "Join the Rough Riders",
-       "desc": "Photo op inside"
+       "headline": "Step into his story",
+       "desc": "Eight immersive chapters"
       },
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/amazon-gallery.jpg",
+        "src": "creative/dam/couple-overlook.jpg",
         "source": "Acquia DAM"
        },
-       "headline": "Step into the Amazon",
-       "desc": "River of Doubt"
+       "headline": "Then head into the park",
+       "desc": "Right next door"
       },
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/boardwalk-walk.jpg",
+        "src": "creative/dam/bikes-boardwalk.jpg",
         "source": "Acquia DAM"
        },
-       "headline": "Walk the boardwalk",
-       "desc": "Out over the Badlands"
+       "headline": "Stay for the evening light",
+       "desc": "Plan 3½ hours"
       }
      ],
+     "sells": "summer",
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=tix-summer-carousel"
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-journey"
     },
     {
-     "id": "tix-summer-hero",
-     "name": "Hero image — summer planning",
+     "id": "sum-hero",
+     "name": "History + the Badlands",
      "format": "image",
-     "primary": "Summer in the Badlands starts with a plan. Timed tickets sell out on busy days, so pick your date now and build the rest of the trip around it.",
-     "headline": "Pick your day at the Library",
+     "primary": "Presidential history and the raw beauty of the Badlands, in one place. Timed tickets sell out on busy summer days, so pick your date early.",
+     "headline": "Pick your summer day",
      "desc": "Adults $26 · Youth $16",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
      "media": {
       "type": "image",
-      "src": "creative/dam/hero-badlands-wide.jpg",
+      "src": "creative/dam/overlook-visitors.jpg",
       "source": "Acquia DAM"
      },
+     "sells": "summer",
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=tix-summer-hero"
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-hero"
     },
     {
-     "id": "tix-summer-video",
+     "id": "sum-video",
      "name": "Trailblazer video",
      "format": "video",
-     "primary": "Follow your own path through the galleries with the Trailblazer. Plan 3½ hours, then head out into the park.",
+     "primary": "Eight chapters of Theodore Roosevelt's life, then the Badlands he loved right outside. Plan 3½ hours at the Library this summer.",
      "headline": "Your journey starts here",
-     "verify": "Confirm how the Trailblazer is described to visitors",
      "desc": "Theodore Roosevelt Presidential Library",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
@@ -154,129 +498,84 @@
       "youtube": "qrwdZmqFO5A",
       "duration": "1:21",
       "title": "Your Journey Starts Here — The Trailblazer",
-      "source": "TRPL Commercials playlist"
+      "source": "TRPL Commercials playlist",
+      "vertical": {
+       "src": "creative/video/vertical/trailblazer-9x16.mp4",
+       "poster": "creative/video/vertical/trailblazer-9x16.jpg"
+      }
      },
+     "sells": "summer",
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=tix-summer-video"
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-video"
     }
    ],
    "status": "proposed",
    "days": 48,
-   "daily": 666.67
-  },
-  {
-   "id": "tix-winter",
-   "program": "Tickets & visits",
-   "revenue": true,
-   "priority": 2,
-   "name": "TICKETS: Winter days in the Badlands",
-   "objective": "Sales",
-   "optimization": "Landing page views → Purchase when ACME pixel is live",
-   "start": "2026-12-02",
-   "end": "2027-01-19",
-   "budget": 9000,
-   "why": "Winter visits come from within driving distance. Short trips, school breaks and holiday guests. Keeps the Library on the regional radar through the slow months.",
-   "audiences": [
+   "daily": 500.0,
+   "schedule": [
     {
-     "name": "Regional",
-     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
-     "age": "25–65",
-     "detail": "Broad, Advantage+ audience",
-     "share": 1.0
-    }
-   ],
-   "open_items": [
-    "Winter hours Dec 1–Mar 1: Wed–Sun, 9–4. Closed Dec 25 and Jan 1. Starts Dec 2 so the hours in the copy are right."
-   ],
-   "ads": [
-    {
-     "id": "tix-winter-terrace",
-     "name": "Warm inside, wild outside",
-     "format": "image",
-     "primary": "The Badlands in winter, seen from a warm room with a wall of glass. Open Wednesday through Sunday, 9 to 4. Plan 3½ hours.",
-     "headline": "A winter day trip to Medora",
-     "desc": "Open Wed–Sun, 9–4",
-     "cta": "Book Now",
-     "url": "https://www.trlibrary.com/tickets",
-     "media": {
-      "type": "image",
-      "src": "creative/dam/terrace-view.jpg",
-      "source": "Acquia DAM"
-     },
-     "placements": [
-      "fb_feed",
-      "ig_feed",
-      "ig_story"
-     ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-winter&utm_content=tix-winter-terrace"
+     "start": "2026-12-03",
+     "end": "2026-12-09",
+     "daily": 175.0,
+     "phase": "test"
     },
     {
-     "id": "tix-winter-family",
-     "name": "Holiday guests in town",
-     "format": "image",
-     "primary": "Family in town for the holidays? Bring them to the Library. Campfire stories, the Rough Riders and a view nobody forgets.",
-     "headline": "Plans for holiday guests",
-     "desc": "Tickets for every age",
-     "cta": "Book Now",
-     "url": "https://www.trlibrary.com/tickets",
-     "media": {
-      "type": "image",
-      "src": "creative/dam/family-campfire-cabin.jpg",
-      "source": "Acquia DAM"
-     },
-     "placements": [
-      "fb_feed",
-      "ig_feed",
-      "ig_story"
-     ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-winter&utm_content=tix-winter-family"
+     "start": "2026-12-10",
+     "end": "2027-01-19",
+     "daily": 555.49,
+     "phase": "scale"
     }
-   ],
-   "status": "proposed",
-   "days": 49,
-   "daily": 183.67
+   ]
   },
   {
    "id": "mem-gift",
    "program": "Membership & giving",
    "revenue": true,
    "priority": 1,
-   "name": "MEMBERSHIP: Give a year in the Badlands",
+   "name": "MEMBERSHIP: Give a year at the Library",
    "objective": "Sales",
-   "optimization": "Landing page views (membership join is on access.trlibrary.com — Purchase once ACME pixel is live)",
+   "optimization": "Landing page views (Purchase once the ACME pixel is live)",
    "start": "2026-11-20",
    "end": "2027-01-19",
    "budget": 20000,
-   "why": "Gift memberships are the best holiday product the Library sells: $50–$1,000, no shipping cutoff, and they convert to future visits. Two flights: gifts Nov 20–Dec 24, then new-year joins.",
+   "spend": {
+    "mode": "test",
+    "test_days": 5,
+    "test_frac": 0.35,
+    "metric": "Cost per landing page view",
+    "target": "$2.00 or less",
+    "decide_on": "2026-11-24"
+   },
+   "why": "Gift memberships are the best holiday product the Library sells: $50–$1,000, no shipping cutoff, and they bring people back. Short test Nov 20–24, then full spend through Dec 24 (the gift window), then new-year joins.",
    "audiences": [
     {
      "name": "Gift givers, national",
      "geo": "United States",
      "age": "35–70",
      "detail": "History, presidents, national parks, museum members",
-     "share": 0.45
+     "share": 0.4
     },
     {
      "name": "Regional",
      "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
      "age": "30–70",
      "detail": "Broad",
-     "share": 0.3
+     "share": 0.35
     },
     {
      "name": "Warm audiences",
      "geo": "United States",
      "age": "18+",
-     "detail": "Video viewers, engagers, site visitors, past ticket buyers (CC list, hashed)",
+     "detail": "Video viewers, engagers, site visitors, past ticket buyers (hashed list, with OK)",
      "share": 0.25
     }
    ],
    "open_items": [
-    "Founding Member window close date (Dec 31 per holiday plan) is not on the membership page — confirm before using 'Founding' in copy.",
+    "Founding Member close date (Dec 31 per holiday plan) isn't on the membership page — confirm before using 'Founding' in copy.",
     "Uploading the Constant Contact ticket-buyer list as a hashed Custom Audience needs Matt's OK."
    ],
    "ads": [
@@ -284,7 +583,7 @@
      "id": "mem-gift-family",
      "name": "Gift — family membership",
      "format": "image",
-     "primary": "A gift they'll use all year: free admission, member discounts in the store and at Salt+Scoria, and a reason to come back to Medora. Family memberships are $175.",
+     "primary": "A gift they'll use all year: free admissions, member discounts in the store and at Salt+Scoria, and a reason to come back to Medora. Family memberships are $175.",
      "headline": "Give a year at the Library",
      "desc": "Memberships from $50",
      "cta": "Give Now",
@@ -305,14 +604,14 @@
      "id": "mem-gift-carousel",
      "name": "Gift — pick a level",
      "format": "carousel",
-     "primary": "Still shopping for the person who loves history, national parks or a good road trip? Give a Library membership.",
+     "primary": "Still shopping for someone who loves history or a good road trip? Give a Library membership.",
      "cta": "Give Now",
      "url": "https://access.trlibrary.com/membership/613/join",
      "cards": [
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/couple-overlook.jpg",
+        "src": "creative/dam/cuba-pointing.jpg",
         "source": "Acquia DAM"
        },
        "headline": "Dual · $95",
@@ -330,7 +629,7 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/overlook-group.jpg",
+        "src": "creative/dam/rough-riders-group.jpg",
         "source": "Acquia DAM"
        },
        "headline": "Contributing · $250",
@@ -339,7 +638,7 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/couple-sunset.jpg",
+        "src": "creative/dam/arena-exhibit.jpg",
         "source": "Acquia DAM"
        },
        "headline": "Patron · $500",
@@ -357,14 +656,14 @@
      "id": "mem-newyear",
      "name": "New year — join",
      "format": "image",
-     "primary": "Start the year as a member of the Theodore Roosevelt Presidential Library. Free admission all year and member pricing on everything else.",
+     "primary": "Start the year as a member of the Theodore Roosevelt Presidential Library. Free admissions and member pricing on everything else.",
      "headline": "Become a member",
      "desc": "From $50 a year",
      "cta": "Sign Up",
      "url": "https://access.trlibrary.com/membership/613/join",
      "media": {
       "type": "image",
-      "src": "creative/dam/aerial-overlook.jpg",
+      "src": "creative/dam/memory-train.jpg",
       "source": "Acquia DAM"
      },
      "flight": "Jan 2–19",
@@ -378,7 +677,21 @@
    ],
    "status": "proposed",
    "days": 61,
-   "daily": 327.87
+   "daily": 327.87,
+   "schedule": [
+    {
+     "start": "2026-11-20",
+     "end": "2026-11-24",
+     "daily": 114.75,
+     "phase": "test"
+    },
+    {
+     "start": "2026-11-25",
+     "end": "2027-01-19",
+     "daily": 346.9,
+     "phase": "scale"
+    }
+   ]
   },
   {
    "id": "give-yearend",
@@ -391,7 +704,12 @@
    "start": "2026-11-24",
    "end": "2026-12-31",
    "budget": 14000,
-   "why": "Year-end is when most individual giving happens. The Library opened this summer and has a strong first-year story to tell. Giving Tuesday (Dec 1) is online-only because the Library is closed Tuesdays.",
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "Giving Tuesday and the last days of December are when gifts happen; there's no time to test."
+   },
+   "why": "Year-end is when most individual giving happens. The Library opened this summer and has a strong first-year story. Giving Tuesday (Dec 1) is online-only because the Library is closed Tuesdays.",
    "audiences": [
     {
      "name": "Warm audiences",
@@ -410,7 +728,7 @@
    ],
    "open_items": [
     "Confirm year-end message and any match with Dan Muus before launch.",
-    "Copy stays about the Library, not policy, so it runs as a standard ad (no special ad category)."
+    "Copy stays about the Library, not policy, so it runs as a standard ad."
    ],
    "ads": [
     {
@@ -438,19 +756,16 @@
     {
      "id": "give-ye",
      "name": "Year-end — first year",
-     "format": "video",
+     "format": "image",
      "primary": "The Library opened its doors in Medora this summer. Your year-end gift helps the next student, family and first-time visitor walk through them.",
      "headline": "Make a year-end gift",
      "desc": "Tax-deductible",
      "cta": "Donate Now",
      "url": "https://www.trlibrary.com/support-trpl",
      "media": {
-      "type": "video",
-      "src": "creative/video/yt_W9sq8PuGQVo.jpg",
-      "youtube": "W9sq8PuGQVo",
-      "duration": "3:35 → cut to 0:30",
-      "title": "Discover the Theodore Roosevelt Presidential Library",
-      "source": "TRPL Commercials playlist"
+      "type": "image",
+      "src": "creative/dam/kid-crafts.jpg",
+      "source": "Acquia DAM"
      },
      "flight": "Dec 2–31",
      "placements": [
@@ -463,7 +778,15 @@
    ],
    "status": "proposed",
    "days": 38,
-   "daily": 368.42
+   "daily": 368.42,
+   "schedule": [
+    {
+     "start": "2026-11-24",
+     "end": "2026-12-31",
+     "daily": 368.42,
+     "phase": "burst"
+    }
+   ]
   },
   {
    "id": "shop-holiday",
@@ -476,7 +799,15 @@
    "start": "2026-11-20",
    "end": "2026-12-18",
    "budget": 10000,
-   "why": "Shopify now sends purchases to the pixel with server-side events, so this is the one campaign that can optimize for real sales from day one. Includes a Black Friday → Museum Store Sunday (Nov 29) push.",
+   "spend": {
+    "mode": "test",
+    "test_days": 5,
+    "test_frac": 0.35,
+    "metric": "Cost per purchase (ROAS)",
+    "target": "ROAS 2.0 or better",
+    "decide_on": "2026-11-24"
+   },
+   "why": "Shopify sends purchases to the pixel with server-side events, so this campaign can optimize for real sales from day one. Short test, then a full-spend burst Nov 27–Dec 1 (Black Friday → Museum Store Sunday → Cyber Monday).",
    "audiences": [
     {
      "name": "Prospecting",
@@ -610,7 +941,21 @@
    ],
    "status": "proposed",
    "days": 29,
-   "daily": 344.83
+   "daily": 344.83,
+   "schedule": [
+    {
+     "start": "2026-11-20",
+     "end": "2026-11-24",
+     "daily": 120.69,
+     "phase": "test"
+    },
+    {
+     "start": "2026-11-25",
+     "end": "2026-12-18",
+     "daily": 391.52,
+     "phase": "scale"
+    }
+   ]
   },
   {
    "id": "ss-private",
@@ -623,6 +968,14 @@
    "start": "2026-11-05",
    "end": "2026-12-15",
    "budget": 3500,
+   "spend": {
+    "mode": "test",
+    "test_days": 7,
+    "test_frac": 0.5,
+    "metric": "Cost per lead",
+    "target": "$40 or less",
+    "decide_on": "2026-11-11"
+   },
    "why": "Private dining is the restaurant's highest-value sale in the off-season: board retreats, holiday parties, rehearsal dinners, with menus by Chef Candace Stock.",
    "audiences": [
     {
@@ -634,7 +987,7 @@
     }
    ],
    "open_items": [
-    "Who receives leads, and how fast? (Instant form sends to Meta's Leads Center unless connected to email.)",
+    "Who receives leads, and how fast? (Instant form leads sit in Meta's Leads Center unless connected to email.)",
     "Capacity and minimums for the dining room and plaza aren't published."
    ],
    "ads": [
@@ -662,20 +1015,39 @@
    ],
    "status": "proposed",
    "days": 41,
-   "daily": 85.37
+   "daily": 85.37,
+   "schedule": [
+    {
+     "start": "2026-11-05",
+     "end": "2026-11-11",
+     "daily": 42.69,
+     "phase": "test"
+    },
+    {
+     "start": "2026-11-12",
+     "end": "2026-12-15",
+     "daily": 94.15,
+     "phase": "scale"
+    }
+   ]
   },
   {
    "id": "ss-cafe",
    "program": "Salt+Scoria",
    "revenue": true,
    "priority": 4,
-   "name": "SALT+SCORIA: Lunch with a Badlands view",
+   "name": "SALT+SCORIA: Lunch at the Library",
    "objective": "Awareness",
    "optimization": "Reach in a tight radius",
    "start": "2026-11-04",
    "end": "2027-01-19",
    "budget": 1500,
-   "why": "Puts the café in front of people already in Medora, Dickinson and the park. Wood-fired, seasonal food, no ticket needed for the café (confirm).",
+   "spend": {
+    "mode": "burst",
+    "metric": "Reach and frequency",
+    "why": "Tiny local radius; a test would never gather enough data."
+   },
+   "why": "Puts the café in front of people already in Medora, Dickinson and the park. Wood-fired, seasonal food.",
    "audiences": [
     {
      "name": "Nearby",
@@ -744,7 +1116,146 @@
    ],
    "status": "proposed",
    "days": 77,
-   "daily": 19.48
+   "daily": 19.48,
+   "schedule": [
+    {
+     "start": "2026-11-04",
+     "end": "2027-01-19",
+     "daily": 19.48,
+     "phase": "burst"
+    }
+   ]
+  },
+  {
+   "id": "evt-room",
+   "program": "Events",
+   "revenue": true,
+   "priority": 1,
+   "name": "EVENTS: In the Room — David Hume Kennerly, final weeks",
+   "objective": "Sales",
+   "optimization": "Landing page views",
+   "start": "2026-11-04",
+   "end": "2027-01-10",
+   "budget": 8000,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "On view now and closes Jan 10. Every week it runs is a week it can sell tickets."
+   },
+   "why": "Sixty years of photographs from inside the biggest moments in American history, open through January 10. A temporary exhibition with a deadline is the strongest reason for someone who's already been to come back this winter, and it's all indoors.",
+   "audiences": [
+    {
+     "name": "Regional",
+     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
+     "age": "25–75",
+     "detail": "Broad",
+     "share": 0.45
+    },
+    {
+     "name": "Drive market",
+     "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
+     "age": "30–75",
+     "detail": "Photography, photojournalism, history, news",
+     "share": 0.35
+    },
+    {
+     "name": "Past visitors",
+     "geo": "United States",
+     "age": "18+",
+     "detail": "Site visitors, engagers, past ticket buyers (hashed list, with OK)",
+     "share": 0.2
+    }
+   ],
+   "open_items": [
+    "Starts Nov 4: the photographs show presidents, so it waits out Meta's Oct 27–Nov 3 political-ad window. Copy names no president.",
+    "Stills are frames from the preview video. Ask for a few high-res exhibition photos (no recognizable presidents front and center).",
+    "Closing date is Jan 10 per the exhibits page and the video end card."
+   ],
+   "ads": [
+    {
+     "id": "room-video",
+     "name": "Exhibition preview",
+     "format": "video",
+     "primary": "Sixty years behind the camera at the biggest moments in American history. In the Room: Photographs by David Hume Kennerly closes January 10.",
+     "headline": "See In the Room before it closes",
+     "desc": "Included with admission",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "video",
+      "src": "creative/video/yt_-mcN1M3ZEps.jpg",
+      "youtube": "-mcN1M3ZEps",
+      "duration": "1:23",
+      "title": "In the Room: Photographs by David Hume Kennerly",
+      "source": "TRPL Commercials playlist",
+      "vertical": {
+       "src": "creative/video/vertical/in-the-room-9x16.mp4",
+       "poster": "creative/video/vertical/in-the-room-9x16.jpg"
+      }
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-video"
+    },
+    {
+     "id": "room-still",
+     "name": "In the gallery",
+     "format": "image",
+     "primary": "Pulitzer Prize-winning photographer David Hume Kennerly spent sixty years in the room where history happened. His photographs are at the Library through January 10.",
+     "headline": "In the Room, through Jan. 10",
+     "desc": "Included with admission",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "image",
+      "src": "creative/kennerly/room-51.jpg",
+      "source": "Frame from the In the Room preview video"
+     },
+     "verify": "Confirm 'Pulitzer Prize-winning' is used in the Library's exhibition copy",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-still"
+    },
+    {
+     "id": "room-last-call",
+     "name": "Last call",
+     "format": "image",
+     "primary": "Last weeks for In the Room. David Hume Kennerly's photographs close January 10. Plan 3½ hours for the exhibition and the galleries.",
+     "headline": "Closes January 10",
+     "desc": "Book a timed ticket",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "media": {
+      "type": "image",
+      "src": "creative/kennerly/room-63.jpg",
+      "source": "Frame from the In the Room preview video"
+     },
+     "flight": "Dec 28–Jan 10",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-last-call"
+    }
+   ],
+   "status": "proposed",
+   "days": 68,
+   "daily": 117.65,
+   "schedule": [
+    {
+     "start": "2026-11-04",
+     "end": "2027-01-10",
+     "daily": 117.65,
+     "phase": "burst"
+    }
+   ]
   },
   {
    "id": "evt-holiday",
@@ -757,6 +1268,11 @@
    "start": "2026-11-18",
    "end": "2026-12-23",
    "budget": 5000,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "Decorations are up Nov 17 to Christmas. A five-week window doesn't leave room for a test."
+   },
    "why": "Decorations go up Nov 15–16. Pairs with TRMF's Old Fashioned Cowboy Christmas in Medora and with Museum Store Sunday.",
    "audiences": [
     {
@@ -768,7 +1284,7 @@
     }
    ],
    "open_items": [
-    "Swap in photos from the holiday shoot (Nov 17 onward). Current images are placeholders.",
+    "Swap in photos from the holiday shoot (Nov 17 onward). Current image is a placeholder.",
     "Confirm Cowboy Christmas dates with TRMF before naming it."
    ],
    "ads": [
@@ -783,7 +1299,7 @@
      "url": "https://www.trlibrary.com/tickets",
      "media": {
       "type": "image",
-      "src": "creative/dam/mainguest-arrival.jpg",
+      "src": "creative/dam/store-interior.jpg",
       "source": "Acquia DAM"
      },
      "placeholder": true,
@@ -797,7 +1313,15 @@
    ],
    "status": "proposed",
    "days": 36,
-   "daily": 138.89
+   "daily": 138.89,
+   "schedule": [
+    {
+     "start": "2026-11-18",
+     "end": "2026-12-23",
+     "daily": 138.89,
+     "phase": "burst"
+    }
+   ]
   },
   {
    "id": "evt-film",
@@ -810,7 +1334,12 @@
    "start": "2026-11-05",
    "end": "2026-11-24",
    "budget": 3000,
-   "why": "Paid screenings Nov 11–25 in the auditorium, made for the giant screen. Starts after the Nov 3 election window because the film touches the conservation movement.",
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "Screenings run Nov 11–25 only."
+   },
+   "why": "Paid screenings in the auditorium, made for the giant screen. Starts after the Nov 3 political-ad window because the film touches the conservation movement.",
    "audiences": [
     {
      "name": "Regional",
@@ -835,8 +1364,8 @@
      "url": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening",
      "media": {
       "type": "image",
-      "src": "creative/dam/hero-prairie-sky.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/events/america-the-beautiful.jpg",
+      "source": "trlibrary.com event page"
      },
      "placements": [
       "fb_feed",
@@ -848,69 +1377,15 @@
    ],
    "status": "proposed",
    "days": 20,
-   "daily": 150.0
-  },
-  {
-   "id": "evt-room",
-   "program": "Events",
-   "revenue": false,
-   "priority": 3,
-   "name": "EVENTS: In the Room — last weeks",
-   "objective": "Traffic",
-   "optimization": "ThruPlay → Landing page views",
-   "start": "2026-11-05",
-   "end": "2027-01-10",
-   "budget": 4000,
-   "why": "The David Hume Kennerly exhibition closes Jan 11. A built-in deadline and a strong preview video.",
-   "audiences": [
+   "daily": 150.0,
+   "schedule": [
     {
-     "name": "Regional",
-     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
-     "age": "25–70",
-     "detail": "Broad",
-     "share": 0.6
-    },
-    {
-     "name": "Photography fans",
-     "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
-     "age": "25–70",
-     "detail": "Photojournalism, documentary photography",
-     "share": 0.4
+     "start": "2026-11-05",
+     "end": "2026-11-24",
+     "daily": 150.0,
+     "phase": "burst"
     }
-   ],
-   "open_items": [
-    "Copy avoids naming presidents so Meta doesn't classify it as a political ad.",
-    "Confirm the last day: the calendar feed ends Jan 11 (exclusive), so the last day may be Jan 10."
-   ],
-   "ads": [
-    {
-     "id": "evt-room-video",
-     "name": "Exhibition preview",
-     "format": "video",
-     "primary": "Sixty years behind the camera at the biggest moments in American history. In the Room: Photographs by David Hume Kennerly is in its final weeks.",
-     "headline": "See In the Room before it closes",
-     "desc": "Included with admission",
-     "cta": "Book Now",
-     "url": "https://www.trlibrary.com/tickets",
-     "media": {
-      "type": "video",
-      "src": "creative/video/yt_-mcN1M3ZEps.jpg",
-      "youtube": "-mcN1M3ZEps",
-      "duration": "1:23",
-      "title": "In the Room: Photographs by David Hume Kennerly",
-      "source": "TRPL Commercials playlist"
-     },
-     "placements": [
-      "fb_feed",
-      "ig_feed",
-      "ig_story"
-     ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=evt-room-video"
-    }
-   ],
-   "status": "proposed",
-   "days": 67,
-   "daily": 59.7
+   ]
   },
   {
    "id": "evt-ffh",
@@ -923,7 +1398,12 @@
    "start": "2026-11-04",
    "end": "2027-01-19",
    "budget": 2000,
-   "why": "Neighbors who've never been inside. A free first look turns into paid visits and memberships. Reach only, small budget, local radius.",
+   "spend": {
+    "mode": "burst",
+    "metric": "Reach",
+    "why": "Local radius; reach campaigns don't benefit from a creative test at this size."
+   },
+   "why": "Neighbors who've never been inside. A free first look turns into paid visits and memberships.",
    "audiences": [
     {
      "name": "Local",
@@ -948,7 +1428,7 @@
      "url": "https://www.trlibrary.com/calendar/daily-activity/free-final-hour",
      "media": {
       "type": "image",
-      "src": "creative/dam/terrace-crowd.jpg",
+      "src": "creative/dam/campfire-room.jpg",
       "source": "Acquia DAM"
      },
      "placements": [
@@ -961,38 +1441,54 @@
    ],
    "status": "proposed",
    "days": 77,
-   "daily": 25.97
+   "daily": 25.97,
+   "schedule": [
+    {
+     "start": "2026-11-04",
+     "end": "2027-01-19",
+     "daily": 25.97,
+     "phase": "burst"
+    }
+   ]
   },
   {
    "id": "brand-video",
    "program": "Brand & audience building",
    "revenue": false,
    "priority": 2,
-   "name": "BRAND: Discover the Library (video)",
+   "name": "BRAND: Step into the story (video)",
    "objective": "Engagement",
    "optimization": "ThruPlay",
    "start": "2026-10-28",
    "end": "2027-01-19",
-   "budget": 24000,
-   "why": "Cheap video views at national scale. Builds the 50%-viewer audiences that the ticket, membership and giving campaigns retarget. Uses the commercials as they are.",
+   "budget": 13000,
+   "spend": {
+    "mode": "test",
+    "test_days": 7,
+    "test_frac": 0.5,
+    "metric": "Cost per ThruPlay",
+    "target": "$0.03 or less",
+    "decide_on": "2026-11-03"
+   },
+   "why": "Cheap video views at national scale. Builds the 50%-viewer audiences that the ticket, membership and giving campaigns retarget. Indoor commercials only for the winter; the study found awareness alone lifts interest by 22 points.",
    "audiences": [
     {
      "name": "National",
      "geo": "United States",
      "age": "25–70",
      "detail": "American history, national parks, road trips, Theodore Roosevelt",
-     "share": 0.6
+     "share": 0.5
     },
     {
      "name": "Drive market",
      "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
      "age": "25–70",
      "detail": "Broad",
-     "share": 0.4
+     "share": 0.5
     }
    ],
    "open_items": [
-    "Reels/Stories need 9:16 cuts of the commercials; the mockups crop the 16:9 frames."
+    "Vertical versions are auto-reframed (Trailblazer, River of Doubt, In the Room) or letterboxed over a blurred fill (Resolute, Arena, whose text is burned in). A 15-second edit made for vertical would beat both."
    ],
    "ads": [
     {
@@ -1010,7 +1506,11 @@
       "youtube": "gtDTwBMTn2Q",
       "duration": "0:31",
       "title": "\"Resolute\" — Theodore Roosevelt in His Own Words",
-      "source": "TRPL Commercials playlist"
+      "source": "TRPL Commercials playlist",
+      "vertical": {
+       "src": "creative/video/vertical/resolute-9x16.mp4",
+       "poster": "creative/video/vertical/resolute-9x16.jpg"
+      }
      },
      "placements": [
       "fb_feed",
@@ -1023,7 +1523,7 @@
      "id": "brand-amazon",
      "name": "River of Doubt (0:53)",
      "format": "video",
-     "primary": "Step into the Amazon with Theodore Roosevelt. The River of Doubt gallery is one of the stops on a 3½-hour visit to the Library.",
+     "primary": "Step into the Amazon with Theodore Roosevelt. The River of Doubt is one of eight chapters inside the Library.",
      "headline": "Step into the Amazon",
      "desc": "Medora, North Dakota",
      "cta": "Learn More",
@@ -1034,7 +1534,11 @@
       "youtube": "yEEsRy7sdng",
       "duration": "0:53",
       "title": "Step Into the Amazon: Theodore Roosevelt's River of Doubt Comes Alive",
-      "source": "TRPL Commercials playlist"
+      "source": "TRPL Commercials playlist",
+      "vertical": {
+       "src": "creative/video/vertical/river-of-doubt-9x16.mp4",
+       "poster": "creative/video/vertical/river-of-doubt-9x16.jpg"
+      }
      },
      "placements": [
       "fb_feed",
@@ -1044,33 +1548,51 @@
      "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=brand-video&utm_content=brand-amazon"
     },
     {
-     "id": "brand-boardwalk",
-     "name": "The boardwalk (1:34)",
+     "id": "brand-trailblazer",
+     "name": "Trailblazer (1:21)",
      "format": "video",
-     "primary": "Walk out over the Badlands on the Library's boardwalk. It's included with admission, and the view changes with every season.",
-     "headline": "Walk the Badlands",
-     "desc": "Included with admission",
+     "primary": "You won't just read about Theodore Roosevelt here. You'll step into his story, chapter by chapter.",
+     "headline": "History you step into",
+     "desc": "Medora, North Dakota",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit",
      "media": {
       "type": "video",
-      "src": "creative/video/yt_zRPJAdE-IBI.jpg",
-      "youtube": "zRPJAdE-IBI",
-      "duration": "1:34",
-      "title": "Walking the Badlands Without Leaving the Trail — The TR Library Boardwalk",
-      "source": "TRPL Commercials playlist"
+      "src": "creative/video/yt_qrwdZmqFO5A.jpg",
+      "youtube": "qrwdZmqFO5A",
+      "duration": "1:21",
+      "title": "Your Journey Starts Here — The Trailblazer",
+      "source": "TRPL Commercials playlist",
+      "vertical": {
+       "src": "creative/video/vertical/trailblazer-9x16.mp4",
+       "poster": "creative/video/vertical/trailblazer-9x16.jpg"
+      }
      },
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=brand-video&utm_content=brand-boardwalk"
+     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=brand-video&utm_content=brand-trailblazer"
     }
    ],
    "status": "proposed",
    "days": 84,
-   "daily": 285.71
+   "daily": 154.76,
+   "schedule": [
+    {
+     "start": "2026-10-28",
+     "end": "2026-11-03",
+     "daily": 77.38,
+     "phase": "test"
+    },
+    {
+     "start": "2026-11-04",
+     "end": "2027-01-19",
+     "daily": 161.8,
+     "phase": "scale"
+    }
+   ]
   },
   {
    "id": "brand-birthday",
@@ -1083,6 +1605,11 @@
    "start": "2026-10-26",
    "end": "2026-10-31",
    "budget": 1500,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "Six-day moment around Oct 27."
+   },
    "why": "The sign-a-card launch on TR's birthday ends in a membership ask and email opt-in. Builds the house file.",
    "audiences": [
     {
@@ -1109,7 +1636,7 @@
      "url": "https://www.trlibrary.com",
      "media": {
       "type": "image",
-      "src": "creative/dam/riders-on-prairie.jpg",
+      "src": "creative/dam/elkhorn-campfire-stars.jpg",
       "source": "Acquia DAM"
      },
      "placements": [
@@ -1122,7 +1649,15 @@
    ],
    "status": "proposed",
    "days": 6,
-   "daily": 250.0
+   "daily": 250.0,
+   "schedule": [
+    {
+     "start": "2026-10-26",
+     "end": "2026-10-31",
+     "daily": 250.0,
+     "phase": "burst"
+    }
+   ]
   },
   {
    "id": "rt-allyear",
@@ -1135,7 +1670,15 @@
    "start": "2026-11-10",
    "end": "2027-01-19",
    "budget": 9000,
-   "why": "Everyone the other campaigns warm up (video viewers, engagers, site and store visitors) sees the best offer for the season: gifts and giving in Nov–Dec, summer tickets in January.",
+   "spend": {
+    "mode": "test",
+    "test_days": 7,
+    "test_frac": 0.4,
+    "metric": "Cost per landing page view",
+    "target": "$1.00 or less",
+    "decide_on": "2026-11-16"
+   },
+   "why": "Everyone the other campaigns warm up (video viewers, engagers, site and store visitors) sees the best offer for the season: Kennerly and gifts in Nov–Dec, spring break and summer in January.",
    "audiences": [
     {
      "name": "Warm, all sources",
@@ -1146,14 +1689,14 @@
     }
    ],
    "open_items": [
-    "Audience size will be small until the video campaign runs 2–3 weeks; budget ramps after Nov 20."
+    "Audience size stays small until the video campaign has run 2–3 weeks; budget ramps after Nov 20."
    ],
    "ads": [
     {
      "id": "rt-roughriders",
      "name": "Come stand with the Rough Riders",
      "format": "image",
-     "primary": "You've seen the Badlands from your screen. Now come see them from the Library's terrace. Plan 3½ hours, and book your day ahead.",
+     "primary": "You've watched the story. Now step into it: eight chapters of Theodore Roosevelt's life, at the edge of the Badlands. Plan 3½ hours, and book your day ahead.",
      "headline": "Ready when you are",
      "desc": "Timed tickets",
      "cta": "Book Now",
@@ -1173,7 +1716,21 @@
    ],
    "status": "proposed",
    "days": 71,
-   "daily": 126.76
+   "daily": 126.76,
+   "schedule": [
+    {
+     "start": "2026-11-10",
+     "end": "2026-11-16",
+     "daily": 50.7,
+     "phase": "test"
+    },
+    {
+     "start": "2026-11-17",
+     "end": "2027-01-19",
+     "daily": 135.08,
+     "phase": "scale"
+    }
+   ]
   }
  ]
 }

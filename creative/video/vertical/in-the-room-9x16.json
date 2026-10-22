@@ -1,0 +1,122 @@
+{
+ "source": "-mcN1M3ZEps.mp4",
+ "mode": "reframe",
+ "fit_from": 73.5,
+ "fit_until": 6.0,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 3.46,
+   "x": 205,
+   "people": true
+  },
+  {
+   "start": 3.46,
+   "end": 6.57,
+   "x": 1312,
+   "people": true
+  },
+  {
+   "start": 6.57,
+   "end": 10.01,
+   "x": 799,
+   "people": true
+  },
+  {
+   "start": 10.01,
+   "end": 13.7,
+   "x": 0,
+   "people": true
+  },
+  {
+   "start": 13.7,
+   "end": 21.48,
+   "x": 926,
+   "people": true
+  },
+  {
+   "start": 21.48,
+   "end": 25.5,
+   "x": 567,
+   "people": true
+  },
+  {
+   "start": 25.5,
+   "end": 35.91,
+   "x": 655,
+   "people": true
+  },
+  {
+   "start": 35.91,
+   "end": 40.62,
+   "x": 927,
+   "people": true
+  },
+  {
+   "start": 40.62,
+   "end": 43.9,
+   "x": 462,
+   "people": true
+  },
+  {
+   "start": 43.9,
+   "end": 46.59,
+   "x": 0,
+   "people": true
+  },
+  {
+   "start": 46.59,
+   "end": 49.28,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 49.28,
+   "end": 52.72,
+   "x": 600,
+   "people": true
+  },
+  {
+   "start": 52.72,
+   "end": 55.87,
+   "x": 1204,
+   "people": true
+  },
+  {
+   "start": 55.87,
+   "end": 58.31,
+   "x": 1312,
+   "people": true
+  },
+  {
+   "start": 58.31,
+   "end": 60.33,
+   "x": 810,
+   "people": true
+  },
+  {
+   "start": 60.33,
+   "end": 63.38,
+   "x": 760,
+   "people": true
+  },
+  {
+   "start": 63.38,
+   "end": 67.05,
+   "x": 732,
+   "people": true
+  },
+  {
+   "start": 67.05,
+   "end": 70.4,
+   "x": 748,
+   "people": true
+  },
+  {
+   "start": 70.4,
+   "end": 82.11,
+   "x": 200,
+   "people": true
+  }
+ ]
+}

@@ -9,7 +9,9 @@
   "h": 5456.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/aerial-wide.jpg",
@@ -21,7 +23,9 @@
   "h": 5456.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/hero-badlands-wide.jpg",
@@ -33,7 +37,9 @@
   "h": 5258.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/hero-prairie-sky.jpg",
@@ -45,7 +51,9 @@
   "h": 5013.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/hero-green-hills.jpg",
@@ -57,7 +65,9 @@
   "h": 5352.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/riders-on-prairie.jpg",
@@ -69,7 +79,9 @@
   "h": 5197.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/overlook-visitors.jpg",
@@ -81,7 +93,9 @@
   "h": 5069.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/overlook-group.jpg",
@@ -93,7 +107,9 @@
   "h": 5251.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/terrace-crowd.jpg",
@@ -105,7 +121,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/terrace-view.jpg",
@@ -117,7 +135,9 @@
   "h": 4936.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/terrace-chairs.jpg",
@@ -129,7 +149,9 @@
   "h": 5760.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/family-campfire.jpg",
@@ -141,7 +163,9 @@
   "h": 5379.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/family-campfire-cabin.jpg",
@@ -153,7 +177,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/family-gallery.jpg",
@@ -165,7 +191,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/family-terrace.jpg",
@@ -177,7 +205,9 @@
   "h": 4983.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/kid-crafts.jpg",
@@ -189,7 +219,9 @@
   "h": 5421.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/kid-laughing.jpg",
@@ -201,7 +233,9 @@
   "h": 8144.0,
   "source": "Acquia DAM press portal",
   "preview_w": 719,
-  "preview_h": 1080
+  "preview_h": 1080,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/kid-exhibit.jpg",
@@ -213,7 +247,9 @@
   "h": 5306.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/kids-interactive.jpg",
@@ -225,7 +261,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/target-practice.jpg",
@@ -237,7 +275,9 @@
   "h": 5417.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/cuba-family.jpg",
@@ -249,7 +289,9 @@
   "h": 5003.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/cuba-pointing.jpg",
@@ -261,7 +303,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/rough-riders-photo.jpg",
@@ -273,7 +317,9 @@
   "h": 5351.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/rough-riders-group.jpg",
@@ -285,7 +331,9 @@
   "h": 5377.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/campfire-immersive.jpg",
@@ -297,7 +345,9 @@
   "h": 5308.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/campfire-room.jpg",
@@ -309,7 +359,9 @@
   "h": 5400.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/elkhorn-campfire-stars.jpg",
@@ -321,7 +373,9 @@
   "h": 5326.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/campfire-silhouette.jpg",
@@ -333,7 +387,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/amazon-gallery.jpg",
@@ -345,7 +401,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/amazon-river.jpg",
@@ -357,7 +415,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/amazon-phone.jpg",
@@ -369,7 +429,9 @@
   "h": 5073.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/boardwalk-walk.jpg",
@@ -381,7 +443,9 @@
   "h": 4829.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/boardwalk-friends.jpg",
@@ -393,7 +457,9 @@
   "h": 5293.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/mainguest-arrival.jpg",
@@ -405,7 +471,9 @@
   "h": 5211.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/couple-sunset.jpg",
@@ -417,7 +485,9 @@
   "h": 3739.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/roof-walk-dusk.jpg",
@@ -429,7 +499,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/couple-overlook.jpg",
@@ -441,7 +513,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/overlook-badlands.jpg",
@@ -453,7 +527,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/bikes-boardwalk.jpg",
@@ -465,7 +541,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/bikes-pointing.jpg",
@@ -477,7 +555,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/bikes-sunset.jpg",
@@ -489,7 +569,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/store-shopping.jpg",
@@ -501,7 +583,9 @@
   "h": 4940.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/store-interior.jpg",
@@ -513,7 +597,9 @@
   "h": 4960.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/interactive-table.jpg",
@@ -525,7 +611,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/arena-exhibit.jpg",
@@ -537,7 +625,9 @@
   "h": 5320.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/square-deal-theater.jpg",
@@ -549,7 +639,9 @@
   "h": 5362.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/elkhorn-cabin.jpg",
@@ -561,7 +653,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/cabin-journal.jpg",
@@ -573,7 +667,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "any",
+  "scene": "indoor"
  },
  {
   "file": "creative/dam/prairie-roof.jpg",
@@ -585,7 +681,9 @@
   "h": 5504.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/prairie-roof-low.jpg",
@@ -597,7 +695,9 @@
   "h": 5424.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 719
+  "preview_h": 719,
+  "season": "summer",
+  "scene": "outdoor"
  },
  {
   "file": "creative/dam/rust-walls-golden.jpg",
@@ -609,6 +709,64 @@
   "h": 5760.0,
   "source": "Acquia DAM press portal",
   "preview_w": 1080,
-  "preview_h": 720
+  "preview_h": 720,
+  "season": "fall",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/dam/memory-train.jpg",
+  "dam_asset_id": "2b0aa784-509a-40de-82ea-dcf5b02e14c9",
+  "dam_external_id": "h6cniuon8i",
+  "filename": "TRPL-MemoryTrain_Threefold-003.jpg",
+  "gallery": "action",
+  "w": 7358.0,
+  "h": 4905.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal",
+  "season": "any",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/dam/white-house-gang.jpg",
+  "dam_asset_id": "9ef4d89d-8a25-4b43-8464-30aa18c3926f",
+  "dam_external_id": "0wtmmnhk8i",
+  "filename": "TRPL-WHGang_Threefold-001.jpg",
+  "gallery": "action",
+  "w": 8144.0,
+  "h": 5424.0,
+  "preview_w": 1200,
+  "preview_h": 799,
+  "source": "Acquia DAM press portal",
+  "season": "any",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/dam/memory-train-family.jpg",
+  "dam_asset_id": "398f3ecd-25c9-4d65-bc9d-d2168980e9d3",
+  "dam_external_id": "0dfcmo8jjk",
+  "filename": "TRPL-MemoryTrain_Threefold-001.jpg",
+  "gallery": "action",
+  "w": 5424.0,
+  "h": 8144.0,
+  "preview_w": 799,
+  "preview_h": 1200,
+  "source": "Acquia DAM press portal",
+  "season": "any",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/dam/green-room-moose.jpg",
+  "dam_asset_id": "cebcc810-bdd6-47e1-9cfe-3262aaec3b59",
+  "dam_external_id": "x47ftduc9y",
+  "filename": "20260705 TRPL Artifact Details 00587 sRGB.jpg",
+  "gallery": "action",
+  "w": 8185.0,
+  "h": 5457.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal",
+  "season": "any",
+  "scene": "indoor"
  }
 ]

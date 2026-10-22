@@ -1,0 +1,110 @@
+{
+ "source": "yEEsRy7sdng.mp4",
+ "mode": "reframe",
+ "fit_from": 44.5,
+ "fit_until": 4.0,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 6.04,
+   "x": 137,
+   "people": true
+  },
+  {
+   "start": 6.04,
+   "end": 9.79,
+   "x": 1125,
+   "people": true
+  },
+  {
+   "start": 9.79,
+   "end": 12.42,
+   "x": 1186,
+   "people": true
+  },
+  {
+   "start": 12.42,
+   "end": 15.62,
+   "x": 1312,
+   "people": true
+  },
+  {
+   "start": 15.62,
+   "end": 17.12,
+   "x": 649,
+   "people": true
+  },
+  {
+   "start": 17.12,
+   "end": 19.04,
+   "x": 137,
+   "people": true
+  },
+  {
+   "start": 19.04,
+   "end": 20.92,
+   "x": 773,
+   "people": true
+  },
+  {
+   "start": 20.92,
+   "end": 22.29,
+   "x": 335,
+   "people": true
+  },
+  {
+   "start": 22.29,
+   "end": 25.29,
+   "x": 754,
+   "people": true
+  },
+  {
+   "start": 25.29,
+   "end": 28.79,
+   "x": 511,
+   "people": true
+  },
+  {
+   "start": 28.79,
+   "end": 29.88,
+   "x": 858,
+   "people": true
+  },
+  {
+   "start": 29.88,
+   "end": 31.92,
+   "x": 783,
+   "people": true
+  },
+  {
+   "start": 31.92,
+   "end": 33.08,
+   "x": 912,
+   "people": true
+  },
+  {
+   "start": 33.08,
+   "end": 34.08,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 34.08,
+   "end": 40.04,
+   "x": 656,
+   "people": false
+  },
+  {
+   "start": 40.04,
+   "end": 44.71,
+   "x": 505,
+   "people": true
+  },
+  {
+   "start": 44.71,
+   "end": 52.8,
+   "x": 261,
+   "people": true
+  }
+ ]
+}

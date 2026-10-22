@@ -11,12 +11,20 @@ if total < P["credit"]["total"]: warn.append(f"${P['credit']['total'] - total:,}
 exp = dt.date.fromisoformat(P["credit"]["expires"])
 BANNED = re.compile(r"\b(stunning|breathtaking|world-class|transformative|amazing|unforgettable journey)\b", re.I)
 YEAR = re.compile(r"\b20[2-9]\d\b")  # no current/future years in visitor copy
+CAT = {m["file"]: m for m in json.loads((ROOT / "creative" / "dam" / "catalog.json").read_text())}
+def winter_overlap(s, e):  # flight touches Nov 15 – Mar 31 (snow/cold season)
+    s, e = dt.date.fromisoformat(s), dt.date.fromisoformat(e)
+    return e >= dt.date(2026, 11, 15)
 ids = set()
 for c in P["campaigns"]:
     if c["id"] in ids: err.append(f"duplicate campaign id {c['id']}")
     ids.add(c["id"])
     if dt.date.fromisoformat(c["end"]) >= exp: err.append(f"{c['id']}: ends on/after credit expiry")
     if abs(sum(a["share"] for a in c["audiences"]) - 1) > .001: err.append(f"{c['id']}: audience shares must add to 1")
+    sched = c.get("schedule", [])
+    sched_total = sum(x["daily"] * ((dt.date.fromisoformat(x["end"]) - dt.date.fromisoformat(x["start"])).days + 1) for x in sched)
+    if not sched or abs(sched_total - c["budget"]) > max(5, c["budget"] * .002): err.append(f"{c['id']}: schedule sums to ${sched_total:,.0f}, budget is ${c['budget']:,}")
+    if c.get("spend", {}).get("mode") not in ("test", "burst"): err.append(f"{c['id']}: spend mode must be test or burst")
     for a in c["ads"]:
         if a["id"] in ids: err.append(f"duplicate ad id {a['id']}")
         ids.add(a["id"])
@@ -31,6 +39,11 @@ for c in P["campaigns"]:
         media = [x["media"] for x in a.get("cards", [])] + ([a["media"]] if a.get("media") else [])
         for m in media:
             if not m["src"].startswith("http") and not (ROOT / m["src"]).exists(): err.append(f"{a['id']}: missing {m['src']}")
+            for v in ([m["vertical"]["src"], m["vertical"]["poster"]] if m.get("vertical") else []):
+                if not (ROOT / v).exists(): err.append(f"{a['id']}: missing vertical {v}")
+            cm = CAT.get(m["src"])
+            if cm and cm.get("season") == "summer" and winter_overlap(c["start"], c["end"]) and a.get("sells") != "summer":
+                warn.append(f"{a['id']}: summer photo {m['src'].split('/')[-1]} in an ad that runs in winter (mark sells:'summer' only if the ad sells a summer trip)")
 for w in warn: print("WARN ", w)
 for e in err: print("ERROR", e)
 print(f"{len(P['campaigns'])} campaigns · ${total:,} planned incl. reserve · {len(err)} errors · {len(warn)} warnings")
