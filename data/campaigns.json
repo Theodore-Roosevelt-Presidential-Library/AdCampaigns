@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:24:26+00:00",
+ "generated": "2026-10-23T03:24:57+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -282,7 +282,7 @@
      "id": "spring-family",
      "name": "Spring break family",
      "format": "image",
-     "primary": "Spring break idea: the new Theodore Roosevelt Presidential Library in Medora, North Dakota tells his story in eight immersive chapters, and the national park named for him is right next door. Plan 3½ hours at the Library.",
+     "primary": "Spring break idea: the new Theodore Roosevelt Presidential Library in Medora, North Dakota tells his story in eight immersive chapters. Right next door, Theodore Roosevelt National Park has Badlands canyons, bison and wild horses. Plan 3½ hours at the Library.",
      "headline": "Spring break in the Badlands",
      "desc": "Adults $26 · Youth $16",
      "cta": "Book Now",
@@ -303,7 +303,7 @@
      "id": "spring-carousel",
      "name": "A spring road trip",
      "format": "carousel",
-     "primary": "Presidential history and the Badlands in one trip. Start at the new Theodore Roosevelt Presidential Library in Medora, North Dakota, then drive the Scenic Loop in Theodore Roosevelt National Park next door.",
+     "primary": "Presidential history and the Badlands in one trip. Start at the new Theodore Roosevelt Presidential Library in Medora, North Dakota, then drive into Theodore Roosevelt National Park next door to see bison, wild horses and prairie dogs.",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
      "cards": [
@@ -322,8 +322,8 @@
         "src": "creative/dam/rust-walls-golden.jpg",
         "source": "Acquia DAM"
        },
-       "headline": "Afternoon in the park",
-       "desc": "Next door in Medora"
+       "headline": "Afternoon with the bison",
+       "desc": "National park next door"
       },
       {
        "media": {
@@ -413,7 +413,7 @@
      "id": "sum-journey",
      "name": "The big Western road trip",
      "format": "carousel",
-     "primary": "Mount Rushmore, Yellowstone, Theodore Roosevelt National Park, and now a presidential library at the edge of the Badlands: the new Theodore Roosevelt Presidential Library in Medora, North Dakota. Put it on this summer's route.",
+     "primary": "Headed to Mount Rushmore or Yellowstone? Add the North Dakota Badlands: the new Theodore Roosevelt Presidential Library in Medora, and the national park next door where bison and wild horses roam the land TR ranched. Put it on this summer's route.",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
      "cards": [
@@ -441,8 +441,8 @@
         "src": "creative/dam/couple-overlook.jpg",
         "source": "Acquia DAM"
        },
-       "headline": "Then head into the park",
-       "desc": "Right next door"
+       "headline": "Then find bison in the Badlands",
+       "desc": "Theodore Roosevelt National Park"
       },
       {
        "media": {

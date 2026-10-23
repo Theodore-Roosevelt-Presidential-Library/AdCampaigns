@@ -144,6 +144,9 @@ Every campaign in plan.py has spend.mode:
   "the (new) Theodore Roosevelt Presidential Library" and says where it is (Medora, North Dakota),
   ideally in the first 125 characters (what shows before "See more"). Explain features like the
   Memory Train in passing. Only all-warm campaigns (retargeting) may skip the introduction.
+- Don't assume people know Theodore Roosevelt National Park either. When it appears, say what it
+  is (the national park next door: Badlands canyons, bison, wild horses, prairie dogs) and anchor
+  far-away audiences on places they do know (Mount Rushmore, Yellowstone).
 - No current or future years in ad copy ("next summer", not a year).
 - A Library visit is 3½ hours. Never imply less. The free final hour is a first look, not a visit.
 - No "stunning", "breathtaking", "world-class", "transformative", "amazing".
