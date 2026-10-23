@@ -24,11 +24,12 @@ def main():
     ap.add_argument("--accent", type=int, default=2, help="1-based line number drawn in the accent color (0 = none)")
     ap.add_argument("--color", default="white"); ap.add_argument("--accent-color", default="sunset-yellow")
     ap.add_argument("--sub", default=""); ap.add_argument("--pos", default="top", choices=["top", "bottom"])
+    ap.add_argument("--shade", type=int, default=200, help="darkness of the fade behind the text, 0-255")
     ap.add_argument("--fx", type=float, default=0.5); ap.add_argument("--fy", type=float, default=0.5)
     a = ap.parse_args(); W, H = SIZES[a.ratio]
     im = cover(Image.open(a.photo).convert("RGB"), W, H, (a.fx, a.fy))
     # soft dark fade behind the text
-    fade = Image.new("L", (1, 256)); fade.putdata([int(200 * (1 - i / 255) ** 1.6) for i in range(256)])
+    fade = Image.new("L", (1, 256)); fade.putdata([int(a.shade * (1 - i / 255) ** 1.4) for i in range(256)])
     fade = fade.resize((W, int(H * 0.55)))
     if a.pos == "bottom": fade = fade.transpose(Image.FLIP_TOP_BOTTOM)
     shade = Image.new("RGB", (W, fade.height), (10, 14, 20))
@@ -43,6 +44,11 @@ def main():
     sub_f = ImageFont.truetype(str(F / "clearfacestd-italic.otf"), int(W * 0.042))
     block = lh * len(lines) + (int(W * 0.07) if a.sub else 0)
     y = int(H * (0.08 if a.ratio != "9:16" else 0.17)) if a.pos == "top" else H - block - int(H * 0.09)
+    # soft shadow under the type so it holds up over bright skies and clouds
+    sh = Image.new("L", (W, H), 0); sd = ImageDraw.Draw(sh); yy = y
+    for l in lines: sd.text(((W - d.textlength(l, font=f)) / 2, yy + size * 0.03), l, font=f, fill=170); yy += lh
+    if a.sub: sd.text(((W - d.textlength(a.sub, font=sub_f)) / 2, yy + int(W * 0.015) + 2), a.sub, font=sub_f, fill=170)
+    im.paste(Image.new("RGB", (W, H), (8, 12, 18)), (0, 0), sh.filter(ImageFilter.GaussianBlur(size * 0.06)))
     for i, l in enumerate(lines, 1):
         col = COLORS[a.accent_color] if i == a.accent else COLORS[a.color]
         d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=col); y += lh

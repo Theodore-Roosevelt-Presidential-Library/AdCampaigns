@@ -94,6 +94,12 @@ before it goes in an ad. Check every render with a contact sheet before using it
   vertical:{src,poster}}. Commercials pick up file automatically from creative/video/feed/.
 - Boardwalk and Discover are summer-heavy and feature the outgoing CEO; don't use them this winter.
 
+## Use lots of images (Matt)
+- Default to carousels. Itinerary ads show the trip stop by stop (one card per stop, in order,
+  with the day in the headline) and every card links to the itinerary page. Use the photos on
+  the itinerary pages themselves (trlibrary.com/visit/itineraries/*; pulled into creative/web/).
+- Keep a single-image or video version beside each carousel so Meta can test formats.
+
 ## Mockups (mock.js)
 Meant to feel like the apps: "See more"/"more" expands text in place; feed videos autoplay muted
 when on screen (speaker button for sound, tap to pause) at their own aspect ratio; carousels swipe;

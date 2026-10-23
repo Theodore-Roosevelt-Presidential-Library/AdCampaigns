@@ -405,5 +405,523 @@
   "orig": "https://www.nps.gov/common/uploads/structured_data/3C7939C8-1DD8-B71B-0B048D7EC3812DE3.jpg",
   "season": "summer",
   "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/red-rocks.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day1-red-rocks.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/evans-plunge.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day2-evans-plunge.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/custer-bison.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/sd-custer-bison.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/mammoth-site.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-004.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/crazy-horse.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-005.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/rushmore-aerial.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/rushmore-color.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/spearfish-falls.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-006.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/deadwood-main.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-007.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/devils-tower-2.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day5-devils-tower_0.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/library-butte.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/tr-library-butte.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/musical-amphitheatre.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-activities-musical-1.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/musical-cast-2.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-activities-musical-3.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/kids-painted-canyon.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day7-painted-canyon_0.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/wind-canyon-hikers.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-118.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/grand-prismatic.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day2-grand-prismatic_0.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/roosevelt-arch.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-012.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/old-faithful-2.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-013.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/yellowstone-falls.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day10-yellowstone-falls.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/hayden-bison.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-014.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/teton-oxbow.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day11-grand-teton_0.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/snake-river-raft.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-019.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/jackson-antlers.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-018.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/yellowstone-river.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day1-yellowstone-river.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/pompeys-pillar.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-024.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/old-trail-town.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day3-old-trail-town.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/beartooth.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-027.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/buffalo-bill-center.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-028.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/heritage-center.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day7-heritage-center.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/heritage-trex.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-031.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/nd-capitol.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-030.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/spearfish-canyon.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-040.jpg",
+  "season": "fall",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/deadwood-reenactors.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/sd-deadwood.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/bullock-grave.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-041.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/wind-cave.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-043.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/needles-highway.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-044.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/mississippi-bluffs.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/mississippi-bluffs.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/wisconsin-dells.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-047.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/jamestown-buffalo.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-049.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/sweetbriar-lake.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-051.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/painted-canyon-visitors.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/painted-canyon.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/enchanted-geese.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-119.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/oxbow-overlook.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-120.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/petrified-logs.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-124.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/dino-museum-hall.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-061.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/dino-skin.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-112.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/makoshika.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/ok-dt-makoshika.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/john-brown-cabin.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-071.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/omaha-old-market.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-073.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/falls-park.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/ok-n29-falls.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/corn-palace-2.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-074.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/pierre-bridge.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-076.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/library-rooftop.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/05_delta5_rooftop.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/eisenhower-home.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-078.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/truman-library.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-081.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/lincoln-library.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-082.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/hoover-cottage.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/ok-pl-hoover.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/hoover-library.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-084.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/badlands-rim-trail.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/badlands-trail.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/bison-ridge-2.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/p3_0.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/belle-fourche.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/belle-fourche-center-nation.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/us85-little-missouri.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-102.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/sturgis-rally.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/sturgis-rally.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/minneapolis.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-106.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/winnipeg-forks.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-107.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/fargo-aerial.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-105.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/north-unit-shelter.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-104.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/medora-main-street.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day1-downtown-medora.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/library-gallery.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/04_delta4_gallery.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/maltese-fall.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-activities-maltese-3.jpg",
+  "season": "fall",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/musical-night.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-activities-musical-2.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/chateau-bluff.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-activities-chateau-1.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/cowboy-hall-sunset.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-activities-cowboyhof-2.jpg",
+  "season": "any",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/badlands-south-unit.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-07/day2-badlands.jpg",
+  "season": "summer",
+  "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/medora-storefronts.jpg",
+  "source": "trlibrary.com/visit/itineraries",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-115.jpg",
+  "season": "summer",
+  "scene": "outdoor"
  }
 ]

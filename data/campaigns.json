@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:56:29+00:00",
+ "generated": "2026-10-23T06:32:20+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -279,6 +279,88 @@
    ],
    "ads": [
     {
+     "id": "spring-see",
+     "name": "Spring break: what you'll see",
+     "format": "carousel",
+     "primary": "Spring break idea: the new Theodore Roosevelt Presidential Library in Medora, an Old West town in the North Dakota Badlands. Eight chapters inside, and bison, wild horses and prairie dogs in the national park next door.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/memory-train-family.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Ride the Memory Train",
+       "desc": "Inside the Library",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/family-campfire.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Campfire stories",
+       "desc": "At TR's Elkhorn Ranch",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/kids-interactive.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Hands-on galleries",
+       "desc": "For every age",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-trnp.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Bison next door",
+       "desc": "In the national park",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-ridge-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Bison on the ridgelines",
+       "desc": "Along the scenic drive",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon.jpg",
+        "source": "trlibrary.com/visit/scenic-drives"
+       },
+       "headline": "Painted Canyon",
+       "desc": "Your first view of the Badlands",
+       "url": "https://www.trlibrary.com/visit/scenic-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/scenic-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see-6"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-spring&utm_content=spring-see"
+    },
+    {
      "id": "spring-family",
      "name": "Spring break family",
      "format": "image",
@@ -483,6 +565,122 @@
       "ig_story"
      ],
      "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-hero"
+    },
+    {
+     "id": "sum-see",
+     "name": "Everything you'll see this summer",
+     "format": "carousel",
+     "primary": "What a summer day in Medora, North Dakota looks like: bison and wild horses in the national park, Painted Canyon, a trail ride, steaks on pitchforks, the Medora Musical and the new Theodore Roosevelt Presidential Library.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-jam.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Bison in the road",
+       "desc": "The national park next door",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/wild-horses.jpg",
+        "source": "trlibrary.com/visit/outdoors"
+       },
+       "headline": "Wild horses",
+       "desc": "Easier to spot than you'd think",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon.jpg",
+        "source": "trlibrary.com/visit/scenic-drives"
+       },
+       "headline": "Painted Canyon",
+       "desc": "Right off I-94",
+       "url": "https://www.trlibrary.com/visit/scenic-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/scenic-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-gallery.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Eight chapters inside",
+       "desc": "Plan 3½ hours",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-rooftop.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The rooftop boardwalk",
+       "desc": "Out over the Badlands",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/trail-ride-sunset.jpg",
+        "source": "trlibrary.com/visit/biking"
+       },
+       "headline": "Trail rides",
+       "desc": "Into the Badlands",
+       "url": "https://www.trlibrary.com/visit/activities",
+       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/pitchfork-steaks.jpg",
+        "source": "Medora.com (TRMF)"
+       },
+       "headline": "Pitchfork Steak Fondue",
+       "desc": "Dinner with a view",
+       "url": "https://www.trlibrary.com/visit/eat",
+       "tracked_url": "https://www.trlibrary.com/visit/eat?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-7"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/musical-amphitheatre.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Medora Musical",
+       "desc": "Summer nights outdoors",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-8"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/badlands-night-sky.jpg",
+        "source": "trlibrary.com/visit/stargazing"
+       },
+       "headline": "Dark skies",
+       "desc": "The Milky Way, overhead",
+       "url": "https://www.trlibrary.com/visit/stargazing",
+       "tracked_url": "https://www.trlibrary.com/visit/stargazing?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see-9"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=tix-summer&utm_content=sum-see"
     },
     {
      "id": "sum-video",
@@ -994,6 +1192,66 @@
    ],
    "ads": [
     {
+     "id": "ss-private-carousel",
+     "name": "Private dining carousel",
+     "format": "carousel",
+     "primary": "Host a holiday party, board retreat or rehearsal dinner at Salt+Scoria, the restaurant inside the new Theodore Roosevelt Presidential Library in Medora, North Dakota, with the Badlands out the window. Menus by Chef Candace Stock.",
+     "cta": "Get Quote",
+     "url": "https://www.trlibrary.com/private-events",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/saltscoria/dsc00636-2.jpg",
+        "source": "Salt+Scoria site (TRPL)"
+       },
+       "headline": "Private dinners",
+       "desc": "With a Badlands view",
+       "url": "https://www.trlibrary.com/private-events",
+       "tracked_url": "https://www.trlibrary.com/private-events?utm_source=meta&utm_medium=paid_social&utm_campaign=ss-private&utm_content=ss-private-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/saltscoria/trpl-saltscoria_general-027.jpg",
+        "source": "Salt+Scoria site (TRPL)"
+       },
+       "headline": "Seasonal menus",
+       "desc": "By Chef Candace Stock",
+       "url": "https://www.trlibrary.com/private-events",
+       "tracked_url": "https://www.trlibrary.com/private-events?utm_source=meta&utm_medium=paid_social&utm_campaign=ss-private&utm_content=ss-private-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/saltscoria/trpl-saltscoria_general-029.jpg",
+        "source": "Salt+Scoria site (TRPL)"
+       },
+       "headline": "Wood-fired plates",
+       "desc": "Regional cooking",
+       "url": "https://www.trlibrary.com/private-events",
+       "tracked_url": "https://www.trlibrary.com/private-events?utm_source=meta&utm_medium=paid_social&utm_campaign=ss-private&utm_content=ss-private-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/saltscoria/trpl-saltscoria_general-047.jpg",
+        "source": "Salt+Scoria site (TRPL)"
+       },
+       "headline": "Board retreats",
+       "desc": "Groups of every size",
+       "url": "https://www.trlibrary.com/private-events",
+       "tracked_url": "https://www.trlibrary.com/private-events?utm_source=meta&utm_medium=paid_social&utm_campaign=ss-private&utm_content=ss-private-carousel-4"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/private-events?utm_source=meta&utm_medium=paid_social&utm_campaign=ss-private&utm_content=ss-private-carousel"
+    },
+    {
      "id": "ss-private-dinner",
      "name": "Private dinner",
      "format": "image",
@@ -1224,6 +1482,66 @@
       "ig_story"
      ],
      "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-still"
+    },
+    {
+     "id": "room-carousel",
+     "name": "Inside In the Room",
+     "format": "carousel",
+     "primary": "Sixty years of photographs from inside the biggest moments in American history. In the Room: Photographs by David Hume Kennerly is at the Theodore Roosevelt Presidential Library in Medora, North Dakota, through January 10.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/kennerly/room-51.jpg",
+        "source": "Frame from the In the Room preview video"
+       },
+       "headline": "Sixty years of history",
+       "desc": "Photographs by David Hume Kennerly",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/kennerly/room-39.jpg",
+        "source": "Frame from the In the Room preview video"
+       },
+       "headline": "In the gallery",
+       "desc": "Included with admission",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/kennerly/room-60.jpg",
+        "source": "Frame from the In the Room preview video"
+       },
+       "headline": "Up close",
+       "desc": "The photographs, large",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/kennerly/room-63.jpg",
+        "source": "Frame from the In the Room preview video"
+       },
+       "headline": "Closes January 10",
+       "desc": "Book a timed ticket",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-carousel-4"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-room&utm_content=room-carousel"
     },
     {
      "id": "room-last-call",
@@ -1777,6 +2095,88 @@
    ],
    "ads": [
     {
+     "id": "rt-chapters",
+     "name": "Eight chapters, one visit",
+     "format": "carousel",
+     "primary": "You've seen the story. Now step into it: eight chapters of Theodore Roosevelt's life at the edge of the Badlands. Plan 3½ hours, and book your day ahead.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/memory-train.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "The Memory Train",
+       "desc": "The Badlands chapter",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/family-campfire.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "The Elkhorn campfire",
+       "desc": "Stories from the ranch",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/cuba-family.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "San Juan Heights",
+       "desc": "With the Rough Riders",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/white-house-gang.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "The White House Gang",
+       "desc": "For kids who climb",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/amazon-river.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "The River of Doubt",
+       "desc": "Into the Amazon",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/arena-exhibit.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "In the Arena",
+       "desc": "After the White House",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters-6"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-chapters"
+    },
+    {
      "id": "rt-roughriders",
      "name": "Come stand with the Rough Riders",
      "format": "image",
@@ -1943,19 +2343,102 @@
     },
     {
      "id": "dest-one-day",
-     "name": "One day in Medora",
-     "format": "image",
-     "primary": "One day in Medora, North Dakota: sunrise at Painted Canyon, a morning inside the new Theodore Roosevelt Presidential Library, an afternoon drive through the national park looking for bison, and dinner in an Old West town.",
-     "headline": "How to spend a day in Medora",
-     "desc": "A plan from the Library",
+     "name": "One day in Medora (stop by stop)",
+     "format": "carousel",
+     "primary": "One day in Medora, North Dakota, stop by stop: sunrise at Painted Canyon, a morning inside the new Theodore Roosevelt Presidential Library, an afternoon in the national park and an evening at the Medora Musical.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/one-day",
-     "media": {
-      "type": "image",
-      "src": "creative/web/nps-painted-butte.jpg",
-      "source": "NPS / Theodore Roosevelt National Park"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/kids-painted-canyon.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Morning: Painted Canyon",
+       "desc": "Your first look at the Badlands",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The new Library",
+       "desc": "On the butte above Medora",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-gallery.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Midday: the galleries",
+       "desc": "Plan about 3½ hours",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-rooftop.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The rooftop boardwalk",
+       "desc": "Out over the Badlands",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/badlands-south-unit.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Afternoon: into the park",
+       "desc": "The South Unit scenic drive",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/maltese-fall.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "TR's Maltese Cross Cabin",
+       "desc": "His first ranch cabin, 1883",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/medora-main-street.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Evening: dinner in town",
+       "desc": "A real Western main street",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-7"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/musical-night.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Medora Musical",
+       "desc": "Summer nights under the stars",
+       "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-8"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -1965,19 +2448,91 @@
     },
     {
      "id": "dest-3-days",
-     "name": "Two nights, three days",
-     "format": "image",
-     "primary": "Two nights in the North Dakota Badlands: the national park's scenic loop, the Cowboy Hall of Fame, a night at the Medora Musical and the new Theodore Roosevelt Presidential Library in Medora. Here's the plan.",
-     "headline": "2 nights, 3 days in Medora",
-     "desc": "Itinerary from the Library",
+     "name": "2 nights, 3 days in Medora",
+     "format": "carousel",
+     "primary": "Two nights in the North Dakota Badlands: the new Theodore Roosevelt Presidential Library, the national park's scenic drive, the Chateau de Mores, the Cowboy Hall of Fame, trail rides and the Medora Musical. Here's the whole plan.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
-     "media": {
-      "type": "image",
-      "src": "creative/web/medora-musical-show.jpg",
-      "source": "Medora.com (TRMF)"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 1: the Library",
+       "desc": "Eight chapters of TR's life",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/chateau-bluff.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 1: Chateau de Mores",
+       "desc": "The town founder's home",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/badlands-south-unit.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: the national park",
+       "desc": "Scenic drive and short hikes",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-trnp.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Bison along the road",
+       "desc": "In the park's South Unit",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/cowboy-hall-sunset.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: Cowboy Hall of Fame",
+       "desc": "Rodeo, ranching, Native heritage",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/musical-amphitheatre.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: the Medora Musical",
+       "desc": "An amphitheater in the Badlands",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/trail-ride-sunset.jpg",
+        "source": "trlibrary.com/visit/biking"
+       },
+       "headline": "Day 3: one last ride",
+       "desc": "Trail rides near town",
+       "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-3-days-7"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2106,18 +2661,90 @@
      "id": "rt-mn",
      "for": "Twin Cities + Minnesota",
      "name": "Twin Cities: a long weekend",
-     "format": "image",
+     "format": "carousel",
      "primary": "From the Twin Cities, the North Dakota Badlands are about 8 hours west on I-94. Make it a long weekend: the Old West town of Medora, a national park full of bison and wild horses, and the new Theodore Roosevelt Presidential Library.",
-     "headline": "A long weekend in the Badlands",
-     "desc": "About 8 hours from the Twin Cities",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
-     "media": {
-      "type": "image",
-      "src": "creative/web/bison-ridge.jpg",
-      "source": "trlibrary.com/visit/scenic-drives"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/minneapolis.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Leave the Twin Cities",
+       "desc": "About 8 hours on I-94",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/fargo-aerial.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Break it up in Fargo",
+       "desc": "3½ hours in",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/jamestown-buffalo.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The World's Largest Buffalo",
+       "desc": "Jamestown, ND",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/heritage-trex.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "ND Heritage Center",
+       "desc": "Free, right on the route",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon-visitors.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Painted Canyon",
+       "desc": "Your first view of the Badlands",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The new Library",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-ridge.jpg",
+        "source": "trlibrary.com/visit/scenic-drives"
+       },
+       "headline": "Bison in the park",
+       "desc": "The national park next door",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mn-7"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2129,18 +2756,68 @@
      "id": "rt-mb",
      "for": "Winnipeg + Manitoba",
      "name": "Winnipeg: a long weekend",
-     "format": "image",
-     "primary": "From Winnipeg, the North Dakota Badlands are about 8 hours away. Plan a long weekend in Medora, an Old West town with a national park at its edge and the new Theodore Roosevelt Presidential Library.",
-     "headline": "Winnipeg to the Badlands",
-     "desc": "A long-weekend road trip",
+     "format": "carousel",
+     "primary": "From Winnipeg, the North Dakota Badlands are about 8 hours away. Plan a long weekend in Medora, an Old West town with a national park at its edge, bison and wild horses, and the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
-     "media": {
-      "type": "image",
-      "src": "creative/web/wild-horses.jpg",
-      "source": "trlibrary.com/visit/outdoors"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/winnipeg-forks.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Leave Winnipeg",
+       "desc": "About 8 hours to Medora",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mb-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon-visitors.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Painted Canyon",
+       "desc": "Right off I-94",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mb-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The new Library",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mb-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/wild-horses.jpg",
+        "source": "trlibrary.com/visit/outdoors"
+       },
+       "headline": "Wild horses",
+       "desc": "In the national park",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mb-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/medora-main-street.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "A real Western town",
+       "desc": "Medora's main street",
+       "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/weekend-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mb-5"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2152,18 +2829,101 @@
      "id": "rt-chi",
      "for": "Chicago + Wisconsin",
      "name": "Chicago to the Badlands",
-     "format": "image",
-     "primary": "Chicago to the Badlands in a week: the Driftless Area, the Mississippi bluffs, Minnesota, then west across North Dakota to Medora, an Old West town with a national park and the new Theodore Roosevelt Presidential Library.",
-     "headline": "Chicago to the Badlands",
-     "desc": "A 7- to 9-day road trip",
+     "format": "carousel",
+     "primary": "Chicago to the Badlands in a week: the Driftless Area, the Mississippi bluffs, across Minnesota, then west to Medora, an Old West town with a national park, bison, and the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
-     "media": {
-      "type": "image",
-      "src": "creative/web/nps-little-missouri.jpg",
-      "source": "NPS / Theodore Roosevelt National Park"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/wisconsin-dells.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 1: Wisconsin Dells",
+       "desc": "Sandstone gorges",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/mississippi-bluffs.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Mississippi bluffs",
+       "desc": "La Crosse",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/jamestown-buffalo.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: Jamestown",
+       "desc": "The World's Largest Buffalo",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/enchanted-geese.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Enchanted Highway",
+       "desc": "Giant scrap-metal art",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon-visitors.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Painted Canyon",
+       "desc": "Your first view of the Badlands",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Days 3–5: Medora",
+       "desc": "The new Library",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/oxbow-overlook.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The North Unit",
+       "desc": "Oxbow Overlook",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-7"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/rushmore-aerial.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The way home",
+       "desc": "Optional Black Hills loop",
+       "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-chi-8"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2176,43 +2936,109 @@
      "for": "Denver + Colorado",
      "name": "Denver: the long way to Yellowstone",
      "format": "carousel",
-     "primary": "Ten days from Denver: the Black Hills and Mount Rushmore, Devils Tower, the new Theodore Roosevelt Presidential Library in Medora, North Dakota, then Yellowstone and the Tetons. Five national parks in all.",
+     "primary": "Thirteen days from Denver: the Black Hills and Mount Rushmore, Devils Tower, the new Theodore Roosevelt Presidential Library in Medora, North Dakota, then Yellowstone, the Tetons and a Snake River float.",
      "cta": "Learn More",
-     "url": "https://www.trlibrary.com/visit/itineraries/10-day-denver-salt-lake-city",
+     "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
      "sells": "summer",
      "cards": [
       {
        "media": {
         "type": "image",
-        "src": "creative/web/devils-tower.jpg",
-        "source": "Wikipedia / Wikimedia Commons"
+        "src": "creative/web/red-rocks.jpg",
+        "source": "trlibrary.com/visit/itineraries"
        },
-       "headline": "Denver to Salt Lake City",
-       "desc": "10 days, 5 national parks",
-       "url": "https://www.trlibrary.com/visit/itineraries/10-day-denver-salt-lake-city",
-       "tracked_url": "https://www.trlibrary.com/visit/itineraries/10-day-denver-salt-lake-city?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-1"
+       "headline": "Day 1: Denver",
+       "desc": "Red Rocks",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-1"
       },
       {
        "media": {
         "type": "image",
-        "src": "creative/web/grand-teton.jpg",
-        "source": "Wikipedia / Wikimedia Commons"
+        "src": "creative/web/custer-bison.jpg",
+        "source": "trlibrary.com/visit/itineraries"
        },
-       "headline": "Denver to Jackson Hole",
-       "desc": "13 days, with a Snake River float",
+       "headline": "Day 3: Custer State Park",
+       "desc": "Bison on the Wildlife Loop",
        "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
        "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-2"
       },
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/rough-riders-photo.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/rushmore-aerial.jpg",
+        "source": "trlibrary.com/visit/itineraries"
        },
-       "headline": "Stop at the Library",
-       "desc": "Medora, North Dakota",
-       "url": "https://www.trlibrary.com/visit/exhibits",
-       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-3"
+       "headline": "Day 4: Mount Rushmore",
+       "desc": "Then Deadwood",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/devils-tower-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 5: Devils Tower",
+       "desc": "The first national monument",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 6: Medora",
+       "desc": "The new Library",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/kids-painted-canyon.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 7: the national park",
+       "desc": "Painted Canyon",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/grand-prismatic.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 9: Yellowstone",
+       "desc": "Grand Prismatic Spring",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-7"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/teton-oxbow.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 11: Grand Teton",
+       "desc": "Oxbow Bend",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-8"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/snake-river-raft.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 12: the Snake River",
+       "desc": "Jackson Hole",
+       "url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den-9"
       }
      ],
      "placements": [
@@ -2220,24 +3046,107 @@
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/visit/itineraries/10-day-denver-salt-lake-city?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den"
+     "tracked_url": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-den"
     },
     {
      "id": "rt-mt",
      "for": "Montana",
      "name": "Montana: Billings to Bismarck",
-     "format": "image",
-     "primary": "Medora is about 4 hours east of Billings on I-94: an Old West town in the North Dakota Badlands, with a national park at its edge and the new Theodore Roosevelt Presidential Library. Make it part of a week on the road.",
-     "headline": "Billings to the Badlands",
-     "desc": "A 7-day road trip",
+     "format": "carousel",
+     "primary": "A week from Billings: Yellowstone, the Beartooth Highway, Cody, Mount Rushmore and Deadwood, Devils Tower, then Medora, an Old West town in the North Dakota Badlands with the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
-     "media": {
-      "type": "image",
-      "src": "creative/web/yellowstone-old-faithful.jpg",
-      "source": "Wikipedia / Wikimedia Commons"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/yellowstone-river.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 1: toward Yellowstone",
+       "desc": "Paradise Valley",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/old-faithful-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: Yellowstone",
+       "desc": "Old Faithful",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/beartooth.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 3: Beartooth Highway",
+       "desc": "Then Cody",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/old-trail-town.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Cody, Wyoming",
+       "desc": "Old Trail Town",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/rushmore-aerial.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 4: Mount Rushmore",
+       "desc": "Then Deadwood",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/devils-tower-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 5: Devils Tower",
+       "desc": "On to Medora",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 6: Medora",
+       "desc": "The new Library",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-7"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/heritage-trex.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Bismarck",
+       "desc": "ND Heritage Center",
+       "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-mt-8"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2249,18 +3158,79 @@
      "id": "rt-sd",
      "for": "Black Hills + South Dakota",
      "name": "Black Hills: north on US 85",
-     "format": "image",
-     "primary": "From the Black Hills, take US 85 north 224 miles to the North Dakota Badlands: the town of Medora, the national park where Theodore Roosevelt ranched and the new Theodore Roosevelt Presidential Library.",
-     "headline": "Sturgis to Medora on US 85",
-     "desc": "A 2- or 3-day ride or drive",
+     "format": "carousel",
+     "primary": "From the Black Hills, take US 85 north 224 miles to the North Dakota Badlands: the town of Medora, the national park where Theodore Roosevelt ranched, the Medora Musical and the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
-     "media": {
-      "type": "image",
-      "src": "creative/web/wind-canyon.jpg",
-      "source": "trlibrary.com/visit/biking"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/belle-fourche.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Belle Fourche",
+       "desc": "Center of the nation",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-sd-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/us85-little-missouri.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "North on US 85",
+       "desc": "Through the grasslands",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-sd-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: the Library",
+       "desc": "On the butte above Medora",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-sd-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/badlands-rim-trail.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The national park",
+       "desc": "The South Unit",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-sd-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/musical-night.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Medora Musical",
+       "desc": "Summer nights",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-sd-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/north-unit-shelter.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 3: the North Unit",
+       "desc": "The one people skip",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-sd-6"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2272,18 +3242,90 @@
      "id": "rt-29",
      "for": "Omaha, Kansas City + Iowa",
      "name": "North on 29",
-     "format": "image",
-     "primary": "Six days north from Kansas City or Omaha: up I-29 past the Corn Palace and Dignity above the Missouri, then west across North Dakota to Medora, the Badlands and the new Theodore Roosevelt Presidential Library.",
-     "headline": "North on 29",
-     "desc": "A 6-day road trip",
+     "format": "carousel",
+     "primary": "Six days north from Kansas City or Omaha: Osawatomie, Falls Park, the Corn Palace and the Missouri, then west across North Dakota to Medora, the Badlands and the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
-     "media": {
-      "type": "image",
-      "src": "creative/web/corn-palace.jpg",
-      "source": "Wikipedia / Wikimedia Commons"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/john-brown-cabin.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 1: Osawatomie",
+       "desc": "John Brown Memorial Park",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/omaha-old-market.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: Omaha",
+       "desc": "The Old Market",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/falls-park.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 3: Sioux Falls",
+       "desc": "Falls Park",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/corn-palace-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Corn Palace",
+       "desc": "Mitchell, South Dakota",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nd-capitol.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 5: Bismarck",
+       "desc": "Then west",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-rooftop.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 6: Medora",
+       "desc": "The new Library",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/badlands-rim-trail.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Badlands",
+       "desc": "The national park next door",
+       "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/north-on-29?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-29-7"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2326,13 +3368,46 @@
       {
        "media": {
         "type": "image",
+        "src": "creative/web/grand-prismatic.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Grand Prismatic Spring",
+       "desc": "Yellowstone",
+       "url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/devils-tower-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Devils Tower",
+       "desc": "On the way north",
+       "url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-4"
+      },
+      {
+       "media": {
+        "type": "image",
         "src": "creative/web/bison-jam.jpg",
         "source": "trlibrary.com/visit/national-park"
        },
        "headline": "The North Dakota Badlands",
        "desc": "Medora + the national park",
        "url": "https://www.trlibrary.com/visit/national-park",
-       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-3"
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/medora-main-street.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Medora",
+       "desc": "A real Western town",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-6"
       },
       {
        "media": {
@@ -2343,7 +3418,7 @@
        "headline": "Theodore Roosevelt's story",
        "desc": "The new presidential library",
        "url": "https://www.trlibrary.com/visit/exhibits",
-       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-4"
+       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-7"
       }
      ],
      "placements": [
@@ -2357,17 +3432,79 @@
      "id": "rt-nd",
      "for": "North Dakota families",
      "name": "Deep Time: a dinosaur road trip",
-     "format": "image",
-     "primary": "A dinosaur road trip across North Dakota: a petrified forest near Medora, mounted dinosaurs in Dickinson, a mummified Edmontosaurus in Bismarck and a public dig. Start at the new Theodore Roosevelt Presidential Library in Medora.",
-     "headline": "Deep Time",
-     "desc": "3 or 4 days for families",
+     "format": "carousel",
+     "primary": "A dinosaur road trip across North Dakota: petrified trees in the national park at Medora, mounted dinosaurs in Dickinson, a mummified Edmontosaurus in Bismarck and a public dig. Start at the new Theodore Roosevelt Presidential Library in Medora.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
-     "media": {
-      "type": "image",
-      "src": "creative/web/nps-painted-butte.jpg",
-      "source": "NPS / Theodore Roosevelt National Park"
-     },
+     "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/petrified-logs.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 1: Medora",
+       "desc": "Petrified trees in the park",
+       "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/dinosaurs?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-nd-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/dino-museum-hall.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 2: Dickinson",
+       "desc": "The Badlands Dinosaur Museum",
+       "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/dinosaurs?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-nd-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/heritage-trex.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Day 3: Bismarck",
+       "desc": "T. rex and Triceratops",
+       "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/dinosaurs?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-nd-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/dino-skin.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Dinosaur skin",
+       "desc": "The mummy nicknamed Dakota",
+       "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/dinosaurs?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-nd-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/makoshika.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Optional: Makoshika",
+       "desc": "Hell Creek badlands, Montana",
+       "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/dinosaurs?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-nd-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-gallery.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "And the Library",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/dinosaurs?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-nd-6"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2379,17 +3516,79 @@
      "id": "rt-presidents",
      "for": "Presidential history fans",
      "name": "Five presidents, one road trip",
-     "format": "image",
+     "format": "carousel",
      "primary": "Five presidents, one road trip: the Eisenhower, Truman, Lincoln and Hoover presidential libraries, ending at the new Theodore Roosevelt Presidential Library in Medora, a small Old West town in the North Dakota Badlands.",
-     "headline": "Five Presidents",
-     "desc": "7 days, about 2,600 miles",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
-     "media": {
-      "type": "image",
-      "src": "creative/dam/arena-exhibit.jpg",
-      "source": "Acquia DAM"
-     },
+     "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/eisenhower-home.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Eisenhower",
+       "desc": "Abilene, Kansas",
+       "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-presidents-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/truman-library.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Truman",
+       "desc": "Independence, Missouri",
+       "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-presidents-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/lincoln-library.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Lincoln",
+       "desc": "Springfield, Illinois",
+       "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-presidents-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/hoover-cottage.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Hoover",
+       "desc": "West Branch, Iowa",
+       "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-presidents-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-butte.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Theodore Roosevelt",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-presidents-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-ridge-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The Badlands",
+       "desc": "The national park next door",
+       "url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/presidential-libraries?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-presidents-6"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2469,7 +3668,7 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/brand-cards/screens-skies-night-1x1.jpg",
+        "src": "creative/brand-cards/screens-skies-library-1x1.jpg",
         "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
         "ratio": "1/1"
        },
@@ -2492,13 +3691,35 @@
       {
        "media": {
         "type": "image",
+        "src": "creative/web/kids-painted-canyon.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Hike Painted Canyon",
+       "desc": "Short trails, big views",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
         "src": "creative/web/trail-ride-sunset.jpg",
         "source": "trlibrary.com/visit/biking"
        },
        "headline": "Saddle up",
        "desc": "Trail rides into the Badlands",
        "url": "https://www.trlibrary.com/visit/activities",
-       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-3"
+       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/prairie-dog.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Prairie dog towns",
+       "desc": "They'll pop up to say hi",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-5"
       },
       {
        "media": {
@@ -2509,7 +3730,7 @@
        "headline": "Steak on a pitchfork",
        "desc": "Pitchfork Steak Fondue",
        "url": "https://www.trlibrary.com/visit/eat",
-       "tracked_url": "https://www.trlibrary.com/visit/eat?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-4"
+       "tracked_url": "https://www.trlibrary.com/visit/eat?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-6"
       },
       {
        "media": {
@@ -2520,7 +3741,7 @@
        "headline": "Cheer at the Medora Musical",
        "desc": "Summer nights outdoors",
        "url": "https://www.trlibrary.com/visit/medora",
-       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-5"
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-7"
       },
       {
        "media": {
@@ -2531,7 +3752,18 @@
        "headline": "Campfire stories",
        "desc": "Inside the Library",
        "url": "https://www.trlibrary.com/visit/exhibits",
-       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-6"
+       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-8"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/medora-pool.jpg",
+        "source": "Medora.com (TRMF)"
+       },
+       "headline": "Cool off at the pool",
+       "desc": "Right in town",
+       "url": "https://www.trlibrary.com/visit/activities",
+       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-9"
       },
       {
        "media": {
@@ -2542,7 +3774,7 @@
        "headline": "More stars than you've seen",
        "desc": "Dark Badlands skies",
        "url": "https://www.trlibrary.com/visit/stargazing",
-       "tracked_url": "https://www.trlibrary.com/visit/stargazing?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-7"
+       "tracked_url": "https://www.trlibrary.com/visit/stargazing?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-10"
       }
      ],
      "placements": [
@@ -2553,50 +3785,27 @@
      "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel"
     },
     {
-     "id": "fam-title-night",
-     "name": "Trade Screens for Skies (night sky)",
+     "id": "fam-title-library",
+     "name": "Trade Screens for Skies (the Library)",
      "format": "image",
-     "primary": "Trade screens for skies. Medora is a real Western town in the North Dakota Badlands, with bison and wild horses in the national park next door, trail rides, a cowboy musical, dark skies and the new Theodore Roosevelt Presidential Library.",
+     "primary": "Trade screens for skies. The new Theodore Roosevelt Presidential Library sits under the big sky of the North Dakota Badlands, in Medora, a real Western town with bison and wild horses next door, trail rides and a cowboy musical.",
      "headline": "Plan a family trip to Medora",
      "desc": "Trips and ideas from the Library",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit",
      "media": {
       "type": "image",
-      "src": "creative/brand-cards/screens-skies-night-4x5.jpg",
+      "src": "creative/brand-cards/screens-skies-library-4x5.jpg",
       "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
       "ratio": "4/5",
-      "story": "creative/brand-cards/screens-skies-night-9x16.jpg"
+      "story": "creative/brand-cards/screens-skies-library-9x16.jpg"
      },
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-title-night"
-    },
-    {
-     "id": "fam-title-bison",
-     "name": "Trade Screens for Skies (bison)",
-     "format": "image",
-     "primary": "Trade screens for skies. In the national park next to Medora, North Dakota, the bison come right up to the road. Then there's the cowboy musical, trail rides, dark skies and the new Theodore Roosevelt Presidential Library.",
-     "headline": "Plan a family trip to Medora",
-     "desc": "Trips and ideas from the Library",
-     "cta": "Learn More",
-     "url": "https://www.trlibrary.com/visit",
-     "media": {
-      "type": "image",
-      "src": "creative/brand-cards/screens-skies-bison-4x5.jpg",
-      "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
-      "ratio": "4/5"
-     },
-     "sells": "summer",
-     "placements": [
-      "fb_feed",
-      "ig_feed",
-      "ig_story"
-     ],
-     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-title-bison"
+     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-title-library"
     },
     {
      "id": "fam-downtown",
@@ -2619,6 +3828,78 @@
       "ig_story"
      ],
      "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-downtown"
+    },
+    {
+     "id": "fam-wildlife-carousel",
+     "name": "Who you'll meet in the park",
+     "format": "carousel",
+     "primary": "Bison, wild horses, prairie dogs and elk, close enough to see from the car and without the crowds. Theodore Roosevelt National Park sits at the edge of Medora, North Dakota, next to the new Theodore Roosevelt Presidential Library.",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit/national-park",
+     "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-jam.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Bison",
+       "desc": "Sometimes in the road",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/wild-horses.jpg",
+        "source": "trlibrary.com/visit/outdoors"
+       },
+       "headline": "Wild horses",
+       "desc": "Bands roam the South Unit",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/prairie-dog.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Prairie dogs",
+       "desc": "Whole towns of them",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nps-elk-butte.jpg",
+        "source": "NPS / Theodore Roosevelt National Park"
+       },
+       "headline": "Elk",
+       "desc": "Listen for them in fall",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nps-bison-battle.jpg",
+        "source": "NPS / Theodore Roosevelt National Park"
+       },
+       "headline": "Bulls in summer",
+       "desc": "From a safe distance",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife-carousel-5"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife-carousel"
     },
     {
      "id": "fam-wildlife",
@@ -2729,6 +4010,78 @@
    ],
    "ads": [
     {
+     "id": "near-i94-carousel",
+     "for": "I-94 corridor travelers",
+     "name": "Worth the exit (carousel)",
+     "format": "carousel",
+     "primary": "Driving I-94 across North Dakota? Take Exit 24 to Medora: Painted Canyon, the new Theodore Roosevelt Presidential Library, a national park full of bison, and an Old West main street. Plan 3½ hours at the Library.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/tickets",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon.jpg",
+        "source": "trlibrary.com/visit/scenic-drives"
+       },
+       "headline": "Painted Canyon",
+       "desc": "Right off the interstate",
+       "url": "https://www.trlibrary.com/visit/scenic-drives",
+       "tracked_url": "https://www.trlibrary.com/visit/scenic-drives?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-night.jpg",
+        "source": "trlibrary.com/visit/stargazing"
+       },
+       "headline": "The new Library",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-gallery.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Eight chapters inside",
+       "desc": "Plan 3½ hours",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-ridge-2.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "The national park",
+       "desc": "At the edge of town",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/cowboy-hall-sunset.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Cowboy Hall of Fame",
+       "desc": "On Medora's Main Street",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-5"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel"
+    },
+    {
      "id": "near-i94",
      "for": "I-94 corridor travelers",
      "name": "Driving I-94?",
@@ -2771,6 +4124,78 @@
       "ig_story"
      ],
      "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway"
+    },
+    {
+     "id": "near-blackhills-carousel",
+     "for": "Black Hills travelers",
+     "name": "After Rushmore: north on US 85",
+     "format": "carousel",
+     "primary": "Seen Mount Rushmore? Keep going north. About 4½ hours up US 85 is Medora, North Dakota: the Badlands where Theodore Roosevelt ranched, a national park full of bison, and the new Theodore Roosevelt Presidential Library.",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/belle-fourche.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "From the Black Hills",
+       "desc": "North on US 85",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/painted-canyon.jpg",
+        "source": "trlibrary.com/visit/scenic-drives"
+       },
+       "headline": "Into the Badlands",
+       "desc": "About 4½ hours north",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-night.jpg",
+        "source": "trlibrary.com/visit/stargazing"
+       },
+       "headline": "The new Library",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nps-bison-line.jpg",
+        "source": "NPS / Theodore Roosevelt National Park"
+       },
+       "headline": "The national park",
+       "desc": "Bison on the ridgelines",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-gallery.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Eight chapters inside",
+       "desc": "Plan 3½ hours",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-5"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel"
     },
     {
      "id": "near-blackhills",

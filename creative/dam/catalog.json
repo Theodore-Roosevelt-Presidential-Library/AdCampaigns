@@ -768,5 +768,77 @@
   "source": "Acquia DAM press portal",
   "season": "any",
   "scene": "indoor"
+ },
+ {
+  "file": "creative/dam/library-big-sky.jpg",
+  "dam_asset_id": "2e7c4d23-40e2-4141-a95f-8c8da5766a2b",
+  "dam_external_id": "ek4eafyshv",
+  "filename": "20260531 TRPL May June 2026 03365 Adobe RGB.jpg",
+  "gallery": "building",
+  "w": 7520.0,
+  "h": 5013.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal"
+ },
+ {
+  "file": "creative/dam/library-storm-sky.jpg",
+  "dam_asset_id": "5ac7bd98-f892-48eb-8f88-387111b43716",
+  "dam_external_id": "kngrezmovr",
+  "filename": "20260531 TRPL May June 2026 00439 Adobe RGB.jpg",
+  "gallery": "building",
+  "w": 8099.0,
+  "h": 5399.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal"
+ },
+ {
+  "file": "creative/dam/library-wildflowers-sky.jpg",
+  "dam_asset_id": "8f6c88eb-a919-401c-9e05-0b48203aa708",
+  "dam_external_id": "eunbvd1mic",
+  "filename": "20260531 TRPL May June 2026 03408-Edit Adobe RGB.jpg",
+  "gallery": "building",
+  "w": 8152.0,
+  "h": 5435.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal"
+ },
+ {
+  "file": "creative/dam/library-blue-hour.jpg",
+  "dam_asset_id": "c0aeedc5-78f0-4c41-9957-e0c17406838f",
+  "dam_external_id": "zyrd2xfmxo",
+  "filename": "2284701030.jpg",
+  "gallery": "drone",
+  "w": 6000.0,
+  "h": 4000.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal"
+ },
+ {
+  "file": "creative/dam/library-sunset-glow.jpg",
+  "dam_asset_id": "cc1fe8e5-f5dc-4a94-9087-1f482b4fc89d",
+  "dam_external_id": "8zxr5ykiev",
+  "filename": "2284702414.jpg",
+  "gallery": "drone",
+  "w": 6192.0,
+  "h": 4128.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal"
+ },
+ {
+  "file": "creative/dam/library-aerial-badlands.jpg",
+  "dam_asset_id": "08eb1525-d71d-44bc-b71e-26a688ccca6d",
+  "dam_external_id": "kmitdwv937",
+  "filename": "20260531 TRPL May June 2026 Aerial 00027.jpg",
+  "gallery": "building",
+  "w": 7887.0,
+  "h": 5258.0,
+  "preview_w": 1200,
+  "preview_h": 800,
+  "source": "Acquia DAM press portal"
  }
 ]
