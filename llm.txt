@@ -1,7 +1,7 @@
 # TRPL Meta Ads — instructions for agents
 
 This repo is the planning and review dashboard for the Theodore Roosevelt Presidential
-Library's $150,000 Meta ad credit (expires 2027-01-20). Live site: https://ads.trlibrary.com
+Library's $150,000 Meta ad credit (expires 2027-01-20). Live site: https://ads.labs.trlibrary.com
 (GitHub Pages, deployed by .github/workflows/pages.yml on every push to main).
 Owner: Matt Briney, CCMO (matt@trlibrary.com). Outline: TRPL / Meta Ad Credit — AdCampaigns Dashboard.
 

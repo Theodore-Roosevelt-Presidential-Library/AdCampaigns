@@ -2,7 +2,7 @@
 
 Planning and review dashboard for the Theodore Roosevelt Presidential Library's $150K Meta ad credit (expires Jan 20, 2027).
 
-**Live:** https://ads.trlibrary.com
+**Live:** https://ads.labs.trlibrary.com
 
 - **Proposed** — every campaign under consideration, with Facebook Feed, Instagram Feed and Stories/Reels mockups of each ad. Mockups only; nothing runs until approved.
 - **Live in Meta** — what is actually in the TRPL FB Grant ad account, with spend and results.
@@ -22,6 +22,6 @@ python3 -m http.server 8000   # open http://localhost:8000
 
 ## Setup
 
-- Settings → Pages → Source: **GitHub Actions**. Custom domain: `ads.trlibrary.com` (CNAME file in repo).
-- DNS: `ads` CNAME → `theodore-roosevelt-presidential-library.github.io`.
+- Settings → Pages → Source: **GitHub Actions**. Custom domain: `ads.labs.trlibrary.com` (CNAME file in repo).
+- DNS: `ads.labs` CNAME → `theodore-roosevelt-presidential-library.github.io`. Turn on Enforce HTTPS once the certificate is issued.
 - Optional: repo secret `META_ACCESS_TOKEN` (system-user token, `ads_read` on `act_960679053196120`) so the daily Action refreshes `data/live.json`.
