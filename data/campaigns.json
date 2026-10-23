@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T14:08:36+00:00",
+ "generated": "2026-10-23T14:11:57+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -2179,17 +2179,91 @@
     {
      "id": "rt-roughriders",
      "name": "Come stand with the Rough Riders",
-     "format": "image",
-     "primary": "You've watched the story. Now step into it: eight chapters of Theodore Roosevelt's life, at the edge of the Badlands. Plan 3½ hours, and book your day ahead.",
+     "format": "carousel",
+     "primary": "You've watched the story. Now step into it: stand with the Rough Riders, walk into the Cuba chapter, then step out into the Badlands. Eight chapters of Theodore Roosevelt's life at the new Theodore Roosevelt Presidential Library in Medora, North Dakota. Plan 3½ hours.",
      "headline": "Ready when you are",
      "desc": "Timed tickets",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
-     "media": {
-      "type": "image",
-      "src": "creative/web/nps-bison-line.jpg",
-      "source": "NPS / Theodore Roosevelt National Park"
-     },
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/rough-riders-group.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Stand with the Rough Riders",
+       "desc": "A favorite photo spot inside",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/cuba-family.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Walk into the Cuba chapter",
+       "desc": "The Rough Riders' war",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/cuba-pointing.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Bring the whole family",
+       "desc": "Something for every age",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/library-sunset-glow.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "The new Library",
+       "desc": "At the edge of the Badlands",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/library-aerial-badlands.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Built into the Badlands",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/library-big-sky.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Plan 3½ hours",
+       "desc": "Timed tickets",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-6"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nps-bison-line.jpg",
+        "source": "NPS / Theodore Roosevelt National Park"
+       },
+       "headline": "Bison next door",
+       "desc": "The national park",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=rt-allyear&utm_content=rt-roughriders-7"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
