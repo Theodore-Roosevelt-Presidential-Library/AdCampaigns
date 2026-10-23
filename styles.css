@@ -139,24 +139,49 @@ table.data td.num, table.data th.num { text-align: right; font-variant-numeric: 
 .ig .igdots i { width: 6px; height: 6px; border-radius: 50%; background: #c7c7c7; }
 .ig .igdots i:first-child { background: #0095f6; }
 .ig .av { border: 2px solid transparent; background: var(--ig-grad) border-box; }
-.st { width: 200px; flex: 0 0 200px; aspect-ratio: 9/16; background: #000; color: #fff; position: relative; border: 0; }
-.st .media { position: absolute; inset: 0; background: #111; }
-.st .media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.45) 0, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 55%, rgba(0,0,0,.75) 100%); }
-.st .prog { position: absolute; top: 6px; left: 8px; right: 8px; height: 2px; background: rgba(255,255,255,.4); border-radius: 2px; z-index: 2; }
-.st .prog::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 35%; background: #fff; border-radius: 2px; }
-.st .hd { position: absolute; top: 12px; left: 0; right: 0; z-index: 2; padding: 4px 8px; }
+.m .clip .more { background: none; border: 0; padding: 0; font: inherit; color: #65676b; cursor: pointer; }
+.m .clip .more:hover { text-decoration: underline; }
+.m .media.vid { cursor: pointer; background: #000; }
+.m video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.m .snd { position: absolute; right: 8px; bottom: 8px; z-index: 3; width: 26px; height: 26px; border-radius: 50%; border: 0; background: rgba(0,0,0,.6); color: #fff; font-size: 12px; cursor: pointer; line-height: 26px; padding: 0; }
+.m .paused-ic { display: none; }
+.m .media.vid.is-paused .paused-ic { display: block; position: absolute; inset: 0; margin: auto; width: 52px; height: 52px; border-radius: 50%; background: rgba(0,0,0,.55); z-index: 2; pointer-events: none; }
+.m .media.vid.is-paused .paused-ic::after { content: ""; position: absolute; left: 20px; top: 16px; border-left: 16px solid #fff; border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
+.ig .igcar { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.ig .igcar::-webkit-scrollbar { display: none; }
+.ig .igcar .slide { flex: 0 0 100%; scroll-snap-align: start; }
+.ig .igdots i.on { background: #0095f6; }
+.ig .igdots i:first-child:not(.on) { background: #c7c7c7; }
+/* Stories / Reels */
+.st { width: 216px; flex: 0 0 216px; aspect-ratio: 9/16; background: #000; color: #fff; position: relative; border: 0; user-select: none; }
+.st .pnl { position: absolute; inset: 0; display: none; }
+.st .pnl.on { display: block; }
+.st .panel { position: absolute; inset: 0; overflow: hidden; background: #111; }
+.st .panel.fit { display: flex; align-items: center; justify-content: center; }
+.st .panel .bg { position: absolute; inset: -20px; width: calc(100% + 40px); height: calc(100% + 40px); object-fit: cover; filter: blur(16px) brightness(.55); }
+.st .panel .fg, .st .panel.fit video { position: relative; width: 100%; height: auto; max-height: 100%; object-fit: contain; display: block; }
+.st .panel .fg.prod { background: #fff; padding: 10px; box-sizing: border-box; }
+.st .panel::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(0,0,0,.45) 0, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 60%, rgba(0,0,0,.7) 100%); }
+.st .chl { position: absolute; left: 10px; right: 10px; bottom: 96px; z-index: 2; font-weight: 700; font-size: 13px; text-shadow: 0 1px 3px rgba(0,0,0,.8); }
+.st .segs { position: absolute; top: 6px; left: 8px; right: 8px; display: flex; gap: 3px; z-index: 3; }
+.st .segs i { flex: 1; height: 2px; background: rgba(255,255,255,.4); border-radius: 2px; overflow: hidden; }
+.st .segs i b { display: block; height: 100%; width: 0; background: #fff; }
+.st .hd { position: absolute; top: 12px; left: 0; right: 0; z-index: 3; padding: 4px 8px; }
 .st .hd .av { width: 26px; height: 26px; }
 .st .hd .nm { color: #fff; font-size: 12px; }
 .st .hd .sp { color: rgba(255,255,255,.85); font-size: 11px; }
-.st .bt { position: absolute; left: 0; right: 0; bottom: 10px; z-index: 2; padding: 0 10px; text-align: center; }
-.st .bt .t { font-size: 11.5px; text-align: left; margin-bottom: 10px; text-shadow: 0 1px 2px rgba(0,0,0,.6); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.st .bt .c { display: inline-block; background: #fff; color: #050505; font-weight: 600; font-size: 12px; padding: 6px 14px; border-radius: 999px; }
+.st .tap { position: absolute; top: 40px; bottom: 110px; z-index: 2; cursor: pointer; }
+.st .tap.prev { left: 0; width: 35%; } .st .tap.next { right: 0; width: 65%; } .st .tap.toggle { left: 0; right: 0; }
+.st .snd { bottom: auto; top: 40px; }
+.st .bt { position: absolute; left: 0; right: 0; bottom: 10px; z-index: 4; padding: 0 10px; text-align: center; }
+.st .bt .t { font-size: 11.5px; text-align: left; margin-bottom: 10px; text-shadow: 0 1px 2px rgba(0,0,0,.7); }
+.st .bt .t .more { color: rgba(255,255,255,.8); font-weight: 600; }
+.st.expanded .bt { top: 0; bottom: 0; padding-top: 50%; background: rgba(0,0,0,.72); display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 10px; }
+.st .bt .c { display: inline-block; align-self: center; background: #fff; color: #050505; font-weight: 600; font-size: 12px; padding: 6px 14px; border-radius: 999px; }
 .st .bt .c::before { content: "⌃"; display: block; font-size: 10px; line-height: 6px; color: #fff; margin-top: -12px; margin-bottom: 4px; text-shadow: 0 1px 2px #000; }
-.st .media video { width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; }
-.st .media:has(video)::after { display: none; }
-.st .vtag { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; padding: 4px 10px !important; font-size: 12px !important; z-index: 3; font-size: 10px; padding: 1px 6px; border-radius: 8px; background: rgba(0,0,0,.6); color: #fff; }
 .chip.test { background: var(--line-2); color: var(--ink-2); }
 .chip.burst { background: color-mix(in srgb, var(--s2) 18%, transparent); color: var(--ink); }
 .spendplan { margin: 10px 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; font-size: 13px; line-height: 1.5; }
 .spendplan b { font-weight: 600; }
 .guard li { margin: 4px 0; }
+.st.expanded .chl { display: none; }

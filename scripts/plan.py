@@ -4,7 +4,7 @@
     python3 scripts/validate.py  # checks budgets, copy rules, media paths
 Nothing here touches Meta. Campaigns go live only when Matt approves one by name
 and an agent creates it (paused) through the Meta Ads connector; see llm.txt."""
-import json, datetime as dt, pathlib
+import pathlib, json, datetime as dt, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CREDIT = {"total": 150000, "expires": "2027-01-20", "account_id": "960679053196120",
@@ -28,6 +28,8 @@ def ss(slug): return {"type": "image", "src": f"creative/saltscoria/{slug}.jpg",
 VERT = {"gtDTwBMTn2Q": "resolute", "qrwdZmqFO5A": "trailblazer", "yEEsRy7sdng": "river-of-doubt", "-mcN1M3ZEps": "in-the-room", "k3U8V1HmKDs": "arena"}
 def yt(vid, dur, title):
     m = {"type": "video", "src": f"creative/video/yt_{vid}.jpg", "youtube": vid, "duration": dur, "title": title, "source": "TRPL Commercials playlist"}
+    feed = f"creative/video/feed/yt_{vid}.mp4"   # the file that gets uploaded to Meta (feeds); see llm.txt
+    if (pathlib.Path(__file__).resolve().parents[1] / feed).exists(): m["file"] = feed
     if vid in VERT:  # 9:16 version made with scripts/vertical.py, used in Stories/Reels
         m["vertical"] = {"src": f"creative/video/vertical/{VERT[vid]}-9x16.mp4", "poster": f"creative/video/vertical/{VERT[vid]}-9x16.jpg"}
     return m

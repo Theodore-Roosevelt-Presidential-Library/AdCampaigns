@@ -61,18 +61,34 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 - Preview URLs from Acquia are signed and expire; always download into creative/.
 - Use real Library photos only. No AI images, no architectural renderings.
 
-## Workflow: vertical (9:16) video
+## Workflow: video
+RULE (Matt): re-formatting a video must NEVER crop on-screen text — titles, captions, end cards,
+wall signs, screens. If a version would cut text, re-work it (widen the frame, rebuild the card)
+before it goes in an ad. Check every render with a contact sheet before using it.
+- Ads use embedded video files uploaded to Meta, never YouTube links. Feed files live in
+  creative/video/feed/yt_<id>.mp4 (720p h264); 9:16 cuts in creative/video/vertical/.
 - YouTube blocks cloud IPs. Download on Matt's Mac (linked computer) with yt-dlp in
   ~/Developer/AdCampaigns/.work/venv (gitignored): yt-dlp --js-runtimes node -f "bv*+ba" -- <id>
-  (prefix IDs that start with "-" with "--"). The Library owns these commercials.
-- AV1 downloads must be transcoded to h264 first (ffmpeg -c:v libx264) or OpenCV can't read them.
-- python3 scripts/vertical.py src.mp4 creative/video/vertical/<slug>-9x16.mp4 --mode reframe
-  [--fit-until 6 --fit-from 73.5]  → crops each shot around the people in it; keeps titles
-  and end cards as "fit" (whole frame on a blurred fill). Use --mode fit for videos with
-  burned-in text (Resolute, Arena). Make a poster: ffmpeg -ss 5 -i out.mp4 -frames:v 1 out.jpg
-- Register the slug in VERT in plan.py; the Stories mock then plays the vertical cut.
-- An editor-made 15-second vertical edit beats both modes. Boardwalk and Discover are
-  summer-heavy and feature the outgoing CEO; don't use them this winter.
+  (prefix IDs that start with "-" with "--"). Better still, ask for the editor's master export.
+- 9:16: python3 scripts/vertical.py src.mp4 creative/video/vertical/<slug>-9x16.mp4
+  It finds text (RapidOCR) and people in every shot: no text → 9:16 crop on the people; text that
+  fits → the crop keeps all of it; wide or moving text → the frame widens/goes full width over a
+  dark blur. Needs: pip install rapidocr-onnxruntime opencv-python-headless (container works; the
+  Mac VM is fine too). AV1/VP9 sources are transcoded automatically. --full A-B forces full width.
+- End cards with dated or stale lines (e.g. "This weekend: …", a year) get rebuilt as a still
+  card (keep the original type: cut each line from the card frame with a text mask, inpaint the
+  background with OpenCV, re-stack the lines for 9:16) and overlaid from the card's start time.
+  In the Room's cards: card-16x9 / card-9x16 were built this way (Oct 22).
+- Make a poster: ffmpeg -ss 5 -i out.mp4 -frames:v 1 out.jpg. Register the slug in VERT in plan.py.
+- Media shape for repo-hosted video: {type:"video", file, src(poster), feed:{file,src,ratio},
+  vertical:{src,poster}}. Commercials pick up file automatically from creative/video/feed/.
+- Boardwalk and Discover are summer-heavy and feature the outgoing CEO; don't use them this winter.
+
+## Mockups (mock.js)
+Meant to feel like the apps: "See more"/"more" expands text in place; feed videos autoplay muted
+when on screen (speaker button for sound, tap to pause) at their own aspect ratio; carousels swipe;
+in Stories each carousel card is its own panel with segmented progress bars (tap left/right,
+5 s per image), non-9:16 media sits on a blurred fill like Meta places it. Keep it that way.
 
 ## Season rule
 - creative/dam/catalog.json tags each photo season (summer/fall/any) and scene (indoor/outdoor).
