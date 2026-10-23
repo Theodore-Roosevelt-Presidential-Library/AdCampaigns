@@ -134,9 +134,10 @@
     const src = a.format === "catalog" ? "Shopify catalog" : a.format === "carousel" ? [...new Set(a.cards.map(c => c.media.source))].join(", ") : a.media.source;
     return `<div class="ad"><h4>${esc(a.name)}<span class="id">${esc(a.id)}</span></h4>${mock(a)}
       <dl class="spec">
+        ${a.for ? `<dt>Shown to</dt><dd>${esc(a.for)} ad set only</dd>` : ""}
         <dt>Format</dt><dd>${esc(a.format)}${a.flight ? " · runs " + esc(a.flight) : ""}</dd>
         <dt>Button</dt><dd>${esc(a.cta)}</dd>
-        <dt>Link</dt><dd><a href="${esc(a.tracked_url)}" target="_blank" rel="noopener">${esc(a.url)}</a> <span style="color:var(--ink-3)">+ UTMs</span></dd>
+        <dt>Link</dt><dd><a href="${esc(a.tracked_url)}" target="_blank" rel="noopener">${esc(a.url)}</a> <span style="color:var(--ink-3)">+ UTMs</span>${(a.cards || []).some(c => c.url) ? `<br>${a.cards.map(c => c.url ? `<span style="color:var(--ink-3)">${esc(c.headline)}:</span> <a href="${esc(c.tracked_url)}" target="_blank" rel="noopener">${esc(c.url.replace("https://www.trlibrary.com", ""))}</a>` : "").filter(Boolean).join("<br>")}` : ""}</dd>
         <dt>Creative</dt><dd>${esc(src)}${a.media && a.media.placeholder || a.placeholder ? ' · <span class="verify">placeholder</span>' : ""}</dd>
         ${a.verify ? `<dt>Verify</dt><dd><span class="verify">${esc(a.verify)}</span></dd>` : ""}
       </dl></div>`;

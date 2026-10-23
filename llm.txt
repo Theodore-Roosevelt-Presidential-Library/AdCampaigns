@@ -147,6 +147,14 @@ Every campaign in plan.py has spend.mode:
 - Don't assume people know Theodore Roosevelt National Park either. When it appears, say what it
   is (the national park next door: Badlands canyons, bison, wild horses, prairie dogs) and anchor
   far-away audiences on places they do know (Mount Rushmore, Yellowstone).
+- Outside ND and MN, nobody knows Medora. For ads that reach farther audiences, say what it is the
+  first time: "Medora, an Old West town in the North Dakota Badlands" (or "on I-94").
+- Destination campaigns (dest-*) sell the whole trip — the town, the park, trails, scenic drives,
+  dark skies — and link to trlibrary.com/visit pages and /visit/itineraries (20 road trips). In
+  dest-roadtrip each origin market's ad set gets only its own itinerary (the ad's "for" field).
+- Targeting notes: Meta can't see airline/hotel bookings. Use location type "People traveling in
+  this location" (pins on I-94, Bismarck/Dickinson/Billings, Black Hills) for people already nearby
+  (dest-nearby), and interests (Mount Rushmore, Yellowstone, Black Hills) for planners.
 - No current or future years in ad copy ("next summer", not a year).
 - A Library visit is 3½ hours. Never imply less. The free final hour is a first look, not a visit.
 - No "stunning", "breathtaking", "world-class", "transformative", "amazing".
