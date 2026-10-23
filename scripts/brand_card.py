@@ -42,7 +42,7 @@ def main():
     f = font(size); lh = int(size * 0.92)
     sub_f = ImageFont.truetype(str(F / "clearfacestd-italic.otf"), int(W * 0.042))
     block = lh * len(lines) + (int(W * 0.07) if a.sub else 0)
-    y = int(H * (0.08 if a.ratio != "9:16" else 0.17)  # 9:16: clear of the Stories header (top ~14%)) if a.pos == "top" else H - block - int(H * 0.09)
+    y = int(H * (0.08 if a.ratio != "9:16" else 0.17)) if a.pos == "top" else H - block - int(H * 0.09)
     for i, l in enumerate(lines, 1):
         col = COLORS[a.accent_color] if i == a.accent else COLORS[a.color]
         d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=col); y += lh
