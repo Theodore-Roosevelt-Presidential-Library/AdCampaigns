@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T14:24:59+00:00",
+ "generated": "2026-10-23T14:54:58+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -3871,8 +3871,7 @@
       "type": "image",
       "src": "creative/brand-cards/screens-skies-library-4x5.jpg",
       "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
-      "ratio": "4/5",
-      "story": "creative/brand-cards/screens-skies-library-9x16.jpg"
+      "ratio": "4/5"
      },
      "placements": [
       "fb_feed",

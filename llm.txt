@@ -99,6 +99,21 @@ before it goes in an ad. Check every render with a contact sheet before using it
   flight (first case: near-blackhills, the Black Hills-to-Medora carousel, Oct 23). validate.py
   then skips the season warning for that ad only.
 
+## Brand cards: how Peter sets them (Senior Graphic Designer; his cleanup, Oct 23)
+Peter's versions of the Trade Screens for Skies cards are the model. brand_card.py now copies his
+layout; the photo choice is on you. What he changed from the script's first draft:
+- Photo: golden-hour light on the building, deep blue sky with thin wispy cloud (no busy
+  cumulus behind the type), no vehicles or construction in frame. The building runs low across
+  the lower third, with clean golden grass in front. Warm, rich colour.
+- No dark fade over the sky. The dark sky carries the white type, with only a faint shadow.
+- Type is bigger: the headline fills the width inside 8.5% side margins, with tight leading.
+- The text block sits in open sky, starting about 19% down, with air above it. It isn't
+  pinned to the top edge.
+- The subline (ITC Clearface italic) is larger, about 5.5% of width, with clear space (about
+  4.5% of width) under the headline.
+- Files are delivered large (2576 px on the long side).
+If no photo fits, ask Peter, or have him finish the card, before publishing anything brand-led.
+
 ## Use lots of images (Matt)
 - Default to carousels. Itinerary ads show the trip stop by stop (one card per stop, in order,
   with the day in the headline) and every card links to the itinerary page. Use the photos on
@@ -178,8 +193,10 @@ Every campaign in plan.py has spend.mode:
   friendly with a ton to do; a real Western town that still feels authentic. Family ads show a
   family together outdoors ("trade screens for skies" is a working line) — demonstrate it, never
   say "get the kids off their phones" or name who it's for (the parent planning the trip).
-  "Trade Screens for Skies" is approved as a headline (brand_card.py, brand font and colors). Its
-  photo must show the Library, not the Medora sign: creative/dam/library-big-sky.jpg.
+  "Trade Screens for Skies" is approved as a headline. Its photo must show the Library, not the
+  Medora sign. The live cards (creative/brand-cards/screens-skies-library-1x1 and -4x5) are Peter
+  Troutner's finished versions (Oct 23): use them as they are, don't re-render them. There's no
+  9:16 version yet; ask Peter for one rather than making it.
 - Targeting notes: Meta can't see airline/hotel bookings. Use location type "People traveling in
   this location" (pins on I-94, Bismarck/Dickinson/Billings, Black Hills) for people already nearby
   (dest-nearby), and interests (Mount Rushmore, Yellowstone, Black Hills) for planners.
