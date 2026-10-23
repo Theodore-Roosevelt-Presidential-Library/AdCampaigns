@@ -11,7 +11,7 @@ if total < P["credit"]["total"]: warn.append(f"${P['credit']['total'] - total:,}
 exp = dt.date.fromisoformat(P["credit"]["expires"])
 BANNED = re.compile(r"\b(stunning|breathtaking|world-class|transformative|amazing|unforgettable journey)\b", re.I)
 YEAR = re.compile(r"\b20[2-9]\d\b")  # no current/future years in visitor copy
-CAT = {m["file"]: m for m in json.loads((ROOT / "creative" / "dam" / "catalog.json").read_text())}
+CAT = {m["file"]: m for f in ("dam", "web") for m in json.loads((ROOT / "creative" / f / "catalog.json").read_text())}
 def winter_overlap(s, e):  # flight touches Nov 15 – Mar 31 (snow/cold season)
     s, e = dt.date.fromisoformat(s), dt.date.fromisoformat(e)
     return e >= dt.date(2026, 11, 15)

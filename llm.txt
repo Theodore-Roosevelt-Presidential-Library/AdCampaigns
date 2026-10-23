@@ -53,6 +53,16 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 3. Preview: python3 -m http.server 8000, open http://localhost:8000
 4. Commit and push to main; the Action redeploys the site.
 
+## Workflow: partner and public photos (creative/web/)
+- Matt confirmed (Oct 22 2026) the Library has rights to use photos from Wikipedia/Wikimedia,
+  NPS, Medora.com / Discover Medora (TRMF), ND Tourism and trlibrary.com. Record the source anyway:
+  python3 scripts/fetch_web.py wiki <slug> <Wikipedia_Title>   |   url <slug> <img-url> "<source>"
+  Use an honest User-Agent; never spoof a browser to get past a 403 (ndtourism.com blocks scripts:
+  ask Matt for files from ND Tourism's media library instead). Wikimedia rate-limits cloud IPs.
+- trlibrary.com/visit pages already carry many park/town/trail photos (several from ND Tourism).
+- The itinerary pages' scrapbook illustrations are drawings, not photos — don't use them in ads.
+- Tag season/scene in creative/web/catalog.json; validate.py applies the season rule to them too.
+
 ## Workflow: add photos
 - Public press portal (no token): python3 scripts/fetch_dam.py list
   python3 scripts/fetch_dam.py sheet action --out sheets   → look at the contact sheets
@@ -152,6 +162,11 @@ Every campaign in plan.py has spend.mode:
 - Destination campaigns (dest-*) sell the whole trip — the town, the park, trails, scenic drives,
   dark skies — and link to trlibrary.com/visit pages and /visit/itineraries (20 road trips). In
   dest-roadtrip each origin market's ad set gets only its own itinerary (the ad's "for" field).
+- Positioning for destination ads (Matt): Medora is undiscovered outside ND/MN; bison and wild
+  horses are far easier to see than in Yellowstone (and without the crowds); it's very family
+  friendly with a ton to do; a real Western town that still feels authentic. Family ads show a
+  family together outdoors ("trade screens for skies" is a working line) — demonstrate it, never
+  say "get the kids off their phones" or name who it's for (the parent planning the trip).
 - Targeting notes: Meta can't see airline/hotel bookings. Use location type "People traveling in
   this location" (pins on I-94, Bismarck/Dickinson/Billings, Black Hills) for people already nearby
   (dest-nearby), and interests (Mount Rushmore, Yellowstone, Black Hills) for planners.

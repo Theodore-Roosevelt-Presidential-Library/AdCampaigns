@@ -21,10 +21,10 @@
   const color = p => `var(--s${PROGRAMS.indexOf(p) + 1})`;
   const fetchJSON = (u, fb) => fetch(u, { cache: "no-store" }).then(r => r.ok ? r.json() : fb).catch(() => fb);
 
-  let PLAN, LIVE, CAT, filter = "all";
+  let PLAN, LIVE, CAT, filter = "all", WEB = [];
 
-  Promise.all([fetchJSON("data/campaigns.json", null), fetchJSON("data/live.json", { campaigns: [] }), fetchJSON("creative/dam/catalog.json", [])])
-    .then(([p, l, c]) => { PLAN = p; LIVE = l; CAT = c; boot(); });
+  Promise.all([fetchJSON("data/campaigns.json", null), fetchJSON("data/live.json", { campaigns: [] }), fetchJSON("creative/dam/catalog.json", []), fetchJSON("creative/web/catalog.json", [])])
+    .then(([p, l, c, w]) => { PLAN = p; LIVE = l; CAT = c; WEB = w; boot(); });
 
   function boot() {
     $("#asof").textContent = "plan updated " + new Date(PLAN.generated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) +
@@ -254,6 +254,8 @@
         <div class="grid-lib">${vids.map(([id, t, d]) => { const u = used.get(`creative/video/yt_${id}.jpg`) || []; const file = FILES.has(id) ? `creative/video/feed/yt_${id}.mp4` : ""; return `<figure><div class="m" style="width:auto;flex:none;border:0;border-radius:0"><div class="media" style="aspect-ratio:16/9">${file ? `<video src="${file}" poster="creative/video/yt_${id}.jpg" preload="none" controls playsinline style="width:100%;height:100%;object-fit:cover"></video>` : `<img loading="lazy" src="creative/video/yt_${id}.jpg" alt="${esc(t)}"><div class="play" data-yt="${id}"><span></span></div><span class="dur">${d}</span>`}</div></div><figcaption><b>${esc(t)}</b>${u.length ? `<br>Used in: ${u.map(esc).join(", ")}` : ""}</figcaption></figure>`; }).join("")}</div></div>
       <div class="group"><h2>Acquia DAM <span class="meta">${CAT.length} photos</span></h2><p class="gdesc">Press portal galleries: Library in Action, Building Photography, Campfire and Prairie Talks, B-roll.</p>
         <div class="grid-lib">${CAT.map(c => fig(c.file, c.file.split("/").pop().replace(".jpg", ""), `${c.filename} · ${c.gallery}`)).join("")}</div></div>
+      <div class="group"><h2>Partner and public photos <span class="meta">${WEB.length} photos</span></h2><p class="gdesc">The national park, Medora and road-trip stops, from trlibrary.com/visit, NPS, Medora.com (TRMF) and Wikipedia. Pulled with <code>scripts/fetch_web.py</code>; source on each.</p>
+        <div class="grid-lib">${WEB.map(c => fig(c.file, c.file.split("/").pop().replace(".jpg", ""), c.source)).join("")}</div></div>
       <div class="group"><h2>Salt+Scoria <span class="meta">8 photos</span></h2><p class="gdesc">From saltandscoria.com. Not in the DAM yet; add them so they live with the rest of the image bank.</p>
         <div class="grid-lib">${["trpl-saltscoria_general-026", "trpl-saltscoria_general-027", "trpl-saltscoria_general-029", "trpl-saltscoria_general-033", "trpl-saltscoria_general-034", "trpl-saltscoria_general-047", "dsc00636-2", "dsc00885"].map(s => fig(`creative/saltscoria/${s}.jpg`, s, "saltandscoria.com")).join("")}</div></div>`;
   }

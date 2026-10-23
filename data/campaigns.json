@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:31:34+00:00",
+ "generated": "2026-10-23T03:47:44+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -12,7 +12,7 @@
   "instagram_id": "17841426268646366"
  },
  "reserve": {
-  "budget": 3000,
+  "budget": 2000,
   "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."
  },
  "guardrails": [
@@ -319,8 +319,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/rust-walls-golden.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/bison-trnp.jpg",
+        "source": "trlibrary.com/visit/national-park"
        },
        "headline": "Afternoon with the bison",
        "desc": "National park next door"
@@ -371,7 +371,7 @@
    "optimization": "Purchase (ACME pixel) — Landing page views until the ticketing site fires the pixel",
    "start": "2026-12-03",
    "end": "2027-01-19",
-   "budget": 18000,
+   "budget": 15000,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -438,8 +438,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/couple-overlook.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/bison-trnp.jpg",
+        "source": "trlibrary.com/visit/national-park"
        },
        "headline": "Then find bison in the Badlands",
        "desc": "Theodore Roosevelt National Park"
@@ -517,18 +517,18 @@
    ],
    "status": "proposed",
    "days": 48,
-   "daily": 375.0,
+   "daily": 312.5,
    "schedule": [
     {
      "start": "2026-12-03",
      "end": "2026-12-09",
-     "daily": 131.25,
+     "daily": 109.38,
      "phase": "test"
     },
     {
      "start": "2026-12-10",
      "end": "2027-01-19",
-     "daily": 416.62,
+     "daily": 347.18,
      "phase": "scale"
     }
    ]
@@ -543,7 +543,7 @@
    "optimization": "Landing page views (Purchase once the ACME pixel is live)",
    "start": "2026-11-20",
    "end": "2027-01-19",
-   "budget": 18000,
+   "budget": 17000,
    "spend": {
     "mode": "test",
     "test_days": 5,
@@ -679,18 +679,18 @@
    ],
    "status": "proposed",
    "days": 61,
-   "daily": 295.08,
+   "daily": 278.69,
    "schedule": [
     {
      "start": "2026-11-20",
      "end": "2026-11-24",
-     "daily": 103.28,
+     "daily": 97.54,
      "phase": "test"
     },
     {
      "start": "2026-11-25",
      "end": "2027-01-19",
-     "daily": 312.21,
+     "daily": 294.86,
      "phase": "scale"
     }
    ]
@@ -1542,7 +1542,7 @@
    "optimization": "ThruPlay",
    "start": "2026-10-28",
    "end": "2027-01-19",
-   "budget": 10000,
+   "budget": 8000,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -1662,18 +1662,18 @@
    ],
    "status": "proposed",
    "days": 84,
-   "daily": 119.05,
+   "daily": 95.24,
    "schedule": [
     {
      "start": "2026-10-28",
      "end": "2026-11-03",
-     "daily": 59.52,
+     "daily": 47.62,
      "phase": "test"
     },
     {
      "start": "2026-11-04",
      "end": "2027-01-19",
-     "daily": 124.46,
+     "daily": 99.57,
      "phase": "scale"
     }
    ]
@@ -1787,8 +1787,8 @@
      "url": "https://www.trlibrary.com/tickets",
      "media": {
       "type": "image",
-      "src": "creative/dam/rough-riders-group.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/nps-bison-line.jpg",
+      "source": "NPS / Theodore Roosevelt National Park"
      },
      "placements": [
       "fb_feed",
@@ -1826,7 +1826,7 @@
    "optimization": "Landing page views on trlibrary.com/visit pages",
    "start": "2026-12-26",
    "end": "2027-01-19",
-   "budget": 7000,
+   "budget": 6000,
    "spend": {
     "mode": "test",
     "test_days": 5,
@@ -1853,7 +1853,7 @@
     }
    ],
    "open_items": [
-    "Photos: the Library's DAM has no national-park, Medora Musical or trail photos. Swap in real ones (NPS public-domain TRNP photos, TRMF/Medora partner photos with permission) before launch; current images are Library Badlands shots.",
+    "Photos from trlibrary.com/visit, NPS and Medora.com (TRMF); Matt confirmed rights. Sources are listed in creative/web/catalog.json.",
     "Medora Musical and Pitchfork Steak Fondue are summer-only; the copy says 'summer nights'. Confirm the season dates with TRMF.",
     "Confirm Maah Daah Hey length (144 miles is the commonly cited figure) before launch."
    ],
@@ -1862,17 +1862,16 @@
      "id": "dest-why-carousel",
      "name": "More than a museum stop",
      "format": "carousel",
-     "primary": "Medora is a small Old West town in the North Dakota Badlands, and there's a lot to do here: a national park with bison and wild horses at the edge of town, trails for days, dark skies and the new Theodore Roosevelt Presidential Library.",
+     "primary": "Most people haven't found Medora yet. It's a real Western town in the North Dakota Badlands, with bison and wild horses you can watch from the car, trails, horseback rides, a summer musical under the stars and the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit",
      "sells": "summer",
-     "placeholder": true,
      "cards": [
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/overlook-badlands.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/bison-jam.jpg",
+        "source": "trlibrary.com/visit/national-park"
        },
        "headline": "A national park next door",
        "desc": "Bison, wild horses, prairie dogs",
@@ -1882,8 +1881,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/bikes-sunset.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/maah-daah-hey.jpg",
+        "source": "trlibrary.com/visit/biking"
        },
        "headline": "Ride or hike the Badlands",
        "desc": "The Maah Daah Hey Trail",
@@ -1893,8 +1892,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/aerial-wide.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/painted-canyon.jpg",
+        "source": "trlibrary.com/visit/scenic-drives"
        },
        "headline": "Scenic drives from town",
        "desc": "Overlooks, canyons, wildlife",
@@ -1904,8 +1903,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/roof-walk-dusk.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/stargazing-medora-sign.jpg",
+        "source": "trlibrary.com/visit/stargazing"
        },
        "headline": "Some of the darkest skies around",
        "desc": "Milky Way and northern lights",
@@ -1915,10 +1914,10 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/terrace-crowd.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/medora-musical.jpg",
+        "source": "trlibrary.com/visit/medora"
        },
-       "headline": "An Old West town",
+       "headline": "A real Western town",
        "desc": "Summer nights at the Medora Musical",
        "url": "https://www.trlibrary.com/visit/medora",
        "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-why-carousel-5"
@@ -1953,8 +1952,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/one-day",
      "media": {
       "type": "image",
-      "src": "creative/dam/couple-overlook.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/nps-painted-butte.jpg",
+      "source": "NPS / Theodore Roosevelt National Park"
      },
      "sells": "summer",
      "placements": [
@@ -1975,8 +1974,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
      "media": {
       "type": "image",
-      "src": "creative/dam/terrace-view.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/medora-musical-show.jpg",
+      "source": "Medora.com (TRMF)"
      },
      "sells": "summer",
      "placements": [
@@ -1989,18 +1988,18 @@
    ],
    "status": "proposed",
    "days": 25,
-   "daily": 280.0,
+   "daily": 240.0,
    "schedule": [
     {
      "start": "2026-12-26",
      "end": "2026-12-30",
-     "daily": 98.0,
+     "daily": 84.0,
      "phase": "test"
     },
     {
      "start": "2026-12-31",
      "end": "2027-01-19",
-     "daily": 325.5,
+     "daily": 279.0,
      "phase": "scale"
     }
    ]
@@ -2115,8 +2114,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
      "media": {
       "type": "image",
-      "src": "creative/dam/aerial-wide.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/bison-ridge.jpg",
+      "source": "trlibrary.com/visit/scenic-drives"
      },
      "sells": "summer",
      "placements": [
@@ -2138,8 +2137,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
      "media": {
       "type": "image",
-      "src": "creative/dam/hero-prairie-sky.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/wild-horses.jpg",
+      "source": "trlibrary.com/visit/outdoors"
      },
      "sells": "summer",
      "placements": [
@@ -2161,8 +2160,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
      "media": {
       "type": "image",
-      "src": "creative/dam/couple-overlook.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/nps-little-missouri.jpg",
+      "source": "NPS / Theodore Roosevelt National Park"
      },
      "sells": "summer",
      "placements": [
@@ -2185,8 +2184,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/hero-badlands-wide.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/devils-tower.jpg",
+        "source": "Wikipedia / Wikimedia Commons"
        },
        "headline": "Denver to Salt Lake City",
        "desc": "10 days, 5 national parks",
@@ -2196,8 +2195,8 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/dam/riders-on-prairie.jpg",
-        "source": "Acquia DAM"
+        "src": "creative/web/grand-teton.jpg",
+        "source": "Wikipedia / Wikimedia Commons"
        },
        "headline": "Denver to Jackson Hole",
        "desc": "13 days, with a Snake River float",
@@ -2235,8 +2234,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
      "media": {
       "type": "image",
-      "src": "creative/dam/riders-on-prairie.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/yellowstone-old-faithful.jpg",
+      "source": "Wikipedia / Wikimedia Commons"
      },
      "sells": "summer",
      "placements": [
@@ -2258,8 +2257,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
      "media": {
       "type": "image",
-      "src": "creative/dam/bikes-sunset.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/wind-canyon.jpg",
+      "source": "trlibrary.com/visit/biking"
      },
      "sells": "summer",
      "placements": [
@@ -2281,8 +2280,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/north-on-29",
      "media": {
       "type": "image",
-      "src": "creative/dam/overlook-badlands.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/corn-palace.jpg",
+      "source": "Wikipedia / Wikimedia Commons"
      },
      "sells": "summer",
      "placements": [
@@ -2296,18 +2295,57 @@
      "id": "rt-triangle",
      "for": "Sun Belt",
      "name": "The Roosevelt Triangle",
-     "format": "image",
-     "primary": "Mount Rushmore, Yellowstone and the North Dakota Badlands: three corners of one big Western road trip. In the Badlands corner is Medora, an Old West town with a national park and the new Theodore Roosevelt Presidential Library.",
-     "headline": "The Roosevelt Triangle",
-     "desc": "A road-trip guide from the Library",
+     "format": "carousel",
+     "primary": "Mount Rushmore, Yellowstone and the North Dakota Badlands: three corners of one big Western road trip. In the Badlands corner is Medora, a real Western town most people haven't found yet, with bison, wild horses and the new Theodore Roosevelt Presidential Library.",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle",
-     "media": {
-      "type": "image",
-      "src": "creative/dam/aerial-overlook.jpg",
-      "source": "Acquia DAM"
-     },
      "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/mount-rushmore.jpg",
+        "source": "Wikipedia / Wikimedia Commons"
+       },
+       "headline": "Mount Rushmore",
+       "desc": "About 4½ hours to Medora",
+       "url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/yellowstone-old-faithful.jpg",
+        "source": "Wikipedia / Wikimedia Commons"
+       },
+       "headline": "Yellowstone",
+       "desc": "About 6½ hours to Medora",
+       "url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-jam.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "The North Dakota Badlands",
+       "desc": "Medora + the national park",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/rough-riders-photo.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Theodore Roosevelt's story",
+       "desc": "The new presidential library",
+       "url": "https://www.trlibrary.com/visit/exhibits",
+       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-roadtrip&utm_content=rt-triangle-4"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -2327,8 +2365,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
      "media": {
       "type": "image",
-      "src": "creative/dam/kids-interactive.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/nps-painted-butte.jpg",
+      "source": "NPS / Theodore Roosevelt National Park"
      },
      "placements": [
       "fb_feed",
@@ -2374,6 +2412,215 @@
      "start": "2027-01-03",
      "end": "2027-01-19",
      "daily": 541.44,
+     "phase": "scale"
+    }
+   ]
+  },
+  {
+   "id": "dest-family",
+   "program": "Tickets & visits",
+   "revenue": false,
+   "priority": 1,
+   "name": "DESTINATION: Trade screens for skies (family trips)",
+   "objective": "Traffic",
+   "optimization": "Landing page views on /visit and the family itineraries",
+   "start": "2026-12-26",
+   "end": "2027-01-19",
+   "budget": 8000,
+   "spend": {
+    "mode": "test",
+    "test_days": 5,
+    "test_frac": 0.35,
+    "metric": "Cost per landing page view",
+    "target": "$0.90 or less",
+    "decide_on": "2026-12-30"
+   },
+   "why": "The parent planning the summer trip wants everyone to have fun and actually be together. Medora delivers that without being told: bison from the back seat, a trail ride, steaks cooked on pitchforks, a musical under the stars, a campfire story inside the Library. The ads show those moments; they never mention phones or who is planning.",
+   "audiences": [
+    {
+     "name": "Parents, drive market",
+     "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
+     "age": "30–50",
+     "detail": "Parents with kids 5–17, family vacations, road trips, national parks",
+     "share": 0.45
+    },
+    {
+     "name": "Parents, farther away",
+     "geo": "MN (Twin Cities), CO (Denver), NE, IA, WI, IL, plus TX, CA, FL, AZ — the next-largest origin states after the drive market",
+     "age": "30–50",
+     "detail": "Parents with kids 5–17, family vacations, RV travel, national parks",
+     "share": 0.55
+    }
+   ],
+   "open_items": [
+    "'Trade screens for skies' is a working line; Matt to approve before it appears in ads.",
+    "Family photos come from Medora.com (TRMF), trlibrary.com and NPS (rights confirmed by Matt). Sources in creative/web/catalog.json."
+   ],
+   "ads": [
+    {
+     "id": "fam-carousel",
+     "name": "Trade screens for skies",
+     "format": "carousel",
+     "primary": "Trade screens for skies. In Medora, a real Western town in the North Dakota Badlands, the kids count bison out the window, ride horses into the hills and fall asleep under more stars than they've ever seen. And the new Theodore Roosevelt Presidential Library is right in town.",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit",
+     "sells": "summer",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/bison-jam.jpg",
+        "source": "trlibrary.com/visit/national-park"
+       },
+       "headline": "Bison out the window",
+       "desc": "In the national park next door",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/trail-ride-sunset.jpg",
+        "source": "trlibrary.com/visit/biking"
+       },
+       "headline": "Saddle up",
+       "desc": "Trail rides into the Badlands",
+       "url": "https://www.trlibrary.com/visit/activities",
+       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/pitchfork-kid.jpg",
+        "source": "Medora.com (TRMF)"
+       },
+       "headline": "Steak on a pitchfork",
+       "desc": "Pitchfork Steak Fondue",
+       "url": "https://www.trlibrary.com/visit/eat",
+       "tracked_url": "https://www.trlibrary.com/visit/eat?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/medora-musical-audience.jpg",
+        "source": "Medora.com (TRMF)"
+       },
+       "headline": "Cheer at the Medora Musical",
+       "desc": "Summer nights outdoors",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/kid-laughing.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Campfire stories",
+       "desc": "Inside the Library",
+       "url": "https://www.trlibrary.com/visit/exhibits",
+       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/stargazing-medora-sign.jpg",
+        "source": "trlibrary.com/visit/stargazing"
+       },
+       "headline": "More stars than you've seen",
+       "desc": "Dark Badlands skies",
+       "url": "https://www.trlibrary.com/visit/stargazing",
+       "tracked_url": "https://www.trlibrary.com/visit/stargazing?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-6"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel"
+    },
+    {
+     "id": "fam-downtown",
+     "name": "Race you down Main Street",
+     "format": "image",
+     "primary": "Race you to the end of Main Street. Medora is a real Western town in the North Dakota Badlands where the whole family has something to do: wild horses, trail rides, a pool, mini golf, a cowboy musical and the new Theodore Roosevelt Presidential Library.",
+     "headline": "A family trip to the Badlands",
+     "desc": "Medora, North Dakota",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+     "media": {
+      "type": "image",
+      "src": "creative/web/downtown-family.jpg",
+      "source": "Medora.com (TRMF)"
+     },
+     "sells": "summer",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-downtown"
+    },
+    {
+     "id": "fam-wildlife",
+     "name": "Wildlife without the crowds",
+     "format": "image",
+     "primary": "Bison and wild horses, close enough to see from the car and without the crowds. Theodore Roosevelt National Park sits at the edge of Medora, North Dakota, a real Western town, next to the new Theodore Roosevelt Presidential Library.",
+     "headline": "Bison, wild horses, no crowds",
+     "desc": "Medora, North Dakota",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit/national-park",
+     "media": {
+      "type": "image",
+      "src": "creative/web/wild-horses.jpg",
+      "source": "trlibrary.com/visit/outdoors"
+     },
+     "sells": "summer",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-wildlife"
+    },
+    {
+     "id": "fam-pool",
+     "name": "Summer in Medora",
+     "format": "image",
+     "primary": "Mornings in the national park, afternoons at the pool, evenings at a cowboy musical. Summer in Medora, North Dakota, a small Western town in the Badlands with the new Theodore Roosevelt Presidential Library at its edge.",
+     "headline": "Plan a summer in the Badlands",
+     "desc": "Itineraries from the Library",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
+     "media": {
+      "type": "image",
+      "src": "creative/web/medora-pool.jpg",
+      "source": "Medora.com (TRMF)"
+     },
+     "sells": "summer",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit/itineraries/3-days-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-pool"
+    }
+   ],
+   "status": "proposed",
+   "days": 25,
+   "daily": 320.0,
+   "schedule": [
+    {
+     "start": "2026-12-26",
+     "end": "2026-12-30",
+     "daily": 112.0,
+     "phase": "test"
+    },
+    {
+     "start": "2026-12-31",
+     "end": "2027-01-19",
+     "daily": 372.0,
      "phase": "scale"
     }
    ]
@@ -2435,8 +2682,8 @@
      "url": "https://www.trlibrary.com/tickets",
      "media": {
       "type": "image",
-      "src": "creative/dam/memory-train.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/library-night.jpg",
+      "source": "trlibrary.com/visit/stargazing"
      },
      "placements": [
       "fb_feed",
@@ -2479,8 +2726,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
      "media": {
       "type": "image",
-      "src": "creative/dam/rough-riders-group.jpg",
-      "source": "Acquia DAM"
+      "src": "creative/web/nps-bison-line.jpg",
+      "source": "NPS / Theodore Roosevelt National Park"
      },
      "placements": [
       "fb_feed",
