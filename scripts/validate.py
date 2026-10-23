@@ -25,7 +25,14 @@ for c in P["campaigns"]:
     sched_total = sum(x["daily"] * ((dt.date.fromisoformat(x["end"]) - dt.date.fromisoformat(x["start"])).days + 1) for x in sched)
     if not sched or abs(sched_total - c["budget"]) > max(5, c["budget"] * .002): err.append(f"{c['id']}: schedule sums to ${sched_total:,.0f}, budget is ${c['budget']:,}")
     if c.get("spend", {}).get("mode") not in ("test", "burst"): err.append(f"{c['id']}: spend mode must be test or burst")
+    # Most people have never heard of the Library: any ad that can reach a cold audience must say
+    # what and where it is. Only campaigns aimed entirely at warm audiences may skip it.
+    cold = any(not re.search(r"warm|past visitors|retarget", x["name"], re.I) for x in c["audiences"])
     for a in c["ads"]:
+        if cold:
+            allt = " ".join([a.get("primary", ""), a.get("headline", ""), a.get("desc", "")])
+            if "Theodore Roosevelt Presidential Library" not in allt: err.append(f"{a['id']}: cold audience — name the Theodore Roosevelt Presidential Library")
+            if not re.search(r"Medora|North Dakota", allt): err.append(f"{a['id']}: cold audience — say where it is (Medora, North Dakota)")
         if a["id"] in ids: err.append(f"duplicate ad id {a['id']}")
         ids.add(a["id"])
         texts = [a.get("primary", ""), a.get("headline", ""), a.get("desc", "")] + [x.get("headline", "") + " " + x.get("desc", "") for x in a.get("cards", [])]

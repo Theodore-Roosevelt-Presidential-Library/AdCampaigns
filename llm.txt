@@ -139,7 +139,11 @@ Every campaign in plan.py has spend.mode:
   call_to_action_type,link}}]}]}
   Budgets are in cents (Meta's format); amount_spent is in dollars.
 
-## Copy rules (validate.py enforces the first three)
+## Copy rules (validate.py enforces the first four)
+- Assume the reader has never heard of the Library. Any ad that can reach a cold audience names
+  "the (new) Theodore Roosevelt Presidential Library" and says where it is (Medora, North Dakota),
+  ideally in the first 125 characters (what shows before "See more"). Explain features like the
+  Memory Train in passing. Only all-warm campaigns (retargeting) may skip the introduction.
 - No current or future years in ad copy ("next summer", not a year).
 - A Library visit is 3½ hours. Never imply less. The free final hour is a first look, not a visit.
 - No "stunning", "breathtaking", "world-class", "transformative", "amazing".
