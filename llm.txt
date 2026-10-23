@@ -195,8 +195,10 @@ Every campaign in plan.py has spend.mode:
   say "get the kids off their phones" or name who it's for (the parent planning the trip).
   "Trade Screens for Skies" is approved as a headline. Its photo must show the Library, not the
   Medora sign. The live cards (creative/brand-cards/screens-skies-library-1x1 and -4x5) are Peter
-  Troutner's finished versions (Oct 23): use them as they are, don't re-render them. There's no
-  9:16 version yet; ask Peter for one rather than making it.
+  Troutner's finished versions (Oct 23): use them as they are, don't re-render them. The 9:16 is
+  adapted from his 4:5: his type and the building are untouched, the sky above the headline is
+  stretched upward, and the grass below the building is stretched downward. Never stretch rows
+  that hold type or the building. Peter should sign off on the 9:16 before launch.
 - Targeting notes: Meta can't see airline/hotel bookings. Use location type "People traveling in
   this location" (pins on I-94, Bismarck/Dickinson/Billings, Black Hills) for people already nearby
   (dest-nearby), and interests (Mount Rushmore, Yellowstone, Black Hills) for planners.
