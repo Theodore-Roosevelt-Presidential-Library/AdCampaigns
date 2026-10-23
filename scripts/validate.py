@@ -49,8 +49,8 @@ for c in P["campaigns"]:
             for v in ([m["vertical"]["src"], m["vertical"]["poster"]] if m.get("vertical") else []) + ([m["story"]] if m.get("story") else []):
                 if not (ROOT / v).exists(): err.append(f"{a['id']}: missing vertical {v}")
             cm = CAT.get(m["src"])
-            if cm and cm.get("season") == "summer" and winter_overlap(c["start"], c["end"]) and a.get("sells") != "summer":
-                warn.append(f"{a['id']}: summer photo {m['src'].split('/')[-1]} in an ad that runs in winter (mark sells:'summer' only if the ad sells a summer trip)")
+            if cm and cm.get("season") == "summer" and winter_overlap(c["start"], c["end"]) and a.get("sells") != "summer" and not a.get("season_ok"):
+                warn.append(f"{a['id']}: summer photo {m['src'].split('/')[-1]} in an ad that runs in winter (mark sells:'summer' if the ad sells a summer trip, or season_ok:'<who, why>' once Matt approves)")
 for w in warn: print("WARN ", w)
 for e in err: print("ERROR", e)
 print(f"{len(P['campaigns'])} campaigns · ${total:,} planned incl. reserve · {len(err)} errors · {len(warn)} warnings")

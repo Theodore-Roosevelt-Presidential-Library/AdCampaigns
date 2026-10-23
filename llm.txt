@@ -94,6 +94,11 @@ before it goes in an ad. Check every render with a contact sheet before using it
   vertical:{src,poster}}. Commercials pick up file automatically from creative/video/feed/.
 - Boardwalk and Discover are summer-heavy and feature the outgoing CEO; don't use them this winter.
 
+## Season overrides
+- An ad can carry season_ok:"<who, date: why>" when Matt has approved summer photos in a winter
+  flight (first case: near-blackhills, the Black Hills-to-Medora carousel, Oct 23). validate.py
+  then skips the season warning for that ad only.
+
 ## Use lots of images (Matt)
 - Default to carousels. Itinerary ads show the trip stop by stop (one card per stop, in order,
   with the day in the headline) and every card links to the itinerary page. Use the photos on
