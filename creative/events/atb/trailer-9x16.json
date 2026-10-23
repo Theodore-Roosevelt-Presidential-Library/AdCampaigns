@@ -1,7 +1,210 @@
 {
  "source": "trailer-4x5.mp4",
- "mode": "fit",
- "fit_from": null,
- "fit_until": null,
- "shots": []
+ "mode": "auto",
+ "full": [],
+ "crop_width": 758,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 5.208,
+   "x": 240,
+   "w": 758,
+   "fill": true,
+   "people": true,
+   "text": [
+    "America,"
+   ]
+  },
+  {
+   "start": 5.208,
+   "end": 9.75,
+   "x": 147,
+   "w": 784,
+   "fill": false,
+   "people": true,
+   "text": [
+    "A land of vast beauty and endless wonder",
+    "A land of vast beauty and endless wonder."
+   ]
+  },
+  {
+   "start": 9.75,
+   "end": 12.208,
+   "x": 37,
+   "w": 1004,
+   "fill": false,
+   "people": true,
+   "text": [
+    "From towering farests to mountains that touch the sky",
+    "From towering forests to mountains that touch the sky",
+    "From towering forests to mountains thattouch the sky",
+    "Fromtowering",
+    "g forests to.mountains that touch the sky."
+   ]
+  },
+  {
+   "start": 12.208,
+   "end": 14.667,
+   "x": 35,
+   "w": 1032,
+   "fill": false,
+   "people": true,
+   "text": [
+    "From towering forests to mountains that touch the sky."
+   ]
+  },
+  {
+   "start": 14.667,
+   "end": 17.125,
+   "x": 91,
+   "w": 896,
+   "fill": false,
+   "people": false,
+   "text": [
+    "These places are more than beautiful landscapes."
+   ]
+  },
+  {
+   "start": 17.125,
+   "end": 19.333,
+   "x": 90,
+   "w": 896,
+   "fill": false,
+   "people": false,
+   "text": [
+    "These places are more than beautiful landscapes."
+   ]
+  },
+  {
+   "start": 19.333,
+   "end": 21.667,
+   "x": 120,
+   "w": 758,
+   "fill": true,
+   "people": true,
+   "text": [
+    "They are the living heart of America."
+   ]
+  },
+  {
+   "start": 21.667,
+   "end": 23.75,
+   "x": 161,
+   "w": 758,
+   "fill": true,
+   "people": false,
+   "text": [
+    "They are the living heart of America."
+   ]
+  },
+  {
+   "start": 23.75,
+   "end": 28.5,
+   "x": 161,
+   "w": 758,
+   "fill": true,
+   "people": false,
+   "text": [
+    "Join me on an epic giant screen jouney",
+    "Joln me on an epicgiantscreen jouney",
+    "folnmeonanepicgiantscreen jouney",
+    "that showcases our stunning landscapes"
+   ]
+  },
+  {
+   "start": 28.5,
+   "end": 31.083,
+   "x": 32,
+   "w": 1004,
+   "fill": false,
+   "people": false,
+   "text": [
+    "And the people who helped to conserve them for future",
+    "generations.",
+    "that showcases our stunning landscapes"
+   ]
+  },
+  {
+   "start": 31.083,
+   "end": 33.25,
+   "x": 32,
+   "w": 1010,
+   "fill": false,
+   "people": true,
+   "text": [
+    "And the people who helped to conserve them for future",
+    "generations,",
+    "generations."
+   ]
+  },
+  {
+   "start": 33.25,
+   "end": 35.542,
+   "x": 30,
+   "w": 1008,
+   "fill": false,
+   "people": true,
+   "text": [
+    "And the peoplewho helped to conserve them for future",
+    "And thepeoplewhohelpedto conservethem forfuture",
+    "And thepeoplewhohelpedto conservethemforfuture",
+    "Andthepeoplewhohelped toconservethemforfuture",
+    "generations."
+   ]
+  },
+  {
+   "start": 35.542,
+   "end": 38.167,
+   "x": 161,
+   "w": 758,
+   "fill": true,
+   "people": false,
+   "text": [
+    "This is America's heritage",
+    "This is America's heritage."
+   ]
+  },
+  {
+   "start": 38.167,
+   "end": 40.458,
+   "x": 161,
+   "w": 758,
+   "fill": true,
+   "people": false,
+   "text": [
+    "This is America's future",
+    "This is America'sfuture",
+    "ThisisAmerica's future"
+   ]
+  },
+  {
+   "start": 40.458,
+   "end": 42.708,
+   "x": 154,
+   "w": 758,
+   "fill": true,
+   "people": true,
+   "text": [
+    "And the story is still being written."
+   ]
+  },
+  {
+   "start": 42.708,
+   "end": 48.333,
+   "x": 0,
+   "w": 1080,
+   "fill": false,
+   "people": false,
+   "text": [
+    "AMERICA THEBEAUTIFUL",
+    "AMERICATHE BEAUTIFUL",
+    "And the story is still being written.",
+    "And the storyis still beingwritten.",
+    "And thestoryis still beingwritten.",
+    "And thestoryisstill beingwritten.",
+    "Andthestoryis still being written.",
+    "CELEBRATING THE25OTHANNIVERSARY"
+   ]
+  }
+ ]
 }

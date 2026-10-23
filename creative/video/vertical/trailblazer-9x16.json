@@ -1,278 +1,494 @@
 {
- "source": "tb_h264.mp4",
- "mode": "reframe",
- "fit_from": 77.5,
- "fit_until": null,
+ "source": "qrwdZmqFO5A.mp4",
+ "mode": "auto",
+ "full": [],
+ "crop_width": 606,
  "shots": [
   {
    "start": 0.0,
    "end": 0.5,
-   "x": 656,
-   "people": false
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
    "start": 0.5,
    "end": 2.25,
-   "x": 1047,
-   "people": true
+   "x": 1048,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
    "start": 2.25,
-   "end": 3.88,
-   "x": 483,
-   "people": true
+   "end": 3.875,
+   "x": 645,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 3.88,
-   "end": 5.08,
-   "x": 867,
-   "people": true
+   "start": 3.875,
+   "end": 5.083,
+   "x": 866,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 5.08,
-   "end": 6.58,
-   "x": 803,
-   "people": true
+   "start": 5.083,
+   "end": 6.583,
+   "x": 808,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 6.58,
-   "end": 8.79,
-   "x": 1048,
-   "people": true
+   "start": 6.583,
+   "end": 8.792,
+   "x": 859,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 8.79,
-   "end": 10.12,
-   "x": 656,
-   "people": false
+   "start": 8.792,
+   "end": 10.125,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
-   "start": 10.12,
-   "end": 11.33,
-   "x": 849,
-   "people": true
+   "start": 10.125,
+   "end": 11.333,
+   "x": 332,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "ADVENTURE",
+    "JOIN THEODORE RODSEVELT'S",
+    "JOIN THEODORE ROOSEVELT'S",
+    "TAP YOUR COMHASS",
+    "TAP YOUR COMIASS",
+    "TAP YOUR COMPASS",
+    "TO BEGIN"
+   ]
   },
   {
-   "start": 11.33,
-   "end": 12.38,
-   "x": 656,
-   "people": false
+   "start": 11.333,
+   "end": 12.375,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
-   "start": 12.38,
-   "end": 13.46,
-   "x": 622,
-   "people": true
+   "start": 12.375,
+   "end": 13.458,
+   "x": 494,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 13.46,
+   "start": 13.458,
    "end": 15.25,
-   "x": 656,
-   "people": false
+   "x": 1314,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
    "start": 15.25,
-   "end": 18.46,
-   "x": 273,
-   "people": true
+   "end": 18.458,
+   "x": 1314,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "28"
+   ]
   },
   {
-   "start": 18.46,
-   "end": 19.67,
+   "start": 18.458,
+   "end": 19.667,
    "x": 0,
-   "people": true
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "CONSERN",
+    "CONSERVATI",
+    "CORPOHG",
+    "CORPORATE",
+    "DESRENIS",
+    "E-PRESIDENTIAL",
+    "ERESDMIA",
+    "ESIDENCY"
+   ]
   },
   {
-   "start": 19.67,
-   "end": 21.12,
-   "x": 684,
-   "people": true
+   "start": 19.667,
+   "end": 21.125,
+   "x": 689,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 21.12,
-   "end": 22.58,
-   "x": 846,
-   "people": true
+   "start": 21.125,
+   "end": 22.583,
+   "x": 847,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 22.58,
-   "end": 25.17,
-   "x": 656,
-   "people": false
-  },
-  {
-   "start": 25.17,
-   "end": 28.12,
-   "x": 656,
-   "people": false
-  },
-  {
-   "start": 28.12,
-   "end": 29.12,
-   "x": 1103,
-   "people": true
-  },
-  {
-   "start": 29.12,
-   "end": 30.21,
+   "start": 22.583,
+   "end": 25.167,
    "x": 0,
-   "people": true
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "190",
+    "198"
+   ]
   },
   {
-   "start": 30.21,
-   "end": 31.29,
-   "x": 402,
-   "people": true
+   "start": 25.167,
+   "end": 28.125,
+   "x": 356,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 31.29,
-   "end": 33.08,
-   "x": 656,
-   "people": false
+   "start": 28.125,
+   "end": 29.125,
+   "x": 1107,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 33.08,
-   "end": 34.71,
-   "x": 687,
-   "people": true
+   "start": 29.125,
+   "end": 30.208,
+   "x": 0,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 34.71,
-   "end": 35.96,
-   "x": 307,
-   "people": true
+   "start": 30.208,
+   "end": 31.292,
+   "x": 536,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 35.96,
-   "end": 37.92,
-   "x": 1312,
-   "people": true
+   "start": 31.292,
+   "end": 33.083,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": [
+    "our values.",
+    "sur values.",
+    "values."
+   ]
   },
   {
-   "start": 37.92,
-   "end": 39.79,
+   "start": 33.083,
+   "end": 34.708,
+   "x": 598,
+   "w": 926,
+   "fill": false,
+   "people": true,
+   "text": [
+    "INTEGRITY",
+    "JUSTICE",
+    "NTEGRITY",
+    "PROSPERITY"
+   ]
+  },
+  {
+   "start": 34.708,
+   "end": 35.958,
+   "x": 354,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
+  },
+  {
+   "start": 35.958,
+   "end": 37.917,
+   "x": 1314,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
+  },
+  {
+   "start": 37.917,
+   "end": 39.792,
    "x": 384,
-   "people": true
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 39.79,
+   "start": 39.792,
    "end": 40.75,
-   "x": 1088,
-   "people": true
+   "x": 978,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
    "start": 40.75,
-   "end": 43.21,
-   "x": 568,
-   "people": true
+   "end": 43.208,
+   "x": 555,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 43.21,
+   "start": 43.208,
    "end": 45.25,
-   "x": 797,
-   "people": true
+   "x": 798,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
    "start": 45.25,
-   "end": 46.83,
-   "x": 252,
-   "people": true
+   "end": 46.833,
+   "x": 292,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 46.83,
-   "end": 48.29,
-   "x": 453,
-   "people": true
+   "start": 46.833,
+   "end": 48.292,
+   "x": 511,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 48.29,
-   "end": 50.38,
-   "x": 503,
-   "people": true
+   "start": 48.292,
+   "end": 50.375,
+   "x": 133,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 50.38,
-   "end": 52.12,
+   "start": 50.375,
+   "end": 52.125,
    "x": 780,
-   "people": true
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 52.12,
-   "end": 53.88,
-   "x": 656,
-   "people": false
+   "start": 52.125,
+   "end": 53.875,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
-   "start": 53.88,
-   "end": 56.21,
-   "x": 656,
-   "people": false
+   "start": 53.875,
+   "end": 56.208,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
-   "start": 56.21,
-   "end": 57.58,
-   "x": 656,
-   "people": false
+   "start": 56.208,
+   "end": 57.583,
+   "x": 663,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": [
+    "DURSELE",
+    "TAPYOUR COMPASS",
+    "TAPYOURCOMPASS",
+    "TO BEGIN",
+    "TOBEGIN",
+    "URSELE",
+    "UURSELF"
+   ]
   },
   {
-   "start": 57.58,
+   "start": 57.583,
    "end": 59.25,
-   "x": 420,
-   "people": true
+   "x": 390,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
    "start": 59.25,
-   "end": 60.92,
-   "x": 1241,
-   "people": true
+   "end": 60.917,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "AND",
+    "DAY",
+    "DIRECT",
+    "ELECTION",
+    "ELECTIONS",
+    "EXTEND",
+    "FEDERAL",
+    "HE"
+   ]
   },
   {
-   "start": 60.92,
-   "end": 62.58,
-   "x": 656,
-   "people": false
+   "start": 60.917,
+   "end": 62.583,
+   "x": 67,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 62.58,
+   "start": 62.583,
    "end": 64.0,
-   "x": 551,
-   "people": true
+   "x": 0,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
    "start": 64.0,
-   "end": 65.62,
-   "x": 1108,
-   "people": true
+   "end": 65.625,
+   "x": 999,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 65.62,
-   "end": 67.17,
-   "x": 459,
-   "people": true
+   "start": 65.625,
+   "end": 67.167,
+   "x": 308,
+   "w": 1414,
+   "fill": false,
+   "people": true,
+   "text": [
+    "\"We have duties to ethers and buties to",
+    "DIS",
+    "DISCOV",
+    "DISCOVER",
+    "Ie to play.",
+    "Jandntoaek",
+    "Jandntodaet",
+    "LINDA"
+   ]
   },
   {
-   "start": 67.17,
-   "end": 68.54,
-   "x": 656,
-   "people": false
+   "start": 67.167,
+   "end": 68.542,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": false,
+   "text": [
+    "Courage",
+    "TOEGN",
+    "TOHGN",
+    "TPTOIRCOMASS",
+    "TPYOECOPS"
+   ]
   },
   {
-   "start": 68.54,
-   "end": 70.46,
-   "x": 312,
-   "people": true
+   "start": 68.542,
+   "end": 70.458,
+   "x": 368,
+   "w": 1192,
+   "fill": false,
+   "people": true,
+   "text": [
+    "CLC9AipA",
+    "CLCSRIAA",
+    "Creativity",
+    "Innovation",
+    "Vision",
+    "noiaiv",
+    "noidsvonnl",
+    "noiry"
+   ]
   },
   {
-   "start": 70.46,
-   "end": 72.33,
-   "x": 778,
-   "people": true
+   "start": 70.458,
+   "end": 72.333,
+   "x": 756,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 72.33,
-   "end": 80.69,
-   "x": 292,
-   "people": true
+   "start": 72.333,
+   "end": 80.689,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "GET YOUR TICKETS TODAY",
+    "GETYOUR TICKETSTODAY",
+    "He,thispkisd",
+    "Heiski",
+    "PRESIDENTIAL LIBRARY",
+    "PRESIDENTIALLIBRARY",
+    "ROOSEVELT",
+    "THEODORE"
+   ]
   }
  ]
 }

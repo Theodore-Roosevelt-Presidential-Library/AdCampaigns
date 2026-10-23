@@ -1,122 +1,239 @@
 {
  "source": "-mcN1M3ZEps.mp4",
- "mode": "reframe",
- "fit_from": 73.5,
- "fit_until": 6.0,
+ "mode": "auto",
+ "full": [],
+ "crop_width": 606,
  "shots": [
   {
    "start": 0.0,
-   "end": 3.46,
-   "x": 205,
-   "people": true
+   "end": 3.462,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "26",
+    "965-2026",
+    "DAVID HUME KENNERLY:",
+    "DAVID HUMEKENNERLY:",
+    "DAVIDHUMEKENNERLY:",
+    "DM",
+    "Daid basbeaymgirierlo",
+    "Daidbasbeenarymajormriaelngo"
+   ]
   },
   {
-   "start": 3.46,
-   "end": 6.57,
-   "x": 1312,
-   "people": true
+   "start": 3.462,
+   "end": 6.569,
+   "x": 282,
+   "w": 1636,
+   "fill": false,
+   "people": true,
+   "text": [
+    "\"Looking at tbese pbotograpbs jon would almost tbink that",
+    "\"Looking at tbese pbotograpbs,you oould almost tbink tbat",
+    "\"Looking at tbese pbotograpbs,your twoald almosf tbink tba",
+    "\"Looking at tbese pbotograpbs,yow soould almost tbink tbat",
+    "\"Looking at tbese pbotographs,you would almost think tbat",
+    "\"Looking at these pbotograpbs, you would almost tbink tbat",
+    "\"Looking at these photograpbs, you zuould almost tbink that",
+    "Caivcrsiny of Arizora"
+   ]
   },
   {
-   "start": 6.57,
+   "start": 6.569,
    "end": 10.01,
-   "x": 799,
-   "people": true
+   "x": 760,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "1971-/97]",
+    "1971-1973",
+    "1971-197]",
+    "351-1973",
+    "NC1-1973",
+    "TeVikoan War",
+    "Telen or",
+    "Teletnam Mar"
+   ]
   },
   {
    "start": 10.01,
-   "end": 13.7,
-   "x": 0,
-   "people": true
+   "end": 13.701,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
-   "start": 13.7,
+   "start": 13.701,
    "end": 21.48,
-   "x": 926,
-   "people": true
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
    "start": 21.48,
-   "end": 25.5,
-   "x": 567,
-   "people": true
+   "end": 25.505,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
   },
   {
-   "start": 25.5,
-   "end": 35.91,
-   "x": 655,
-   "people": true
+   "start": 25.505,
+   "end": 35.911,
+   "x": 942,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 35.91,
-   "end": 40.62,
-   "x": 927,
-   "people": true
-  },
-  {
-   "start": 40.62,
-   "end": 43.9,
-   "x": 462,
-   "people": true
-  },
-  {
-   "start": 43.9,
-   "end": 46.59,
+   "start": 35.911,
+   "end": 40.624,
    "x": 0,
-   "people": true
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    " sixty years.",
+    "26",
+    "Arizona",
+    "Co-Founden",
+    "Co-Foundens",
+    "Co-Founders",
+    "Co-Foundm",
+    "Creative Phorography"
+   ]
   },
   {
-   "start": 46.59,
-   "end": 49.28,
+   "start": 40.624,
+   "end": 43.898,
+   "x": 90,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "Edinarial",
+    "Edneisn Ded",
+    "Eshaitian Do"
+   ]
+  },
+  {
+   "start": 43.898,
+   "end": 46.588,
+   "x": 0,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
+  },
+  {
+   "start": 46.588,
+   "end": 49.278,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
+  },
+  {
+   "start": 49.278,
+   "end": 52.719,
+   "x": 623,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
+  },
+  {
+   "start": 52.719,
+   "end": 55.868,
+   "x": 922,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
+  },
+  {
+   "start": 55.868,
+   "end": 58.308,
+   "x": 0,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "2026"
+   ]
+  },
+  {
+   "start": 58.308,
+   "end": 60.331,
    "x": 656,
-   "people": false
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "Abaard",
+    "Absard",
+    "Air Force Oa",
+    "Air Force Ome",
+    "Air Force One",
+    "WELCOME",
+    "WTLCOME",
+    "WTLEOME"
+   ]
   },
   {
-   "start": 49.28,
-   "end": 52.72,
-   "x": 600,
-   "people": true
+   "start": 60.331,
+   "end": 63.376,
+   "x": 896,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 52.72,
-   "end": 55.87,
-   "x": 1204,
-   "people": true
+   "start": 63.376,
+   "end": 67.046,
+   "x": 1196,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 55.87,
-   "end": 58.31,
-   "x": 1312,
-   "people": true
+   "start": 67.046,
+   "end": 70.404,
+   "x": 779,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
   },
   {
-   "start": 58.31,
-   "end": 60.33,
-   "x": 810,
-   "people": true
-  },
-  {
-   "start": 60.33,
-   "end": 63.38,
-   "x": 760,
-   "people": true
-  },
-  {
-   "start": 63.38,
-   "end": 67.05,
-   "x": 732,
-   "people": true
-  },
-  {
-   "start": 67.05,
-   "end": 70.4,
-   "x": 748,
-   "people": true
-  },
-  {
-   "start": 70.4,
-   "end": 82.11,
-   "x": 200,
-   "people": true
+   "start": 70.404,
+   "end": 82.106,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "All Kennerly photographs  Center for Creative Photography.",
+    "All Kennerly photographs @ Center for Creative Photography.",
+    "Arizona Board of Regents",
+    "Arizona Board of Regents.",
+    "DLANVIRUSITTLIBRARYAHU",
+    "GALLERY",
+    "HEODOREROOSE",
+    "IN THE ROOM"
+   ]
   }
  ]
 }

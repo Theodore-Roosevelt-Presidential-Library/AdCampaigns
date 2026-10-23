@@ -1,7 +1,263 @@
 {
  "source": "gtDTwBMTn2Q.mp4",
- "mode": "fit",
- "fit_from": null,
- "fit_until": null,
- "shots": []
+ "mode": "auto",
+ "full": [],
+ "crop_width": 606,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 1.333,
+   "x": 832,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": []
+  },
+  {
+   "start": 1.333,
+   "end": 2.417,
+   "x": 163,
+   "w": 606,
+   "fill": true,
+   "people": true,
+   "text": [
+    "TO YOU"
+   ]
+  },
+  {
+   "start": 2.417,
+   "end": 6.917,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "RESOLUTE",
+    "RESOLUTE AND",
+    "RESOLUTE AND CONFIDENT",
+    "TO YOU",
+    "TO YOU WHO",
+    "TO YOU WHO FACE",
+    "TO YOU WHO FACE THE",
+    "TO YOU WHO STRIVE"
+   ]
+  },
+  {
+   "start": 6.917,
+   "end": 8.75,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "EXIT",
+    "FOR THE",
+    "IN A",
+    "IN A SPIRIT",
+    "IN A SPIRIT OF BROTHERHOOD"
+   ]
+  },
+  {
+   "start": 8.75,
+   "end": 9.542,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "FOR THE BETTERMENT",
+    "FOR THE BETTERMENT OF",
+    "FOR THE BETTERMENT OF OUR"
+   ]
+  },
+  {
+   "start": 9.542,
+   "end": 11.5,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "FOR THE BETTERMENT OF OUR NATION",
+    "TO",
+    "TO YOU WHO",
+    "TO YOU WHO FIGHT"
+   ]
+  },
+  {
+   "start": 11.5,
+   "end": 13.375,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": false,
+   "text": [
+    "IN THE",
+    "IN THE NEVER-ENDING",
+    "IN THE NEVER-ENDING WARFARE",
+    "N THE NEVER-ENDING WARFARE"
+   ]
+  },
+  {
+   "start": 13.375,
+   "end": 15.208,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "FOR THE",
+    "FOR THE GOOD OF",
+    "FOR THE GOOD OF HUMANKIND"
+   ]
+  },
+  {
+   "start": 15.208,
+   "end": 16.625,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": false,
+   "text": [
+    ",WHO COMES",
+    "ACE",
+    "CTUALLY STE",
+    "CTUALLY STR",
+    "ERK",
+    "ILS,ATILEAST FA",
+    "IRTHY CAUS",
+    "MANW"
+   ]
+  },
+  {
+   "start": 16.625,
+   "end": 17.625,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "WE",
+    "WE NEED",
+    "WE NEED LEADERS"
+   ]
+  },
+  {
+   "start": 17.625,
+   "end": 18.833,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "WE NEED LEADERS",
+    "WE NEED LEADERS OF INSPIRED",
+    "WE NEED LEADERS OFINSPIRED"
+   ]
+  },
+  {
+   "start": 18.833,
+   "end": 20.208,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "LEADERS",
+    "WE NEED LEADERS OF INSPIRED IDEALISM"
+   ]
+  },
+  {
+   "start": 20.208,
+   "end": 22.083,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "LEADERS TO WHOM",
+    "LEADERS TO WHOM ARE GRANTED",
+    "LEADERS TO WHOM ARE GRANTED GREAT",
+    "LEADERS TO WHOM ARE GRANTED GREAT VISIONS"
+   ]
+  },
+  {
+   "start": 22.083,
+   "end": 23.083,
+   "x": 657,
+   "w": 606,
+   "fill": true,
+   "people": false,
+   "text": []
+  },
+  {
+   "start": 23.083,
+   "end": 24.083,
+   "x": 1160,
+   "w": 718,
+   "fill": false,
+   "people": true,
+   "text": [
+    "VOICEOFTHEODOREROOSEVELTV:",
+    "bymygreat-greatarandfather,TheodoreRoosevelt",
+    "bymygreat-grentarandfather,TheodoreRoosevelt",
+    "bymygreat-grontarandfather,TheodoreRoosevelt",
+    "cut from a copperbeech tree planted in 1895",
+    "cut froma copperbeech tree planted in1895"
+   ]
+  },
+  {
+   "start": 24.083,
+   "end": 26.458,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "WHO DREAM",
+    "WHO DREAM GREATLY",
+    "WHO DREAM GREATLY AND STRIVE"
+   ]
+  },
+  {
+   "start": 26.458,
+   "end": 27.583,
+   "x": 0,
+   "w": 1920,
+   "fill": false,
+   "people": true,
+   "text": [
+    "TO MAKE THEIR",
+    "TO MAKE THEIR DREAMS"
+   ]
+  },
+  {
+   "start": 27.583,
+   "end": 28.667,
+   "x": 326,
+   "w": 1266,
+   "fill": false,
+   "people": true,
+   "text": [
+    "TO MAKE THEIR DREAMS COME",
+    "TO MAKE THEIR DREAMS COME TRUE"
+   ]
+  },
+  {
+   "start": 28.667,
+   "end": 30.511,
+   "x": 366,
+   "w": 1192,
+   "fill": false,
+   "people": false,
+   "text": [
+    "GET YOUR TICKETS TODAY",
+    "GETYOURTICKETS TODAY",
+    "PRESIDENTIAL LIBRARY",
+    "ROOSEVELT",
+    "THEODORE",
+    "WWW.TRLIBRARY.COM/TICKETS"
+   ]
+  }
+ ]
 }
