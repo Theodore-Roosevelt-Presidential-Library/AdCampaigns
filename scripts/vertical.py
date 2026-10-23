@@ -135,22 +135,27 @@ def main():
         w = int(min(max(w, cw), vw)) // 2 * 2; x = int(min(max(x, 0), vw - w))
         plan.append({"start": round(s, 3), "end": round(e, 3), "x": x, "w": w, "fill": w == cw,
                      "people": bool(px), "text": sorted({b[2] for b in tb})[:8]})
-    # one filter chain per shot, then concat
-    parts, labels = [], []
+    # render each shot on its own (low memory), then join and lay the original audio back on
+    fps = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=r_frame_rate",
+                          "-of", "csv=p=0", src], capture_output=True, text=True).stdout.strip() or "30"
+    work = pathlib.Path(tempfile.mkdtemp()); lst = []
     for i, p in enumerate(plan):
-        seg = f"[0:v]trim=start={p['start']}:end={p['end']},setpts=PTS-STARTPTS"
         if p["fill"]:
-            parts.append(f"{seg},crop={p['w']}:{vh}:{p['x']}:0,scale={W}:{H},setsar=1[s{i}]")
+            vf = f"crop={p['w']}:{vh}:{p['x']}:0,scale={W}:{H},setsar=1"
         else:
-            parts.append(f"{seg},split=2[b{i}][f{i}];"
-                         f"[b{i}]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=60:3,eq=brightness=-0.32[bb{i}];"
-                         f"[f{i}]crop={p['w']}:{vh}:{p['x']}:0,scale={W}:-2[ff{i}];[bb{i}][ff{i}]overlay=0:(H-h)/2,setsar=1[s{i}]")
-        labels.append(f"[s{i}]")
-    fc = ";".join(parts) + ";" + "".join(labels) + f"concat=n={len(plan)}:v=1:a=0[out]"
-    script = tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False); script.write(fc); script.close()
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex_script", script.name, "-map", "[out]", "-map", "0:a?",
-                    "-c:v", "libx264", "-preset", "medium", "-crf", a.crf, "-pix_fmt", "yuv420p", "-movflags", "+faststart",
-                    "-c:a", "aac", "-b:a", "128k", "-shortest", a.out], check=True)
+            vf = (f"split=2[b][f];[b]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=60:3,eq=brightness=-0.32[bb];"
+                  f"[f]crop={p['w']}:{vh}:{p['x']}:0,scale={W}:-2[ff];[bb][ff]overlay=0:(H-h)/2,setsar=1")
+        seg = work / f"s{i:03d}.mp4"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(p["start"]), "-i", src, "-t", str(round(p["end"] - p["start"], 3)),
+                        "-an", "-filter_complex", f"[0:v]{vf}[o]", "-map", "[o]", "-r", fps, "-c:v", "libx264", "-preset", "medium",
+                        "-crf", a.crf, "-pix_fmt", "yuv420p", str(seg)], check=True)
+        lst.append(f"file '{seg}'")
+    (work / "list.txt").write_text("\n".join(lst) + "\n")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-i", src,
+                    "-map", "0:v", "-map", "1:a?", "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-shortest",
+                    "-movflags", "+faststart", a.out], check=True)
+    for f in work.iterdir(): f.unlink()
+    work.rmdir()
     pathlib.Path(a.out).with_suffix(".json").write_text(json.dumps(
         {"source": pathlib.Path(a.src).name, "mode": a.mode, "full": a.full, "crop_width": cw, "shots": plan}, indent=1) + "\n")
     n_text = sum(1 for p in plan if p["text"]); n_wide = sum(1 for p in plan if not p["fill"])
