@@ -236,7 +236,7 @@
   "source": "Wikipedia / Wikimedia Commons",
   "orig": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mount_Rushmore_detail_view_%28100MP%29.jpg/3840px-Mount_Rushmore_detail_view_%28100MP%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "page": "https://en.wikipedia.org/wiki/Mount_Rushmore",
-  "season": "summer",
+  "season": "any",
   "scene": "outdoor"
  },
  {
@@ -445,7 +445,7 @@
   "file": "creative/web/rushmore-aerial.jpg",
   "source": "trlibrary.com/visit/itineraries",
   "orig": "https://www.trlibrary.com/sites/default/files/2026-07/rushmore-color.jpg",
-  "season": "summer",
+  "season": "any",
   "scene": "outdoor"
  },
  {

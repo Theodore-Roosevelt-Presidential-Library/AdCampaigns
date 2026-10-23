@@ -691,7 +691,8 @@ camp(id="dest-nearby", program="Tickets & visits", revenue=True, priority=1,
         {"id": "near-blackhills-carousel", "for": "Black Hills travelers", "name": "After Rushmore: north on US 85", "format": "carousel",
          "primary": "Seen Mount Rushmore? Keep going north. About 4½ hours up US 85 is Medora, North Dakota: the Badlands where Theodore Roosevelt ranched, a national park full of bison, and the new Theodore Roosevelt Presidential Library.",
          "cta": "Learn More", "url": IT + "/sturgis-medora",
-         "cards": [{"media": web("belle-fourche"), "headline": "From the Black Hills", "desc": "North on US 85", "url": IT + "/sturgis-medora"},
+         "cards": [{"media": web("mount-rushmore"), "headline": "Seen Mount Rushmore?", "desc": "T.R. is the third face", "url": IT + "/sturgis-medora"},
+                   {"media": web("belle-fourche"), "headline": "Keep going north", "desc": "Up US 85 from the Black Hills", "url": IT + "/sturgis-medora"},
                    {"media": web("painted-canyon"), "headline": "Into the Badlands", "desc": "About 4½ hours north", "url": IT + "/sturgis-medora"},
                    {"media": web("library-night"), "headline": "The new Library", "desc": "Medora, North Dakota", "url": TIX},
                    {"media": web("nps-bison-line"), "headline": "The national park", "desc": "Bison on the ridgelines", "url": V + "/national-park"},
@@ -699,7 +700,7 @@ camp(id="dest-nearby", program="Tickets & visits", revenue=True, priority=1,
         {"id": "near-blackhills", "for": "Black Hills travelers", "name": "From the Black Hills, keep going north", "format": "image",
          "primary": "Seen Mount Rushmore? Keep going north. About 4½ hours up US 85 is Medora, North Dakota: the Badlands where Theodore Roosevelt ranched, a national park full of bison, and the new Theodore Roosevelt Presidential Library.",
          "headline": "The next stop after Rushmore", "desc": "Medora, North Dakota", "cta": "Learn More", "url": IT + "/sturgis-medora",
-         "media": web("nps-bison-line")},
+         "media": web("mount-rushmore")},
      ])
 
 RESERVE = {"budget": 2000, "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."}

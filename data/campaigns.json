@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T06:32:20+00:00",
+ "generated": "2026-10-23T14:08:36+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -4137,13 +4137,24 @@
       {
        "media": {
         "type": "image",
+        "src": "creative/web/mount-rushmore.jpg",
+        "source": "Wikipedia / Wikimedia Commons"
+       },
+       "headline": "Seen Mount Rushmore?",
+       "desc": "T.R. is the third face",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
         "src": "creative/web/belle-fourche.jpg",
         "source": "trlibrary.com/visit/itineraries"
        },
-       "headline": "From the Black Hills",
-       "desc": "North on US 85",
+       "headline": "Keep going north",
+       "desc": "Up US 85 from the Black Hills",
        "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
-       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-1"
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-2"
       },
       {
        "media": {
@@ -4154,7 +4165,7 @@
        "headline": "Into the Badlands",
        "desc": "About 4½ hours north",
        "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
-       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-2"
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-3"
       },
       {
        "media": {
@@ -4165,7 +4176,7 @@
        "headline": "The new Library",
        "desc": "Medora, North Dakota",
        "url": "https://www.trlibrary.com/tickets",
-       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-3"
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-4"
       },
       {
        "media": {
@@ -4176,7 +4187,7 @@
        "headline": "The national park",
        "desc": "Bison on the ridgelines",
        "url": "https://www.trlibrary.com/visit/national-park",
-       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-4"
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-5"
       },
       {
        "media": {
@@ -4187,7 +4198,7 @@
        "headline": "Eight chapters inside",
        "desc": "Plan 3½ hours",
        "url": "https://www.trlibrary.com/visit/medora",
-       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-5"
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-carousel-6"
       }
      ],
      "placements": [
@@ -4209,8 +4220,8 @@
      "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
      "media": {
       "type": "image",
-      "src": "creative/web/nps-bison-line.jpg",
-      "source": "NPS / Theodore Roosevelt National Park"
+      "src": "creative/web/mount-rushmore.jpg",
+      "source": "Wikipedia / Wikimedia Commons"
      },
      "placements": [
       "fb_feed",
