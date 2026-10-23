@@ -37,6 +37,10 @@ def yt(vid, dur, title):
 def web(slug):  # partner/public photo in creative/web (source in creative/web/catalog.json)
     m = next(x for x in WEBCAT if x["file"].endswith(f"/{slug}.jpg"))
     return {"type": "image", "src": m["file"], "source": m["source"]}
+def card(name, story=None, ratio="4/5"):  # brand graphic (scripts/brand_card.py) in creative/brand-cards
+    m = {"type": "image", "src": f"creative/brand-cards/{name}.jpg", "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo", "ratio": ratio}
+    if story: m["story"] = f"creative/brand-cards/{story}.jpg"
+    return m
 def still(name): return {"type": "image", "src": f"creative/kennerly/{name}.jpg", "source": "Frame from the In the Room preview video"}
 def prod(title, price, url, image): return {"type": "product", "title": title, "price": price, "url": url, "src": image, "source": "Shopify"}
 
@@ -504,18 +508,27 @@ camp(id="dest-family", program="Tickets & visits", revenue=False, priority=1,
      why="The parent planning the summer trip wants everyone to have fun and actually be together. Medora delivers that without being told: bison from the back seat, a trail ride, steaks cooked on pitchforks, a musical under the stars, a campfire story inside the Library. The ads show those moments; they never mention phones or who is planning.",
      audiences=[{"name": "Parents, drive market", "geo": DRIVE, "age": "30–50", "detail": "Parents with kids 5–17, family vacations, road trips, national parks", "share": 0.45},
                 {"name": "Parents, farther away", "geo": FAR, "age": "30–50", "detail": "Parents with kids 5–17, family vacations, RV travel, national parks", "share": 0.55}],
-     open_items=["'Trade screens for skies' is a working line; Matt to approve before it appears in ads.",
+     open_items=["'Trade Screens for Skies' approved by Matt (Oct 22). Brand cards set it in Dharma Gothic E with Sunset Yellow.",
                  "Family photos come from Medora.com (TRMF), trlibrary.com and NPS (rights confirmed by Matt). Sources in creative/web/catalog.json."],
      ads=[
         {"id": "fam-carousel", "name": "Trade screens for skies", "format": "carousel",
          "primary": "Trade screens for skies. In Medora, a real Western town in the North Dakota Badlands, the kids count bison out the window, ride horses into the hills and fall asleep under more stars than they've ever seen. And the new Theodore Roosevelt Presidential Library is right in town.",
          "cta": "Learn More", "url": V, "sells": "summer",
-         "cards": [{"media": web("bison-jam"), "headline": "Bison out the window", "desc": "In the national park next door", "url": V + "/national-park"},
+         "cards": [{"media": card("screens-skies-night-1x1", ratio="1/1"), "headline": "Trade Screens for Skies", "desc": "Medora, North Dakota", "url": V},
+                   {"media": web("bison-jam"), "headline": "Bison out the window", "desc": "In the national park next door", "url": V + "/national-park"},
                    {"media": web("trail-ride-sunset"), "headline": "Saddle up", "desc": "Trail rides into the Badlands", "url": V + "/activities"},
                    {"media": web("pitchfork-kid"), "headline": "Steak on a pitchfork", "desc": "Pitchfork Steak Fondue", "url": V + "/eat"},
                    {"media": web("medora-musical-audience"), "headline": "Cheer at the Medora Musical", "desc": "Summer nights outdoors", "url": V + "/medora"},
                    {"media": img("kid-laughing"), "headline": "Campfire stories", "desc": "Inside the Library", "url": V + "/exhibits"},
                    {"media": web("stargazing-medora-sign"), "headline": "More stars than you've seen", "desc": "Dark Badlands skies", "url": V + "/stargazing"}]},
+        {"id": "fam-title-night", "name": "Trade Screens for Skies (night sky)", "format": "image",
+         "primary": "Trade screens for skies. Medora is a real Western town in the North Dakota Badlands, with bison and wild horses in the national park next door, trail rides, a cowboy musical, dark skies and the new Theodore Roosevelt Presidential Library.",
+         "headline": "Plan a family trip to Medora", "desc": "Trips and ideas from the Library", "cta": "Learn More", "url": V,
+         "media": card("screens-skies-night-4x5", story="screens-skies-night-9x16")},
+        {"id": "fam-title-bison", "name": "Trade Screens for Skies (bison)", "format": "image",
+         "primary": "Trade screens for skies. In the national park next to Medora, North Dakota, the bison come right up to the road. Then there's the cowboy musical, trail rides, dark skies and the new Theodore Roosevelt Presidential Library.",
+         "headline": "Plan a family trip to Medora", "desc": "Trips and ideas from the Library", "cta": "Learn More", "url": V,
+         "media": card("screens-skies-bison-4x5"), "sells": "summer"},
         {"id": "fam-downtown", "name": "Race you down Main Street", "format": "image",
          "primary": "Race you to the end of Main Street. Medora is a real Western town in the North Dakota Badlands where the whole family has something to do: wild horses, trail rides, a pool, mini golf, a cowboy musical and the new Theodore Roosevelt Presidential Library.",
          "headline": "A family trip to the Badlands", "desc": "Medora, North Dakota", "cta": "Learn More", "url": IT + "/3-days-medora",

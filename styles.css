@@ -190,3 +190,4 @@ table.data td.num, table.data th.num { text-align: right; font-variant-numeric: 
 .guard li { margin: 4px 0; }
 .st.expanded .chl { display: none; }
 .st .ph { top: 46px; z-index: 3; }
+.st .panel img.full { width: 100%; height: 100%; object-fit: cover; display: block; }

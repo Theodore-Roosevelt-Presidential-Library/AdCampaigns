@@ -46,7 +46,7 @@ for c in P["campaigns"]:
         media = [x["media"] for x in a.get("cards", [])] + ([a["media"]] if a.get("media") else [])
         for m in media:
             if not m["src"].startswith("http") and not (ROOT / m["src"]).exists(): err.append(f"{a['id']}: missing {m['src']}")
-            for v in ([m["vertical"]["src"], m["vertical"]["poster"]] if m.get("vertical") else []):
+            for v in ([m["vertical"]["src"], m["vertical"]["poster"]] if m.get("vertical") else []) + ([m["story"]] if m.get("story") else []):
                 if not (ROOT / v).exists(): err.append(f"{a['id']}: missing vertical {v}")
             cm = CAT.get(m["src"])
             if cm and cm.get("season") == "summer" and winter_overlap(c["start"], c["end"]) and a.get("sells") != "summer":

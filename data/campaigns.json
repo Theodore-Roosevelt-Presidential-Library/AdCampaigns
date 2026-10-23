@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:47:44+00:00",
+ "generated": "2026-10-23T03:56:29+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -2453,7 +2453,7 @@
     }
    ],
    "open_items": [
-    "'Trade screens for skies' is a working line; Matt to approve before it appears in ads.",
+    "'Trade Screens for Skies' approved by Matt (Oct 22). Brand cards set it in Dharma Gothic E with Sunset Yellow.",
     "Family photos come from Medora.com (TRMF), trlibrary.com and NPS (rights confirmed by Matt). Sources in creative/web/catalog.json."
    ],
    "ads": [
@@ -2469,13 +2469,25 @@
       {
        "media": {
         "type": "image",
+        "src": "creative/brand-cards/screens-skies-night-1x1.jpg",
+        "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
+        "ratio": "1/1"
+       },
+       "headline": "Trade Screens for Skies",
+       "desc": "Medora, North Dakota",
+       "url": "https://www.trlibrary.com/visit",
+       "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
         "src": "creative/web/bison-jam.jpg",
         "source": "trlibrary.com/visit/national-park"
        },
        "headline": "Bison out the window",
        "desc": "In the national park next door",
        "url": "https://www.trlibrary.com/visit/national-park",
-       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-1"
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-2"
       },
       {
        "media": {
@@ -2486,7 +2498,7 @@
        "headline": "Saddle up",
        "desc": "Trail rides into the Badlands",
        "url": "https://www.trlibrary.com/visit/activities",
-       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-2"
+       "tracked_url": "https://www.trlibrary.com/visit/activities?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-3"
       },
       {
        "media": {
@@ -2497,7 +2509,7 @@
        "headline": "Steak on a pitchfork",
        "desc": "Pitchfork Steak Fondue",
        "url": "https://www.trlibrary.com/visit/eat",
-       "tracked_url": "https://www.trlibrary.com/visit/eat?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-3"
+       "tracked_url": "https://www.trlibrary.com/visit/eat?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-4"
       },
       {
        "media": {
@@ -2508,7 +2520,7 @@
        "headline": "Cheer at the Medora Musical",
        "desc": "Summer nights outdoors",
        "url": "https://www.trlibrary.com/visit/medora",
-       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-4"
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-5"
       },
       {
        "media": {
@@ -2519,7 +2531,7 @@
        "headline": "Campfire stories",
        "desc": "Inside the Library",
        "url": "https://www.trlibrary.com/visit/exhibits",
-       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-5"
+       "tracked_url": "https://www.trlibrary.com/visit/exhibits?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-6"
       },
       {
        "media": {
@@ -2530,7 +2542,7 @@
        "headline": "More stars than you've seen",
        "desc": "Dark Badlands skies",
        "url": "https://www.trlibrary.com/visit/stargazing",
-       "tracked_url": "https://www.trlibrary.com/visit/stargazing?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-6"
+       "tracked_url": "https://www.trlibrary.com/visit/stargazing?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel-7"
       }
      ],
      "placements": [
@@ -2539,6 +2551,52 @@
       "ig_story"
      ],
      "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-carousel"
+    },
+    {
+     "id": "fam-title-night",
+     "name": "Trade Screens for Skies (night sky)",
+     "format": "image",
+     "primary": "Trade screens for skies. Medora is a real Western town in the North Dakota Badlands, with bison and wild horses in the national park next door, trail rides, a cowboy musical, dark skies and the new Theodore Roosevelt Presidential Library.",
+     "headline": "Plan a family trip to Medora",
+     "desc": "Trips and ideas from the Library",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit",
+     "media": {
+      "type": "image",
+      "src": "creative/brand-cards/screens-skies-night-4x5.jpg",
+      "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
+      "ratio": "4/5",
+      "story": "creative/brand-cards/screens-skies-night-9x16.jpg"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-title-night"
+    },
+    {
+     "id": "fam-title-bison",
+     "name": "Trade Screens for Skies (bison)",
+     "format": "image",
+     "primary": "Trade screens for skies. In the national park next to Medora, North Dakota, the bison come right up to the road. Then there's the cowboy musical, trail rides, dark skies and the new Theodore Roosevelt Presidential Library.",
+     "headline": "Plan a family trip to Medora",
+     "desc": "Trips and ideas from the Library",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit",
+     "media": {
+      "type": "image",
+      "src": "creative/brand-cards/screens-skies-bison-4x5.jpg",
+      "source": "Brand card (Dharma Gothic + brand colors) on a trlibrary.com photo",
+      "ratio": "4/5"
+     },
+     "sells": "summer",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/visit?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-family&utm_content=fam-title-bison"
     },
     {
      "id": "fam-downtown",

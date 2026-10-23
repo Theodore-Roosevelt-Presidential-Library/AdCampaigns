@@ -47,7 +47,7 @@
       const cs = cards(ad).map(c => `<div class="card">${media(c.media, "1/1")}<div class="cf"><div class="l"><div class="hl">${esc(c.headline)}</div><div class="ds">${esc(c.desc || "")}</div></div><div class="cta">${esc(ad.cta)}</div></div></div>`).join("");
       return `<div><p class="mock-label">Facebook Feed</p><div class="m fb">${head}${text}<div class="car">${cs}</div>${rx}</div></div>`;
     }
-    const ratio = ad.format === "video" ? (ad.media.feed ? ad.media.feed.ratio : "16/9") : "1/1";
+    const ratio = ad.format === "video" ? (ad.media.feed ? ad.media.feed.ratio : "16/9") : (ad.media.ratio || "1/1");  // designed images keep their shape
     return `<div><p class="mock-label">Facebook Feed</p><div class="m fb">${head}${text}${media(ad.media, ratio, ad)}
       <div class="link"><div class="l"><div class="dom">${esc(domainOf(ad.url))}</div><div class="hl">${esc(ad.headline)}</div><div class="ds">${esc(ad.desc || "")}</div></div><div class="cta">${esc(ad.cta)}</div></div>${rx}</div></div>`;
   }
@@ -68,6 +68,7 @@
 
   // One Stories panel: a 9:16 video plays full screen; anything else sits on a blurred fill.
   function panel(m, extra) {
+    if (m && m.story) return `<div class="panel"><img class="full" src="${esc(m.story)}" alt="">${ph(extra)}</div>`;  // a 9:16 version made for Stories
     if (m && m.vertical) return `<div class="panel">${vidTag(m.vertical.src, m.vertical.poster)}${ph(extra)}</div>`;
     if (m && m.type === "video" && (m.file || (m.feed && m.feed.file))) {
       const f = m.feed && m.feed.file ? m.feed : m;
