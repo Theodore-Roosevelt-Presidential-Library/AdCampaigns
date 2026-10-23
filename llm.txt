@@ -173,6 +173,8 @@ Every campaign in plan.py has spend.mode:
   friendly with a ton to do; a real Western town that still feels authentic. Family ads show a
   family together outdoors ("trade screens for skies" is a working line) — demonstrate it, never
   say "get the kids off their phones" or name who it's for (the parent planning the trip).
+  "Trade Screens for Skies" is approved as a headline (brand_card.py, brand font and colors). Its
+  photo must show the Library, not the Medora sign: creative/dam/library-big-sky.jpg.
 - Targeting notes: Meta can't see airline/hotel bookings. Use location type "People traveling in
   this location" (pins on I-94, Bismarck/Dickinson/Billings, Black Hills) for people already nearby
   (dest-nearby), and interests (Mount Rushmore, Yellowstone, Black Hills) for planners.
