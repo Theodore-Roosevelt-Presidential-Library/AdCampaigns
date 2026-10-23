@@ -129,11 +129,18 @@
     new MutationObserver(() => wire()).observe(document.documentElement, { childList: true, subtree: true });
     requestAnimationFrame(tick);
     document.addEventListener("click", e => {
-      const more = e.target.closest(".clip .more");
-      if (more) { const c = more.closest(".clip"); c.querySelector(".s").hidden = true; c.querySelector(".f").hidden = false; const st = c.closest(".st"); if (st) { st.classList.add("expanded"); st._hold = true; } e.stopPropagation(); return; }
-      const st = e.target.closest(".m.st");
-      if (st && st.classList.contains("expanded") && !e.target.closest(".c")) { st.classList.remove("expanded"); st._hold = false; st._t0 = performance.now();
-        st.querySelectorAll(".clip").forEach(c => { c.querySelector(".s").hidden = false; c.querySelector(".f").hidden = true; }); return; }
+      // Stories/Reels: tapping anywhere on the caption expands it upward over the video; tap again to close
+      const cap = e.target.closest(".st .bt .t");
+      const stx = e.target.closest(".m.st");
+      if (cap || (stx && stx.classList.contains("expanded") && !e.target.closest(".c"))) {
+        const st = stx, open = !st.classList.contains("expanded");
+        st.classList.toggle("expanded", open); st._hold = open; if (!open) st._t0 = performance.now();
+        st.querySelectorAll(".clip").forEach(c => { c.querySelector(".s").hidden = open; c.querySelector(".f").hidden = !open; });
+        if (open) { const t = st.querySelector(".bt .t"); t.scrollTop = 0; }
+        e.stopPropagation(); return;
+      }
+      const more = e.target.closest(".clip .more");   // feeds: "See more" / "more" expands in place
+      if (more) { const c = more.closest(".clip"); c.querySelector(".s").hidden = true; c.querySelector(".f").hidden = false; e.stopPropagation(); return; }
       const snd = e.target.closest(".snd");
       if (snd) { const v = snd.parentElement.querySelector("video"); v.muted = !v.muted; snd.textContent = v.muted ? "🔇" : "🔊"; if (!v.muted) play(v); return; }
       const tap = e.target.closest(".st .tap");

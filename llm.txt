@@ -87,7 +87,7 @@ before it goes in an ad. Check every render with a contact sheet before using it
 ## Mockups (mock.js)
 Meant to feel like the apps: "See more"/"more" expands text in place; feed videos autoplay muted
 when on screen (speaker button for sound, tap to pause) at their own aspect ratio; carousels swipe;
-in Stories each carousel card is its own panel with segmented progress bars (tap left/right,
+Stories/Reels captions expand upward over the video when tapped (tap again to close); in Stories each carousel card is its own panel with segmented progress bars (tap left/right,
 5 s per image), non-9:16 media sits on a blurred fill like Meta places it. Keep it that way.
 
 ## Season rule
