@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T14:11:57+00:00",
+ "generated": "2026-10-23T14:19:38+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -2486,7 +2486,7 @@
         "source": "trlibrary.com/visit/itineraries"
        },
        "headline": "TR's Maltese Cross Cabin",
-       "desc": "His first ranch cabin, 1883",
+       "desc": "His first ranch cabin",
        "url": "https://www.trlibrary.com/visit/itineraries/one-day",
        "tracked_url": "https://www.trlibrary.com/visit/itineraries/one-day?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-badlands&utm_content=dest-one-day-6"
       },
@@ -4089,8 +4089,10 @@
      "name": "Worth the exit (carousel)",
      "format": "carousel",
      "primary": "Driving I-94 across North Dakota? Take Exit 24 to Medora: Painted Canyon, the new Theodore Roosevelt Presidential Library, a national park full of bison, and an Old West main street. Plan 3½ hours at the Library.",
-     "cta": "Book Now",
-     "url": "https://www.trlibrary.com/tickets",
+     "headline": "Worth the exit: Medora, ND",
+     "desc": "I-94, Exit 24",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/visit/medora",
      "cards": [
       {
        "media": {
@@ -4106,35 +4108,46 @@
       {
        "media": {
         "type": "image",
-        "src": "creative/web/library-night.jpg",
-        "source": "trlibrary.com/visit/stargazing"
+        "src": "creative/dam/library-aerial-badlands.jpg",
+        "source": "Acquia DAM"
        },
        "headline": "The new Library",
-       "desc": "Medora, North Dakota",
+       "desc": "Built into the Badlands",
        "url": "https://www.trlibrary.com/tickets",
        "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-2"
       },
       {
        "media": {
         "type": "image",
-        "src": "creative/web/library-gallery.jpg",
-        "source": "trlibrary.com/visit/itineraries"
+        "src": "creative/dam/rough-riders-group.jpg",
+        "source": "Acquia DAM"
        },
-       "headline": "Eight chapters inside",
-       "desc": "Plan 3½ hours",
+       "headline": "Stand with the Rough Riders",
+       "desc": "One of eight chapters inside",
        "url": "https://www.trlibrary.com/tickets",
        "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-3"
       },
       {
        "media": {
         "type": "image",
-        "src": "creative/web/bison-ridge-2.jpg",
-        "source": "trlibrary.com/visit/itineraries"
+        "src": "creative/dam/cuba-family.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Walk into the Cuba chapter",
+       "desc": "Plan 3½ hours",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nps-bison-line.jpg",
+        "source": "NPS / Theodore Roosevelt National Park"
        },
        "headline": "The national park",
-       "desc": "At the edge of town",
+       "desc": "Bison on the ridgelines",
        "url": "https://www.trlibrary.com/visit/national-park",
-       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-4"
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-5"
       },
       {
        "media": {
@@ -4145,7 +4158,7 @@
        "headline": "Cowboy Hall of Fame",
        "desc": "On Medora's Main Street",
        "url": "https://www.trlibrary.com/visit/medora",
-       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-5"
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel-6"
       }
      ],
      "placements": [
@@ -4153,7 +4166,7 @@
       "ig_feed",
       "ig_story"
      ],
-     "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel"
+     "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-i94-carousel"
     },
     {
      "id": "near-i94",
@@ -4167,8 +4180,8 @@
      "url": "https://www.trlibrary.com/tickets",
      "media": {
       "type": "image",
-      "src": "creative/web/library-night.jpg",
-      "source": "trlibrary.com/visit/stargazing"
+      "src": "creative/dam/library-aerial-badlands.jpg",
+      "source": "Acquia DAM"
      },
      "placements": [
       "fb_feed",
@@ -4181,17 +4194,80 @@
      "id": "near-gateway",
      "for": "Fly-in and gateway towns",
      "name": "In the area this week",
-     "format": "image",
-     "primary": "In western North Dakota or eastern Montana this week? The new Theodore Roosevelt Presidential Library is in Medora, an Old West town on I-94 at the edge of the Badlands. Plan 3½ hours inside.",
+     "format": "carousel",
+     "primary": "In western North Dakota or eastern Montana this week? The new Theodore Roosevelt Presidential Library is in Medora, an Old West town on I-94 at the edge of the Badlands. Plan 3½ hours inside, then see the national park next door.",
      "headline": "Add Medora to this trip",
      "desc": "Timed tickets",
      "cta": "Book Now",
      "url": "https://www.trlibrary.com/tickets",
-     "media": {
-      "type": "image",
-      "src": "creative/dam/family-campfire.jpg",
-      "source": "Acquia DAM"
-     },
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/library-aerial-badlands.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Add Medora to this trip",
+       "desc": "Just off I-94",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/rough-riders-group.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Stand with the Rough Riders",
+       "desc": "Eight chapters inside",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/family-campfire.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Sit by the campfire",
+       "desc": "Stories from the ranch",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/cuba-family.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "Walk into the Cuba chapter",
+       "desc": "All indoors",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/nps-bison-line.jpg",
+        "source": "NPS / Theodore Roosevelt National Park"
+       },
+       "headline": "Bison next door",
+       "desc": "The national park",
+       "url": "https://www.trlibrary.com/visit/national-park",
+       "tracked_url": "https://www.trlibrary.com/visit/national-park?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/maltese-cross-cabin.jpg",
+        "source": "trlibrary.com/visit/medora"
+       },
+       "headline": "TR's Maltese Cross Cabin",
+       "desc": "Behind the park visitor center",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-gateway-6"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -4286,17 +4362,80 @@
      "id": "near-blackhills",
      "for": "Black Hills travelers",
      "name": "From the Black Hills, keep going north",
-     "format": "image",
-     "primary": "Seen Mount Rushmore? Keep going north. About 4½ hours up US 85 is Medora, North Dakota: the Badlands where Theodore Roosevelt ranched, a national park full of bison, and the new Theodore Roosevelt Presidential Library.",
-     "headline": "The next stop after Rushmore",
-     "desc": "Medora, North Dakota",
+     "format": "carousel",
+     "primary": "In the Black Hills? Keep going north. Bison in Custer State Park, Mount Rushmore, Deadwood and Sturgis, then about 4½ hours up the road to Medora, North Dakota: the Badlands where Theodore Roosevelt ranched, and the new Theodore Roosevelt Presidential Library.",
+     "headline": "Keep going north",
+     "desc": "Black Hills to the Badlands",
      "cta": "Learn More",
      "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
-     "media": {
-      "type": "image",
-      "src": "creative/web/mount-rushmore.jpg",
-      "source": "Wikipedia / Wikimedia Commons"
-     },
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/custer-bison.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Custer State Park",
+       "desc": "Bison by the road",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/mount-rushmore.jpg",
+        "source": "Wikipedia / Wikimedia Commons"
+       },
+       "headline": "Mount Rushmore",
+       "desc": "T.R. is the third face",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/deadwood-main.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Deadwood",
+       "desc": "A Gold Rush main street",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/sturgis-rally.jpg",
+        "source": "trlibrary.com/visit/itineraries"
+       },
+       "headline": "Sturgis",
+       "desc": "Home of the rally",
+       "url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
+       "tracked_url": "https://www.trlibrary.com/visit/itineraries/sturgis-medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/medora-aerial.jpg",
+        "source": "trlibrary.com/visit/medora"
+       },
+       "headline": "Medora, North Dakota",
+       "desc": "A real Western town",
+       "url": "https://www.trlibrary.com/visit/medora",
+       "tracked_url": "https://www.trlibrary.com/visit/medora?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-5"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/dam/library-aerial-badlands.jpg",
+        "source": "Acquia DAM"
+       },
+       "headline": "The new Library",
+       "desc": "Theodore Roosevelt Presidential Library",
+       "url": "https://www.trlibrary.com/tickets",
+       "tracked_url": "https://www.trlibrary.com/tickets?utm_source=meta&utm_medium=paid_social&utm_campaign=dest-nearby&utm_content=near-blackhills-6"
+      }
+     ],
      "placements": [
       "fb_feed",
       "ig_feed",
