@@ -23,16 +23,23 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
   Manager GTM-N3888GS9 (tag "Custom HTML_META"). Shopify store sends events through the
   Facebook & Instagram channel (Enhanced: pixel + Conversions API).
   ACME checkout (access.trlibrary.com, ACME account 613): ACME's Theme loads GTM-N3888GS9 into
-  its own data layer, "tenantGtmDataLayer" (checked Oct 27), so the pixel's PageView already
-  fires on the ticket and membership pages. ACME pushes {event:"purchase", user_data.
-  sha256_email_address, ecommerce:{currency, transaction_id, value, items[...]}} at order
-  confirmation (example in ACME's "GA4/GTM Data Layer" doc). Items carry item_brand: "Standard
-  Event Ticket", "Membership Renewal", "Fixed Donation", "Fee", etc. ACME also sends GA4
-  G-DH74VNCCH2 directly through gtag, purchase included. So: keep ACME's GA4, exclude
-  access.trlibrary.com from the GTM GA4 tags, and add a GTM Meta Purchase tag fired by Custom
-  Event "purchase", with eventID "acme-"+transaction_id. Until that tag is published and a test
-  order shows Purchase in Events Manager, ticket and membership campaigns optimize for Landing
-  page views, not Purchase.
+  its own data layer, "tenantGtmDataLayer", so the pixel's PageView fires on the ticket and
+  membership pages (checked Oct 27). At order confirmation ACME pushes {event:"purchase",
+  ecommerce:{currency, transaction_id, value, items[...]}} (example in ACME's "GA4/GTM Data Layer"
+  doc). item_brand tells ticket / "Membership Renewal" / "Fixed Donation" / "Fee" apart.
+  GTM version 20 (published Oct 27, the version before is 18):
+  - Tag "Meta Pixel – Purchase (ACME checkout)" fires on Custom Event "purchase". It sends
+    value, currency, content_ids (fees excluded), content_category (tickets / membership /
+    donation) and eventID "acme-"+transaction_id. The logic was tested with ACME's sample payload.
+  - Triggers "Block – ACME checkout (Page View)" and "Block – ACME checkout (Initialization)":
+    Page Hostname contains access.trlibrary.com. The Page View block applies to the pop-up loader,
+    the pop-up template and the URL-named "Google Analytics GA4 Event" tag.
+  - The GTM Google tag G-DH74VNCCH2 still loads on the checkout. Version 19 blocked it there, but
+    then G-DH74VNCCH2 stopped loading at all (ACME's own gtag config didn't load it), so version
+    20 reverted that. Double-counted GA4 page views are possible but not confirmed. Check in GA4
+    before changing anything.
+  Until a real order shows Purchase in Events Manager (dataset 1069854392776858), ticket and
+  membership campaigns optimize for Landing page views, not Purchase.
 - Donations go to a DonorPerfect form (no pixel). Land giving ads on trlibrary.com/support-trpl.
 - Meta's US restriction on social issue/election/political ads runs Oct 27–Nov 3, 2026.
   Keep conservation, citizenship and civic copy out of that window and out of the special ad
