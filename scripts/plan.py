@@ -66,7 +66,7 @@ def camp(**k): C.append(k); return k
 
 # ======================= TICKETS & VISITS =======================
 camp(id="tix-galleries", program="Tickets & visits", revenue=True, priority=1,
-     name="TICKETS: Eight chapters, all indoors", objective="Sales", optimization="Landing page views → Purchase once the ACME pixel is live",
+     name="TICKETS: Eight chapters, all indoors", objective="Sales", optimization="Purchase",
      start="2026-11-04", end="2027-01-19", budget=16000, spend=TEST("Cost per landing page view", "$1.50 or less"),
      why="Winter's best reason to come is inside: eight chapters of Theodore Roosevelt's life in immersive galleries — the Memory Train, the campfire at Elkhorn, San Juan Heights, the Amazon. The study's third-strongest message is 'you won't just read about history, you'll step into it.' Aimed at people within a day's drive.",
      audiences=[{"name": "Regional", "geo": REGION, "age": "25–70", "detail": "Broad (Advantage+ audience)", "share": 0.5},
@@ -129,7 +129,7 @@ camp(id="tix-spring", program="Tickets & visits", revenue=True, priority=1,
      ])
 
 camp(id="tix-summer", program="Tickets & visits", revenue=True, priority=1,
-     name="TICKETS: Plan your summer trip", objective="Sales", optimization="Purchase (ACME pixel) — Landing page views until the ticketing site fires the pixel",
+     name="TICKETS: Plan your summer trip", objective="Sales", optimization="Purchase",
      start="2026-12-03", end="2027-01-19", budget=15000, spend=TEST("Cost per landing page view", "$1.50 or less"),
      why="The summer trip is planned in winter. July and August each sold about 100,000 tickets, and visitors who live farther away decide early. Leads with the study's two strongest messages: history plus the raw beauty of the Badlands, and the Library as part of a regional journey with Mount Rushmore and Yellowstone. Summer photos are honest here because the ad sells a summer trip.",
      audiences=[{"name": "Drive market", "geo": DRIVE, "age": "30–65", "detail": "Parents, road trips, national parks, museums", "share": 0.40},
@@ -170,7 +170,7 @@ camp(id="tix-summer", program="Tickets & visits", revenue=True, priority=1,
 
 # ======================= MEMBERSHIP & GIVING =======================
 camp(id="mem-gift", program="Membership & giving", revenue=True, priority=1,
-     name="MEMBERSHIP: Give a year at the Library", objective="Sales", optimization="Landing page views (Purchase once the ACME pixel is live)",
+     name="MEMBERSHIP: Give a year at the Library", objective="Sales", optimization="Purchase",
      start="2026-11-20", end="2027-01-19", budget=17000,
      spend=TEST("Cost per landing page view", "$2.00 or less", days=5),
      why="Gift memberships are the best holiday product the Library sells: $50–$1,000, no shipping cutoff, and they bring people back. Short test Nov 20–24, then full spend through Dec 24 (the gift window), then new-year joins.",
@@ -424,7 +424,7 @@ camp(id="brand-birthday", program="Brand & audience building", revenue=False, pr
 
 # ======================= RETARGETING =======================
 camp(id="rt-allyear", program="Retargeting", revenue=True, priority=1,
-     name="RETARGETING: Bring them back", objective="Sales", optimization="Landing page views → Purchase",
+     name="RETARGETING: Bring them back", objective="Sales", optimization="Purchase",
      start="2026-11-10", end="2027-01-19", budget=9000,
      spend=TEST("Cost per landing page view", "$1.00 or less", days=7, frac=0.4),
      why="Everyone the other campaigns warm up (video viewers, engagers, site and store visitors) sees the best offer for the season: Kennerly and gifts in Nov–Dec, spring break and summer in January.",
@@ -669,7 +669,7 @@ camp(id="dest-family", program="Tickets & visits", revenue=False, priority=1,
 # targeting has "People traveling in this location" (recent location 200+ km from home). Pins along
 # I-94 and in the gateway towns catch road-trippers and fly-in visitors while they're nearby.
 camp(id="dest-nearby", program="Tickets & visits", revenue=True, priority=1,
-     name="DESTINATION: Travelers already nearby (I-94, Black Hills, gateway towns)", objective="Sales", optimization="Landing page views (Purchase once the ACME pixel is live)",
+     name="DESTINATION: Travelers already nearby (I-94, Black Hills, gateway towns)", objective="Sales", optimization="Purchase",
      start="2026-11-04", end="2027-01-19", budget=2500, spend=BURST("Cost per landing page view", "People traveling through decide today; a test window would miss them. Small, always-on budget."),
      why="Catches people who are already in the region: driving I-94 across western North Dakota, flying into Bismarck, Dickinson or Billings, or visiting the Black Hills. Winter traffic is light, so the budget is small; the same ad sets are the backbone of a summer always-on campaign after the credit ends.",
      audiences=[{"name": "I-94 corridor travelers", "geo": "People traveling in: pins on I-94 at Bismarck, Dickinson, Belfield, Beach (ND) and Glendive (MT), 15–25 mi radius", "age": "21+", "detail": "Broad (location type: traveling in this location)", "share": 0.6},

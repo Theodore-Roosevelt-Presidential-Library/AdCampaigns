@@ -38,8 +38,9 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
     then G-DH74VNCCH2 stopped loading at all (ACME's own gtag config didn't load it), so version
     20 reverted that. Double-counted GA4 page views are possible but not confirmed. Check in GA4
     before changing anything.
-  Until a real order shows Purchase in Events Manager (dataset 1069854392776858), ticket and
-  membership campaigns optimize for Landing page views, not Purchase.
+  Oct 27, 2026: Purchase confirmed in Events Manager (dataset 1069854392776858) from
+  access.trlibrary.com: 1 Purchase, first on Oct 27, 2026. Ticket and membership campaigns can
+  now optimize for Purchase.
 - Donations go to a DonorPerfect form (no pixel). Land giving ads on trlibrary.com/support-trpl.
 - Meta's US restriction on social issue/election/political ads runs Oct 27–Nov 3, 2026.
   Keep conservation, citizenship and civic copy out of that window and out of the special ad
