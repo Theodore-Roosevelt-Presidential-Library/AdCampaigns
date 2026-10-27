@@ -22,8 +22,17 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 - Pixel/dataset: TRPL Website, 1069854392776858. Installed on www.trlibrary.com via Google Tag
   Manager GTM-N3888GS9 (tag "Custom HTML_META"). Shopify store sends events through the
   Facebook & Instagram channel (Enhanced: pixel + Conversions API).
-  NOT yet on access.trlibrary.com (ACME ticketing/membership) — ACME is adding it. Until then,
-  ticket and membership campaigns optimize for Landing page views, not Purchase.
+  ACME checkout (access.trlibrary.com, ACME account 613): ACME's Theme loads GTM-N3888GS9 into
+  its own data layer, "tenantGtmDataLayer" (checked Oct 27), so the pixel's PageView already
+  fires on the ticket and membership pages. ACME pushes {event:"purchase", user_data.
+  sha256_email_address, ecommerce:{currency, transaction_id, value, items[...]}} at order
+  confirmation (example in ACME's "GA4/GTM Data Layer" doc). Items carry item_brand: "Standard
+  Event Ticket", "Membership Renewal", "Fixed Donation", "Fee", etc. ACME also sends GA4
+  G-DH74VNCCH2 directly through gtag, purchase included. So: keep ACME's GA4, exclude
+  access.trlibrary.com from the GTM GA4 tags, and add a GTM Meta Purchase tag fired by Custom
+  Event "purchase", with eventID "acme-"+transaction_id. Until that tag is published and a test
+  order shows Purchase in Events Manager, ticket and membership campaigns optimize for Landing
+  page views, not Purchase.
 - Donations go to a DonorPerfect form (no pixel). Land giving ads on trlibrary.com/support-trpl.
 - Meta's US restriction on social issue/election/political ads runs Oct 27–Nov 3, 2026.
   Keep conservation, citizenship and civic copy out of that window and out of the special ad
