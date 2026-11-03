@@ -8,8 +8,8 @@ import pathlib, json, datetime as dt, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WEBCAT = json.loads((ROOT / "creative" / "web" / "catalog.json").read_text())
-CREDIT = {"total": 150000, "expires": "2027-01-20", "account_id": "960679053196120",
-          "account_name": "TRPL FB Grant", "pixel_id": "1069854392776858",
+CREDIT = {"total": 150000, "expires": "2027-01-20", "account_id": "1085868274425806",
+          "account_name": "TRPL Meta Credit (US)", "pixel_id": "1069854392776858",
           "page": "Theodore Roosevelt Presidential Library", "page_id": "144035749389560",
           "instagram": "trlibrary", "instagram_id": "17841426268646366"}
 

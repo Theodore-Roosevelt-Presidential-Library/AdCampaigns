@@ -16,8 +16,19 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
 - Never change budgets, targeting or status on a live campaign without Matt's OK.
 
 ## Account facts
-- Ad account: TRPL FB Grant, act_960679053196120 (business portfolio 1969051273778035).
+- Ad account: TRPL Meta Credit (US), act_1085868274425806 (business portfolio 1969051273778035).
+  Created Nov 3, 2026: US, USD, America/Denver, business address Theodore Roosevelt Presidential
+  Library Foundation, 401 E Main Ave, Ste 201, Bismarck, ND 58501. Card added by Matt. Pixel
+  1069854392776858 connected Nov 3.
+  The old account, TRPL FB Grant act_960679053196120, has a Canadian address and could not take a
+  US payment method, so nothing can run there. It holds the $150K credit until Meta moves it to the
+  new account. Do not close it before the transfer. Its paused tix-galleries draft is dead; ignore it.
   Ignore ad account 18555278; it is Matt's personal account.
+- Wave 1 (8 campaigns, 13 ad sets, 23 creatives, 34 ads) was built PAUSED on the new account on
+  Nov 3. IDs in .work/meta_build.json (not committed). Budgets are the plan's first-phase daily
+  (test rate for test campaigns); scale after the decide-on date only with Matt's OK.
+  Meta rejects location type travel_in on lat/long pins, so the dest-nearby ad sets use "recent"
+  (people recently in the area, which includes residents).
 - Page: Theodore Roosevelt Presidential Library (144035749389560). Instagram: @trlibrary (17841426268646366).
 - Pixel/dataset: TRPL Website, 1069854392776858. Installed on www.trlibrary.com via Google Tag
   Manager GTM-N3888GS9 (tag "Custom HTML_META"). Shopify store sends events through the

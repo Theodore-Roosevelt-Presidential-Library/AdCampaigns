@@ -2,13 +2,13 @@
 """Snapshot the TRPL FB Grant ad account into data/live.json (read-only).
 
 Runs in GitHub Actions when the repo secret META_ACCESS_TOKEN is set (a system-user
-token with ads_read on act_960679053196120). Without the secret it exits quietly and
+token with ads_read on act_1085868274425806). Without the secret it exits quietly and
 agents refresh data/live.json through the Meta Ads connector instead (see llm.txt).
 Never writes to Meta."""
 import json, os, sys, urllib.request, urllib.parse, datetime as dt, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-ACCT = "act_960679053196120"
+ACCT = "act_1085868274425806"
 TOKEN = os.environ.get("META_ACCESS_TOKEN")
 V = "https://graph.facebook.com/v21.0"
 
