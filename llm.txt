@@ -14,6 +14,9 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
   "TICKETS: Plan your summer trip [tix-summer]". The dashboard links live campaigns to
   proposals by that bracketed ID.
 - Never change budgets, targeting or status on a live campaign without Matt's OK.
+- Matt, Nov 3, 2026: no spend that costs money until Meta has moved the $150K credit to
+  act_1085868274425806. Before activating anything, confirm the credit shows on that account's
+  billing page (Payment settings) and tell Matt. Until then everything stays PAUSED.
 
 ## Account facts
 - Ad account: TRPL Meta Credit (US), act_1085868274425806 (business portfolio 1969051273778035).
