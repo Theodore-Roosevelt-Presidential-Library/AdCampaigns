@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T16:11:51+00:00",
+ "generated": "2026-11-04T17:48:06+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -739,18 +739,18 @@
    "name": "MEMBERSHIP: Give a year at the Library",
    "objective": "Sales",
    "optimization": "Purchase",
-   "start": "2026-11-20",
+   "start": "2026-11-05",
    "end": "2027-01-19",
    "budget": 17000,
    "spend": {
     "mode": "test",
-    "test_days": 5,
+    "test_days": 7,
     "test_frac": 0.35,
-    "metric": "Cost per landing page view",
-    "target": "$2.00 or less",
-    "decide_on": "2026-11-24"
+    "metric": "Cost per purchase",
+    "target": "under $60",
+    "decide_on": "2026-11-11"
    },
-   "why": "Gift memberships are the best holiday product the Library sells: $50–$1,000, no shipping cutoff, and they bring people back. Short test Nov 20–24, then full spend through Dec 24 (the gift window), then new-year joins.",
+   "why": "Gift memberships are the best holiday product the Library sells: $50–$1,000, no shipping cutoff, and they bring people back. Matt (Nov 4): start now, while people begin their gift lists. Test Nov 5–11, then full spend through Dec 24 (the gift window), easing off on Giving Tuesday and during the year-end giving push, then new-year joins from Jan 2.",
    "audiences": [
     {
      "name": "Gift givers, national",
@@ -783,6 +783,7 @@
      "id": "mem-gift-family",
      "name": "Gift — family membership",
      "format": "image",
+     "flight": "Nov 5–Dec 24",
      "primary": "Give a year at the new Theodore Roosevelt Presidential Library in Medora, an Old West town in the North Dakota Badlands: free admissions, member discounts in the store and at Salt+Scoria, the Library's restaurant, and a reason to come back. Family memberships are $175.",
      "headline": "Give a year at the Library",
      "desc": "Memberships from $50",
@@ -804,6 +805,7 @@
      "id": "mem-gift-carousel",
      "name": "Gift — pick a level",
      "format": "carousel",
+     "flight": "Nov 5–Dec 24",
      "primary": "Still shopping for someone who loves history or a good road trip? Give a membership to the new Theodore Roosevelt Presidential Library in Medora, an Old West town in the North Dakota Badlands.",
      "cta": "Give Now",
      "url": "https://access.trlibrary.com/membership/613/join",
@@ -833,7 +835,7 @@
         "source": "Acquia DAM"
        },
        "headline": "Contributing · $250",
-       "desc": "6 admissions + welcome gift"
+       "desc": "6 admissions + commemorative gift"
       },
       {
        "media": {
@@ -842,7 +844,7 @@
         "source": "Acquia DAM"
        },
        "headline": "Patron · $500",
-       "desc": "Member magazine + more"
+       "desc": "6 admissions + commemorative gift"
       }
      ],
      "placements": [
@@ -856,7 +858,7 @@
      "id": "mem-newyear",
      "name": "New year — join",
      "format": "image",
-     "primary": "Start the year as a member of the new Theodore Roosevelt Presidential Library in Medora, an Old West town in the North Dakota Badlands. Free admissions and member pricing on everything else.",
+     "primary": "Start the new year as a member of the new Theodore Roosevelt Presidential Library in Medora, an Old West town in the North Dakota Badlands. Free admissions and member pricing on everything else.",
      "headline": "Become a member",
      "desc": "From $50 a year",
      "cta": "Sign Up",
@@ -866,7 +868,7 @@
       "src": "creative/dam/memory-train.jpg",
       "source": "Acquia DAM"
      },
-     "flight": "Jan 2–19",
+     "flight": "Dec 26–Jan 19",
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -876,19 +878,19 @@
     }
    ],
    "status": "proposed",
-   "days": 61,
-   "daily": 278.69,
+   "days": 76,
+   "daily": 223.68,
    "schedule": [
     {
-     "start": "2026-11-20",
-     "end": "2026-11-24",
-     "daily": 97.54,
+     "start": "2026-11-05",
+     "end": "2026-11-11",
+     "daily": 78.29,
      "phase": "test"
     },
     {
-     "start": "2026-11-25",
+     "start": "2026-11-12",
      "end": "2027-01-19",
-     "daily": 294.86,
+     "daily": 238.43,
      "phase": "scale"
     }
    ]
@@ -909,7 +911,7 @@
     "metric": "Cost per landing page view",
     "why": "Giving Tuesday and the last days of December are when gifts happen; there's no time to test."
    },
-   "why": "Year-end is when most individual giving happens. The Library opened this summer and has a strong first-year story. Giving Tuesday (Dec 1) is online-only because the Library is closed Tuesdays.",
+   "why": "Year-end is when most individual giving happens. The Library opened this summer and has a strong first-year story. Timed around the gift calendar (Matt, Nov 4): membership gifts run from Nov 5; giving starts the week of Thanksgiving, peaks on Giving Tuesday (Dec 1; online-only, the Library is closed Tuesdays), stays steady through December and gets its biggest push Dec 26–31, the last days for a gift that counts this tax year. Weight the budget to Dec 1 and Dec 26–31 with Meta's high-demand budget schedule.",
    "audiences": [
     {
      "name": "Warm audiences",
@@ -945,7 +947,7 @@
       "src": "creative/dam/kid-exhibit.jpg",
       "source": "Acquia DAM"
      },
-     "flight": "Nov 24–Dec 1",
+     "flight": "Nov 24–Dec 1 (budget boost on Dec 1)",
      "placements": [
       "fb_feed",
       "ig_feed",
@@ -967,13 +969,35 @@
       "src": "creative/dam/kid-crafts.jpg",
       "source": "Acquia DAM"
      },
-     "flight": "Dec 2–31",
+     "flight": "Dec 2–25",
      "placements": [
       "fb_feed",
       "ig_feed",
       "ig_story"
      ],
      "tracked_url": "https://www.trlibrary.com/support-trpl?utm_source=meta&utm_medium=paid_social&utm_campaign=give-yearend&utm_content=give-ye"
+    },
+    {
+     "id": "give-final",
+     "name": "Year-end — last days",
+     "format": "image",
+     "primary": "There are only a few days left to make a gift that counts this year. Help the new Theodore Roosevelt Presidential Library in Medora, North Dakota welcome the next student, family and first-time visitor.",
+     "headline": "Give before Dec. 31",
+     "desc": "Tax-deductible",
+     "cta": "Donate Now",
+     "url": "https://www.trlibrary.com/support-trpl",
+     "media": {
+      "type": "image",
+      "src": "creative/dam/family-gallery.jpg",
+      "source": "Acquia DAM"
+     },
+     "flight": "Dec 26–31 (budget boost)",
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/support-trpl?utm_source=meta&utm_medium=paid_social&utm_campaign=give-yearend&utm_content=give-final"
     }
    ],
    "status": "proposed",
@@ -1794,7 +1818,7 @@
    "name": "EVENTS: Midwinter Table dinner (Dec. 4)",
    "objective": "Sales",
    "optimization": "Purchase",
-   "start": "2026-11-06",
+   "start": "2026-11-05",
    "end": "2026-12-03",
    "budget": 1200,
    "spend": {
@@ -1905,13 +1929,13 @@
     }
    ],
    "status": "proposed",
-   "days": 28,
-   "daily": 42.86,
+   "days": 29,
+   "daily": 41.38,
    "schedule": [
     {
-     "start": "2026-11-06",
+     "start": "2026-11-05",
      "end": "2026-12-03",
-     "daily": 42.86,
+     "daily": 41.38,
      "phase": "burst"
     }
    ]
@@ -1924,13 +1948,13 @@
    "name": "EVENTS: Elkhorn Evenings and Santa (Dec. 10, 17, 19)",
    "objective": "Sales",
    "optimization": "Landing page views",
-   "start": "2026-12-01",
+   "start": "2026-11-05",
    "end": "2026-12-19",
    "budget": 2500,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
-    "why": "Three dates in one December window."
+    "why": "Matt (Nov 4): start now. Three December dates; build awareness early, heaviest the week of each date."
    },
    "why": "Two Thursday nights the Library stays open after hours: a Branding Market ($8–65 wood and leather gifts branded on the spot) and build-your-own charcuterie boards at Salt+Scoria ($28/$48), with the exhibits open. Santa visits Dec. 17 at Elkhorn Evenings and Saturday afternoon Dec. 19. Admission plus gift and food sales; the local and regional audience is the one that can come on a weeknight.",
    "audiences": [
@@ -2053,13 +2077,13 @@
     }
    ],
    "status": "proposed",
-   "days": 19,
-   "daily": 131.58,
+   "days": 45,
+   "daily": 55.56,
    "schedule": [
     {
-     "start": "2026-12-01",
+     "start": "2026-11-05",
      "end": "2026-12-19",
-     "daily": 131.58,
+     "daily": 55.56,
      "phase": "burst"
     }
    ]
@@ -2072,7 +2096,7 @@
    "name": "EVENTS: Butchery workshop, a holiday gift",
    "objective": "Sales",
    "optimization": "Purchase",
-   "start": "2026-11-20",
+   "start": "2026-11-05",
    "end": "2026-12-22",
    "budget": 500,
    "spend": {
@@ -2118,13 +2142,13 @@
     }
    ],
    "status": "proposed",
-   "days": 33,
-   "daily": 15.15,
+   "days": 48,
+   "daily": 10.42,
    "schedule": [
     {
-     "start": "2026-11-20",
+     "start": "2026-11-05",
      "end": "2026-12-22",
-     "daily": 15.15,
+     "daily": 10.42,
      "phase": "burst"
     }
    ]

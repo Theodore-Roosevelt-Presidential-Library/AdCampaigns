@@ -567,6 +567,274 @@
      }
     }
    ]
+  },
+  {
+   "id": "120249806296940752",
+   "name": "MEMBERSHIP: Give a year at the Library [mem-gift]",
+   "status": "PAUSED",
+   "effective_status": "PAUSED",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 7829,
+   "start_time": "2026-11-04T12:00:00-0700",
+   "stop_time": "2027-01-19T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249806323650752",
+     "name": "mem-gift-family – national",
+     "plan_ad": "mem-gift-family",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806326950752",
+     "name": "mem-gift-family – drive",
+     "plan_ad": "mem-gift-family",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806327160752",
+     "name": "mem-gift-carousel – national",
+     "plan_ad": "mem-gift-carousel",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806327230752",
+     "name": "mem-gift-carousel – drive",
+     "plan_ad": "mem-gift-carousel",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806327400752",
+     "name": "mem-newyear – national",
+     "plan_ad": "mem-newyear",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806327590752",
+     "name": "mem-newyear – drive",
+     "plan_ad": "mem-newyear",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249806297180752",
+   "name": "EVENTS: Midwinter Table dinner (Dec. 4) [evt-midwinter]",
+   "status": "PAUSED",
+   "effective_status": "PAUSED",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 4138,
+   "start_time": "2026-11-04T12:00:00-0700",
+   "stop_time": "2026-12-03T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249806327800752",
+     "name": "mw-dinner – regional",
+     "plan_ad": "mw-dinner",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806328220752",
+     "name": "mw-invite – regional",
+     "plan_ad": "mw-invite",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806328930752",
+     "name": "mw-carousel – regional",
+     "plan_ad": "mw-carousel",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249806297350752",
+   "name": "EVENTS: Elkhorn Evenings and Santa (Dec. 10, 17, 19) [evt-elkhorn]",
+   "status": "PAUSED",
+   "effective_status": "PAUSED",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 5556,
+   "start_time": "2026-11-04T12:00:00-0700",
+   "stop_time": "2026-12-19T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249806329500752",
+     "name": "elk-evenings – local",
+     "plan_ad": "elk-evenings",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806329770752",
+     "name": "elk-evenings – regional",
+     "plan_ad": "elk-evenings",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806330130752",
+     "name": "elk-santa – local",
+     "plan_ad": "elk-santa",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806330520752",
+     "name": "elk-santa – regional",
+     "plan_ad": "elk-santa",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806330990752",
+     "name": "elk-carousel – local",
+     "plan_ad": "elk-carousel",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249806331460752",
+     "name": "elk-carousel – regional",
+     "plan_ad": "elk-carousel",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249806297600752",
+   "name": "EVENTS: Butchery workshop, a holiday gift [evt-butchery]",
+   "status": "PAUSED",
+   "effective_status": "PAUSED",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 1042,
+   "start_time": "2026-11-04T12:00:00-0700",
+   "stop_time": "2026-12-22T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249806331790752",
+     "name": "butchery-gift – regional",
+     "plan_ad": "butchery-gift",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "insights": {
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
   }
  ]
 }
