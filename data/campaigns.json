@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T11:10:08+00:00",
+ "generated": "2026-11-04T16:11:51+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -12,7 +12,7 @@
   "instagram_id": "17841426268646366"
  },
  "reserve": {
-  "budget": 2000,
+  "budget": 1000,
   "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."
  },
  "guardrails": [
@@ -1588,7 +1588,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-18",
    "end": "2026-12-23",
-   "budget": 5000,
+   "budget": 2800,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -1634,12 +1634,12 @@
    ],
    "status": "proposed",
    "days": 36,
-   "daily": 138.89,
+   "daily": 77.78,
    "schedule": [
     {
      "start": "2026-11-18",
      "end": "2026-12-23",
-     "daily": 138.89,
+     "daily": 77.78,
      "phase": "burst"
     }
    ]
@@ -1787,6 +1787,349 @@
    ]
   },
   {
+   "id": "evt-midwinter",
+   "program": "Events",
+   "revenue": true,
+   "priority": 2,
+   "name": "EVENTS: Midwinter Table dinner (Dec. 4)",
+   "objective": "Sales",
+   "optimization": "Purchase",
+   "start": "2026-11-06",
+   "end": "2026-12-03",
+   "budget": 1200,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per purchase",
+    "why": "One night, 75 seats, about 40 left on Nov 4. Four weeks is too short for a test."
+   },
+   "why": "A $150 seated dinner of the Badlands winter larder by Chef Candace Stock, with the regional producers at the table. About 40 seats left at $150–190, so roughly $6,000 of ticket revenue to fill. Complements the invitation email to Alice's list; this reaches food-and-drink people within a day's drive.",
+   "audiences": [
+    {
+     "name": "Regional, 21+",
+     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
+     "age": "25–65 (21+ hard minimum)",
+     "detail": "Broad; fine dining, wine, local food",
+     "share": 1.0
+    }
+   ],
+   "open_items": [
+    "21+ event: the ad set needs a hard minimum age of 21.",
+    "The invitation and menu graphics are Peter's; confirm they're final before they run as ads.",
+    "Pause once it sells out (check ACME daily)."
+   ],
+   "ads": [
+    {
+     "id": "mw-dinner",
+     "name": "Midwinter Table",
+     "format": "image",
+     "primary": "Midwinter Table: a seated dinner of the Badlands winter larder at the new Theodore Roosevelt Presidential Library in Medora, North Dakota, Friday, Dec. 4. Three courses by Chef Candace Stock, with the regional producers at the table. 21+. Seats are limited.",
+     "headline": "Midwinter Table, Dec. 4",
+     "desc": "$150, hosted bar included",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/midwinter-table",
+     "media": {
+      "type": "image",
+      "src": "creative/web/midwinter-table.jpg",
+      "source": "trlibrary.com/midwinter-table"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/midwinter-table?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-midwinter&utm_content=mw-dinner"
+    },
+    {
+     "id": "mw-invite",
+     "name": "The invitation",
+     "format": "image",
+     "primary": "How do you eat well in the Badlands once the ground has closed? Join the new Theodore Roosevelt Presidential Library in Medora, North Dakota for Midwinter Table: salted, smoked, cured, cellared and foraged. Dec. 4, reception at 6, dinner at 7.",
+     "headline": "Reserve your seat",
+     "desc": "Beer or wine pairings available",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/midwinter-table",
+     "media": {
+      "type": "image",
+      "src": "creative/web/midwinter-invite.jpg",
+      "source": "trlibrary.com/midwinter-table (e-invite graphic)"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/midwinter-table?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-midwinter&utm_content=mw-invite"
+    },
+    {
+     "id": "mw-carousel",
+     "name": "Invitation, menu, room",
+     "format": "carousel",
+     "primary": "Chokecherry, prickly pear, blue corn, prairie sage and beef raised close to home. Midwinter Table is a three-course dinner at the new Theodore Roosevelt Presidential Library in Medora, North Dakota, on Friday, Dec. 4. 21+, seats are limited.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/midwinter-table",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/midwinter-invite.jpg",
+        "source": "trlibrary.com/midwinter-table (e-invite graphic)"
+       },
+       "headline": "Midwinter Table",
+       "desc": "Friday, Dec. 4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/midwinter-menu.jpg",
+        "source": "trlibrary.com/midwinter-table (menu graphic)"
+       },
+       "headline": "The menu",
+       "desc": "Choose your first course"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/midwinter-table.jpg",
+        "source": "trlibrary.com/midwinter-table"
+       },
+       "headline": "Hosted bar at 6",
+       "desc": "Dinner at 7"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/midwinter-table?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-midwinter&utm_content=mw-carousel"
+    }
+   ],
+   "status": "proposed",
+   "days": 28,
+   "daily": 42.86,
+   "schedule": [
+    {
+     "start": "2026-11-06",
+     "end": "2026-12-03",
+     "daily": 42.86,
+     "phase": "burst"
+    }
+   ]
+  },
+  {
+   "id": "evt-elkhorn",
+   "program": "Events",
+   "revenue": true,
+   "priority": 2,
+   "name": "EVENTS: Elkhorn Evenings and Santa (Dec. 10, 17, 19)",
+   "objective": "Sales",
+   "optimization": "Landing page views",
+   "start": "2026-12-01",
+   "end": "2026-12-19",
+   "budget": 2500,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "Three dates in one December window."
+   },
+   "why": "Two Thursday nights the Library stays open after hours: a Branding Market ($8–65 wood and leather gifts branded on the spot) and build-your-own charcuterie boards at Salt+Scoria ($28/$48), with the exhibits open. Santa visits Dec. 17 at Elkhorn Evenings and Saturday afternoon Dec. 19. Admission plus gift and food sales; the local and regional audience is the one that can come on a weeknight.",
+   "audiences": [
+    {
+     "name": "Local",
+     "geo": "120-mile radius of Medora",
+     "age": "21–65",
+     "detail": "Broad; parents for the Santa ad",
+     "share": 0.6
+    },
+    {
+     "name": "Regional",
+     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
+     "age": "25–65",
+     "detail": "Broad",
+     "share": 0.4
+    }
+   ],
+   "open_items": [
+    "The event page lists both 4–8 PM and 5–8 PM. Fix it; the ads say 'after hours' and no times until then.",
+    "No photo yet of the Branding Market or charcuterie boards. The Northern Lights shot is from construction. Swap in real photos from the first evening (Dec. 10) for the Dec. 17 push.",
+    "Overlaps evt-holiday (Christmas at the Library), which drops to $2,800 to fund this."
+   ],
+   "ads": [
+    {
+     "id": "elk-evenings",
+     "name": "Open after hours",
+     "format": "image",
+     "primary": "On two Thursdays in December, the new Theodore Roosevelt Presidential Library in Medora, North Dakota stays open after hours. Have a wood or leather gift branded on the spot, build a charcuterie board at Salt+Scoria, and see the exhibits. Dec. 10 and 17.",
+     "headline": "Elkhorn Evenings, Dec. 10 & 17",
+     "desc": "Included with admission",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings",
+     "media": {
+      "type": "image",
+      "src": "creative/web/northern-lights-library.jpg",
+      "source": "trlibrary.com/visit/stargazing"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-elkhorn&utm_content=elk-evenings"
+    },
+    {
+     "id": "elk-santa",
+     "name": "Visit with Santa",
+     "format": "image",
+     "primary": "Santa Claus visits the new Theodore Roosevelt Presidential Library in Medora, North Dakota twice this season: Thursday evening, Dec. 17, during Elkhorn Evenings, and Saturday afternoon, Dec. 19. Bring a list and a camera. Free with admission.",
+     "headline": "Visit with Santa, Dec. 17 & 19",
+     "desc": "Free with admission",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus",
+     "media": {
+      "type": "image",
+      "src": "creative/web/santa-library.jpg",
+      "source": "trlibrary.com/calendar/special-event/visit-santa-claus"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-elkhorn&utm_content=elk-santa"
+    },
+    {
+     "id": "elk-carousel",
+     "name": "December at the Library",
+     "format": "carousel",
+     "primary": "December at the new Theodore Roosevelt Presidential Library in Medora, North Dakota: after-hours Elkhorn Evenings on Dec. 10 and 17, branded gifts, charcuterie boards to go, and Santa on Dec. 17 and 19.",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/santa-library.jpg",
+        "source": "trlibrary.com/calendar/special-event/visit-santa-claus"
+       },
+       "headline": "Visit with Santa",
+       "desc": "Dec. 17 and 19",
+       "url": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus",
+       "tracked_url": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-elkhorn&utm_content=elk-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/northern-lights-library.jpg",
+        "source": "trlibrary.com/visit/stargazing"
+       },
+       "headline": "Open after hours",
+       "desc": "Thursdays, Dec. 10 and 17"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/saltscoria-tables.jpg",
+        "source": "trlibrary.com/calendar/special-event/butchery-workshop"
+       },
+       "headline": "Charcuterie at Salt+Scoria",
+       "desc": "Boards for two or four"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/web/library-night.jpg",
+        "source": "trlibrary.com/visit/stargazing"
+       },
+       "headline": "Exhibits open all evening",
+       "desc": "Included with admission"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-elkhorn&utm_content=elk-carousel"
+    }
+   ],
+   "status": "proposed",
+   "days": 19,
+   "daily": 131.58,
+   "schedule": [
+    {
+     "start": "2026-12-01",
+     "end": "2026-12-19",
+     "daily": 131.58,
+     "phase": "burst"
+    }
+   ]
+  },
+  {
+   "id": "evt-butchery",
+   "program": "Events",
+   "revenue": true,
+   "priority": 3,
+   "name": "EVENTS: Butchery workshop, a holiday gift",
+   "objective": "Sales",
+   "optimization": "Purchase",
+   "start": "2026-11-20",
+   "end": "2026-12-22",
+   "budget": 500,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per purchase",
+    "why": "Ten seats; small and short."
+   },
+   "why": "A $225 hands-on butchery class at Salt+Scoria on Jan. 24 ($275 as a gift box), sold as a holiday gift. About 8 seats left, so around $2,000 of revenue. Runs only through the gift-buying window, since the credit ends Jan. 20.",
+   "audiences": [
+    {
+     "name": "Regional",
+     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
+     "age": "25–65",
+     "detail": "Cooking, hunting, ranching, local food",
+     "share": 1.0
+    }
+   ],
+   "open_items": [
+    "Ask Chef Candace for a photo of the class or of beef on the block; the current image shows the empty Salt+Scoria room.",
+    "Pause when it sells out."
+   ],
+   "ads": [
+    {
+     "id": "butchery-gift",
+     "name": "A gift for the cook who has everything",
+     "format": "image",
+     "primary": "A gift for the cook who has everything: a hands-on butchery workshop at Salt+Scoria, inside the new Theodore Roosevelt Presidential Library in Medora, North Dakota. Learn to break down locally raised beef and take home what you cut. Sunday morning, Jan. 24. Ten seats.",
+     "headline": "Give a butchery workshop",
+     "desc": "$225 a seat, $275 as a gift box",
+     "cta": "Book Now",
+     "url": "https://www.trlibrary.com/calendar/special-event/butchery-workshop",
+     "media": {
+      "type": "image",
+      "src": "creative/web/saltscoria-tables.jpg",
+      "source": "trlibrary.com/calendar/special-event/butchery-workshop"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/calendar/special-event/butchery-workshop?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-butchery&utm_content=butchery-gift"
+    }
+   ],
+   "status": "proposed",
+   "days": 33,
+   "daily": 15.15,
+   "schedule": [
+    {
+     "start": "2026-11-20",
+     "end": "2026-12-22",
+     "daily": 15.15,
+     "phase": "burst"
+    }
+   ]
+  },
+  {
    "id": "evt-ffh",
    "program": "Events",
    "revenue": false,
@@ -1860,7 +2203,7 @@
    "optimization": "ThruPlay",
    "start": "2026-10-28",
    "end": "2027-01-19",
-   "budget": 8000,
+   "budget": 7000,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -1980,18 +2323,18 @@
    ],
    "status": "proposed",
    "days": 84,
-   "daily": 95.24,
+   "daily": 83.33,
    "schedule": [
     {
      "start": "2026-10-28",
      "end": "2026-11-03",
-     "daily": 47.62,
+     "daily": 41.66,
      "phase": "test"
     },
     {
      "start": "2026-11-04",
      "end": "2027-01-19",
-     "daily": 99.57,
+     "daily": 87.12,
      "phase": "scale"
     }
    ]

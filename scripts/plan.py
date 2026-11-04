@@ -323,7 +323,7 @@ camp(id="evt-room", program="Events", revenue=True, priority=1,
 
 camp(id="evt-holiday", program="Events", revenue=False, priority=2,
      name="EVENTS: The Library at Christmas", objective="Traffic", optimization="Landing page views",
-     start="2026-11-18", end="2026-12-23", budget=5000,
+     start="2026-11-18", end="2026-12-23", budget=2800,
      spend=BURST("Cost per landing page view", "Decorations are up Nov 17 to Christmas. A five-week window doesn't leave room for a test."),
      why="Decorations go up Nov 15–16. Pairs with TRMF's Old Fashioned Cowboy Christmas in Medora and with Museum Store Sunday.",
      audiences=[{"name": "Regional", "geo": REGION, "age": "25–70", "detail": "Broad", "share": 1.0}],
@@ -369,6 +369,80 @@ camp(id="evt-film", program="Events", revenue=True, priority=3,
                    {"media": atb("wetland-sunset"), "headline": "Afternoon and evening shows", "desc": "Medora, North Dakota"}]},
      ])
 
+MIDWINTER = T + "/midwinter-table"
+ELKHORN_EVE = T + "/calendar/special-event/elkhorn-evenings"
+SANTA = T + "/calendar/special-event/visit-santa-claus"
+BUTCHERY = T + "/calendar/special-event/butchery-workshop"
+
+camp(id="evt-midwinter", program="Events", revenue=True, priority=2,
+     name="EVENTS: Midwinter Table dinner (Dec. 4)", objective="Sales", optimization="Purchase",
+     start="2026-11-06", end="2026-12-03", budget=1200,
+     spend=BURST("Cost per purchase", "One night, 75 seats, about 40 left on Nov 4. Four weeks is too short for a test."),
+     why="A $150 seated dinner of the Badlands winter larder by Chef Candace Stock, with the regional producers at the table. About 40 seats left at $150–190, so roughly $6,000 of ticket revenue to fill. Complements the invitation email to Alice's list; this reaches food-and-drink people within a day's drive.",
+     audiences=[{"name": "Regional, 21+", "geo": REGION, "age": "25–65 (21+ hard minimum)", "detail": "Broad; fine dining, wine, local food", "share": 1.0}],
+     open_items=["21+ event: the ad set needs a hard minimum age of 21.",
+                 "The invitation and menu graphics are Peter's; confirm they're final before they run as ads.",
+                 "Pause once it sells out (check ACME daily)."],
+     ads=[
+        {"id": "mw-dinner", "name": "Midwinter Table", "format": "image",
+         "primary": "Midwinter Table: a seated dinner of the Badlands winter larder at the new Theodore Roosevelt Presidential Library in Medora, North Dakota, Friday, Dec. 4. Three courses by Chef Candace Stock, with the regional producers at the table. 21+. Seats are limited.",
+         "headline": "Midwinter Table, Dec. 4", "desc": "$150, hosted bar included", "cta": "Book Now", "url": MIDWINTER,
+         "media": web("midwinter-table")},
+        {"id": "mw-invite", "name": "The invitation", "format": "image",
+         "primary": "How do you eat well in the Badlands once the ground has closed? Join the new Theodore Roosevelt Presidential Library in Medora, North Dakota for Midwinter Table: salted, smoked, cured, cellared and foraged. Dec. 4, reception at 6, dinner at 7.",
+         "headline": "Reserve your seat", "desc": "Beer or wine pairings available", "cta": "Book Now", "url": MIDWINTER,
+         "media": web("midwinter-invite")},
+        {"id": "mw-carousel", "name": "Invitation, menu, room", "format": "carousel",
+         "primary": "Chokecherry, prickly pear, blue corn, prairie sage and beef raised close to home. Midwinter Table is a three-course dinner at the new Theodore Roosevelt Presidential Library in Medora, North Dakota, on Friday, Dec. 4. 21+, seats are limited.",
+         "cta": "Book Now", "url": MIDWINTER,
+         "cards": [{"media": web("midwinter-invite"), "headline": "Midwinter Table", "desc": "Friday, Dec. 4"},
+                   {"media": web("midwinter-menu"), "headline": "The menu", "desc": "Choose your first course"},
+                   {"media": web("midwinter-table"), "headline": "Hosted bar at 6", "desc": "Dinner at 7"}]},
+     ])
+
+camp(id="evt-elkhorn", program="Events", revenue=True, priority=2,
+     name="EVENTS: Elkhorn Evenings and Santa (Dec. 10, 17, 19)", objective="Sales", optimization="Landing page views",
+     start="2026-12-01", end="2026-12-19", budget=2500,
+     spend=BURST("Cost per landing page view", "Three dates in one December window."),
+     why="Two Thursday nights the Library stays open after hours: a Branding Market ($8–65 wood and leather gifts branded on the spot) and build-your-own charcuterie boards at Salt+Scoria ($28/$48), with the exhibits open. Santa visits Dec. 17 at Elkhorn Evenings and Saturday afternoon Dec. 19. Admission plus gift and food sales; the local and regional audience is the one that can come on a weeknight.",
+     audiences=[{"name": "Local", "geo": LOCAL, "age": "21–65", "detail": "Broad; parents for the Santa ad", "share": 0.6},
+                {"name": "Regional", "geo": REGION, "age": "25–65", "detail": "Broad", "share": 0.4}],
+     open_items=["The event page lists both 4–8 PM and 5–8 PM. Fix it; the ads say 'after hours' and no times until then.",
+                 "No photo yet of the Branding Market or charcuterie boards. The Northern Lights shot is from construction. Swap in real photos from the first evening (Dec. 10) for the Dec. 17 push.",
+                 "Overlaps evt-holiday (Christmas at the Library), which drops to $2,800 to fund this."],
+     ads=[
+        {"id": "elk-evenings", "name": "Open after hours", "format": "image",
+         "primary": "On two Thursdays in December, the new Theodore Roosevelt Presidential Library in Medora, North Dakota stays open after hours. Have a wood or leather gift branded on the spot, build a charcuterie board at Salt+Scoria, and see the exhibits. Dec. 10 and 17.",
+         "headline": "Elkhorn Evenings, Dec. 10 & 17", "desc": "Included with admission", "cta": "Book Now", "url": ELKHORN_EVE,
+         "media": web("northern-lights-library")},
+        {"id": "elk-santa", "name": "Visit with Santa", "format": "image",
+         "primary": "Santa Claus visits the new Theodore Roosevelt Presidential Library in Medora, North Dakota twice this season: Thursday evening, Dec. 17, during Elkhorn Evenings, and Saturday afternoon, Dec. 19. Bring a list and a camera. Free with admission.",
+         "headline": "Visit with Santa, Dec. 17 & 19", "desc": "Free with admission", "cta": "Learn More", "url": SANTA,
+         "media": web("santa-library")},
+        {"id": "elk-carousel", "name": "December at the Library", "format": "carousel",
+         "primary": "December at the new Theodore Roosevelt Presidential Library in Medora, North Dakota: after-hours Elkhorn Evenings on Dec. 10 and 17, branded gifts, charcuterie boards to go, and Santa on Dec. 17 and 19.",
+         "cta": "Book Now", "url": ELKHORN_EVE,
+         "cards": [{"media": web("santa-library"), "headline": "Visit with Santa", "desc": "Dec. 17 and 19", "url": SANTA},
+                   {"media": web("northern-lights-library"), "headline": "Open after hours", "desc": "Thursdays, Dec. 10 and 17"},
+                   {"media": web("saltscoria-tables"), "headline": "Charcuterie at Salt+Scoria", "desc": "Boards for two or four"},
+                   {"media": web("library-night"), "headline": "Exhibits open all evening", "desc": "Included with admission"}]},
+     ])
+
+camp(id="evt-butchery", program="Events", revenue=True, priority=3,
+     name="EVENTS: Butchery workshop, a holiday gift", objective="Sales", optimization="Purchase",
+     start="2026-11-20", end="2026-12-22", budget=500,
+     spend=BURST("Cost per purchase", "Ten seats; small and short."),
+     why="A $225 hands-on butchery class at Salt+Scoria on Jan. 24 ($275 as a gift box), sold as a holiday gift. About 8 seats left, so around $2,000 of revenue. Runs only through the gift-buying window, since the credit ends Jan. 20.",
+     audiences=[{"name": "Regional", "geo": REGION, "age": "25–65", "detail": "Cooking, hunting, ranching, local food", "share": 1.0}],
+     open_items=["Ask Chef Candace for a photo of the class or of beef on the block; the current image shows the empty Salt+Scoria room.",
+                 "Pause when it sells out."],
+     ads=[
+        {"id": "butchery-gift", "name": "A gift for the cook who has everything", "format": "image",
+         "primary": "A gift for the cook who has everything: a hands-on butchery workshop at Salt+Scoria, inside the new Theodore Roosevelt Presidential Library in Medora, North Dakota. Learn to break down locally raised beef and take home what you cut. Sunday morning, Jan. 24. Ten seats.",
+         "headline": "Give a butchery workshop", "desc": "$225 a seat, $275 as a gift box", "cta": "Book Now", "url": BUTCHERY,
+         "media": web("saltscoria-tables")},
+     ])
+
 camp(id="evt-ffh", program="Events", revenue=False, priority=4,
      name="EVENTS: Free final hour", objective="Awareness", optimization="Reach",
      start="2026-11-04", end="2027-01-19", budget=2000,
@@ -386,7 +460,7 @@ camp(id="evt-ffh", program="Events", revenue=False, priority=4,
 # ======================= BRAND & AUDIENCE BUILDING =======================
 camp(id="brand-video", program="Brand & audience building", revenue=False, priority=2,
      name="BRAND: Step into the story (video)", objective="Engagement", optimization="ThruPlay",
-     start="2026-10-28", end="2027-01-19", budget=8000,
+     start="2026-10-28", end="2027-01-19", budget=7000,
      spend=TEST("Cost per ThruPlay", "$0.03 or less", days=7, frac=0.5),
      why="Cheap video views at national scale. Builds the 50%-viewer audiences that the ticket, membership and giving campaigns retarget. Indoor commercials only for the winter; the study found awareness alone lifts interest by 22 points.",
      audiences=[{"name": "National", "geo": "United States", "age": "25–70", "detail": "American history, national parks, road trips, Theodore Roosevelt", "share": 0.5},
@@ -721,7 +795,7 @@ camp(id="dest-nearby", program="Tickets & visits", revenue=True, priority=1,
                    {"media": img("library-aerial-badlands"), "headline": "The new Library", "desc": "Theodore Roosevelt Presidential Library", "url": TIX}]},
      ])
 
-RESERVE = {"budget": 2000, "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."}
+RESERVE = {"budget": 1000, "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."}
 
 GUARDRAILS = [
     "Every campaign gets a lifetime budget equal to its plan. Meta can't spend past it.",

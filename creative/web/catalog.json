@@ -923,5 +923,40 @@
   "orig": "https://www.trlibrary.com/sites/default/files/2026-10/trpl-itin-115.jpg",
   "season": "summer",
   "scene": "outdoor"
+ },
+ {
+  "file": "creative/web/midwinter-table.jpg",
+  "source": "trlibrary.com/midwinter-table",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/EDPRO_0330_Midwinter-Table_IMAGE.jpg",
+  "season": "winter",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/web/midwinter-invite.jpg",
+  "source": "trlibrary.com/midwinter-table (e-invite graphic)",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/EDPRO_0330_Midwinter-Table-E-Invite-1--1-.jpg",
+  "season": "winter",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/web/midwinter-menu.jpg",
+  "source": "trlibrary.com/midwinter-table (menu graphic)",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/EDPRO_0330_Midwinter-Table-E-Invite2-1.jpg",
+  "season": "winter",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/web/santa-library.jpg",
+  "source": "trlibrary.com/calendar/special-event/visit-santa-claus",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/Media--1-.jpg",
+  "season": "winter",
+  "scene": "indoor"
+ },
+ {
+  "file": "creative/web/saltscoria-tables.jpg",
+  "source": "trlibrary.com/calendar/special-event/butchery-workshop",
+  "orig": "https://www.trlibrary.com/sites/default/files/2026-10/Theodore-Roosevelt-Presidential-Library-089.jpg",
+  "season": "any",
+  "scene": "indoor"
  }
 ]
