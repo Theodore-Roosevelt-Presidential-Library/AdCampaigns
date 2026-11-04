@@ -205,6 +205,11 @@ Every campaign in plan.py has spend.mode:
 ## Refreshing live
 - Daily the Action runs scripts/sync_live.py if the repo secret META_ACCESS_TOKEN exists
   (system-user token with ads_read on the ad account).
+- The dashboard marks a proposal Live when data/live.json has a campaign whose name ends in its
+  [plan-id]. Each live ad carries plan_ad (the plan ad id) so the Live tab reuses the plan mockup.
+  Links: ?status=live|proposed, ?program=<name>, ?c=<plan-id> (scroll to a campaign), #live etc.
+  The weekday optimizer task refreshes data/live.json each run (statuses, budgets, spend,
+  impressions, reach, clicks only; no purchase or revenue data in the public repo).
 - Without that secret, refresh by hand: use the Meta Ads connector (ads_get_ad_entities,
   insights) and write data/live.json in the shape sync_live.py produces:
   {as_of, source, account:{id,name,currency,amount_spent}, campaigns:[{id,name,status,
