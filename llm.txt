@@ -14,6 +14,12 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
   "TICKETS: Plan your summer trip [tix-summer]". The dashboard links live campaigns to
   proposals by that bracketed ID.
 - Never change budgets, targeting or status on a live campaign without Matt's OK.
+  Exception (Matt, Nov 4, 2026): the scheduled task "Meta ads daily review and optimizer"
+  (weekday mornings, 7:41 CT) may change campaign daily budgets by up to ±25% per run (once per
+  3 days per campaign, total active budgets <= $4,500/day) and pause weak ads by the test rules
+  below, to maximize revenue and spend ~$149,500 by Jan 19. It never touches billing, the spending
+  limit, targeting, creative, or creates/turns on anything. It logs to Outline "Meta Ad Credit —
+  Optimizer Log".
 - Matt, Nov 3-4, 2026: the card must never be charged. The $150K credit landed on
   act_1085868274425806 on Nov 4 (expires 2027-01-20; credit pays first, Visa second). An account
   spending limit of $149,500 (resets manually only) was set on Nov 4 so spend stops before the
