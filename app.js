@@ -69,6 +69,13 @@
   const daysLeft = () => Math.max(0, Math.ceil((new Date(PLAN.credit.expires + "T00:00:00-06:00") - new Date()) / 864e5));
   const liveFor = id => (LIVE.campaigns || []).find(c => (c.name || "").includes("[" + id + "]"));
   const isLive = c => !!liveFor(c.id);
+  // Links into Meta Ads Manager (opens in the viewer's own Meta login; nothing is exposed here).
+  const ACT = () => String((LIVE.account && LIVE.account.id) || "").replace(/^act_/, "");
+  const AM = "https://adsmanager.facebook.com/adsmanager/manage/";
+  const amCampaign = id => `${AM}campaigns?act=${ACT()}&business_id=1969051273778035&selected_campaign_ids=${id}`;
+  const amAds = id => `${AM}ads?act=${ACT()}&business_id=1969051273778035&selected_campaign_ids=${id}`;
+  const amAd = id => `${AM}ads?act=${ACT()}&business_id=1969051273778035&selected_ad_ids=${id}`;
+  const amLink = (href, label = "Open in Ads Manager") => `<a class="am" href="${esc(href)}" target="_blank" rel="noopener">${esc(label)} ↗</a>`;
   const planFor = name => { const m = /\[([^\]]+)\]\s*$/.exec(name || ""); return m && PLAN.campaigns.find(c => c.id === m[1]); };
 
   // ---------------- Proposed ----------------
@@ -123,7 +130,7 @@
     const lst = live && String(live.effective_status || live.status).toUpperCase();
     const chipS = live ? (lst === "ACTIVE" ? `<span class="chip active">Live</span>` : `<span class="chip paused">In Meta: ${esc(lst.toLowerCase().replace(/_/g, " "))}</span>`) : `<span class="chip proposed">Proposed</span>`;
     const li = live && (live.insights || {});
-    const liveRow = live ? `<dt>In Meta</dt><dd>${live.daily_budget ? money(live.daily_budget / 100, 2) + "/day" : ""}${li && li.spend != null ? " · " + money(li.spend, 2) + " spent" : ""} · ${(live.ads || []).length} ads · <a href="#live" data-live="${esc(c.id)}">see in Live</a></dd>` : "";
+    const liveRow = live ? `<dt>In Meta</dt><dd>${live.daily_budget ? money(live.daily_budget / 100, 2) + "/day" : ""}${li && li.spend != null ? " · " + money(li.spend, 2) + " spent" : ""} · ${(live.ads || []).length} ads · <a href="#live" data-live="${esc(c.id)}">see in Live</a> · ${amLink(amCampaign(live.id))}</dd>` : "";
     return `<div class="camp" id="c-${esc(c.id)}"><div class="camp-head">
       <div class="camp-budget"><div class="big">${k(c.budget)}</div><div class="small">${money(c.daily)}/day avg</div><div class="small">${c.days} days</div></div>
       <div style="flex:1;min-width:0">
@@ -182,13 +189,13 @@
     const i = c.insights || {}, budget = c.daily_budget ? money(c.daily_budget / 100) + "/day" : c.lifetime_budget ? money(c.lifetime_budget / 100) + " lifetime" : "budget on ad sets";
     const st = String(c.effective_status || c.status || "").toLowerCase();
     const pc0 = planFor(c.name);
-    return `<div class="group" id="l-${esc(pc0 ? pc0.id : c.id)}"><h2><span>${pc0 ? `<a href="?c=${esc(pc0.id)}#proposed" style="color:inherit">${esc(c.name)}</a>` : esc(c.name)} <span class="chip ${st === "active" ? "active" : "paused"}">${esc(c.effective_status || c.status)}</span></span><span class="meta">${budget}</span></h2>
+    return `<div class="group" id="l-${esc(pc0 ? pc0.id : c.id)}"><h2><span>${pc0 ? `<a href="?c=${esc(pc0.id)}#proposed" style="color:inherit">${esc(c.name)}</a>` : esc(c.name)} <span class="chip ${st === "active" ? "active" : "paused"}">${esc(c.effective_status || c.status)}</span></span><span class="meta">${budget} · ${amLink(amCampaign(c.id), "Ads Manager")} · ${amLink(amAds(c.id), "its ads")}</span></h2>
       <p class="gdesc">${esc(c.objective || "")}${c.start_time ? " · " + new Date(c.start_time).toLocaleDateString() : ""}${c.stop_time ? " – " + new Date(c.stop_time).toLocaleDateString() : ""}</p>
       <div class="stats">${stat("Spend", money(i.spend, 2), "")}${stat("Impressions", Number(i.impressions || 0).toLocaleString(), "")}${stat("Reach", Number(i.reach || 0).toLocaleString(), "")}${stat("Link clicks", Number(i.clicks || 0).toLocaleString(), i.ctr ? Number(i.ctr).toFixed(2) + "% CTR" : "")}${stat("Results", Number(i.results || 0).toLocaleString(), i.result_type || "")}</div>
       ${(c.ads || []).map(a => {
         const pc = planFor(c.name), pa = pc && pc.ads.find(x => x.id === a.plan_ad), ai = a.insights || {};
         const stA = `<span class="chip ${String(a.effective_status || "").toLowerCase() === "active" ? "active" : "paused"}">${esc(a.effective_status || a.status || "")}</span>`;
-        if (pa) return `<div class="ad"><h4>${esc(a.name)} ${stA}<span class="id">${esc(a.id)}</span></h4>${mock(pa)}<dl class="spec"><dt>Delivery</dt><dd>${money(ai.spend, 2)} · ${Number(ai.impressions || 0).toLocaleString()} impressions · ${Number(ai.clicks || 0).toLocaleString()} clicks</dd></dl></div>`;
+        if (pa) return `<div class="ad"><h4>${esc(a.name)} ${stA}<span class="id">${esc(a.id)}</span> ${amLink(amAd(a.id), "Ads Manager")}</h4>${mock(pa)}<dl class="spec"><dt>Delivery</dt><dd>${money(ai.spend, 2)} · ${Number(ai.impressions || 0).toLocaleString()} impressions · ${Number(ai.clicks || 0).toLocaleString()} clicks</dd></dl></div>`;
         const cr = a.creative || {};
         const obj = { format: cr.video_id ? "video" : "image", primary: cr.body || "", headline: cr.title || "", desc: cr.description || "", cta: (cr.call_to_action_type || "LEARN_MORE").replace(/_/g, " ").toLowerCase().replace(/\b\w/g, m => m.toUpperCase()), url: cr.link || "", media: { type: "image", src: cr.image_url || cr.thumbnail_url || "" } };
         return `<div class="ad"><h4>${esc(a.name)} <span class="chip ${String(a.effective_status || "").toLowerCase() === "active" ? "active" : "paused"}">${esc(a.effective_status || a.status || "")}</span><span class="id">${esc(a.id)}</span></h4>${mock(obj)}</div>`;

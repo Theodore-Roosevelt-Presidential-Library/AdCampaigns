@@ -195,3 +195,4 @@ table.data td.num, table.data th.num { text-align: right; font-variant-numeric: 
 .pill .n { opacity: .65; margin-left: 4px; font-variant-numeric: tabular-nums; }
 .camp.focus { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 12px; }
 .permalink { font-size: 12px; margin-left: 6px; color: var(--ink-3); }
+.am { font-size: 12px; font-weight: 500; white-space: nowrap; }
