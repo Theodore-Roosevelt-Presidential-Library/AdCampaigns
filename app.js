@@ -21,7 +21,18 @@
   const color = p => `var(--s${PROGRAMS.indexOf(p) + 1})`;
   const fetchJSON = (u, fb) => fetch(u, { cache: "no-store" }).then(r => r.ok ? r.json() : fb).catch(() => fb);
 
-  let PLAN, LIVE, CAT, filter = "all", WEB = [];
+  let PLAN, LIVE, CAT, filter = "all", status = "all", WEB = [];
+  // URL state: ?status=live|proposed&program=<name>&c=<plan id>#<tab>  (shareable deep links)
+  const Q = new URLSearchParams(location.search);
+  if (["live", "proposed"].includes(Q.get("status"))) status = Q.get("status");
+  if (PROGRAMS.includes(Q.get("program"))) filter = Q.get("program");
+  function syncURL() {
+    const q = new URLSearchParams();
+    if (status !== "all") q.set("status", status);
+    if (filter !== "all") q.set("program", filter);
+    const qs = q.toString();
+    history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + (location.hash || "#proposed"));
+  }
 
   Promise.all([fetchJSON("data/campaigns.json", null), fetchJSON("data/live.json", { campaigns: [] }), fetchJSON("creative/dam/catalog.json", []), fetchJSON("creative/web/catalog.json", [])])
     .then(([p, l, c, w]) => { PLAN = p; LIVE = l; CAT = c; WEB = w; boot(); });
@@ -36,8 +47,11 @@
     window.addEventListener("hashchange", () => show(location.hash.slice(1) || "proposed", true));
     renderProposed(); renderLive(); renderPacing(); renderCreative();
     show(location.hash.slice(1) || "proposed", true);
+    const c0 = Q.get("c"), el0 = c0 && document.getElementById("c-" + c0);
+    if (el0) { el0.classList.add("focus"); setTimeout(() => el0.scrollIntoView({ behavior: "smooth", block: "start" }), 60); }
     document.addEventListener("click", e => {
       const p = e.target.closest(".play"); if (p) openVideo(p.dataset.yt);
+      const lv = e.target.closest("[data-live]"); if (lv) { e.preventDefault(); show("live"); const t = document.getElementById("l-" + lv.dataset.live); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); }
       if (e.target.closest(".modal-x") || e.target.id === "modal") closeVideo();
     });
   }
@@ -46,7 +60,7 @@
     if (!document.getElementById("tab-" + t)) t = "proposed";
     document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
     document.querySelectorAll(".tab").forEach(s => s.hidden = s.id !== "tab-" + t);
-    if (!fromHash) history.replaceState(null, "", "#" + t);
+    if (!fromHash) history.replaceState(null, "", location.pathname + location.search + "#" + t);
   }
   function openVideo(id) { $("#modal .modal-body").innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${esc(id)}?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`; $("#modal").hidden = false; }
   function closeVideo() { $("#modal").hidden = true; $("#modal .modal-body").innerHTML = ""; }
@@ -54,6 +68,8 @@
   const liveSpend = () => Number((LIVE.account && LIVE.account.amount_spent) || (LIVE.campaigns || []).reduce((s, c) => s + Number((c.insights || {}).spend || 0), 0));
   const daysLeft = () => Math.max(0, Math.ceil((new Date(PLAN.credit.expires + "T00:00:00-06:00") - new Date()) / 864e5));
   const liveFor = id => (LIVE.campaigns || []).find(c => (c.name || "").includes("[" + id + "]"));
+  const isLive = c => !!liveFor(c.id);
+  const planFor = name => { const m = /\[([^\]]+)\]\s*$/.exec(name || ""); return m && PLAN.campaigns.find(c => c.id === m[1]); };
 
   // ---------------- Proposed ----------------
   function renderProposed() {
@@ -61,7 +77,7 @@
     const rev = C.filter(c => c.revenue).reduce((s, c) => s + c.budget, 0);
     const ads = C.reduce((s, c) => s + c.ads.length, 0);
     const el = $("#tab-proposed");
-    el.innerHTML = `<p class="lede">Campaigns proposed for the credit, grouped by program, with mockups of each ad as it would appear on Facebook and Instagram. Nothing here is live until Matt approves a campaign by name; it is then built paused in Meta and shows up under Live in Meta.</p>
+    el.innerHTML = `<p class="lede">Campaigns proposed for the credit, grouped by program, with mockups of each ad as it would appear on Facebook and Instagram. Nothing runs until Matt approves a campaign by name; it is then built in Meta and marked <span class="chip active">Live</span> here (or <span class="chip paused">In Meta: paused</span>). Use the filters to show live or proposed campaigns; the address bar keeps the filter, so links open the same view.</p>
       <div class="stats">
         ${stat("Ad credit", k(PLAN.credit.total), "expires " + fmtD(PLAN.credit.expires))}
         ${stat("Planned", k(planned), "+ " + k(PLAN.reserve.budget) + " reserve")}
@@ -70,10 +86,12 @@
         ${stat("Spent in Meta", k(liveSpend()), "")}
         ${stat("Days left", daysLeft(), "to use the credit")}
       </div>
+      <div class="pills" id="ps">${[["all", "All campaigns", C.length], ["live", "Live in Meta", C.filter(isLive).length], ["proposed", "Proposed", C.filter(c => !isLive(c)).length]].map(([v, l, n]) => `<button class="pill" data-s="${v}" aria-pressed="${v === status}">${l} <span class="n">${n}</span></button>`).join("")}</div>
       <div class="pills" id="pf">${["all", ...PROGRAMS].map(p => `<button class="pill" data-p="${esc(p)}" aria-pressed="${p === filter}">${p === "all" ? "All programs" : esc(p)}</button>`).join("")}</div>
       <div id="groups"></div>
       <div class="group"><h2>Reserve <span class="meta">${money(PLAN.reserve.budget)}</span></h2><p class="gdesc">${esc(PLAN.reserve.why)}</p></div>`;
-    el.querySelectorAll("#pf .pill").forEach(b => b.onclick = () => { filter = b.dataset.p; el.querySelectorAll("#pf .pill").forEach(x => x.setAttribute("aria-pressed", x === b)); groups(); });
+    el.querySelectorAll("#pf .pill").forEach(b => b.onclick = () => { filter = b.dataset.p; el.querySelectorAll("#pf .pill").forEach(x => x.setAttribute("aria-pressed", x === b)); syncURL(); groups(); });
+    el.querySelectorAll("#ps .pill").forEach(b => b.onclick = () => { status = b.dataset.s; el.querySelectorAll("#ps .pill").forEach(x => x.setAttribute("aria-pressed", x === b)); syncURL(); groups(); });
     groups();
   }
   function stat(kk, v, s) { return `<div class="stat"><div class="k">${esc(kk)}</div><div class="v">${v}</div>${s ? `<div class="k" style="color:var(--ink-3)">${esc(s)}</div>` : ""}</div>`; }
@@ -81,12 +99,12 @@
   function groups() {
     const C = PLAN.campaigns;
     $("#groups").innerHTML = PROGRAMS.filter(p => filter === "all" || filter === p).map(p => {
-      const cs = C.filter(c => c.program === p).sort((a, b) => a.priority - b.priority || a.start.localeCompare(b.start));
+      const cs = C.filter(c => c.program === p && (status === "all" || (status === "live") === isLive(c))).sort((a, b) => a.priority - b.priority || a.start.localeCompare(b.start));
       if (!cs.length) return "";
       const tot = cs.reduce((s, c) => s + c.budget, 0);
       return `<div class="group"><h2><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${color(p)};margin-right:8px"></i>${esc(p)}</span><span class="meta">${cs.length} campaign${cs.length > 1 ? "s" : ""} · ${money(tot)}</span></h2>
         <p class="gdesc">${esc(PDESC[p] || "")}</p>${timeline(cs)}${cs.map(campaign).join("")}</div>`;
-    }).join("");
+    }).join("") || `<div class="empty"><b>No ${status === "live" ? "live" : "proposed"} campaigns${filter !== "all" ? " in " + esc(filter) : ""}.</b></div>`;
   }
 
   // Flight bars across the credit window, like the HouseFile send timeline.
@@ -102,17 +120,21 @@
 
   function campaign(c) {
     const live = liveFor(c.id);
-    const status = live ? `<span class="chip ${String(live.effective_status || live.status).toLowerCase() === "active" ? "active" : "paused"}">In Meta: ${esc(live.effective_status || live.status)}</span>` : `<span class="chip proposed">Proposed</span>`;
+    const lst = live && String(live.effective_status || live.status).toUpperCase();
+    const chipS = live ? (lst === "ACTIVE" ? `<span class="chip active">Live</span>` : `<span class="chip paused">In Meta: ${esc(lst.toLowerCase().replace(/_/g, " "))}</span>`) : `<span class="chip proposed">Proposed</span>`;
+    const li = live && (live.insights || {});
+    const liveRow = live ? `<dt>In Meta</dt><dd>${live.daily_budget ? money(live.daily_budget / 100, 2) + "/day" : ""}${li && li.spend != null ? " · " + money(li.spend, 2) + " spent" : ""} · ${(live.ads || []).length} ads · <a href="#live" data-live="${esc(c.id)}">see in Live</a></dd>` : "";
     return `<div class="camp" id="c-${esc(c.id)}"><div class="camp-head">
       <div class="camp-budget"><div class="big">${k(c.budget)}</div><div class="small">${money(c.daily)}/day avg</div><div class="small">${c.days} days</div></div>
       <div style="flex:1;min-width:0">
-        <h3>${esc(c.name)} ${status}${c.revenue ? '<span class="chip rev">Revenue</span>' : ""}${c.spend ? `<span class="chip ${c.spend.mode}">${c.spend.mode === "test" ? "Test, then scale" : "Burst: spend it all"}</span>` : ""}</h3>
+        <h3>${esc(c.name)} ${chipS}${c.revenue ? '<span class="chip rev">Revenue</span>' : ""}${c.spend ? `<span class="chip ${c.spend.mode}">${c.spend.mode === "test" ? "Test, then scale" : "Burst: spend it all"}</span>` : ""}</h3>
         <p class="why">${esc(c.why)}</p>${spendPlan(c)}
         <dl class="spec">
           <dt>Flight</dt><dd>${fmtD(c.start)} – ${fmtD(c.end)}</dd>
           <dt>Objective</dt><dd>${esc(c.objective)}</dd>
           <dt>Optimize for</dt><dd>${esc(c.optimization)}</dd>
-          <dt>Plan ID</dt><dd><code>${esc(c.id)}</code></dd>
+          <dt>Plan ID</dt><dd><code>${esc(c.id)}</code> <a class="permalink" href="?c=${esc(c.id)}#proposed" title="Link to this campaign">link</a></dd>
+          ${liveRow}
         </dl>
         <table class="aud"><thead><tr><th>Ad set</th><th>Where</th><th>Who</th><th class="num">Budget</th></tr></thead><tbody>
           ${c.audiences.map(a => `<tr><td>${esc(a.name)}</td><td>${esc(a.geo)}<br><span style="color:var(--ink-3)">Ages ${esc(a.age)}</span></td><td>${esc(a.detail)}</td><td class="num">${money(c.budget * a.share)}</td></tr>`).join("")}
@@ -147,7 +169,7 @@
   function renderLive() {
     const el = $("#tab-live"), C = LIVE.campaigns || [], spent = liveSpend();
     const remaining = Math.max(0, PLAN.credit.total - spent), dl = daysLeft();
-    el.innerHTML = `<p class="lede">What is actually in the TRPL FB Grant ad account, synced from Meta${LIVE.as_of ? " on " + new Date(LIVE.as_of).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" }) : ""}. Campaign names carry their plan ID in brackets, e.g. <code>[tix-summer]</code>, to link back to the proposal.</p>
+    el.innerHTML = `<p class="lede">What is actually in the TRPL Meta Credit (US) ad account, synced from Meta${LIVE.as_of ? " on " + new Date(LIVE.as_of).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" }) : ""}. Campaign names carry their plan ID in brackets, e.g. <code>[tix-summer]</code>, to link back to the proposal.</p>
       <div class="stats">
         ${stat("Spent", money(spent), "")}
         ${stat("Credit remaining", k(remaining), "")}
@@ -159,10 +181,14 @@
   function liveCampaign(c) {
     const i = c.insights || {}, budget = c.daily_budget ? money(c.daily_budget / 100) + "/day" : c.lifetime_budget ? money(c.lifetime_budget / 100) + " lifetime" : "budget on ad sets";
     const st = String(c.effective_status || c.status || "").toLowerCase();
-    return `<div class="group"><h2><span>${esc(c.name)} <span class="chip ${st === "active" ? "active" : "paused"}">${esc(c.effective_status || c.status)}</span></span><span class="meta">${budget}</span></h2>
+    const pc0 = planFor(c.name);
+    return `<div class="group" id="l-${esc(pc0 ? pc0.id : c.id)}"><h2><span>${pc0 ? `<a href="?c=${esc(pc0.id)}#proposed" style="color:inherit">${esc(c.name)}</a>` : esc(c.name)} <span class="chip ${st === "active" ? "active" : "paused"}">${esc(c.effective_status || c.status)}</span></span><span class="meta">${budget}</span></h2>
       <p class="gdesc">${esc(c.objective || "")}${c.start_time ? " · " + new Date(c.start_time).toLocaleDateString() : ""}${c.stop_time ? " – " + new Date(c.stop_time).toLocaleDateString() : ""}</p>
       <div class="stats">${stat("Spend", money(i.spend, 2), "")}${stat("Impressions", Number(i.impressions || 0).toLocaleString(), "")}${stat("Reach", Number(i.reach || 0).toLocaleString(), "")}${stat("Link clicks", Number(i.clicks || 0).toLocaleString(), i.ctr ? Number(i.ctr).toFixed(2) + "% CTR" : "")}${stat("Results", Number(i.results || 0).toLocaleString(), i.result_type || "")}</div>
       ${(c.ads || []).map(a => {
+        const pc = planFor(c.name), pa = pc && pc.ads.find(x => x.id === a.plan_ad), ai = a.insights || {};
+        const stA = `<span class="chip ${String(a.effective_status || "").toLowerCase() === "active" ? "active" : "paused"}">${esc(a.effective_status || a.status || "")}</span>`;
+        if (pa) return `<div class="ad"><h4>${esc(a.name)} ${stA}<span class="id">${esc(a.id)}</span></h4>${mock(pa)}<dl class="spec"><dt>Delivery</dt><dd>${money(ai.spend, 2)} · ${Number(ai.impressions || 0).toLocaleString()} impressions · ${Number(ai.clicks || 0).toLocaleString()} clicks</dd></dl></div>`;
         const cr = a.creative || {};
         const obj = { format: cr.video_id ? "video" : "image", primary: cr.body || "", headline: cr.title || "", desc: cr.description || "", cta: (cr.call_to_action_type || "LEARN_MORE").replace(/_/g, " ").toLowerCase().replace(/\b\w/g, m => m.toUpperCase()), url: cr.link || "", media: { type: "image", src: cr.image_url || cr.thumbnail_url || "" } };
         return `<div class="ad"><h4>${esc(a.name)} <span class="chip ${String(a.effective_status || "").toLowerCase() === "active" ? "active" : "paused"}">${esc(a.effective_status || a.status || "")}</span><span class="id">${esc(a.id)}</span></h4>${mock(obj)}</div>`;

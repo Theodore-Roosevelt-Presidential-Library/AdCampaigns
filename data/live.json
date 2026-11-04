@@ -1,11 +1,572 @@
 {
- "as_of": "2026-10-22T22:41:51+00:00",
+ "as_of": "2026-11-04T17:09:08+00:00",
  "source": "meta-ads-mcp",
  "account": {
-  "id": "act_960679053196120",
-  "name": "TRPL FB Grant",
+  "id": "act_1085868274425806",
+  "name": "TRPL Meta Credit (US)",
   "currency": "USD",
-  "amount_spent": 0
+  "amount_spent": 18.28
  },
- "campaigns": []
+ "campaigns": [
+  {
+   "id": "120249783431660752",
+   "name": "DESTINATION: Travelers already nearby (I-94, Black Hills, gateway towns) [dest-nearby]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 3247,
+   "start_time": "2026-11-04T00:00:00-0700",
+   "stop_time": "2027-01-19T23:59:00-0700",
+   "insights": {
+    "spend": 1.1,
+    "impressions": 107,
+    "reach": 80,
+    "clicks": 15,
+    "ctr": 14.02
+   },
+   "ads": [
+    {
+     "id": "120249783610440752",
+     "name": "near-blackhills – blackhills",
+     "plan_ad": "near-blackhills",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783609440752",
+     "name": "near-blackhills-carousel – blackhills",
+     "plan_ad": "near-blackhills-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.02,
+      "impressions": 3,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783608890752",
+     "name": "near-gateway – gateway",
+     "plan_ad": "near-gateway",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.34,
+      "impressions": 18,
+      "clicks": 4
+     }
+    },
+    {
+     "id": "120249783607110752",
+     "name": "near-i94 – i94",
+     "plan_ad": "near-i94",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.58,
+      "impressions": 71,
+      "clicks": 9
+     }
+    },
+    {
+     "id": "120249783606120752",
+     "name": "near-i94-carousel – i94",
+     "plan_ad": "near-i94-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.16,
+      "impressions": 15,
+      "clicks": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783431060752",
+   "name": "BRAND: Step into the story (video) [brand-video]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_ENGAGEMENT",
+   "daily_budget": 4762,
+   "start_time": "2026-11-04T00:00:00-0700",
+   "stop_time": "2027-01-19T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249783603500752",
+     "name": "brand-amazon – drive",
+     "plan_ad": "brand-amazon",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783602890752",
+     "name": "brand-amazon – national",
+     "plan_ad": "brand-amazon",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783602030752",
+     "name": "brand-resolute – drive",
+     "plan_ad": "brand-resolute",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783601840752",
+     "name": "brand-resolute – national",
+     "plan_ad": "brand-resolute",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783605110752",
+     "name": "brand-trailblazer – drive",
+     "plan_ad": "brand-trailblazer",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783604480752",
+     "name": "brand-trailblazer – national",
+     "plan_ad": "brand-trailblazer",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783430560752",
+   "name": "EVENTS: Free final hour [evt-ffh]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_AWARENESS",
+   "daily_budget": 2597,
+   "start_time": "2026-11-04T00:00:00-0700",
+   "stop_time": "2027-01-19T23:59:00-0700",
+   "insights": {
+    "spend": 1.14,
+    "impressions": 728,
+    "reach": 686,
+    "clicks": 4,
+    "ctr": 0.55
+   },
+   "ads": [
+    {
+     "id": "120249783601510752",
+     "name": "evt-ffh-local – local",
+     "plan_ad": "evt-ffh-local",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 1.14,
+      "impressions": 728,
+      "clicks": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783429200752",
+   "name": "EVENTS: In the Room — David Hume Kennerly, final weeks [evt-room]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 11765,
+   "start_time": "2026-11-04T00:00:00-0700",
+   "stop_time": "2027-01-10T23:59:00-0700",
+   "insights": {
+    "spend": 11.51,
+    "impressions": 2229,
+    "reach": 1927,
+    "clicks": 102,
+    "ctr": 4.58
+   },
+   "ads": [
+    {
+     "id": "120249783588190752",
+     "name": "room-carousel – drive",
+     "plan_ad": "room-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783586800752",
+     "name": "room-carousel – regional",
+     "plan_ad": "room-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783589750752",
+     "name": "room-last-call – drive",
+     "plan_ad": "room-last-call",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 6.47,
+      "impressions": 1239,
+      "clicks": 70
+     }
+    },
+    {
+     "id": "120249783589250752",
+     "name": "room-last-call – regional",
+     "plan_ad": "room-last-call",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.09,
+      "impressions": 16,
+      "clicks": 5
+     }
+    },
+    {
+     "id": "120249783585440752",
+     "name": "room-still – drive",
+     "plan_ad": "room-still",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 3.94,
+      "impressions": 766,
+      "clicks": 23
+     }
+    },
+    {
+     "id": "120249783584720752",
+     "name": "room-still – regional",
+     "plan_ad": "room-still",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.1,
+      "impressions": 14,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783584020752",
+     "name": "room-video – drive",
+     "plan_ad": "room-video",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.88,
+      "impressions": 190,
+      "clicks": 3
+     }
+    },
+    {
+     "id": "120249783583340752",
+     "name": "room-video – regional",
+     "plan_ad": "room-video",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.03,
+      "impressions": 4,
+      "clicks": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783428240752",
+   "name": "SALT+SCORIA: Lunch at the Library [ss-cafe]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_AWARENESS",
+   "daily_budget": 1948,
+   "start_time": "2026-11-04T00:00:00-0700",
+   "stop_time": "2027-01-19T23:59:00-0700",
+   "insights": {
+    "spend": 0.55,
+    "impressions": 244,
+    "reach": 88,
+    "clicks": 1,
+    "ctr": 0.41
+   },
+   "ads": [
+    {
+     "id": "120249783582220752",
+     "name": "ss-cafe-chili – nearby",
+     "plan_ad": "ss-cafe-chili",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.55,
+      "impressions": 244,
+      "clicks": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783427650752",
+   "name": "TICKETS: Eight chapters, all indoors [tix-galleries]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 7273,
+   "start_time": "2026-11-04T00:00:00-0700",
+   "stop_time": "2027-01-19T23:59:00-0700",
+   "insights": {
+    "spend": 3.98,
+    "impressions": 477,
+    "reach": 225,
+    "clicks": 78,
+    "ctr": 16.35
+   },
+   "ads": [
+    {
+     "id": "120249783564790752",
+     "name": "gal-carousel – drive",
+     "plan_ad": "gal-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 3.61,
+      "impressions": 447,
+      "clicks": 74
+     }
+    },
+    {
+     "id": "120249783553970752",
+     "name": "gal-carousel – regional",
+     "plan_ad": "gal-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.18,
+      "impressions": 16,
+      "clicks": 2
+     }
+    },
+    {
+     "id": "120249783570150752",
+     "name": "gal-holiday-guests – drive",
+     "plan_ad": "gal-holiday-guests",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783568300752",
+     "name": "gal-holiday-guests – regional",
+     "plan_ad": "gal-holiday-guests",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783572960752",
+     "name": "gal-memory-train – drive",
+     "plan_ad": "gal-memory-train",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783570750752",
+     "name": "gal-memory-train – regional",
+     "plan_ad": "gal-memory-train",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783566870752",
+     "name": "gal-trailblazer – drive",
+     "plan_ad": "gal-trailblazer",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 1,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783565790752",
+     "name": "gal-trailblazer – regional",
+     "plan_ad": "gal-trailblazer",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.19,
+      "impressions": 13,
+      "clicks": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783430090752",
+   "name": "EVENTS: America the Beautiful film screenings [evt-film]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": 15000,
+   "start_time": "2026-11-05T00:00:00-0700",
+   "stop_time": "2026-11-24T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249783600220752",
+     "name": "evt-film-poster – regional",
+     "plan_ad": "evt-film-poster",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783600990752",
+     "name": "evt-film-scenes – regional",
+     "plan_ad": "evt-film-scenes",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783599720752",
+     "name": "evt-film-trailer – regional",
+     "plan_ad": "evt-film-trailer",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "120249783427880752",
+   "name": "SALT+SCORIA: Private dinners and holiday gatherings [ss-private]",
+   "status": "ACTIVE",
+   "effective_status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 4269,
+   "start_time": "2026-11-05T00:00:00-0700",
+   "stop_time": "2026-12-15T23:59:00-0700",
+   "insights": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": null
+   },
+   "ads": [
+    {
+     "id": "120249783577080752",
+     "name": "ss-private-carousel – regional",
+     "plan_ad": "ss-private-carousel",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    },
+    {
+     "id": "120249783579400752",
+     "name": "ss-private-dinner – regional",
+     "plan_ad": "ss-private-dinner",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "insights": {
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0
+     }
+    }
+   ]
+  }
+ ]
 }
