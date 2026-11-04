@@ -14,9 +14,11 @@ NOTHING goes live in Meta without Matt approving that specific campaign by name 
   "TICKETS: Plan your summer trip [tix-summer]". The dashboard links live campaigns to
   proposals by that bracketed ID.
 - Never change budgets, targeting or status on a live campaign without Matt's OK.
-- Matt, Nov 3, 2026: no spend that costs money until Meta has moved the $150K credit to
-  act_1085868274425806. Before activating anything, confirm the credit shows on that account's
-  billing page (Payment settings) and tell Matt. Until then everything stays PAUSED.
+- Matt, Nov 3-4, 2026: the card must never be charged. The $150K credit landed on
+  act_1085868274425806 on Nov 4 (expires 2027-01-20; credit pays first, Visa second). An account
+  spending limit of $149,500 (resets manually only) was set on Nov 4 so spend stops before the
+  credit runs out. Never raise or remove that limit, and never add funds, without Matt's OK.
+- Wave 1 went live Nov 4, 2026 (Matt: "turn on all of the ads"): 8 campaigns, 13 ad sets, 34 ads.
 
 ## Account facts
 - Ad account: TRPL Meta Credit (US), act_1085868274425806 (business portfolio 1969051273778035).
