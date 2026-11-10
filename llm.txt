@@ -159,6 +159,19 @@ If no photo fits, ask Peter, or have him finish the card, before publishing anyt
   the itinerary pages themselves (trlibrary.com/visit/itineraries/*; pulled into creative/web/).
 - Keep a single-image or video version beside each carousel so Meta can test formats.
 
+## Placement sizes (Matt, Nov 10 2026: "ad units are not matching the creative sizes")
+- Advantage+ placements send about half of spend to 9:16 Reels/Stories. Every new ad needs a 9:16 asset
+  for those slots and a 4:5 (photo) or the feed cut (video) for everything else; carousel cards are 1:1.
+- Make stills with scripts/placements.py (4x5, 9x16, 1x1 into creative/placements/). Text graphics get --fit
+  (whole image over a blurred fill), never a crop. Video uses the 9:16 cuts in creative/video/vertical/.
+- The connector's placement_customizations is not enabled for this account. Build with ads_create_ad and an
+  inline asset_feed_spec: optimization_type PLACEMENT, asset_customization_rules with rule 1 = facebook
+  story+facebook_reels, instagram story+reels+profile_reels, messenger story (9:16) and rule 2 = every other
+  position listed explicitly (a rule with platforms only fails). In Sales campaigns this format rejects the
+  BOOK_NOW and BUY_NOW buttons: use BUY_TICKETS (tickets/events) or SHOP_NOW.
+- Wave 1 was rebuilt this way on Nov 10 (ads named "… (sized)"). give-yearend, shop-holiday, evt-holiday
+  and mem-newyear still need it before launch.
+
 ## Mockups (mock.js)
 Meant to feel like the apps: "See more"/"more" expands text in place; feed videos autoplay muted
 when on screen (speaker button for sound, tap to pause) at their own aspect ratio; carousels swipe;
