@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-12T13:44:12+00:00",
+  "as_of": "2026-11-13T15:46:12+00:00",
   "source": "meta-ads-mcp",
   "account": {
     "id": "act_1085868274425806",
     "name": "TRPL Meta Credit (US)",
     "currency": "USD",
-    "amount_spent": 5771.53
+    "amount_spent": 6443.47
   },
   "campaigns": [
     {
@@ -18,23 +18,23 @@
       "start_time": "2026-11-10T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 115.39,
-        "impressions": 11077,
-        "reach": 6142,
-        "clicks": 936,
-        "ctr": 8.45
+        "spend": 164.12,
+        "impressions": 16650,
+        "reach": 8265,
+        "clicks": 1317,
+        "ctr": 7.91
       },
       "ads": [
         {
-          "id": "120249821549710752",
-          "name": "rt-chapters – warm [rt-allyear]",
-          "plan_ad": "rt-chapters",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "id": "120249909468290752",
+          "name": "rt-roughriders – warm [rt-allyear] (sized)",
+          "plan_ad": "rt-roughriders",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
           "insights": {
-            "spend": 7.7,
-            "impressions": 600,
-            "clicks": 63
+            "spend": 79.66,
+            "impressions": 8091,
+            "clicks": 555
           }
         },
         {
@@ -44,9 +44,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 43.47,
-            "impressions": 4464,
-            "clicks": 386
+            "spend": 65.28,
+            "impressions": 7010,
+            "clicks": 597
           }
         },
         {
@@ -62,15 +62,15 @@
           }
         },
         {
-          "id": "120249909468290752",
-          "name": "rt-roughriders – warm [rt-allyear] (sized)",
-          "plan_ad": "rt-roughriders",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "id": "120249821549710752",
+          "name": "rt-chapters – warm [rt-allyear]",
+          "plan_ad": "rt-chapters",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 52.74,
-            "impressions": 5064,
-            "clicks": 385
+            "spend": 7.7,
+            "impressions": 600,
+            "clicks": 63
           }
         }
       ]
@@ -85,25 +85,13 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-19T23:59:00-0700",
       "insights": {
-        "spend": 516.2,
-        "impressions": 52222,
-        "reach": 31425,
-        "clicks": 3925,
-        "ctr": 7.52
+        "spend": 581.61,
+        "impressions": 59118,
+        "reach": 33674,
+        "clicks": 4486,
+        "ctr": 7.59
       },
       "ads": [
-        {
-          "id": "120249806330990752",
-          "name": "elk-carousel – local [evt-elkhorn]",
-          "plan_ad": "elk-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 7.19,
-            "impressions": 561,
-            "clicks": 29
-          }
-        },
         {
           "id": "120249909467760752",
           "name": "elk-carousel – local [evt-elkhorn] (sized)",
@@ -114,6 +102,78 @@
             "spend": 0.19,
             "impressions": 24,
             "clicks": 1
+          }
+        },
+        {
+          "id": "120249909467290752",
+          "name": "elk-carousel – regional [evt-elkhorn] (sized)",
+          "plan_ad": "elk-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 2.3,
+            "impressions": 251,
+            "clicks": 17
+          }
+        },
+        {
+          "id": "120249909398850752",
+          "name": "elk-santa – local [evt-elkhorn] (sized)",
+          "plan_ad": "elk-santa",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.18,
+            "impressions": 28,
+            "clicks": 2
+          }
+        },
+        {
+          "id": "120249909397530752",
+          "name": "elk-santa – regional [evt-elkhorn] (sized)",
+          "plan_ad": "elk-santa",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 2.68,
+            "impressions": 336,
+            "clicks": 30
+          }
+        },
+        {
+          "id": "120249909393540752",
+          "name": "elk-evenings – local [evt-elkhorn] (sized)",
+          "plan_ad": "elk-evenings",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 30.27,
+            "impressions": 3285,
+            "clicks": 220
+          }
+        },
+        {
+          "id": "120249909380260752",
+          "name": "elk-evenings – regional [evt-elkhorn] (sized)",
+          "plan_ad": "elk-evenings",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 182.48,
+            "impressions": 17820,
+            "clicks": 1593
+          }
+        },
+        {
+          "id": "120249806330990752",
+          "name": "elk-carousel – local [evt-elkhorn]",
+          "plan_ad": "elk-carousel",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 7.19,
+            "impressions": 561,
+            "clicks": 29
           }
         },
         {
@@ -129,66 +189,6 @@
           }
         },
         {
-          "id": "120249909467290752",
-          "name": "elk-carousel – regional [evt-elkhorn] (sized)",
-          "plan_ad": "elk-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 1.33,
-            "impressions": 154,
-            "clicks": 13
-          }
-        },
-        {
-          "id": "120249806329500752",
-          "name": "elk-evenings – local [evt-elkhorn]",
-          "plan_ad": "elk-evenings",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 97.67,
-            "impressions": 11130,
-            "clicks": 723
-          }
-        },
-        {
-          "id": "120249909393540752",
-          "name": "elk-evenings – local [evt-elkhorn] (sized)",
-          "plan_ad": "elk-evenings",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 21.2,
-            "impressions": 2171,
-            "clicks": 149
-          }
-        },
-        {
-          "id": "120249806329770752",
-          "name": "elk-evenings – regional [evt-elkhorn]",
-          "plan_ad": "elk-evenings",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 202.65,
-            "impressions": 20502,
-            "clicks": 1513
-          }
-        },
-        {
-          "id": "120249909380260752",
-          "name": "elk-evenings – regional [evt-elkhorn] (sized)",
-          "plan_ad": "elk-evenings",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 128.39,
-            "impressions": 12300,
-            "clicks": 1120
-          }
-        },
-        {
           "id": "120249806330130752",
           "name": "elk-santa – local [evt-elkhorn]",
           "plan_ad": "elk-santa",
@@ -198,18 +198,6 @@
             "spend": 1.65,
             "impressions": 183,
             "clicks": 10
-          }
-        },
-        {
-          "id": "120249909398850752",
-          "name": "elk-santa – local [evt-elkhorn] (sized)",
-          "plan_ad": "elk-santa",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0.16,
-            "impressions": 22,
-            "clicks": 1
           }
         },
         {
@@ -225,15 +213,27 @@
           }
         },
         {
-          "id": "120249909397530752",
-          "name": "elk-santa – regional [evt-elkhorn] (sized)",
-          "plan_ad": "elk-santa",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "id": "120249806329500752",
+          "name": "elk-evenings – local [evt-elkhorn]",
+          "plan_ad": "elk-evenings",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 1.42,
-            "impressions": 177,
-            "clicks": 18
+            "spend": 97.67,
+            "impressions": 11130,
+            "clicks": 723
+          }
+        },
+        {
+          "id": "120249806329770752",
+          "name": "elk-evenings – regional [evt-elkhorn]",
+          "plan_ad": "elk-evenings",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 202.65,
+            "impressions": 20502,
+            "clicks": 1513
           }
         }
       ]
@@ -248,13 +248,49 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-03T23:59:00-0700",
       "insights": {
-        "spend": 354.69,
-        "impressions": 27538,
-        "reach": 9155,
-        "clicks": 2295,
-        "ctr": 8.33
+        "spend": 391.19,
+        "impressions": 31271,
+        "reach": 9556,
+        "clicks": 2521,
+        "ctr": 8.06
       },
       "ads": [
+        {
+          "id": "120249909466710752",
+          "name": "mw-carousel – regional [evt-midwinter] (sized)",
+          "plan_ad": "mw-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 16.62,
+            "impressions": 1211,
+            "clicks": 78
+          }
+        },
+        {
+          "id": "120249909378720752",
+          "name": "mw-invite – regional [evt-midwinter] (sized)",
+          "plan_ad": "mw-invite",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 44.15,
+            "impressions": 3769,
+            "clicks": 222
+          }
+        },
+        {
+          "id": "120249909264990752",
+          "name": "mw-dinner – regional [evt-midwinter] (sized)",
+          "plan_ad": "mw-dinner",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 83.84,
+            "impressions": 7109,
+            "clicks": 519
+          }
+        },
         {
           "id": "120249806328930752",
           "name": "mw-carousel – regional [evt-midwinter]",
@@ -265,42 +301,6 @@
             "spend": 64.89,
             "impressions": 4364,
             "clicks": 355
-          }
-        },
-        {
-          "id": "120249909466710752",
-          "name": "mw-carousel – regional [evt-midwinter] (sized)",
-          "plan_ad": "mw-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 13.0,
-            "impressions": 882,
-            "clicks": 58
-          }
-        },
-        {
-          "id": "120249806327800752",
-          "name": "mw-dinner – regional [evt-midwinter]",
-          "plan_ad": "mw-dinner",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 92.4,
-            "impressions": 6832,
-            "clicks": 744
-          }
-        },
-        {
-          "id": "120249909264990752",
-          "name": "mw-dinner – regional [evt-midwinter] (sized)",
-          "plan_ad": "mw-dinner",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 63.83,
-            "impressions": 4749,
-            "clicks": 371
           }
         },
         {
@@ -316,15 +316,15 @@
           }
         },
         {
-          "id": "120249909378720752",
-          "name": "mw-invite – regional [evt-midwinter] (sized)",
-          "plan_ad": "mw-invite",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "id": "120249806327800752",
+          "name": "mw-dinner – regional [evt-midwinter]",
+          "plan_ad": "mw-dinner",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 31.28,
-            "impressions": 2725,
-            "clicks": 164
+            "spend": 92.4,
+            "impressions": 6832,
+            "clicks": 744
           }
         }
       ]
@@ -339,13 +339,73 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 299.31,
-        "impressions": 31231,
-        "reach": 14753,
-        "clicks": 2416,
-        "ctr": 7.74
+        "spend": 338.13,
+        "impressions": 35540,
+        "reach": 16004,
+        "clicks": 2719,
+        "ctr": 7.65
       },
       "ads": [
+        {
+          "id": "120249909471080752",
+          "name": "near-blackhills – blackhills [dest-nearby] (sized)",
+          "plan_ad": "near-blackhills",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 1.9,
+            "impressions": 171,
+            "clicks": 18
+          }
+        },
+        {
+          "id": "120249909470300752",
+          "name": "near-blackhills-carousel – blackhills [dest-nearby] (sized)",
+          "plan_ad": "near-blackhills-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 1.46,
+            "impressions": 118,
+            "clicks": 11
+          }
+        },
+        {
+          "id": "120249909469410752",
+          "name": "near-gateway – gateway [dest-nearby] (sized)",
+          "plan_ad": "near-gateway",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 1.28,
+            "impressions": 166,
+            "clicks": 8
+          }
+        },
+        {
+          "id": "120249909468850752",
+          "name": "near-i94-carousel – i94 [dest-nearby] (sized)",
+          "plan_ad": "near-i94-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 5.41,
+            "impressions": 569,
+            "clicks": 20
+          }
+        },
+        {
+          "id": "120249909405180752",
+          "name": "near-i94 – i94 [dest-nearby] (sized)",
+          "plan_ad": "near-i94",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 120.56,
+            "impressions": 12374,
+            "clicks": 1106
+          }
+        },
         {
           "id": "120249783610440752",
           "name": "near-blackhills – blackhills [dest-nearby]",
@@ -356,18 +416,6 @@
             "spend": 0.65,
             "impressions": 65,
             "clicks": 3
-          }
-        },
-        {
-          "id": "120249909471080752",
-          "name": "near-blackhills – blackhills [dest-nearby] (sized)",
-          "plan_ad": "near-blackhills",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 1.05,
-            "impressions": 107,
-            "clicks": 13
           }
         },
         {
@@ -383,18 +431,6 @@
           }
         },
         {
-          "id": "120249909470300752",
-          "name": "near-blackhills-carousel – blackhills [dest-nearby] (sized)",
-          "plan_ad": "near-blackhills-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 1.11,
-            "impressions": 77,
-            "clicks": 6
-          }
-        },
-        {
           "id": "120249783608890752",
           "name": "near-gateway – gateway [dest-nearby]",
           "plan_ad": "near-gateway",
@@ -404,42 +440,6 @@
             "spend": 29.13,
             "impressions": 2678,
             "clicks": 196
-          }
-        },
-        {
-          "id": "120249909469410752",
-          "name": "near-gateway – gateway [dest-nearby] (sized)",
-          "plan_ad": "near-gateway",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0.93,
-            "impressions": 120,
-            "clicks": 7
-          }
-        },
-        {
-          "id": "120249783607110752",
-          "name": "near-i94 – i94 [dest-nearby]",
-          "plan_ad": "near-i94",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 138.83,
-            "impressions": 15738,
-            "clicks": 1164
-          }
-        },
-        {
-          "id": "120249909405180752",
-          "name": "near-i94 – i94 [dest-nearby] (sized)",
-          "plan_ad": "near-i94",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 84.4,
-            "impressions": 8370,
-            "clicks": 817
           }
         },
         {
@@ -455,15 +455,15 @@
           }
         },
         {
-          "id": "120249909468850752",
-          "name": "near-i94-carousel – i94 [dest-nearby] (sized)",
-          "plan_ad": "near-i94-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "id": "120249783607110752",
+          "name": "near-i94 – i94 [dest-nearby]",
+          "plan_ad": "near-i94",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 4.3,
-            "impressions": 415,
-            "clicks": 17
+            "spend": 138.83,
+            "impressions": 15738,
+            "clicks": 1164
           }
         }
       ]
@@ -478,59 +478,23 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 295.73,
-        "impressions": 36319,
-        "reach": 7333,
-        "clicks": 38,
-        "ctr": 0.1
+        "spend": 316.85,
+        "impressions": 41829,
+        "reach": 10639,
+        "clicks": 49,
+        "ctr": 0.12
       },
       "ads": [
         {
-          "id": "120249783603500752",
-          "name": "brand-amazon – drive [brand-video]",
-          "plan_ad": "brand-amazon",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 105.89,
-            "impressions": 14377,
-            "clicks": 15
-          }
-        },
-        {
-          "id": "120249783602890752",
-          "name": "brand-amazon – national [brand-video]",
-          "plan_ad": "brand-amazon",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 51.33,
-            "impressions": 4161,
-            "clicks": 5
-          }
-        },
-        {
-          "id": "120249909297300752",
-          "name": "brand-amazon – national [brand-video] (sized)",
-          "plan_ad": "brand-amazon",
+          "id": "120249909312760752",
+          "name": "brand-resolute – national [brand-video] (sized)",
+          "plan_ad": "brand-resolute",
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 17.22,
-            "impressions": 1140,
-            "clicks": 2
-          }
-        },
-        {
-          "id": "120249783602030752",
-          "name": "brand-resolute – drive [brand-video]",
-          "plan_ad": "brand-resolute",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 73.48,
-            "impressions": 10928,
-            "clicks": 8
+            "spend": 5.68,
+            "impressions": 508,
+            "clicks": 1
           }
         },
         {
@@ -540,45 +504,21 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 32.73,
-            "impressions": 4184,
+            "spend": 37.1,
+            "impressions": 4750,
             "clicks": 3
           }
         },
         {
-          "id": "120249783601840752",
-          "name": "brand-resolute – national [brand-video]",
-          "plan_ad": "brand-resolute",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 4.92,
-            "impressions": 413,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249909312760752",
-          "name": "brand-resolute – national [brand-video] (sized)",
-          "plan_ad": "brand-resolute",
+          "id": "120249909297300752",
+          "name": "brand-amazon – national [brand-video] (sized)",
+          "plan_ad": "brand-amazon",
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 5.14,
-            "impressions": 354,
-            "clicks": 1
-          }
-        },
-        {
-          "id": "120249783605110752",
-          "name": "brand-trailblazer – drive [brand-video]",
-          "plan_ad": "brand-trailblazer",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.94,
-            "impressions": 150,
-            "clicks": 1
+            "spend": 33.43,
+            "impressions": 5928,
+            "clicks": 13
           }
         },
         {
@@ -594,6 +534,54 @@
           }
         },
         {
+          "id": "120249909227200752",
+          "name": "brand-trailblazer – national [brand-video] (sized)",
+          "plan_ad": "brand-trailblazer",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 3.11,
+            "impressions": 331,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249783601840752",
+          "name": "brand-resolute – national [brand-video]",
+          "plan_ad": "brand-resolute",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 4.92,
+            "impressions": 413,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249783602030752",
+          "name": "brand-resolute – drive [brand-video]",
+          "plan_ad": "brand-resolute",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 73.48,
+            "impressions": 10928,
+            "clicks": 8
+          }
+        },
+        {
+          "id": "120249783602890752",
+          "name": "brand-amazon – national [brand-video]",
+          "plan_ad": "brand-amazon",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 51.33,
+            "impressions": 4161,
+            "clicks": 5
+          }
+        },
+        {
           "id": "120249783604480752",
           "name": "brand-trailblazer – national [brand-video]",
           "plan_ad": "brand-trailblazer",
@@ -606,15 +594,27 @@
           }
         },
         {
-          "id": "120249909227200752",
-          "name": "brand-trailblazer – national [brand-video] (sized)",
+          "id": "120249783605110752",
+          "name": "brand-trailblazer – drive [brand-video]",
           "plan_ad": "brand-trailblazer",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 3.11,
-            "impressions": 329,
-            "clicks": 0
+            "spend": 0.94,
+            "impressions": 150,
+            "clicks": 1
+          }
+        },
+        {
+          "id": "120249783603500752",
+          "name": "brand-amazon – drive [brand-video]",
+          "plan_ad": "brand-amazon",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 105.89,
+            "impressions": 14377,
+            "clicks": 15
           }
         }
       ]
@@ -629,13 +629,25 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 215.99,
-        "impressions": 85283,
-        "reach": 51820,
-        "clicks": 1047,
-        "ctr": 1.23
+        "spend": 242.95,
+        "impressions": 95655,
+        "reach": 54993,
+        "clicks": 1218,
+        "ctr": 1.27
       },
       "ads": [
+        {
+          "id": "120249909401760752",
+          "name": "evt-ffh-local – local [evt-ffh] (sized)",
+          "plan_ad": "evt-ffh-local",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 79.8,
+            "impressions": 30054,
+            "clicks": 404
+          }
+        },
         {
           "id": "120249783601510752",
           "name": "evt-ffh-local – local [evt-ffh]",
@@ -646,18 +658,6 @@
             "spend": 163.15,
             "impressions": 65601,
             "clicks": 814
-          }
-        },
-        {
-          "id": "120249909401760752",
-          "name": "evt-ffh-local – local [evt-ffh] (sized)",
-          "plan_ad": "evt-ffh-local",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 52.84,
-            "impressions": 19682,
-            "clicks": 233
           }
         }
       ]
@@ -672,23 +672,23 @@
       "start_time": "2026-11-05T00:00:00-0700",
       "stop_time": "2026-11-24T23:59:00-0700",
       "insights": {
-        "spend": 1308.88,
-        "impressions": 203466,
-        "reach": 67576,
-        "clicks": 5830,
-        "ctr": 2.87
+        "spend": 1506.16,
+        "impressions": 248526,
+        "reach": 70929,
+        "clicks": 6432,
+        "ctr": 2.59
       },
       "ads": [
         {
-          "id": "120249783600220752",
-          "name": "evt-film-poster – regional [evt-film]",
-          "plan_ad": "evt-film-poster",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "id": "120249909461650752",
+          "name": "evt-film-scenes – regional [evt-film] (sized)",
+          "plan_ad": "evt-film-scenes",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
           "insights": {
-            "spend": 90.43,
-            "impressions": 13746,
-            "clicks": 950
+            "spend": 107.56,
+            "impressions": 9415,
+            "clicks": 293
           }
         },
         {
@@ -698,9 +698,21 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 142.58,
-            "impressions": 49957,
-            "clicks": 638
+            "spend": 225.0,
+            "impressions": 85371,
+            "clicks": 889
+          }
+        },
+        {
+          "id": "120249909321160752",
+          "name": "evt-film-trailer – regional [evt-film] (sized)",
+          "plan_ad": "evt-film-trailer",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 250.05,
+            "impressions": 19376,
+            "clicks": 868
           }
         },
         {
@@ -716,15 +728,15 @@
           }
         },
         {
-          "id": "120249909461650752",
-          "name": "evt-film-scenes – regional [evt-film] (sized)",
-          "plan_ad": "evt-film-scenes",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "id": "120249783600220752",
+          "name": "evt-film-poster – regional [evt-film]",
+          "plan_ad": "evt-film-poster",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 78.58,
-            "impressions": 6928,
-            "clicks": 222
+            "spend": 90.43,
+            "impressions": 13746,
+            "clicks": 950
           }
         },
         {
@@ -737,18 +749,6 @@
             "spend": 667.63,
             "impressions": 104802,
             "clicks": 2913
-          }
-        },
-        {
-          "id": "120249909321160752",
-          "name": "evt-film-trailer – regional [evt-film] (sized)",
-          "plan_ad": "evt-film-trailer",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 164.17,
-            "impressions": 12217,
-            "clicks": 588
           }
         }
       ]
@@ -763,23 +763,23 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-10T23:59:00-0700",
       "insights": {
-        "spend": 1146.61,
-        "impressions": 126508,
-        "reach": 69201,
-        "clicks": 12033,
-        "ctr": 9.51
+        "spend": 1321.65,
+        "impressions": 148639,
+        "reach": 79234,
+        "clicks": 14308,
+        "ctr": 9.63
       },
       "ads": [
         {
-          "id": "120249783588190752",
-          "name": "room-carousel – drive [evt-room]",
+          "id": "120249909460160752",
+          "name": "room-carousel – regional [evt-room] (sized)",
           "plan_ad": "room-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
           "insights": {
-            "spend": 27.44,
-            "impressions": 3632,
-            "clicks": 307
+            "spend": 0.32,
+            "impressions": 49,
+            "clicks": 2
           }
         },
         {
@@ -789,9 +789,81 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 2.0,
-            "impressions": 425,
-            "clicks": 16
+            "spend": 3.71,
+            "impressions": 857,
+            "clicks": 25
+          }
+        },
+        {
+          "id": "120249909373860752",
+          "name": "room-last-call – regional [evt-room] (sized)",
+          "plan_ad": "room-last-call",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 11.37,
+            "impressions": 958,
+            "clicks": 86
+          }
+        },
+        {
+          "id": "120249909372540752",
+          "name": "room-last-call – drive [evt-room] (sized)",
+          "plan_ad": "room-last-call",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 75.99,
+            "impressions": 8296,
+            "clicks": 737
+          }
+        },
+        {
+          "id": "120249909371170752",
+          "name": "room-still – regional [evt-room] (sized)",
+          "plan_ad": "room-still",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.62,
+            "impressions": 80,
+            "clicks": 2
+          }
+        },
+        {
+          "id": "120249909339030752",
+          "name": "room-still – drive [evt-room] (sized)",
+          "plan_ad": "room-still",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 190.68,
+            "impressions": 25513,
+            "clicks": 2750
+          }
+        },
+        {
+          "id": "120249909319560752",
+          "name": "room-video – regional [evt-room] (sized)",
+          "plan_ad": "room-video",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.5,
+            "impressions": 40,
+            "clicks": 1
+          }
+        },
+        {
+          "id": "120249909318140752",
+          "name": "room-video – drive [evt-room] (sized)",
+          "plan_ad": "room-video",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 163.15,
+            "impressions": 14535,
+            "clicks": 1000
           }
         },
         {
@@ -807,39 +879,15 @@
           }
         },
         {
-          "id": "120249909460160752",
-          "name": "room-carousel – regional [evt-room] (sized)",
+          "id": "120249783588190752",
+          "name": "room-carousel – drive [evt-room]",
           "plan_ad": "room-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0.32,
-            "impressions": 49,
-            "clicks": 2
-          }
-        },
-        {
-          "id": "120249783589750752",
-          "name": "room-last-call – drive [evt-room]",
-          "plan_ad": "room-last-call",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 391.33,
-            "impressions": 47963,
-            "clicks": 4801
-          }
-        },
-        {
-          "id": "120249909372540752",
-          "name": "room-last-call – drive [evt-room] (sized)",
-          "plan_ad": "room-last-call",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 47.09,
-            "impressions": 4970,
-            "clicks": 439
+            "spend": 27.44,
+            "impressions": 3632,
+            "clicks": 307
           }
         },
         {
@@ -855,39 +903,15 @@
           }
         },
         {
-          "id": "120249909373860752",
-          "name": "room-last-call – regional [evt-room] (sized)",
+          "id": "120249783589750752",
+          "name": "room-last-call – drive [evt-room]",
           "plan_ad": "room-last-call",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 8.8,
-            "impressions": 717,
-            "clicks": 63
-          }
-        },
-        {
-          "id": "120249783585440752",
-          "name": "room-still – drive [evt-room]",
-          "plan_ad": "room-still",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 23.41,
-            "impressions": 4210,
-            "clicks": 251
-          }
-        },
-        {
-          "id": "120249909339030752",
-          "name": "room-still – drive [evt-room] (sized)",
-          "plan_ad": "room-still",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 88.47,
-            "impressions": 11428,
-            "clicks": 1065
+            "spend": 391.33,
+            "impressions": 47963,
+            "clicks": 4801
           }
         },
         {
@@ -903,39 +927,15 @@
           }
         },
         {
-          "id": "120249909371170752",
-          "name": "room-still – regional [evt-room] (sized)",
+          "id": "120249783585440752",
+          "name": "room-still – drive [evt-room]",
           "plan_ad": "room-still",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0.5,
-            "impressions": 65,
-            "clicks": 2
-          }
-        },
-        {
-          "id": "120249783584020752",
-          "name": "room-video – drive [evt-room]",
-          "plan_ad": "room-video",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 271.24,
-            "impressions": 27110,
-            "clicks": 2541
-          }
-        },
-        {
-          "id": "120249909318140752",
-          "name": "room-video – drive [evt-room] (sized)",
-          "plan_ad": "room-video",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 123.62,
-            "impressions": 10504,
-            "clicks": 740
+            "spend": 23.41,
+            "impressions": 4210,
+            "clicks": 251
           }
         },
         {
@@ -951,15 +951,15 @@
           }
         },
         {
-          "id": "120249909319560752",
-          "name": "room-video – regional [evt-room] (sized)",
+          "id": "120249783584020752",
+          "name": "room-video – drive [evt-room]",
           "plan_ad": "room-video",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.5,
-            "impressions": 39,
-            "clicks": 1
+            "spend": 271.24,
+            "impressions": 27110,
+            "clicks": 2541
           }
         }
       ]
@@ -974,13 +974,25 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 161.38,
-        "impressions": 48872,
-        "reach": 27244,
-        "clicks": 242,
-        "ctr": 0.5
+        "spend": 182.04,
+        "impressions": 55302,
+        "reach": 28606,
+        "clicks": 273,
+        "ctr": 0.49
       },
       "ads": [
+        {
+          "id": "120249909458530752",
+          "name": "ss-cafe-chili – nearby [ss-cafe] (sized)",
+          "plan_ad": "ss-cafe-chili",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 61.89,
+            "impressions": 17605,
+            "clicks": 84
+          }
+        },
         {
           "id": "120249783582220752",
           "name": "ss-cafe-chili – nearby [ss-cafe]",
@@ -991,18 +1003,6 @@
             "spend": 120.15,
             "impressions": 37697,
             "clicks": 189
-          }
-        },
-        {
-          "id": "120249909458530752",
-          "name": "ss-cafe-chili – nearby [ss-cafe] (sized)",
-          "plan_ad": "ss-cafe-chili",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 41.23,
-            "impressions": 11175,
-            "clicks": 53
           }
         }
       ]
@@ -1017,13 +1017,37 @@
       "start_time": "2026-11-05T00:00:00-0700",
       "stop_time": "2026-12-15T23:59:00-0700",
       "insights": {
-        "spend": 312.73,
-        "impressions": 27992,
-        "reach": 15221,
-        "clicks": 1701,
-        "ctr": 6.08
+        "spend": 355.28,
+        "impressions": 31271,
+        "reach": 16481,
+        "clicks": 1891,
+        "ctr": 6.05
       },
       "ads": [
+        {
+          "id": "120249909457810752",
+          "name": "ss-private-carousel – regional [ss-private] (sized)",
+          "plan_ad": "ss-private-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 16.14,
+            "impressions": 1396,
+            "clicks": 72
+          }
+        },
+        {
+          "id": "120249909402890752",
+          "name": "ss-private-dinner – regional [ss-private] (sized)",
+          "plan_ad": "ss-private-dinner",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 116.47,
+            "impressions": 9305,
+            "clicks": 506
+          }
+        },
         {
           "id": "120249783577080752",
           "name": "ss-private-carousel – regional [ss-private]",
@@ -1037,18 +1061,6 @@
           }
         },
         {
-          "id": "120249909457810752",
-          "name": "ss-private-carousel – regional [ss-private] (sized)",
-          "plan_ad": "ss-private-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 10.33,
-            "impressions": 885,
-            "clicks": 49
-          }
-        },
-        {
           "id": "120249783579400752",
           "name": "ss-private-dinner – regional [ss-private]",
           "plan_ad": "ss-private-dinner",
@@ -1058,18 +1070,6 @@
             "spend": 96.86,
             "impressions": 11330,
             "clicks": 709
-          }
-        },
-        {
-          "id": "120249909402890752",
-          "name": "ss-private-dinner – regional [ss-private] (sized)",
-          "plan_ad": "ss-private-dinner",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 79.73,
-            "impressions": 6537,
-            "clicks": 339
           }
         }
       ]
@@ -1092,6 +1092,18 @@
       },
       "ads": [
         {
+          "id": "120249885964240752",
+          "name": "give-ye – warm [give-yearend]",
+          "plan_ad": "give-ye",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
           "id": "120249885969560752",
           "name": "give-final – donors [give-yearend]",
           "plan_ad": "give-final",
@@ -1107,18 +1119,6 @@
           "id": "120249885965580752",
           "name": "give-final – warm [give-yearend]",
           "plan_ad": "give-final",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885967510752",
-          "name": "give-gt – donors [give-yearend]",
-          "plan_ad": "give-gt",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
@@ -1152,9 +1152,9 @@
           }
         },
         {
-          "id": "120249885964240752",
-          "name": "give-ye – warm [give-yearend]",
-          "plan_ad": "give-ye",
+          "id": "120249885967510752",
+          "name": "give-gt – donors [give-yearend]",
+          "plan_ad": "give-gt",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
@@ -1183,9 +1183,21 @@
       },
       "ads": [
         {
-          "id": "120249885958660752",
-          "name": "shop-catalog – prospecting [shop-holiday]",
-          "plan_ad": "shop-catalog",
+          "id": "120249885962700752",
+          "name": "shop-msd – warm [shop-holiday]",
+          "plan_ad": "shop-msd",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885961970752",
+          "name": "shop-lifestyle – warm [shop-holiday]",
+          "plan_ad": "shop-lifestyle",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
@@ -1219,18 +1231,6 @@
           }
         },
         {
-          "id": "120249885961970752",
-          "name": "shop-lifestyle – warm [shop-holiday]",
-          "plan_ad": "shop-lifestyle",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
           "id": "120249885961750752",
           "name": "shop-msd – prospecting [shop-holiday]",
           "plan_ad": "shop-msd",
@@ -1243,9 +1243,9 @@
           }
         },
         {
-          "id": "120249885962700752",
-          "name": "shop-msd – warm [shop-holiday]",
-          "plan_ad": "shop-msd",
+          "id": "120249885958660752",
+          "name": "shop-catalog – prospecting [shop-holiday]",
+          "plan_ad": "shop-catalog",
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
@@ -1305,18 +1305,6 @@
       },
       "ads": [
         {
-          "id": "120249806331790752",
-          "name": "butchery-gift – regional [evt-butchery]",
-          "plan_ad": "butchery-gift",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 51.26,
-            "impressions": 4132,
-            "clicks": 708
-          }
-        },
-        {
           "id": "120249909400220752",
           "name": "butchery-gift – regional [evt-butchery] (sized)",
           "plan_ad": "butchery-gift",
@@ -1326,6 +1314,18 @@
             "spend": 0.0,
             "impressions": 0,
             "clicks": 0
+          }
+        },
+        {
+          "id": "120249806331790752",
+          "name": "butchery-gift – regional [evt-butchery]",
+          "plan_ad": "butchery-gift",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 51.26,
+            "impressions": 4132,
+            "clicks": 708
           }
         }
       ]
@@ -1341,22 +1341,22 @@
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
         "spend": 526.94,
-        "impressions": 46455,
+        "impressions": 46456,
         "reach": 21424,
         "clicks": 5806,
         "ctr": 12.5
       },
       "ads": [
         {
-          "id": "120249806327230752",
-          "name": "mem-gift-carousel – drive [mem-gift]",
+          "id": "120249909456840752",
+          "name": "mem-gift-carousel – national [mem-gift] (sized)",
           "plan_ad": "mem-gift-carousel",
           "status": "ACTIVE",
           "effective_status": "CAMPAIGN_PAUSED",
           "insights": {
-            "spend": 76.88,
-            "impressions": 5031,
-            "clicks": 257
+            "spend": 4.98,
+            "impressions": 297,
+            "clicks": 12
           }
         },
         {
@@ -1372,39 +1372,15 @@
           }
         },
         {
-          "id": "120249806327160752",
-          "name": "mem-gift-carousel – national [mem-gift]",
-          "plan_ad": "mem-gift-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 28.42,
-            "impressions": 2453,
-            "clicks": 174
-          }
-        },
-        {
-          "id": "120249909456840752",
-          "name": "mem-gift-carousel – national [mem-gift] (sized)",
-          "plan_ad": "mem-gift-carousel",
+          "id": "120249909369940752",
+          "name": "mem-gift-family – national [mem-gift] (sized)",
+          "plan_ad": "mem-gift-family",
           "status": "ACTIVE",
           "effective_status": "CAMPAIGN_PAUSED",
           "insights": {
-            "spend": 4.98,
-            "impressions": 297,
-            "clicks": 12
-          }
-        },
-        {
-          "id": "120249806326950752",
-          "name": "mem-gift-family – drive [mem-gift]",
-          "plan_ad": "mem-gift-family",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 277.96,
-            "impressions": 26345,
-            "clicks": 3852
+            "spend": 4.8,
+            "impressions": 334,
+            "clicks": 35
           }
         },
         {
@@ -1420,6 +1396,18 @@
           }
         },
         {
+          "id": "120249806327230752",
+          "name": "mem-gift-carousel – drive [mem-gift]",
+          "plan_ad": "mem-gift-carousel",
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "insights": {
+            "spend": 76.88,
+            "impressions": 5032,
+            "clicks": 257
+          }
+        },
+        {
           "id": "120249806323650752",
           "name": "mem-gift-family – national [mem-gift]",
           "plan_ad": "mem-gift-family",
@@ -1432,15 +1420,27 @@
           }
         },
         {
-          "id": "120249909369940752",
-          "name": "mem-gift-family – national [mem-gift] (sized)",
-          "plan_ad": "mem-gift-family",
-          "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "id": "120249806327160752",
+          "name": "mem-gift-carousel – national [mem-gift]",
+          "plan_ad": "mem-gift-carousel",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 4.8,
-            "impressions": 334,
-            "clicks": 35
+            "spend": 28.42,
+            "impressions": 2453,
+            "clicks": 174
+          }
+        },
+        {
+          "id": "120249806326950752",
+          "name": "mem-gift-family – drive [mem-gift]",
+          "plan_ad": "mem-gift-family",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 277.96,
+            "impressions": 26345,
+            "clicks": 3852
           }
         },
         {
@@ -1487,30 +1487,6 @@
       },
       "ads": [
         {
-          "id": "120249783564790752",
-          "name": "gal-carousel – drive [tix-galleries]",
-          "plan_ad": "gal-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 167.89,
-            "impressions": 21825,
-            "clicks": 2138
-          }
-        },
-        {
-          "id": "120249783553970752",
-          "name": "gal-carousel – regional [tix-galleries]",
-          "plan_ad": "gal-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 11.1,
-            "impressions": 1044,
-            "clicks": 121
-          }
-        },
-        {
           "id": "120249909455410752",
           "name": "gal-carousel – regional [tix-galleries] (sized)",
           "plan_ad": "gal-carousel",
@@ -1520,78 +1496,6 @@
             "spend": 0.0,
             "impressions": 0,
             "clicks": 0
-          }
-        },
-        {
-          "id": "120249783570150752",
-          "name": "gal-holiday-guests – drive [tix-galleries]",
-          "plan_ad": "gal-holiday-guests",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 57.29,
-            "impressions": 6356,
-            "clicks": 564
-          }
-        },
-        {
-          "id": "120249909329830752",
-          "name": "gal-holiday-guests – drive [tix-galleries] (sized)",
-          "plan_ad": "gal-holiday-guests",
-          "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249783568300752",
-          "name": "gal-holiday-guests – regional [tix-galleries]",
-          "plan_ad": "gal-holiday-guests",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 7.94,
-            "impressions": 726,
-            "clicks": 57
-          }
-        },
-        {
-          "id": "120249909330770752",
-          "name": "gal-holiday-guests – regional [tix-galleries] (sized)",
-          "plan_ad": "gal-holiday-guests",
-          "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249783572960752",
-          "name": "gal-memory-train – drive [tix-galleries]",
-          "plan_ad": "gal-memory-train",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 155.6,
-            "impressions": 18475,
-            "clicks": 2145
-          }
-        },
-        {
-          "id": "120249783570750752",
-          "name": "gal-memory-train – regional [tix-galleries]",
-          "plan_ad": "gal-memory-train",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 17.26,
-            "impressions": 1634,
-            "clicks": 170
           }
         },
         {
@@ -1607,15 +1511,39 @@
           }
         },
         {
-          "id": "120249783566870752",
-          "name": "gal-trailblazer – drive [tix-galleries]",
-          "plan_ad": "gal-trailblazer",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "id": "120249909330770752",
+          "name": "gal-holiday-guests – regional [tix-galleries] (sized)",
+          "plan_ad": "gal-holiday-guests",
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
           "insights": {
-            "spend": 47.86,
-            "impressions": 4105,
-            "clicks": 534
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249909329830752",
+          "name": "gal-holiday-guests – drive [tix-galleries] (sized)",
+          "plan_ad": "gal-holiday-guests",
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249909316990752",
+          "name": "gal-trailblazer – regional [tix-galleries] (sized)",
+          "plan_ad": "gal-trailblazer",
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
           }
         },
         {
@@ -1631,6 +1559,54 @@
           }
         },
         {
+          "id": "120249783553970752",
+          "name": "gal-carousel – regional [tix-galleries]",
+          "plan_ad": "gal-carousel",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 11.1,
+            "impressions": 1044,
+            "clicks": 121
+          }
+        },
+        {
+          "id": "120249783570750752",
+          "name": "gal-memory-train – regional [tix-galleries]",
+          "plan_ad": "gal-memory-train",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 17.26,
+            "impressions": 1634,
+            "clicks": 170
+          }
+        },
+        {
+          "id": "120249783568300752",
+          "name": "gal-holiday-guests – regional [tix-galleries]",
+          "plan_ad": "gal-holiday-guests",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 7.94,
+            "impressions": 726,
+            "clicks": 57
+          }
+        },
+        {
+          "id": "120249783570150752",
+          "name": "gal-holiday-guests – drive [tix-galleries]",
+          "plan_ad": "gal-holiday-guests",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 57.29,
+            "impressions": 6356,
+            "clicks": 564
+          }
+        },
+        {
           "id": "120249783565790752",
           "name": "gal-trailblazer – regional [tix-galleries]",
           "plan_ad": "gal-trailblazer",
@@ -1643,15 +1619,39 @@
           }
         },
         {
-          "id": "120249909316990752",
-          "name": "gal-trailblazer – regional [tix-galleries] (sized)",
+          "id": "120249783566870752",
+          "name": "gal-trailblazer – drive [tix-galleries]",
           "plan_ad": "gal-trailblazer",
-          "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 47.86,
+            "impressions": 4105,
+            "clicks": 534
+          }
+        },
+        {
+          "id": "120249783564790752",
+          "name": "gal-carousel – drive [tix-galleries]",
+          "plan_ad": "gal-carousel",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 167.89,
+            "impressions": 21825,
+            "clicks": 2138
+          }
+        },
+        {
+          "id": "120249783572960752",
+          "name": "gal-memory-train – drive [tix-galleries]",
+          "plan_ad": "gal-memory-train",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 155.6,
+            "impressions": 18475,
+            "clicks": 2145
           }
         }
       ]
