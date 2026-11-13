@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-13T15:46:12+00:00",
+  "as_of": "2026-11-13T21:23:47+00:00",
   "source": "meta-ads-mcp",
   "account": {
     "id": "act_1085868274425806",
@@ -1290,8 +1290,8 @@
     {
       "id": "120249806297600752",
       "name": "EVENTS: Butchery workshop, a holiday gift [evt-butchery]",
-      "status": "PAUSED",
-      "effective_status": "PAUSED",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
       "daily_budget": 1303,
       "start_time": "2026-11-04T12:00:00-0700",
@@ -1309,7 +1309,7 @@
           "name": "butchery-gift – regional [evt-butchery] (sized)",
           "plan_ad": "butchery-gift",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1333,8 +1333,8 @@
     {
       "id": "120249806296940752",
       "name": "MEMBERSHIP: Give a year at the Library [mem-gift]",
-      "status": "PAUSED",
-      "effective_status": "PAUSED",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
       "daily_budget": 9786,
       "start_time": "2026-11-04T12:00:00-0700",
@@ -1352,7 +1352,7 @@
           "name": "mem-gift-carousel – national [mem-gift] (sized)",
           "plan_ad": "mem-gift-carousel",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 4.98,
             "impressions": 297,
@@ -1364,7 +1364,7 @@
           "name": "mem-gift-carousel – drive [mem-gift] (sized)",
           "plan_ad": "mem-gift-carousel",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 3.42,
             "impressions": 227,
@@ -1376,7 +1376,7 @@
           "name": "mem-gift-family – national [mem-gift] (sized)",
           "plan_ad": "mem-gift-family",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 4.8,
             "impressions": 334,
@@ -1388,7 +1388,7 @@
           "name": "mem-gift-family – drive [mem-gift] (sized)",
           "plan_ad": "mem-gift-family",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 5.25,
             "impressions": 328,
@@ -1400,7 +1400,7 @@
           "name": "mem-gift-carousel – drive [mem-gift]",
           "plan_ad": "mem-gift-carousel",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 76.88,
             "impressions": 5032,
@@ -1412,7 +1412,7 @@
           "name": "mem-gift-family – national [mem-gift]",
           "plan_ad": "mem-gift-family",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 125.23,
             "impressions": 11440,
@@ -1472,8 +1472,8 @@
     {
       "id": "120249783427650752",
       "name": "TICKETS: Eight chapters, all indoors [tix-galleries]",
-      "status": "PAUSED",
-      "effective_status": "PAUSED",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
       "daily_budget": 9091,
       "start_time": "2026-11-04T00:00:00-0700",
@@ -1491,7 +1491,7 @@
           "name": "gal-carousel – regional [tix-galleries] (sized)",
           "plan_ad": "gal-carousel",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1503,7 +1503,7 @@
           "name": "gal-memory-train – regional [tix-galleries] (sized)",
           "plan_ad": "gal-memory-train",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1515,7 +1515,7 @@
           "name": "gal-holiday-guests – regional [tix-galleries] (sized)",
           "plan_ad": "gal-holiday-guests",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1527,7 +1527,7 @@
           "name": "gal-holiday-guests – drive [tix-galleries] (sized)",
           "plan_ad": "gal-holiday-guests",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1539,7 +1539,7 @@
           "name": "gal-trailblazer – regional [tix-galleries] (sized)",
           "plan_ad": "gal-trailblazer",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1551,7 +1551,7 @@
           "name": "gal-trailblazer – drive [tix-galleries] (sized)",
           "plan_ad": "gal-trailblazer",
           "status": "ACTIVE",
-          "effective_status": "CAMPAIGN_PAUSED",
+          "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
