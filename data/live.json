@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-13T21:23:47+00:00",
+  "as_of": "2026-11-14T22:33:49+00:00",
   "source": "meta-ads-mcp",
   "account": {
     "id": "act_1085868274425806",
@@ -1077,8 +1077,8 @@
     {
       "id": "120249885935440752",
       "name": "GIVING: Giving Tuesday + year-end [give-yearend]",
-      "status": "PAUSED",
-      "effective_status": "PAUSED",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
       "daily_budget": 36842,
       "start_time": "2026-11-24T00:00:00-0700",
@@ -1131,8 +1131,8 @@
           "id": "120249885963160752",
           "name": "give-gt – warm [give-yearend]",
           "plan_ad": "give-gt",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1155,8 +1155,8 @@
           "id": "120249885967510752",
           "name": "give-gt – donors [give-yearend]",
           "plan_ad": "give-gt",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1168,8 +1168,8 @@
     {
       "id": "120249885934750752",
       "name": "RETAIL: Holiday gifts from the Library store [shop-holiday]",
-      "status": "PAUSED",
-      "effective_status": "PAUSED",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
       "daily_budget": 12069,
       "start_time": "2026-11-20T00:00:00-0700",
@@ -1198,8 +1198,8 @@
           "id": "120249885961970752",
           "name": "shop-lifestyle – warm [shop-holiday]",
           "plan_ad": "shop-lifestyle",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1210,8 +1210,8 @@
           "id": "120249885961890752",
           "name": "shop-catalog – warm [shop-holiday]",
           "plan_ad": "shop-catalog",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1222,8 +1222,8 @@
           "id": "120249885960960752",
           "name": "shop-lifestyle – prospecting [shop-holiday]",
           "plan_ad": "shop-lifestyle",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1246,8 +1246,8 @@
           "id": "120249885958660752",
           "name": "shop-catalog – prospecting [shop-holiday]",
           "plan_ad": "shop-catalog",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
@@ -1259,8 +1259,8 @@
     {
       "id": "120249885934430752",
       "name": "EVENTS: The Library at Christmas [evt-holiday]",
-      "status": "PAUSED",
-      "effective_status": "PAUSED",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
       "objective": "OUTCOME_TRAFFIC",
       "daily_budget": 7778,
       "start_time": "2026-11-18T00:00:00-0700",
@@ -1277,8 +1277,8 @@
           "id": "120249885956540752",
           "name": "evt-holiday-decor – regional [evt-holiday]",
           "plan_ad": "evt-holiday-decor",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
+          "status": "ACTIVE",
+          "effective_status": "IN_PROCESS",
           "insights": {
             "spend": 0.0,
             "impressions": 0,
