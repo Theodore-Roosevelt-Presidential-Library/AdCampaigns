@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-14T22:33:49+00:00",
+  "as_of": "2026-11-16T13:45:36+00:00",
   "source": "meta-ads-mcp",
   "account": {
     "id": "act_1085868274425806",
     "name": "TRPL Meta Credit (US)",
     "currency": "USD",
-    "amount_spent": 6443.47
+    "amount_spent": 9039.14
   },
   "campaigns": [
     {
@@ -18,11 +18,11 @@
       "start_time": "2026-11-10T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 164.12,
-        "impressions": 16650,
-        "reach": 8265,
-        "clicks": 1317,
-        "ctr": 7.91
+        "spend": 306.41,
+        "impressions": 34276,
+        "reach": 14698,
+        "clicks": 2186,
+        "ctr": 6.38
       },
       "ads": [
         {
@@ -32,9 +32,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 79.66,
-            "impressions": 8091,
-            "clicks": 555
+            "spend": 136.31,
+            "impressions": 15048,
+            "clicks": 863
           }
         },
         {
@@ -44,9 +44,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 65.28,
-            "impressions": 7010,
-            "clicks": 597
+            "spend": 150.83,
+            "impressions": 17655,
+            "clicks": 1156
           }
         },
         {
@@ -76,6 +76,49 @@
       ]
     },
     {
+      "id": "120249806297600752",
+      "name": "EVENTS: Butchery workshop, a holiday gift [evt-butchery]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "daily_budget": 1303,
+      "start_time": "2026-11-04T12:00:00-0700",
+      "stop_time": "2026-12-22T23:59:00-0700",
+      "insights": {
+        "spend": 99.36,
+        "impressions": 7660,
+        "reach": 4235,
+        "clicks": 1166,
+        "ctr": 15.22
+      },
+      "ads": [
+        {
+          "id": "120249909400220752",
+          "name": "butchery-gift – regional [evt-butchery] (sized)",
+          "plan_ad": "butchery-gift",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 48.09,
+            "impressions": 3526,
+            "clicks": 458
+          }
+        },
+        {
+          "id": "120249806331790752",
+          "name": "butchery-gift – regional [evt-butchery]",
+          "plan_ad": "butchery-gift",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 51.26,
+            "impressions": 4132,
+            "clicks": 708
+          }
+        }
+      ]
+    },
+    {
       "id": "120249806297350752",
       "name": "EVENTS: Elkhorn Evenings and Santa (Dec. 10, 17, 19) [evt-elkhorn]",
       "status": "ACTIVE",
@@ -85,11 +128,11 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-19T23:59:00-0700",
       "insights": {
-        "spend": 581.61,
-        "impressions": 59118,
-        "reach": 33674,
-        "clicks": 4486,
-        "ctr": 7.59
+        "spend": 778.01,
+        "impressions": 77917,
+        "reach": 39899,
+        "clicks": 6046,
+        "ctr": 7.76
       },
       "ads": [
         {
@@ -99,8 +142,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.19,
-            "impressions": 24,
+            "spend": 0.24,
+            "impressions": 33,
             "clicks": 1
           }
         },
@@ -111,9 +154,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 2.3,
-            "impressions": 251,
-            "clicks": 17
+            "spend": 4.69,
+            "impressions": 506,
+            "clicks": 30
           }
         },
         {
@@ -123,8 +166,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.18,
-            "impressions": 28,
+            "spend": 0.27,
+            "impressions": 37,
             "clicks": 2
           }
         },
@@ -135,9 +178,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 2.68,
-            "impressions": 336,
-            "clicks": 30
+            "spend": 11.82,
+            "impressions": 1221,
+            "clicks": 108
           }
         },
         {
@@ -147,9 +190,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 30.27,
-            "impressions": 3285,
-            "clicks": 220
+            "spend": 40.14,
+            "impressions": 4378,
+            "clicks": 300
           }
         },
         {
@@ -159,9 +202,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 182.48,
-            "impressions": 17820,
-            "clicks": 1593
+            "spend": 357.31,
+            "impressions": 34364,
+            "clicks": 2982
           }
         },
         {
@@ -248,11 +291,11 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-03T23:59:00-0700",
       "insights": {
-        "spend": 391.19,
-        "impressions": 31271,
-        "reach": 9556,
-        "clicks": 2521,
-        "ctr": 8.06
+        "spend": 547.74,
+        "impressions": 45034,
+        "reach": 11592,
+        "clicks": 3406,
+        "ctr": 7.56
       },
       "ads": [
         {
@@ -262,9 +305,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 16.62,
-            "impressions": 1211,
-            "clicks": 78
+            "spend": 30.0,
+            "impressions": 2409,
+            "clicks": 132
           }
         },
         {
@@ -274,9 +317,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 44.15,
-            "impressions": 3769,
-            "clicks": 222
+            "spend": 88.07,
+            "impressions": 7614,
+            "clicks": 381
           }
         },
         {
@@ -286,9 +329,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 83.84,
-            "impressions": 7109,
-            "clicks": 519
+            "spend": 183.03,
+            "impressions": 15824,
+            "clicks": 1191
           }
         },
         {
@@ -330,6 +373,145 @@
       ]
     },
     {
+      "id": "120249806296940752",
+      "name": "MEMBERSHIP: Give a year at the Library [mem-gift]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "daily_budget": 9786,
+      "start_time": "2026-11-04T12:00:00-0700",
+      "stop_time": "2027-01-19T23:59:00-0700",
+      "insights": {
+        "spend": 867.94,
+        "impressions": 73235,
+        "reach": 28058,
+        "clicks": 7887,
+        "ctr": 10.77
+      },
+      "ads": [
+        {
+          "id": "120249909456840752",
+          "name": "mem-gift-carousel – national [mem-gift] (sized)",
+          "plan_ad": "mem-gift-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 15.45,
+            "impressions": 1173,
+            "clicks": 54
+          }
+        },
+        {
+          "id": "120249909456340752",
+          "name": "mem-gift-carousel – drive [mem-gift] (sized)",
+          "plan_ad": "mem-gift-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 16.76,
+            "impressions": 1182,
+            "clicks": 41
+          }
+        },
+        {
+          "id": "120249909369940752",
+          "name": "mem-gift-family – national [mem-gift] (sized)",
+          "plan_ad": "mem-gift-family",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 55.03,
+            "impressions": 4162,
+            "clicks": 492
+          }
+        },
+        {
+          "id": "120249909368470752",
+          "name": "mem-gift-family – drive [mem-gift] (sized)",
+          "plan_ad": "mem-gift-family",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 105.33,
+            "impressions": 8430,
+            "clicks": 1022
+          }
+        },
+        {
+          "id": "120249806327230752",
+          "name": "mem-gift-carousel – drive [mem-gift]",
+          "plan_ad": "mem-gift-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 212.57,
+            "impressions": 15002,
+            "clicks": 619
+          }
+        },
+        {
+          "id": "120249806323650752",
+          "name": "mem-gift-family – national [mem-gift]",
+          "plan_ad": "mem-gift-family",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 156.03,
+            "impressions": 14463,
+            "clicks": 1632
+          }
+        },
+        {
+          "id": "120249806327160752",
+          "name": "mem-gift-carousel – national [mem-gift]",
+          "plan_ad": "mem-gift-carousel",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 28.42,
+            "impressions": 2453,
+            "clicks": 174
+          }
+        },
+        {
+          "id": "120249806326950752",
+          "name": "mem-gift-family – drive [mem-gift]",
+          "plan_ad": "mem-gift-family",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 277.96,
+            "impressions": 26345,
+            "clicks": 3852
+          }
+        },
+        {
+          "id": "120249806327590752",
+          "name": "mem-newyear – drive [mem-gift]",
+          "plan_ad": "mem-newyear",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249806327400752",
+          "name": "mem-newyear – national [mem-gift]",
+          "plan_ad": "mem-newyear",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        }
+      ]
+    },
+    {
       "id": "120249783431660752",
       "name": "DESTINATION: Travelers already nearby (I-94, Black Hills, gateway towns) [dest-nearby]",
       "status": "ACTIVE",
@@ -339,11 +521,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 338.13,
-        "impressions": 35540,
-        "reach": 16004,
-        "clicks": 2719,
-        "ctr": 7.65
+        "spend": 434.86,
+        "impressions": 46752,
+        "reach": 20907,
+        "clicks": 3707,
+        "ctr": 7.93
       },
       "ads": [
         {
@@ -353,9 +535,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 1.9,
-            "impressions": 171,
-            "clicks": 18
+            "spend": 3.57,
+            "impressions": 312,
+            "clicks": 26
           }
         },
         {
@@ -365,9 +547,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 1.46,
-            "impressions": 118,
-            "clicks": 11
+            "spend": 2.08,
+            "impressions": 196,
+            "clicks": 16
           }
         },
         {
@@ -377,9 +559,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 1.28,
-            "impressions": 166,
-            "clicks": 8
+            "spend": 1.37,
+            "impressions": 180,
+            "clicks": 9
           }
         },
         {
@@ -389,9 +571,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 5.41,
-            "impressions": 569,
-            "clicks": 20
+            "spend": 6.34,
+            "impressions": 715,
+            "clicks": 25
           }
         },
         {
@@ -401,9 +583,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 120.56,
-            "impressions": 12374,
-            "clicks": 1106
+            "spend": 213.98,
+            "impressions": 23207,
+            "clicks": 2075
           }
         },
         {
@@ -478,11 +660,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 316.85,
-        "impressions": 41829,
-        "reach": 10639,
-        "clicks": 49,
-        "ctr": 0.12
+        "spend": 395.79,
+        "impressions": 50417,
+        "reach": 11467,
+        "clicks": 54,
+        "ctr": 0.11
       },
       "ads": [
         {
@@ -492,8 +674,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 5.68,
-            "impressions": 508,
+            "spend": 5.7,
+            "impressions": 513,
             "clicks": 1
           }
         },
@@ -504,9 +686,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 37.1,
-            "impressions": 4750,
-            "clicks": 3
+            "spend": 106.25,
+            "impressions": 12616,
+            "clicks": 6
           }
         },
         {
@@ -516,9 +698,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 33.43,
-            "impressions": 5928,
-            "clicks": 13
+            "spend": 43.17,
+            "impressions": 6638,
+            "clicks": 15
           }
         },
         {
@@ -529,7 +711,7 @@
           "effective_status": "ACTIVE",
           "insights": {
             "spend": 0.64,
-            "impressions": 187,
+            "impressions": 188,
             "clicks": 1
           }
         },
@@ -541,7 +723,7 @@
           "effective_status": "ACTIVE",
           "insights": {
             "spend": 3.11,
-            "impressions": 331,
+            "impressions": 332,
             "clicks": 0
           }
         },
@@ -629,11 +811,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 242.95,
-        "impressions": 95655,
-        "reach": 54993,
-        "clicks": 1218,
-        "ctr": 1.27
+        "spend": 315.27,
+        "impressions": 122075,
+        "reach": 60435,
+        "clicks": 1569,
+        "ctr": 1.29
       },
       "ads": [
         {
@@ -643,9 +825,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 79.8,
-            "impressions": 30054,
-            "clicks": 404
+            "spend": 152.12,
+            "impressions": 56474,
+            "clicks": 755
           }
         },
         {
@@ -672,11 +854,11 @@
       "start_time": "2026-11-05T00:00:00-0700",
       "stop_time": "2026-11-24T23:59:00-0700",
       "insights": {
-        "spend": 1506.16,
-        "impressions": 248526,
-        "reach": 70929,
-        "clicks": 6432,
-        "ctr": 2.59
+        "spend": 2034.79,
+        "impressions": 351816,
+        "reach": 79848,
+        "clicks": 7951,
+        "ctr": 2.26
       },
       "ads": [
         {
@@ -686,9 +868,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 107.56,
-            "impressions": 9415,
-            "clicks": 293
+            "spend": 207.46,
+            "impressions": 17008,
+            "clicks": 525
           }
         },
         {
@@ -698,9 +880,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 225.0,
-            "impressions": 85371,
-            "clicks": 889
+            "spend": 408.86,
+            "impressions": 160668,
+            "clicks": 1384
           }
         },
         {
@@ -710,9 +892,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 250.05,
-            "impressions": 19376,
-            "clicks": 868
+            "spend": 494.37,
+            "impressions": 39736,
+            "clicks": 1658
           }
         },
         {
@@ -763,11 +945,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-10T23:59:00-0700",
       "insights": {
-        "spend": 1321.65,
-        "impressions": 148639,
-        "reach": 79234,
-        "clicks": 14308,
-        "ctr": 9.63
+        "spend": 1738.04,
+        "impressions": 200396,
+        "reach": 92485,
+        "clicks": 17841,
+        "ctr": 8.9
       },
       "ads": [
         {
@@ -777,8 +959,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.32,
-            "impressions": 49,
+            "spend": 0.55,
+            "impressions": 102,
             "clicks": 2
           }
         },
@@ -789,9 +971,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 3.71,
-            "impressions": 857,
-            "clicks": 25
+            "spend": 9.46,
+            "impressions": 1830,
+            "clicks": 74
           }
         },
         {
@@ -801,9 +983,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 11.37,
-            "impressions": 958,
-            "clicks": 86
+            "spend": 14.01,
+            "impressions": 1140,
+            "clicks": 106
           }
         },
         {
@@ -813,9 +995,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 75.99,
-            "impressions": 8296,
-            "clicks": 737
+            "spend": 177.74,
+            "impressions": 19664,
+            "clicks": 1604
           }
         },
         {
@@ -825,9 +1007,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.62,
-            "impressions": 80,
-            "clicks": 2
+            "spend": 1.44,
+            "impressions": 150,
+            "clicks": 8
           }
         },
         {
@@ -837,9 +1019,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 190.68,
-            "impressions": 25513,
-            "clicks": 2750
+            "spend": 384.58,
+            "impressions": 54038,
+            "clicks": 4630
           }
         },
         {
@@ -849,8 +1031,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.5,
-            "impressions": 40,
+            "spend": 0.51,
+            "impressions": 41,
             "clicks": 1
           }
         },
@@ -861,9 +1043,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 163.15,
-            "impressions": 14535,
-            "clicks": 1000
+            "spend": 274.44,
+            "impressions": 25120,
+            "clicks": 1711
           }
         },
         {
@@ -974,11 +1156,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 182.04,
-        "impressions": 55302,
-        "reach": 28606,
-        "clicks": 273,
-        "ctr": 0.49
+        "spend": 235.28,
+        "impressions": 70784,
+        "reach": 32632,
+        "clicks": 332,
+        "ctr": 0.47
       },
       "ads": [
         {
@@ -988,9 +1170,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 61.89,
-            "impressions": 17605,
-            "clicks": 84
+            "spend": 115.13,
+            "impressions": 33087,
+            "clicks": 143
           }
         },
         {
@@ -1017,11 +1199,11 @@
       "start_time": "2026-11-05T00:00:00-0700",
       "stop_time": "2026-12-15T23:59:00-0700",
       "insights": {
-        "spend": 355.28,
-        "impressions": 31271,
-        "reach": 16481,
-        "clicks": 1891,
-        "ctr": 6.05
+        "spend": 485.79,
+        "impressions": 41428,
+        "reach": 21590,
+        "clicks": 2502,
+        "ctr": 6.04
       },
       "ads": [
         {
@@ -1031,9 +1213,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 16.14,
-            "impressions": 1396,
-            "clicks": 72
+            "spend": 25.18,
+            "impressions": 2185,
+            "clicks": 113
           }
         },
         {
@@ -1043,9 +1225,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 116.47,
-            "impressions": 9305,
-            "clicks": 506
+            "spend": 237.94,
+            "impressions": 18673,
+            "clicks": 1076
           }
         },
         {
@@ -1075,401 +1257,6 @@
       ]
     },
     {
-      "id": "120249885935440752",
-      "name": "GIVING: Giving Tuesday + year-end [give-yearend]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_SALES",
-      "daily_budget": 36842,
-      "start_time": "2026-11-24T00:00:00-0700",
-      "stop_time": "2026-12-31T23:59:00-0700",
-      "insights": {
-        "spend": 0,
-        "impressions": 0,
-        "reach": 0,
-        "clicks": 0,
-        "ctr": null
-      },
-      "ads": [
-        {
-          "id": "120249885964240752",
-          "name": "give-ye – warm [give-yearend]",
-          "plan_ad": "give-ye",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885969560752",
-          "name": "give-final – donors [give-yearend]",
-          "plan_ad": "give-final",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885965580752",
-          "name": "give-final – warm [give-yearend]",
-          "plan_ad": "give-final",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885963160752",
-          "name": "give-gt – warm [give-yearend]",
-          "plan_ad": "give-gt",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885968780752",
-          "name": "give-ye – donors [give-yearend]",
-          "plan_ad": "give-ye",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885967510752",
-          "name": "give-gt – donors [give-yearend]",
-          "plan_ad": "give-gt",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        }
-      ]
-    },
-    {
-      "id": "120249885934750752",
-      "name": "RETAIL: Holiday gifts from the Library store [shop-holiday]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_SALES",
-      "daily_budget": 12069,
-      "start_time": "2026-11-20T00:00:00-0700",
-      "stop_time": "2026-12-18T23:59:00-0700",
-      "insights": {
-        "spend": 0,
-        "impressions": 0,
-        "reach": 0,
-        "clicks": 0,
-        "ctr": null
-      },
-      "ads": [
-        {
-          "id": "120249885962700752",
-          "name": "shop-msd – warm [shop-holiday]",
-          "plan_ad": "shop-msd",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885961970752",
-          "name": "shop-lifestyle – warm [shop-holiday]",
-          "plan_ad": "shop-lifestyle",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885961890752",
-          "name": "shop-catalog – warm [shop-holiday]",
-          "plan_ad": "shop-catalog",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885960960752",
-          "name": "shop-lifestyle – prospecting [shop-holiday]",
-          "plan_ad": "shop-lifestyle",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885961750752",
-          "name": "shop-msd – prospecting [shop-holiday]",
-          "plan_ad": "shop-msd",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885958660752",
-          "name": "shop-catalog – prospecting [shop-holiday]",
-          "plan_ad": "shop-catalog",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        }
-      ]
-    },
-    {
-      "id": "120249885934430752",
-      "name": "EVENTS: The Library at Christmas [evt-holiday]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_TRAFFIC",
-      "daily_budget": 7778,
-      "start_time": "2026-11-18T00:00:00-0700",
-      "stop_time": "2026-12-23T23:59:00-0700",
-      "insights": {
-        "spend": 0,
-        "impressions": 0,
-        "reach": 0,
-        "clicks": 0,
-        "ctr": null
-      },
-      "ads": [
-        {
-          "id": "120249885956540752",
-          "name": "evt-holiday-decor – regional [evt-holiday]",
-          "plan_ad": "evt-holiday-decor",
-          "status": "ACTIVE",
-          "effective_status": "IN_PROCESS",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        }
-      ]
-    },
-    {
-      "id": "120249806297600752",
-      "name": "EVENTS: Butchery workshop, a holiday gift [evt-butchery]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_SALES",
-      "daily_budget": 1303,
-      "start_time": "2026-11-04T12:00:00-0700",
-      "stop_time": "2026-12-22T23:59:00-0700",
-      "insights": {
-        "spend": 51.26,
-        "impressions": 4132,
-        "reach": 2694,
-        "clicks": 708,
-        "ctr": 17.13
-      },
-      "ads": [
-        {
-          "id": "120249909400220752",
-          "name": "butchery-gift – regional [evt-butchery] (sized)",
-          "plan_ad": "butchery-gift",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249806331790752",
-          "name": "butchery-gift – regional [evt-butchery]",
-          "plan_ad": "butchery-gift",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 51.26,
-            "impressions": 4132,
-            "clicks": 708
-          }
-        }
-      ]
-    },
-    {
-      "id": "120249806296940752",
-      "name": "MEMBERSHIP: Give a year at the Library [mem-gift]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_SALES",
-      "daily_budget": 9786,
-      "start_time": "2026-11-04T12:00:00-0700",
-      "stop_time": "2027-01-19T23:59:00-0700",
-      "insights": {
-        "spend": 526.94,
-        "impressions": 46456,
-        "reach": 21424,
-        "clicks": 5806,
-        "ctr": 12.5
-      },
-      "ads": [
-        {
-          "id": "120249909456840752",
-          "name": "mem-gift-carousel – national [mem-gift] (sized)",
-          "plan_ad": "mem-gift-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 4.98,
-            "impressions": 297,
-            "clicks": 12
-          }
-        },
-        {
-          "id": "120249909456340752",
-          "name": "mem-gift-carousel – drive [mem-gift] (sized)",
-          "plan_ad": "mem-gift-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 3.42,
-            "impressions": 227,
-            "clicks": 9
-          }
-        },
-        {
-          "id": "120249909369940752",
-          "name": "mem-gift-family – national [mem-gift] (sized)",
-          "plan_ad": "mem-gift-family",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 4.8,
-            "impressions": 334,
-            "clicks": 35
-          }
-        },
-        {
-          "id": "120249909368470752",
-          "name": "mem-gift-family – drive [mem-gift] (sized)",
-          "plan_ad": "mem-gift-family",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 5.25,
-            "impressions": 328,
-            "clicks": 34
-          }
-        },
-        {
-          "id": "120249806327230752",
-          "name": "mem-gift-carousel – drive [mem-gift]",
-          "plan_ad": "mem-gift-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 76.88,
-            "impressions": 5032,
-            "clicks": 257
-          }
-        },
-        {
-          "id": "120249806323650752",
-          "name": "mem-gift-family – national [mem-gift]",
-          "plan_ad": "mem-gift-family",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 125.23,
-            "impressions": 11440,
-            "clicks": 1433
-          }
-        },
-        {
-          "id": "120249806327160752",
-          "name": "mem-gift-carousel – national [mem-gift]",
-          "plan_ad": "mem-gift-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 28.42,
-            "impressions": 2453,
-            "clicks": 174
-          }
-        },
-        {
-          "id": "120249806326950752",
-          "name": "mem-gift-family – drive [mem-gift]",
-          "plan_ad": "mem-gift-family",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 277.96,
-            "impressions": 26345,
-            "clicks": 3852
-          }
-        },
-        {
-          "id": "120249806327590752",
-          "name": "mem-newyear – drive [mem-gift]",
-          "plan_ad": "mem-newyear",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249806327400752",
-          "name": "mem-newyear – national [mem-gift]",
-          "plan_ad": "mem-newyear",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        }
-      ]
-    },
-    {
       "id": "120249783427650752",
       "name": "TICKETS: Eight chapters, all indoors [tix-galleries]",
       "status": "ACTIVE",
@@ -1479,11 +1266,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 466.42,
-        "impressions": 54264,
-        "reach": 27564,
-        "clicks": 5745,
-        "ctr": 10.59
+        "spend": 801.02,
+        "impressions": 83348,
+        "reach": 33278,
+        "clicks": 7634,
+        "ctr": 9.16
       },
       "ads": [
         {
@@ -1493,9 +1280,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 16.93,
+            "impressions": 1468,
+            "clicks": 87
           }
         },
         {
@@ -1505,9 +1292,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 83.66,
+            "impressions": 8297,
+            "clicks": 575
           }
         },
         {
@@ -1517,9 +1304,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 5.55,
+            "impressions": 344,
+            "clicks": 18
           }
         },
         {
@@ -1529,9 +1316,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 65.72,
+            "impressions": 6677,
+            "clicks": 323
           }
         },
         {
@@ -1541,9 +1328,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 4.05,
+            "impressions": 320,
+            "clicks": 28
           }
         },
         {
@@ -1553,9 +1340,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
+            "spend": 158.69,
+            "impressions": 11978,
+            "clicks": 858
           }
         },
         {
@@ -1652,6 +1439,219 @@
             "spend": 155.6,
             "impressions": 18475,
             "clicks": 2145
+          }
+        }
+      ]
+    },
+    {
+      "id": "120249885935440752",
+      "name": "GIVING: Giving Tuesday + year-end [give-yearend]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "daily_budget": 36842,
+      "start_time": "2026-11-24T00:00:00-0700",
+      "stop_time": "2026-12-31T23:59:00-0700",
+      "insights": {
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "ctr": null
+      },
+      "ads": [
+        {
+          "id": "120249885967510752",
+          "name": "give-gt – donors [give-yearend]",
+          "plan_ad": "give-gt",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885963160752",
+          "name": "give-gt – warm [give-yearend]",
+          "plan_ad": "give-gt",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885964240752",
+          "name": "give-ye – warm [give-yearend]",
+          "plan_ad": "give-ye",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885969560752",
+          "name": "give-final – donors [give-yearend]",
+          "plan_ad": "give-final",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885965580752",
+          "name": "give-final – warm [give-yearend]",
+          "plan_ad": "give-final",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885968780752",
+          "name": "give-ye – donors [give-yearend]",
+          "plan_ad": "give-ye",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "120249885934750752",
+      "name": "RETAIL: Holiday gifts from the Library store [shop-holiday]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "daily_budget": 12069,
+      "start_time": "2026-11-20T00:00:00-0700",
+      "stop_time": "2026-12-18T23:59:00-0700",
+      "insights": {
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "ctr": null
+      },
+      "ads": [
+        {
+          "id": "120249885961970752",
+          "name": "shop-lifestyle – warm [shop-holiday]",
+          "plan_ad": "shop-lifestyle",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885961890752",
+          "name": "shop-catalog – warm [shop-holiday]",
+          "plan_ad": "shop-catalog",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885960960752",
+          "name": "shop-lifestyle – prospecting [shop-holiday]",
+          "plan_ad": "shop-lifestyle",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885958660752",
+          "name": "shop-catalog – prospecting [shop-holiday]",
+          "plan_ad": "shop-catalog",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885962700752",
+          "name": "shop-msd – warm [shop-holiday]",
+          "plan_ad": "shop-msd",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885961750752",
+          "name": "shop-msd – prospecting [shop-holiday]",
+          "plan_ad": "shop-msd",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "120249885934430752",
+      "name": "EVENTS: The Library at Christmas [evt-holiday]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_TRAFFIC",
+      "daily_budget": 7778,
+      "start_time": "2026-11-18T00:00:00-0700",
+      "stop_time": "2026-12-23T23:59:00-0700",
+      "insights": {
+        "spend": 0,
+        "impressions": 0,
+        "reach": 0,
+        "clicks": 0,
+        "ctr": null
+      },
+      "ads": [
+        {
+          "id": "120249885956540752",
+          "name": "evt-holiday-decor – regional [evt-holiday]",
+          "plan_ad": "evt-holiday-decor",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 0.0,
+            "impressions": 0,
+            "clicks": 0
           }
         }
       ]
