@@ -1,13 +1,135 @@
 {
-  "as_of": "2026-11-19T13:44:00+00:00",
+  "as_of": "2026-11-20T13:44:55+00:00",
   "source": "meta-ads-mcp",
   "account": {
     "id": "act_1085868274425806",
     "name": "TRPL Meta Credit (US)",
     "currency": "USD",
-    "amount_spent": 11658.1
+    "amount_spent": 12676.97
   },
   "campaigns": [
+    {
+      "id": "120249885934750752",
+      "name": "RETAIL: Holiday gifts from the Library store [shop-holiday]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "daily_budget": 12069,
+      "start_time": "2026-11-20T00:00:00-0700",
+      "stop_time": "2026-12-18T23:59:00-0700",
+      "insights": {
+        "spend": 37.98,
+        "impressions": 1709,
+        "reach": 1129,
+        "clicks": 201,
+        "ctr": 11.76
+      },
+      "ads": [
+        {
+          "id": "120249885961970752",
+          "name": "shop-lifestyle – warm [shop-holiday]",
+          "plan_ad": "shop-lifestyle",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 8.75,
+            "impressions": 403,
+            "clicks": 98
+          }
+        },
+        {
+          "id": "120249885961890752",
+          "name": "shop-catalog – warm [shop-holiday]",
+          "plan_ad": "shop-catalog",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 21.09,
+            "impressions": 921,
+            "clicks": 65
+          }
+        },
+        {
+          "id": "120249885960960752",
+          "name": "shop-lifestyle – prospecting [shop-holiday]",
+          "plan_ad": "shop-lifestyle",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 4.23,
+            "impressions": 207,
+            "clicks": 31
+          }
+        },
+        {
+          "id": "120249885958660752",
+          "name": "shop-catalog – prospecting [shop-holiday]",
+          "plan_ad": "shop-catalog",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 3.91,
+            "impressions": 178,
+            "clicks": 7
+          }
+        },
+        {
+          "id": "120249885962700752",
+          "name": "shop-msd – warm [shop-holiday]",
+          "plan_ad": "shop-msd",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "id": "120249885961750752",
+          "name": "shop-msd – prospecting [shop-holiday]",
+          "plan_ad": "shop-msd",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "insights": {
+            "spend": 0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "120249885934430752",
+      "name": "EVENTS: The Library at Christmas [evt-holiday]",
+      "status": "ACTIVE",
+      "effective_status": "ACTIVE",
+      "objective": "OUTCOME_TRAFFIC",
+      "daily_budget": 7778,
+      "start_time": "2026-11-18T00:00:00-0700",
+      "stop_time": "2026-12-23T23:59:00-0700",
+      "insights": {
+        "spend": 165.34,
+        "impressions": 37336,
+        "reach": 13884,
+        "clicks": 861,
+        "ctr": 2.31
+      },
+      "ads": [
+        {
+          "id": "120249885956540752",
+          "name": "evt-holiday-decor – regional [evt-holiday]",
+          "plan_ad": "evt-holiday-decor",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 165.34,
+            "impressions": 37336,
+            "clicks": 861
+          }
+        }
+      ]
+    },
     {
       "id": "120249821463420752",
       "name": "RETARGETING: Bring them back [rt-allyear]",
@@ -18,11 +140,11 @@
       "start_time": "2026-11-10T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 454.97,
-        "impressions": 54366,
-        "reach": 19030,
-        "clicks": 2900,
-        "ctr": 5.33
+        "spend": 512.34,
+        "impressions": 63222,
+        "reach": 20950,
+        "clicks": 3160,
+        "ctr": 5.0
       },
       "ads": [
         {
@@ -32,9 +154,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 198.83,
-            "impressions": 22812,
-            "clicks": 1165
+            "spend": 222.44,
+            "impressions": 26141,
+            "clicks": 1255
           }
         },
         {
@@ -44,9 +166,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 236.96,
-            "impressions": 30005,
-            "clicks": 1570
+            "spend": 270.72,
+            "impressions": 35532,
+            "clicks": 1740
           }
         },
         {
@@ -85,11 +207,11 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-22T23:59:00-0700",
       "insights": {
-        "spend": 136.92,
-        "impressions": 10032,
-        "reach": 4945,
-        "clicks": 1458,
-        "ctr": 14.53
+        "spend": 151.1,
+        "impressions": 10954,
+        "reach": 5265,
+        "clicks": 1549,
+        "ctr": 14.14
       },
       "ads": [
         {
@@ -99,9 +221,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 85.66,
-            "impressions": 5900,
-            "clicks": 750
+            "spend": 99.84,
+            "impressions": 6822,
+            "clicks": 841
           }
         },
         {
@@ -128,11 +250,11 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-19T23:59:00-0700",
       "insights": {
-        "spend": 970.66,
-        "impressions": 95532,
-        "reach": 45736,
-        "clicks": 7433,
-        "ctr": 7.78
+        "spend": 1041.52,
+        "impressions": 101449,
+        "reach": 47548,
+        "clicks": 7862,
+        "ctr": 7.75
       },
       "ads": [
         {
@@ -142,8 +264,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.24,
-            "impressions": 33,
+            "spend": 0.27,
+            "impressions": 34,
             "clicks": 1
           }
         },
@@ -154,9 +276,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 5.95,
-            "impressions": 699,
-            "clicks": 44
+            "spend": 6.28,
+            "impressions": 757,
+            "clicks": 47
           }
         },
         {
@@ -166,8 +288,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.4,
-            "impressions": 44,
+            "spend": 0.43,
+            "impressions": 48,
             "clicks": 4
           }
         },
@@ -178,9 +300,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 31.98,
-            "impressions": 2776,
-            "clicks": 252
+            "spend": 44.89,
+            "impressions": 3702,
+            "clicks": 315
           }
         },
         {
@@ -190,9 +312,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 55.15,
-            "impressions": 5972,
-            "clicks": 427
+            "spend": 62.74,
+            "impressions": 6716,
+            "clicks": 483
           }
         },
         {
@@ -202,9 +324,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 513.43,
-            "impressions": 48634,
-            "clicks": 4082
+            "spend": 563.4,
+            "impressions": 52818,
+            "clicks": 4389
           }
         },
         {
@@ -291,11 +413,11 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2026-12-03T23:59:00-0700",
       "insights": {
-        "spend": 690.37,
-        "impressions": 57965,
-        "reach": 12969,
-        "clicks": 4062,
-        "ctr": 7.01
+        "spend": 748.56,
+        "impressions": 63625,
+        "reach": 13678,
+        "clicks": 4307,
+        "ctr": 6.77
       },
       "ads": [
         {
@@ -305,9 +427,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 44.71,
-            "impressions": 3743,
-            "clicks": 199
+            "spend": 50.89,
+            "impressions": 4530,
+            "clicks": 215
           }
         },
         {
@@ -317,9 +439,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 116.63,
-            "impressions": 9709,
-            "clicks": 459
+            "spend": 133.34,
+            "impressions": 11167,
+            "clicks": 510
           }
         },
         {
@@ -329,9 +451,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 282.45,
-            "impressions": 25331,
-            "clicks": 1702
+            "spend": 317.75,
+            "impressions": 28746,
+            "clicks": 1880
           }
         },
         {
@@ -382,13 +504,25 @@
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 1157.93,
-        "impressions": 102569,
-        "reach": 34534,
-        "clicks": 9436,
-        "ctr": 9.2
+        "spend": 1265.57,
+        "impressions": 115428,
+        "reach": 38077,
+        "clicks": 10010,
+        "ctr": 8.67
       },
       "ads": [
+        {
+          "id": "120249909456840752",
+          "name": "mem-gift-carousel – national [mem-gift] (sized)",
+          "plan_ad": "mem-gift-carousel",
+          "status": "ACTIVE",
+          "effective_status": "ACTIVE",
+          "insights": {
+            "spend": 57.72,
+            "impressions": 4894,
+            "clicks": 158
+          }
+        },
         {
           "id": "120249909456340752",
           "name": "mem-gift-carousel – drive [mem-gift] (sized)",
@@ -396,9 +530,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 42.74,
-            "impressions": 3868,
-            "clicks": 98
+            "spend": 58.02,
+            "impressions": 5705,
+            "clicks": 127
           }
         },
         {
@@ -408,21 +542,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 178.93,
-            "impressions": 14660,
-            "clicks": 1580
-          }
-        },
-        {
-          "id": "120249806327230752",
-          "name": "mem-gift-carousel – drive [mem-gift]",
-          "plan_ad": "mem-gift-carousel",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 249.65,
-            "impressions": 17789,
-            "clicks": 683
+            "spend": 211.42,
+            "impressions": 17762,
+            "clicks": 1817
           }
         },
         {
@@ -432,21 +554,21 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 280.96,
-            "impressions": 29832,
-            "clicks": 2437
+            "spend": 325.55,
+            "impressions": 36249,
+            "clicks": 2701
           }
         },
         {
-          "id": "120249909456840752",
-          "name": "mem-gift-carousel – national [mem-gift] (sized)",
+          "id": "120249806327230752",
+          "name": "mem-gift-carousel – drive [mem-gift]",
           "plan_ad": "mem-gift-carousel",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
           "insights": {
-            "spend": 42.44,
-            "impressions": 3391,
-            "clicks": 114
+            "spend": 251.2,
+            "impressions": 17839,
+            "clicks": 685
           }
         },
         {
@@ -492,7 +614,7 @@
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
+            "spend": 0,
             "impressions": 0,
             "clicks": 0
           }
@@ -504,7 +626,7 @@
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
+            "spend": 0,
             "impressions": 0,
             "clicks": 0
           }
@@ -521,11 +643,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 560.7,
-        "impressions": 61469,
-        "reach": 26173,
-        "clicks": 4897,
-        "ctr": 7.97
+        "spend": 602.83,
+        "impressions": 67161,
+        "reach": 27410,
+        "clicks": 5252,
+        "ctr": 7.82
       },
       "ads": [
         {
@@ -535,9 +657,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 5.17,
-            "impressions": 478,
-            "clicks": 34
+            "spend": 5.78,
+            "impressions": 573,
+            "clicks": 40
           }
         },
         {
@@ -547,9 +669,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 3.94,
-            "impressions": 391,
-            "clicks": 35
+            "spend": 4.93,
+            "impressions": 496,
+            "clicks": 43
           }
         },
         {
@@ -559,8 +681,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 1.4,
-            "impressions": 183,
+            "spend": 1.46,
+            "impressions": 184,
             "clicks": 9
           }
         },
@@ -571,9 +693,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 8.26,
-            "impressions": 1062,
-            "clicks": 38
+            "spend": 9.2,
+            "impressions": 1207,
+            "clicks": 42
           }
         },
         {
@@ -583,9 +705,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 334.41,
-            "impressions": 37213,
-            "clicks": 3225
+            "spend": 373.94,
+            "impressions": 42559,
+            "clicks": 3562
           }
         },
         {
@@ -660,9 +782,9 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 475.28,
-        "impressions": 62057,
-        "reach": 14861,
+        "spend": 498.34,
+        "impressions": 64944,
+        "reach": 15189,
         "clicks": 69,
         "ctr": 0.11
       },
@@ -674,8 +796,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 5.73,
-            "impressions": 520,
+            "spend": 5.74,
+            "impressions": 524,
             "clicks": 1
           }
         },
@@ -686,8 +808,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 169.51,
-            "impressions": 20186,
+            "spend": 190.56,
+            "impressions": 22628,
             "clicks": 9
           }
         },
@@ -698,8 +820,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 59.39,
-            "impressions": 10704,
+            "spend": 61.39,
+            "impressions": 11144,
             "clicks": 27
           }
         },
@@ -723,7 +845,7 @@
           "effective_status": "ACTIVE",
           "insights": {
             "spend": 3.11,
-            "impressions": 332,
+            "impressions": 333,
             "clicks": 0
           }
         },
@@ -811,11 +933,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 392.63,
-        "impressions": 149134,
-        "reach": 66251,
-        "clicks": 1868,
-        "ctr": 1.25
+        "spend": 416.93,
+        "impressions": 157497,
+        "reach": 67864,
+        "clicks": 1944,
+        "ctr": 1.23
       },
       "ads": [
         {
@@ -825,9 +947,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 229.48,
-            "impressions": 83533,
-            "clicks": 1054
+            "spend": 253.78,
+            "impressions": 91896,
+            "clicks": 1130
           }
         },
         {
@@ -854,11 +976,11 @@
       "start_time": "2026-11-05T00:00:00-0700",
       "stop_time": "2026-11-24T23:59:00-0700",
       "insights": {
-        "spend": 2578.79,
-        "impressions": 485408,
-        "reach": 88774,
-        "clicks": 9640,
-        "ctr": 1.99
+        "spend": 2762.86,
+        "impressions": 517118,
+        "reach": 90324,
+        "clicks": 10146,
+        "ctr": 1.96
       },
       "ads": [
         {
@@ -868,9 +990,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 320.02,
-            "impressions": 26156,
-            "clicks": 868
+            "spend": 361.97,
+            "impressions": 29133,
+            "clicks": 953
           }
         },
         {
@@ -880,9 +1002,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 596.38,
-            "impressions": 262085,
-            "clicks": 1923
+            "spend": 653.78,
+            "impressions": 283385,
+            "clicks": 2066
           }
         },
         {
@@ -892,9 +1014,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 738.84,
-            "impressions": 62803,
-            "clicks": 2467
+            "spend": 823.56,
+            "impressions": 70236,
+            "clicks": 2745
           }
         },
         {
@@ -945,11 +1067,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-10T23:59:00-0700",
       "insights": {
-        "spend": 2186.85,
-        "impressions": 257309,
-        "reach": 110779,
-        "clicks": 21320,
-        "ctr": 8.29
+        "spend": 2341.36,
+        "impressions": 277036,
+        "reach": 115501,
+        "clicks": 22321,
+        "ctr": 8.06
       },
       "ads": [
         {
@@ -959,8 +1081,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0.75,
-            "impressions": 146,
+            "spend": 0.76,
+            "impressions": 147,
             "clicks": 3
           }
         },
@@ -971,9 +1093,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 15.61,
-            "impressions": 2767,
-            "clicks": 115
+            "spend": 18.04,
+            "impressions": 3079,
+            "clicks": 126
           }
         },
         {
@@ -983,8 +1105,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 15.37,
-            "impressions": 1230,
+            "spend": 15.56,
+            "impressions": 1240,
             "clicks": 109
           }
         },
@@ -995,9 +1117,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 233,
-            "impressions": 25629,
-            "clicks": 2013
+            "spend": 247.92,
+            "impressions": 27069,
+            "clicks": 2097
           }
         },
         {
@@ -1007,9 +1129,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 2.01,
-            "impressions": 213,
-            "clicks": 8
+            "spend": 2.13,
+            "impressions": 228,
+            "clicks": 11
           }
         },
         {
@@ -1019,9 +1141,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 594.77,
-            "impressions": 87957,
-            "clicks": 6590
+            "spend": 672.05,
+            "impressions": 100786,
+            "clicks": 7151
           }
         },
         {
@@ -1043,9 +1165,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 449.51,
-            "impressions": 41013,
-            "clicks": 2776
+            "spend": 509.07,
+            "impressions": 46133,
+            "clicks": 3118
           }
         },
         {
@@ -1156,11 +1278,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 294.87,
-        "impressions": 86954,
-        "reach": 36814,
-        "clicks": 395,
-        "ctr": 0.45
+        "spend": 313.73,
+        "impressions": 92305,
+        "reach": 37879,
+        "clicks": 420,
+        "ctr": 0.46
       },
       "ads": [
         {
@@ -1170,9 +1292,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 174.72,
-            "impressions": 49257,
-            "clicks": 206
+            "spend": 193.58,
+            "impressions": 54608,
+            "clicks": 231
           }
         },
         {
@@ -1199,11 +1321,11 @@
       "start_time": "2026-11-05T00:00:00-0700",
       "stop_time": "2026-12-15T23:59:00-0700",
       "insights": {
-        "spend": 603.9,
-        "impressions": 50035,
-        "reach": 25139,
-        "clicks": 2942,
-        "ctr": 5.88
+        "spend": 649.38,
+        "impressions": 53043,
+        "reach": 26068,
+        "clicks": 3095,
+        "ctr": 5.83
       },
       "ads": [
         {
@@ -1213,9 +1335,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 33.47,
-            "impressions": 2881,
-            "clicks": 139
+            "spend": 36.28,
+            "impressions": 3088,
+            "clicks": 154
           }
         },
         {
@@ -1225,9 +1347,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 347.76,
-            "impressions": 26584,
-            "clicks": 1490
+            "spend": 390.43,
+            "impressions": 29385,
+            "clicks": 1628
           }
         },
         {
@@ -1266,11 +1388,11 @@
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
-        "spend": 1069.72,
-        "impressions": 111639,
-        "reach": 39654,
-        "clicks": 8922,
-        "ctr": 7.99
+        "spend": 1169.13,
+        "impressions": 123166,
+        "reach": 41423,
+        "clicks": 9313,
+        "ctr": 7.56
       },
       "ads": [
         {
@@ -1280,9 +1402,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 36.22,
-            "impressions": 3960,
-            "clicks": 195
+            "spend": 44.53,
+            "impressions": 5221,
+            "clicks": 227
           }
         },
         {
@@ -1292,9 +1414,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 146.39,
-            "impressions": 15443,
-            "clicks": 915
+            "spend": 174.38,
+            "impressions": 19242,
+            "clicks": 1046
           }
         },
         {
@@ -1304,8 +1426,8 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 9.85,
-            "impressions": 787,
+            "spend": 10.36,
+            "impressions": 844,
             "clicks": 35
           }
         },
@@ -1316,9 +1438,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 113.69,
-            "impressions": 12889,
-            "clicks": 498
+            "spend": 136.58,
+            "impressions": 16034,
+            "clicks": 578
           }
         },
         {
@@ -1328,9 +1450,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 33.86,
-            "impressions": 2438,
-            "clicks": 150
+            "spend": 41.43,
+            "impressions": 3034,
+            "clicks": 178
           }
         },
         {
@@ -1340,9 +1462,9 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 263.29,
-            "impressions": 21858,
-            "clicks": 1384
+            "spend": 295.43,
+            "impressions": 24527,
+            "clicks": 1504
           }
         },
         {
@@ -1453,11 +1575,11 @@
       "start_time": "2026-11-24T00:00:00-0700",
       "stop_time": "2026-12-31T23:59:00-0700",
       "insights": {
-        "spend": 0,
+        "spend": 0.0,
         "impressions": 0,
         "reach": 0,
         "clicks": 0,
-        "ctr": null
+        "ctr": 0.0
       },
       "ads": [
         {
@@ -1467,7 +1589,7 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0,
+            "spend": 0.0,
             "impressions": 0,
             "clicks": 0
           }
@@ -1479,7 +1601,7 @@
           "status": "ACTIVE",
           "effective_status": "ACTIVE",
           "insights": {
-            "spend": 0,
+            "spend": 0.0,
             "impressions": 0,
             "clicks": 0
           }
@@ -1491,7 +1613,7 @@
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
+            "spend": 0,
             "impressions": 0,
             "clicks": 0
           }
@@ -1503,7 +1625,7 @@
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
+            "spend": 0,
             "impressions": 0,
             "clicks": 0
           }
@@ -1515,7 +1637,7 @@
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
+            "spend": 0,
             "impressions": 0,
             "clicks": 0
           }
@@ -1527,131 +1649,9 @@
           "status": "PAUSED",
           "effective_status": "PAUSED",
           "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        }
-      ]
-    },
-    {
-      "id": "120249885934750752",
-      "name": "RETAIL: Holiday gifts from the Library store [shop-holiday]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_SALES",
-      "daily_budget": 12069,
-      "start_time": "2026-11-20T00:00:00-0700",
-      "stop_time": "2026-12-18T23:59:00-0700",
-      "insights": {
-        "spend": 0,
-        "impressions": 0,
-        "reach": 0,
-        "clicks": 0,
-        "ctr": null
-      },
-      "ads": [
-        {
-          "id": "120249885961970752",
-          "name": "shop-lifestyle – warm [shop-holiday]",
-          "plan_ad": "shop-lifestyle",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
             "spend": 0,
             "impressions": 0,
             "clicks": 0
-          }
-        },
-        {
-          "id": "120249885961890752",
-          "name": "shop-catalog – warm [shop-holiday]",
-          "plan_ad": "shop-catalog",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885960960752",
-          "name": "shop-lifestyle – prospecting [shop-holiday]",
-          "plan_ad": "shop-lifestyle",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885958660752",
-          "name": "shop-catalog – prospecting [shop-holiday]",
-          "plan_ad": "shop-catalog",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885962700752",
-          "name": "shop-msd – warm [shop-holiday]",
-          "plan_ad": "shop-msd",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        },
-        {
-          "id": "120249885961750752",
-          "name": "shop-msd – prospecting [shop-holiday]",
-          "plan_ad": "shop-msd",
-          "status": "PAUSED",
-          "effective_status": "PAUSED",
-          "insights": {
-            "spend": 0.0,
-            "impressions": 0,
-            "clicks": 0
-          }
-        }
-      ]
-    },
-    {
-      "id": "120249885934430752",
-      "name": "EVENTS: The Library at Christmas [evt-holiday]",
-      "status": "ACTIVE",
-      "effective_status": "ACTIVE",
-      "objective": "OUTCOME_TRAFFIC",
-      "daily_budget": 7778,
-      "start_time": "2026-11-18T00:00:00-0700",
-      "stop_time": "2026-12-23T23:59:00-0700",
-      "insights": {
-        "spend": 84.51,
-        "impressions": 16678,
-        "reach": 9546,
-        "clicks": 578,
-        "ctr": 3.47
-      },
-      "ads": [
-        {
-          "id": "120249885956540752",
-          "name": "evt-holiday-decor – regional [evt-holiday]",
-          "plan_ad": "evt-holiday-decor",
-          "status": "ACTIVE",
-          "effective_status": "ACTIVE",
-          "insights": {
-            "spend": 84.51,
-            "impressions": 16678,
-            "clicks": 578
           }
         }
       ]
