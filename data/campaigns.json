@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T17:48:06+00:00",
+ "generated": "2026-11-21T21:55:22+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -12,7 +12,7 @@
   "instagram_id": "17841426268646366"
  },
  "reserve": {
-  "budget": 1000,
+  "budget": 0,
   "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."
  },
  "guardrails": [
@@ -1612,7 +1612,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-18",
    "end": "2026-12-23",
-   "budget": 2800,
+   "budget": 1200,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -1658,12 +1658,12 @@
    ],
    "status": "proposed",
    "days": 36,
-   "daily": 77.78,
+   "daily": 33.33,
    "schedule": [
     {
      "start": "2026-11-18",
      "end": "2026-12-23",
-     "daily": 77.78,
+     "daily": 33.33,
      "phase": "burst"
     }
    ]
@@ -1820,7 +1820,7 @@
    "optimization": "Purchase",
    "start": "2026-11-05",
    "end": "2026-12-03",
-   "budget": 1200,
+   "budget": 780,
    "spend": {
     "mode": "burst",
     "metric": "Cost per purchase",
@@ -1930,12 +1930,12 @@
    ],
    "status": "proposed",
    "days": 29,
-   "daily": 41.38,
+   "daily": 26.9,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-12-03",
-     "daily": 41.38,
+     "daily": 26.9,
      "phase": "burst"
     }
    ]
@@ -2084,6 +2084,190 @@
      "start": "2026-11-05",
      "end": "2026-12-19",
      "daily": 55.56,
+     "phase": "burst"
+    }
+   ]
+  },
+  {
+   "id": "evt-christmas",
+   "program": "Events",
+   "revenue": true,
+   "priority": 1,
+   "name": "EVENTS: Christmas at the Elkhorn",
+   "objective": "Sales",
+   "optimization": "Landing page views",
+   "start": "2026-11-22",
+   "end": "2026-12-23",
+   "budget": 3020,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per landing page view",
+    "why": "Matt (Nov 21): new umbrella campaign for the season. Under five weeks; no time for a test."
+   },
+   "why": "The umbrella for the Library's first holiday season, sending people to trlibrary.com/holidays: the Holiday Trees (six built by North Dakota artisans), Elkhorn Evenings (Dec. 10, 17), family crafting, Santa (Dec. 17, 19) and the butchery workshop. Uses Threefold's Nov 20 photos and b-roll. Funded from the reserve ($1,000), Midwinter Table's unspent budget (sold out Nov 21, $420) and $1,600 of evt-holiday's placeholder budget; raise it if it delivers.",
+   "audiences": [
+    {
+     "name": "Regional",
+     "geo": "250-mile radius of Medora (Dickinson, Bismarck, Williston, Minot, Glendive, Miles City)",
+     "age": "25–65",
+     "detail": "Broad (Advantage+ audience)",
+     "share": 0.6
+    },
+    {
+     "name": "Drive market",
+     "geo": "ND, SD, MT, MN, WY + Manitoba, Saskatchewan",
+     "age": "35–65",
+     "detail": "Broad (Advantage+ audience); a December weekend trip",
+     "share": 0.4
+    }
+   ],
+   "open_items": [
+    "Music is O Christmas Tree by the USAF Airmen of Note (public domain, Air Force public-domain music page). Matt to listen before launch.",
+    "Overlaps evt-holiday (placeholder photo) and evt-elkhorn. Consider pausing evt-holiday once this is live.",
+    "The 9:16 cut uses the full frame over a blurred fill for the Spirit of the Land panel shot so its text isn't cropped."
+   ],
+   "ads": [
+    {
+     "id": "xmas-reel",
+     "name": "The Holiday Trees (video)",
+     "format": "video",
+     "primary": "The new Theodore Roosevelt Presidential Library in Medora, North Dakota is dressed for Christmas at the Elkhorn, with holiday trees built by North Dakota artisans from ranch leather, lariats, painted rawhide, prairie grass and Hebron clay. Through Dec. 23.",
+     "headline": "Christmas at the Elkhorn",
+     "desc": "Through Dec. 23 in Medora",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/holiday-2026",
+     "media": {
+      "type": "video",
+      "src": "creative/events/xmas/christmas-elkhorn-trees-16x9.jpg",
+      "file": "creative/events/xmas/christmas-elkhorn-trees-16x9.mp4",
+      "duration": "0:28",
+      "title": "The Holiday Trees, cut to O Christmas Tree, with a Christmas at the Elkhorn end card",
+      "source": "Threefold b-roll (TRPL_ChristmasTrees_20.NOV.26); music: O Christmas Tree, USAF Airmen of Note (public domain, US Air Force)",
+      "vertical": {
+       "src": "creative/events/xmas/christmas-elkhorn-trees-9x16.mp4",
+       "poster": "creative/events/xmas/christmas-elkhorn-trees-9x16.jpg"
+      }
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/holiday-2026?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-reel"
+    },
+    {
+     "id": "xmas-carousel",
+     "name": "The season, card by card",
+     "format": "carousel",
+     "primary": "Christmas at the Elkhorn is on at the new Theodore Roosevelt Presidential Library in Medora, North Dakota: holiday trees built by North Dakota artisans, after-hours Elkhorn Evenings, family crafting and visits with Santa. Through Dec. 23.",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/holiday-2026",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/xmas-trees-002-1x1.jpg",
+        "story": "creative/placements/xmas-trees-002-9x16.jpg",
+        "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)",
+        "ratio": "1/1"
+       },
+       "headline": "The Holiday Trees",
+       "desc": "Built by North Dakota artisans",
+       "url": "https://www.trlibrary.com/holidaytrees",
+       "tracked_url": "https://www.trlibrary.com/holidaytrees?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-carousel-1"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/xmas-trees-004-1x1.jpg",
+        "story": "creative/placements/xmas-trees-004-9x16.jpg",
+        "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)",
+        "ratio": "1/1"
+       },
+       "headline": "Elkhorn Evenings",
+       "desc": "Thursdays, Dec. 10 & 17",
+       "url": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings",
+       "tracked_url": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-carousel-2"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/xmas-trees-003-1x1.jpg",
+        "story": "creative/placements/xmas-trees-003-9x16.jpg",
+        "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)",
+        "ratio": "1/1"
+       },
+       "headline": "Family Crafting Time",
+       "desc": "Dec. 13, 19, 20 & 23",
+       "url": "https://www.trlibrary.com/calendar/daily-activity/family-crafting-time",
+       "tracked_url": "https://www.trlibrary.com/calendar/daily-activity/family-crafting-time?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-carousel-3"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/xmas-trees-009-1x1.jpg",
+        "story": "creative/placements/xmas-trees-009-9x16.jpg",
+        "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)",
+        "ratio": "1/1"
+       },
+       "headline": "Visit with Santa",
+       "desc": "Dec. 17 & 19",
+       "url": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus",
+       "tracked_url": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-carousel-4"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/xmas-trees-001-1x1.jpg",
+        "story": "creative/placements/xmas-trees-001-9x16.jpg",
+        "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)",
+        "ratio": "1/1"
+       },
+       "headline": "Plan your visit",
+       "desc": "Through Dec. 23",
+       "url": "https://www.trlibrary.com/holiday-2026",
+       "tracked_url": "https://www.trlibrary.com/holiday-2026?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-carousel-5"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/holiday-2026?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-carousel"
+    },
+    {
+     "id": "xmas-trees",
+     "name": "The Holiday Trees (photo)",
+     "format": "image",
+     "primary": "This season at the new Theodore Roosevelt Presidential Library in Medora, North Dakota: holiday trees built by hand by North Dakota artisans from ranch leather, working lariats, painted rawhide, prairie grass, indigo bandanas and Hebron clay. See them through Dec. 23.",
+     "headline": "The Holiday Trees at the Library",
+     "desc": "Christmas at the Elkhorn",
+     "cta": "Learn More",
+     "url": "https://www.trlibrary.com/holidaytrees",
+     "media": {
+      "type": "image",
+      "src": "creative/placements/xmas-trees-002-4x5.jpg",
+      "story": "creative/placements/xmas-trees-002-9x16.jpg",
+      "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)",
+      "ratio": "4/5"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://www.trlibrary.com/holidaytrees?utm_source=meta&utm_medium=paid_social&utm_campaign=evt-christmas&utm_content=xmas-trees"
+    }
+   ],
+   "status": "proposed",
+   "days": 32,
+   "daily": 94.38,
+   "schedule": [
+    {
+     "start": "2026-11-22",
+     "end": "2026-12-23",
+     "daily": 94.38,
      "phase": "burst"
     }
    ]

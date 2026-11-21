@@ -327,7 +327,7 @@ camp(id="evt-room", program="Events", revenue=True, priority=1,
 
 camp(id="evt-holiday", program="Events", revenue=False, priority=2,
      name="EVENTS: The Library at Christmas", objective="Traffic", optimization="Landing page views",
-     start="2026-11-18", end="2026-12-23", budget=2800,
+     start="2026-11-18", end="2026-12-23", budget=1200,
      spend=BURST("Cost per landing page view", "Decorations are up Nov 17 to Christmas. A five-week window doesn't leave room for a test."),
      why="Decorations go up Nov 15–16. Pairs with TRMF's Old Fashioned Cowboy Christmas in Medora and with Museum Store Sunday.",
      audiences=[{"name": "Regional", "geo": REGION, "age": "25–70", "detail": "Broad", "share": 1.0}],
@@ -380,7 +380,7 @@ BUTCHERY = T + "/calendar/special-event/butchery-workshop"
 
 camp(id="evt-midwinter", program="Events", revenue=True, priority=2,
      name="EVENTS: Midwinter Table dinner (Dec. 4)", objective="Sales", optimization="Purchase",
-     start="2026-11-05", end="2026-12-03", budget=1200,
+     start="2026-11-05", end="2026-12-03", budget=780,
      spend=BURST("Cost per purchase", "One night, 75 seats, about 40 left on Nov 4. Four weeks is too short for a test."),
      why="A $150 seated dinner of the Badlands winter larder by Chef Candace Stock, with the regional producers at the table. About 40 seats left at $150–190, so roughly $6,000 of ticket revenue to fill. Complements the invitation email to Alice's list; this reaches food-and-drink people within a day's drive.",
      audiences=[{"name": "Regional, 21+", "geo": REGION, "age": "25–65 (21+ hard minimum)", "detail": "Broad; fine dining, wine, local food", "share": 1.0}],
@@ -430,6 +430,47 @@ camp(id="evt-elkhorn", program="Events", revenue=True, priority=2,
                    {"media": web("northern-lights-library"), "headline": "Open after hours", "desc": "Thursdays, Dec. 10 and 17"},
                    {"media": web("saltscoria-tables"), "headline": "Charcuterie at Salt+Scoria", "desc": "Boards for two or four"},
                    {"media": web("library-night"), "headline": "Exhibits open all evening", "desc": "Included with admission"}]},
+     ])
+
+X = "creative/events/xmas/"
+HOLIDAYS = T + "/holiday-2026"
+HOLIDAYTREES = T + "/holidaytrees"
+CRAFTING = T + "/calendar/daily-activity/family-crafting-time"
+def xm(n, ratio="1/1"):  # Threefold's Holiday Trees photos (Nov 20 shoot, Drive folder "Holiday Trees"), sized with scripts/placements.py
+    return {"type": "image", "src": f"creative/placements/xmas-trees-{n}-{ratio.replace('/', 'x')}.jpg", "story": f"creative/placements/xmas-trees-{n}-9x16.jpg",
+            "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)", "ratio": ratio}
+XMAS_VIDEO = {"type": "video", "src": X + "christmas-elkhorn-trees-16x9.jpg", "file": X + "christmas-elkhorn-trees-16x9.mp4", "duration": "0:28",
+              "title": "The Holiday Trees, cut to O Christmas Tree, with a Christmas at the Elkhorn end card",
+              "source": "Threefold b-roll (TRPL_ChristmasTrees_20.NOV.26); music: O Christmas Tree, USAF Airmen of Note (public domain, US Air Force)",
+              "vertical": {"src": X + "christmas-elkhorn-trees-9x16.mp4", "poster": X + "christmas-elkhorn-trees-9x16.jpg"}}
+
+camp(id="evt-christmas", program="Events", revenue=True, priority=1,
+     name="EVENTS: Christmas at the Elkhorn", objective="Sales", optimization="Landing page views",
+     start="2026-11-22", end="2026-12-23", budget=3020,
+     spend=BURST("Cost per landing page view", "Matt (Nov 21): new umbrella campaign for the season. Under five weeks; no time for a test."),
+     why="The umbrella for the Library's first holiday season, sending people to trlibrary.com/holidays: the Holiday Trees (six built by North Dakota artisans), Elkhorn Evenings (Dec. 10, 17), family crafting, Santa (Dec. 17, 19) and the butchery workshop. Uses Threefold's Nov 20 photos and b-roll. Funded from the reserve ($1,000), Midwinter Table's unspent budget (sold out Nov 21, $420) and $1,600 of evt-holiday's placeholder budget; raise it if it delivers.",
+     audiences=[{"name": "Regional", "geo": REGION, "age": "25–65", "detail": "Broad (Advantage+ audience)", "share": 0.6},
+                {"name": "Drive market", "geo": DRIVE, "age": "35–65", "detail": "Broad (Advantage+ audience); a December weekend trip", "share": 0.4}],
+     open_items=["Music is O Christmas Tree by the USAF Airmen of Note (public domain, Air Force public-domain music page). Matt to listen before launch.",
+                 "Overlaps evt-holiday (placeholder photo) and evt-elkhorn. Consider pausing evt-holiday once this is live.",
+                 "The 9:16 cut uses the full frame over a blurred fill for the Spirit of the Land panel shot so its text isn't cropped."],
+     ads=[
+        {"id": "xmas-reel", "name": "The Holiday Trees (video)", "format": "video",
+         "primary": "The new Theodore Roosevelt Presidential Library in Medora, North Dakota is dressed for Christmas at the Elkhorn, with holiday trees built by North Dakota artisans from ranch leather, lariats, painted rawhide, prairie grass and Hebron clay. Through Dec. 23.",
+         "headline": "Christmas at the Elkhorn", "desc": "Through Dec. 23 in Medora", "cta": "Learn More", "url": HOLIDAYS,
+         "media": XMAS_VIDEO},
+        {"id": "xmas-carousel", "name": "The season, card by card", "format": "carousel",
+         "primary": "Christmas at the Elkhorn is on at the new Theodore Roosevelt Presidential Library in Medora, North Dakota: holiday trees built by North Dakota artisans, after-hours Elkhorn Evenings, family crafting and visits with Santa. Through Dec. 23.",
+         "cta": "Learn More", "url": HOLIDAYS,
+         "cards": [{"media": xm("002"), "headline": "The Holiday Trees", "desc": "Built by North Dakota artisans", "url": HOLIDAYTREES},
+                   {"media": xm("004"), "headline": "Elkhorn Evenings", "desc": "Thursdays, Dec. 10 & 17", "url": ELKHORN_EVE},
+                   {"media": xm("003"), "headline": "Family Crafting Time", "desc": "Dec. 13, 19, 20 & 23", "url": CRAFTING},
+                   {"media": xm("009"), "headline": "Visit with Santa", "desc": "Dec. 17 & 19", "url": SANTA},
+                   {"media": xm("001"), "headline": "Plan your visit", "desc": "Through Dec. 23", "url": HOLIDAYS}]},
+        {"id": "xmas-trees", "name": "The Holiday Trees (photo)", "format": "image",
+         "primary": "This season at the new Theodore Roosevelt Presidential Library in Medora, North Dakota: holiday trees built by hand by North Dakota artisans from ranch leather, working lariats, painted rawhide, prairie grass, indigo bandanas and Hebron clay. See them through Dec. 23.",
+         "headline": "The Holiday Trees at the Library", "desc": "Christmas at the Elkhorn", "cta": "Learn More", "url": HOLIDAYTREES,
+         "media": xm("002", "4/5")},
      ])
 
 camp(id="evt-butchery", program="Events", revenue=True, priority=3,
@@ -799,7 +840,7 @@ camp(id="dest-nearby", program="Tickets & visits", revenue=True, priority=1,
                    {"media": img("library-aerial-badlands"), "headline": "The new Library", "desc": "Theodore Roosevelt Presidential Library", "url": TIX}]},
      ])
 
-RESERVE = {"budget": 1000, "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."}
+RESERVE = {"budget": 0, "why": "Unassigned. Funds the winners of each test after week one and any burst that is delivering well, so the whole credit is spent by Jan 19. Test-phase savings roll in here too."}
 
 GUARDRAILS = [
     "Every campaign gets a lifetime budget equal to its plan. Meta can't spend past it.",
