@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T16:15:06+00:00",
+ "generated": "2026-11-22T16:34:45+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -453,7 +453,7 @@
    "optimization": "Purchase",
    "start": "2026-11-24",
    "end": "2027-01-19",
-   "budget": 17670,
+   "budget": 16470,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -712,12 +712,12 @@
    ],
    "status": "proposed",
    "days": 57,
-   "daily": 310.0,
+   "daily": 288.95,
    "schedule": [
     {
      "start": "2026-11-24",
      "end": "2027-01-19",
-     "daily": 310.0,
+     "daily": 288.95,
      "phase": "burst"
     }
    ]
@@ -1180,15 +1180,15 @@
    "name": "RETAIL: 2026 Inaugural Year ornament",
    "objective": "Sales",
    "optimization": "Purchase (Shopify pixel + Conversions API)",
-   "start": "2026-12-01",
+   "start": "2026-11-23",
    "end": "2026-12-20",
-   "budget": 3000,
+   "budget": 4200,
    "spend": {
     "mode": "burst",
     "metric": "Cost per purchase (ROAS)",
     "why": "A gift with a short season; spend while it can still arrive by Christmas."
    },
-   "why": "Matt, Nov 22: \"We should run a campaign for our new ornament.\" The first ornament from the Library's first year, $34.99, gift-boxed, made by Beacon Design. Launches only when the store shows it in stock (it showed Sold out on Nov 22; Matt: stock is coming). Funded from tix-summer.",
+   "why": "Matt, Nov 22: \"We should run a campaign for our new ornament.\" The first ornament from the Library's first year, $34.99, gift-boxed, made by Beacon Design. Matt moved the start to Nov 23 (inventory being added Nov 22). Funded from tix-summer.",
    "audiences": [
     {
      "name": "Warm audiences",
@@ -1292,11 +1292,11 @@
     }
    ],
    "status": "proposed",
-   "days": 20,
+   "days": 28,
    "daily": 150.0,
    "schedule": [
     {
-     "start": "2026-12-01",
+     "start": "2026-11-23",
      "end": "2026-12-20",
      "daily": 150.0,
      "phase": "burst"
