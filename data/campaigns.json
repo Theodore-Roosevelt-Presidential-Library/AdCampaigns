@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T06:08:31+00:00",
+ "generated": "2026-11-22T15:42:18+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -35,7 +35,7 @@
    "optimization": "Purchase",
    "start": "2026-11-04",
    "end": "2027-01-19",
-   "budget": 16000,
+   "budget": 6630,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -221,18 +221,18 @@
    ],
    "status": "proposed",
    "days": 77,
-   "daily": 207.79,
+   "daily": 86.1,
    "schedule": [
     {
      "start": "2026-11-04",
      "end": "2026-11-10",
-     "daily": 72.73,
+     "daily": 30.13,
      "phase": "test"
     },
     {
      "start": "2026-11-11",
      "end": "2027-01-19",
-     "daily": 221.3,
+     "daily": 91.7,
      "phase": "scale"
     }
    ]
@@ -451,16 +451,13 @@
    "name": "TICKETS: Plan your summer trip",
    "objective": "Sales",
    "optimization": "Purchase",
-   "start": "2026-12-03",
+   "start": "2026-11-24",
    "end": "2027-01-19",
-   "budget": 15000,
+   "budget": 20000,
    "spend": {
-    "mode": "test",
-    "test_days": 7,
-    "test_frac": 0.35,
+    "mode": "burst",
     "metric": "Cost per landing page view",
-    "target": "$1.50 or less",
-    "decide_on": "2026-12-09"
+    "why": "Pulled forward Nov 22 (Matt: \"we have a lot of money to spend\"; \"all of the above\") to close the credit pacing gap; no test phase so the credit is used by Jan 19."
    },
    "why": "The summer trip is planned in winter. July and August each sold about 100,000 tickets, and visitors who live farther away decide early. Leads with the study's two strongest messages: history plus the raw beauty of the Badlands, and the Library as part of a regional journey with Mount Rushmore and Yellowstone. Summer photos are honest here because the ad sells a summer trip.",
    "audiences": [
@@ -714,20 +711,14 @@
     }
    ],
    "status": "proposed",
-   "days": 48,
-   "daily": 312.5,
+   "days": 57,
+   "daily": 350.88,
    "schedule": [
     {
-     "start": "2026-12-03",
-     "end": "2026-12-09",
-     "daily": 109.38,
-     "phase": "test"
-    },
-    {
-     "start": "2026-12-10",
+     "start": "2026-11-24",
      "end": "2027-01-19",
-     "daily": 347.18,
-     "phase": "scale"
+     "daily": 350.88,
+     "phase": "burst"
     }
    ]
   },
@@ -741,7 +732,7 @@
    "optimization": "Purchase",
    "start": "2026-11-05",
    "end": "2027-01-19",
-   "budget": 17000,
+   "budget": 7160,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -879,18 +870,18 @@
    ],
    "status": "proposed",
    "days": 76,
-   "daily": 223.68,
+   "daily": 94.21,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-11-11",
-     "daily": 78.29,
+     "daily": 32.97,
      "phase": "test"
     },
     {
      "start": "2026-11-12",
      "end": "2027-01-19",
-     "daily": 238.43,
+     "daily": 100.42,
      "phase": "scale"
     }
    ]
@@ -905,7 +896,7 @@
    "optimization": "Landing page views on trlibrary.com/support-trpl (DonorPerfect form can't carry the pixel)",
    "start": "2026-11-24",
    "end": "2026-12-31",
-   "budget": 14000,
+   "budget": 17480,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -1002,12 +993,12 @@
    ],
    "status": "proposed",
    "days": 38,
-   "daily": 368.42,
+   "daily": 460.0,
    "schedule": [
     {
      "start": "2026-11-24",
      "end": "2026-12-31",
-     "daily": 368.42,
+     "daily": 460.0,
      "phase": "burst"
     }
    ]
@@ -1022,7 +1013,7 @@
    "optimization": "Purchase (Shopify pixel + Conversions API) — Advantage+ catalog ads",
    "start": "2026-11-20",
    "end": "2026-12-18",
-   "budget": 10000,
+   "budget": 3420,
    "spend": {
     "mode": "test",
     "test_days": 5,
@@ -1165,18 +1156,18 @@
    ],
    "status": "proposed",
    "days": 29,
-   "daily": 344.83,
+   "daily": 117.93,
    "schedule": [
     {
      "start": "2026-11-20",
      "end": "2026-11-24",
-     "daily": 120.69,
+     "daily": 41.28,
      "phase": "test"
     },
     {
      "start": "2026-11-25",
      "end": "2026-12-18",
-     "daily": 391.52,
+     "daily": 133.9,
      "phase": "scale"
     }
    ]
@@ -1191,7 +1182,7 @@
    "optimization": "Instant form (name, email, date, party size) — or Landing page views on /private-events",
    "start": "2026-11-05",
    "end": "2026-12-15",
-   "budget": 3500,
+   "budget": 1720,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -1299,18 +1290,18 @@
    ],
    "status": "proposed",
    "days": 41,
-   "daily": 85.37,
+   "daily": 41.95,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-11-11",
-     "daily": 42.69,
+     "daily": 20.98,
      "phase": "test"
     },
     {
      "start": "2026-11-12",
      "end": "2026-12-15",
-     "daily": 94.15,
+     "daily": 46.27,
      "phase": "scale"
     }
    ]
@@ -1325,7 +1316,7 @@
    "optimization": "Reach in a tight radius",
    "start": "2026-11-04",
    "end": "2027-01-19",
-   "budget": 1500,
+   "budget": 1480,
    "spend": {
     "mode": "burst",
     "metric": "Reach and frequency",
@@ -1400,12 +1391,12 @@
    ],
    "status": "proposed",
    "days": 77,
-   "daily": 19.48,
+   "daily": 19.22,
    "schedule": [
     {
      "start": "2026-11-04",
      "end": "2027-01-19",
-     "daily": 19.48,
+     "daily": 19.22,
      "phase": "burst"
     }
    ]
@@ -1420,7 +1411,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-04",
    "end": "2027-01-10",
-   "budget": 8000,
+   "budget": 9860,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -1592,12 +1583,12 @@
    ],
    "status": "proposed",
    "days": 68,
-   "daily": 117.65,
+   "daily": 145.0,
    "schedule": [
     {
      "start": "2026-11-04",
      "end": "2027-01-10",
-     "daily": 117.65,
+     "daily": 145.0,
      "phase": "burst"
     }
    ]
@@ -1612,7 +1603,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-18",
    "end": "2026-12-23",
-   "budget": 1200,
+   "budget": 2740,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -1658,12 +1649,12 @@
    ],
    "status": "proposed",
    "days": 36,
-   "daily": 33.33,
+   "daily": 76.11,
    "schedule": [
     {
      "start": "2026-11-18",
      "end": "2026-12-23",
-     "daily": 33.33,
+     "daily": 76.11,
      "phase": "burst"
     }
    ]
@@ -1678,7 +1669,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-05",
    "end": "2026-11-24",
-   "budget": 3000,
+   "budget": 3540,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -1800,12 +1791,12 @@
    ],
    "status": "proposed",
    "days": 20,
-   "daily": 150.0,
+   "daily": 177.0,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-11-24",
-     "daily": 150.0,
+     "daily": 177.0,
      "phase": "burst"
     }
    ]
@@ -1820,7 +1811,7 @@
    "optimization": "Purchase",
    "start": "2026-11-05",
    "end": "2026-12-03",
-   "budget": 780,
+   "budget": 840,
    "spend": {
     "mode": "burst",
     "metric": "Cost per purchase",
@@ -1930,12 +1921,12 @@
    ],
    "status": "proposed",
    "days": 29,
-   "daily": 26.9,
+   "daily": 28.97,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-12-03",
-     "daily": 26.9,
+     "daily": 28.97,
      "phase": "burst"
     }
    ]
@@ -1950,7 +1941,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-05",
    "end": "2026-12-19",
-   "budget": 2500,
+   "budget": 3070,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -2078,12 +2069,12 @@
    ],
    "status": "proposed",
    "days": 45,
-   "daily": 55.56,
+   "daily": 68.22,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-12-19",
-     "daily": 55.56,
+     "daily": 68.22,
      "phase": "burst"
     }
    ]
@@ -2098,7 +2089,7 @@
    "optimization": "Landing page views",
    "start": "2026-11-22",
    "end": "2026-12-23",
-   "budget": 3020,
+   "budget": 11020,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -2262,12 +2253,12 @@
    ],
    "status": "proposed",
    "days": 32,
-   "daily": 94.38,
+   "daily": 344.38,
    "schedule": [
     {
      "start": "2026-11-22",
      "end": "2026-12-23",
-     "daily": 94.38,
+     "daily": 344.38,
      "phase": "burst"
     }
    ]
@@ -2282,7 +2273,7 @@
    "optimization": "Purchase",
    "start": "2026-11-05",
    "end": "2026-12-22",
-   "budget": 500,
+   "budget": 570,
    "spend": {
     "mode": "burst",
     "metric": "Cost per purchase",
@@ -2327,12 +2318,12 @@
    ],
    "status": "proposed",
    "days": 48,
-   "daily": 10.42,
+   "daily": 11.88,
    "schedule": [
     {
      "start": "2026-11-05",
      "end": "2026-12-22",
-     "daily": 10.42,
+     "daily": 11.88,
      "phase": "burst"
     }
    ]
@@ -2347,7 +2338,7 @@
    "optimization": "Reach",
    "start": "2026-11-04",
    "end": "2027-01-19",
-   "budget": 2000,
+   "budget": 1980,
    "spend": {
     "mode": "burst",
     "metric": "Reach",
@@ -2391,12 +2382,12 @@
    ],
    "status": "proposed",
    "days": 77,
-   "daily": 25.97,
+   "daily": 25.71,
    "schedule": [
     {
      "start": "2026-11-04",
      "end": "2027-01-19",
-     "daily": 25.97,
+     "daily": 25.71,
      "phase": "burst"
     }
    ]
@@ -2411,7 +2402,7 @@
    "optimization": "ThruPlay",
    "start": "2026-10-28",
    "end": "2027-01-19",
-   "budget": 7000,
+   "budget": 2110,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -2531,18 +2522,18 @@
    ],
    "status": "proposed",
    "days": 84,
-   "daily": 83.33,
+   "daily": 25.12,
    "schedule": [
     {
      "start": "2026-10-28",
      "end": "2026-11-03",
-     "daily": 41.66,
+     "daily": 12.56,
      "phase": "test"
     },
     {
      "start": "2026-11-04",
      "end": "2027-01-19",
-     "daily": 87.12,
+     "daily": 26.26,
      "phase": "scale"
     }
    ]
@@ -2622,7 +2613,7 @@
    "optimization": "Purchase",
    "start": "2026-11-10",
    "end": "2027-01-19",
-   "budget": 9000,
+   "budget": 3560,
    "spend": {
     "mode": "test",
     "test_days": 7,
@@ -2825,18 +2816,18 @@
    ],
    "status": "proposed",
    "days": 71,
-   "daily": 126.76,
+   "daily": 50.14,
    "schedule": [
     {
      "start": "2026-11-10",
      "end": "2026-11-16",
-     "daily": 50.7,
+     "daily": 20.06,
      "phase": "test"
     },
     {
      "start": "2026-11-17",
      "end": "2027-01-19",
-     "daily": 135.08,
+     "daily": 53.43,
      "phase": "scale"
     }
    ]
@@ -2849,16 +2840,13 @@
    "name": "DESTINATION: Why Medora — the town, the park, the outdoors",
    "objective": "Traffic",
    "optimization": "Landing page views on trlibrary.com/visit pages",
-   "start": "2026-12-26",
+   "start": "2026-11-25",
    "end": "2027-01-19",
-   "budget": 6000,
+   "budget": 10000,
    "spend": {
-    "mode": "test",
-    "test_days": 5,
-    "test_frac": 0.35,
+    "mode": "burst",
     "metric": "Cost per landing page view",
-    "target": "$0.90 or less",
-    "decide_on": "2026-12-30"
+    "why": "Pulled forward Nov 22 (Matt: \"we have a lot of money to spend\"; \"all of the above\") to close the credit pacing gap; no test phase so the credit is used by Jan 19."
    },
    "why": "The study's skeptics converted in steps: 'it's not a traditional library', then 'it's actually in nature', then 'this is an adventure destination'. This campaign is those last two steps. It sells Medora and the national park next door as the reason for the trip, with the Library as the anchor, and sends people to the /visit pages that now cover the park, trails, scenic drives, stargazing and the town.",
    "audiences": [
@@ -3167,20 +3155,14 @@
     }
    ],
    "status": "proposed",
-   "days": 25,
-   "daily": 240.0,
+   "days": 56,
+   "daily": 178.57,
    "schedule": [
     {
-     "start": "2026-12-26",
-     "end": "2026-12-30",
-     "daily": 84.0,
-     "phase": "test"
-    },
-    {
-     "start": "2026-12-31",
+     "start": "2026-11-25",
      "end": "2027-01-19",
-     "daily": 279.0,
-     "phase": "scale"
+     "daily": 178.57,
+     "phase": "burst"
     }
    ]
   },
@@ -3192,16 +3174,13 @@
    "name": "DESTINATION: Your road trip to the Badlands, from home",
    "objective": "Traffic",
    "optimization": "Landing page views on the matching itinerary page",
-   "start": "2026-12-29",
+   "start": "2026-11-25",
    "end": "2027-01-19",
-   "budget": 10000,
+   "budget": 17000,
    "spend": {
-    "mode": "test",
-    "test_days": 5,
-    "test_frac": 0.35,
+    "mode": "burst",
     "metric": "Cost per landing page view",
-    "target": "$0.90 or less",
-    "decide_on": "2027-01-02"
+    "why": "Pulled forward Nov 22 (Matt: \"we have a lot of money to spend\"; \"all of the above\") to close the credit pacing gap; no test phase so the credit is used by Jan 19."
    },
    "why": "Twenty road trips on trlibrary.com/visit/itineraries already start where our visitors live. Each ad set gets the trip from its own city: the Twin Cities weekend, Chicago to the Badlands, Denver to Yellowstone, Billings, the Black Hills, Kansas City and Omaha up US 29. Origins and weights follow the tourism data (ND 41%, MN 15%, MT 5%, SD 5%, then TX, WI, CO, CA, FL, AZ, IL). Runs as people plan summer.",
    "audiences": [
@@ -4223,20 +4202,14 @@
     }
    ],
    "status": "proposed",
-   "days": 22,
-   "daily": 454.55,
+   "days": 56,
+   "daily": 303.57,
    "schedule": [
     {
-     "start": "2026-12-29",
-     "end": "2027-01-02",
-     "daily": 159.09,
-     "phase": "test"
-    },
-    {
-     "start": "2027-01-03",
+     "start": "2026-11-25",
      "end": "2027-01-19",
-     "daily": 541.44,
-     "phase": "scale"
+     "daily": 303.57,
+     "phase": "burst"
     }
    ]
   },
@@ -4248,16 +4221,13 @@
    "name": "DESTINATION: Trade screens for skies (family trips)",
    "objective": "Traffic",
    "optimization": "Landing page views on /visit and the family itineraries",
-   "start": "2026-12-26",
+   "start": "2026-11-25",
    "end": "2027-01-19",
-   "budget": 8000,
+   "budget": 12000,
    "spend": {
-    "mode": "test",
-    "test_days": 5,
-    "test_frac": 0.35,
+    "mode": "burst",
     "metric": "Cost per landing page view",
-    "target": "$0.90 or less",
-    "decide_on": "2026-12-30"
+    "why": "Pulled forward Nov 22 (Matt: \"we have a lot of money to spend\"; \"all of the above\") to close the credit pacing gap; no test phase so the credit is used by Jan 19."
    },
    "why": "The parent planning the summer trip wants everyone to have fun and actually be together. Medora delivers that without being told: bison from the back seat, a trail ride, steaks cooked on pitchforks, a musical under the stars, a campfire story inside the Library. The ads show those moments; they never mention phones or who is planning.",
    "audiences": [
@@ -4572,20 +4542,14 @@
     }
    ],
    "status": "proposed",
-   "days": 25,
-   "daily": 320.0,
+   "days": 56,
+   "daily": 214.29,
    "schedule": [
     {
-     "start": "2026-12-26",
-     "end": "2026-12-30",
-     "daily": 112.0,
-     "phase": "test"
-    },
-    {
-     "start": "2026-12-31",
+     "start": "2026-11-25",
      "end": "2027-01-19",
-     "daily": 372.0,
-     "phase": "scale"
+     "daily": 214.29,
+     "phase": "burst"
     }
    ]
   },
@@ -4599,7 +4563,7 @@
    "optimization": "Purchase",
    "start": "2026-11-04",
    "end": "2027-01-19",
-   "budget": 2500,
+   "budget": 3650,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -4998,12 +4962,12 @@
    ],
    "status": "proposed",
    "days": 77,
-   "daily": 32.47,
+   "daily": 47.4,
    "schedule": [
     {
      "start": "2026-11-04",
      "end": "2027-01-19",
-     "daily": 32.47,
+     "daily": 47.4,
      "phase": "burst"
     }
    ]
