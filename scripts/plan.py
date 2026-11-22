@@ -130,7 +130,7 @@ camp(id="tix-spring", program="Tickets & visits", revenue=True, priority=1,
 
 camp(id="tix-summer", program="Tickets & visits", revenue=True, priority=1,
      name="TICKETS: Plan your summer trip", objective="Sales", optimization="Purchase",
-     start="2026-11-24", end="2027-01-19", budget=20000, spend=BURST("Cost per landing page view", "Pulled forward Nov 22 (Matt: \"we have a lot of money to spend\"; \"all of the above\") to close the credit pacing gap; no test phase so the credit is used by Jan 19."),
+     start="2026-11-24", end="2027-01-19", budget=17670, spend=BURST("Cost per landing page view", "Pulled forward Nov 22 (Matt: \"we have a lot of money to spend\"; \"all of the above\") to close the credit pacing gap; no test phase so the credit is used by Jan 19."),
      why="The summer trip is planned in winter. July and August each sold about 100,000 tickets, and visitors who live farther away decide early. Leads with the study's two strongest messages: history plus the raw beauty of the Badlands, and the Library as part of a regional journey with Mount Rushmore and Yellowstone. Summer photos are honest here because the ad sells a summer trip.",
      audiences=[{"name": "Drive market", "geo": DRIVE, "age": "30–65", "detail": "Parents, road trips, national parks, museums", "share": 0.40},
                 {"name": "Farther away", "geo": FAR, "age": "35–70", "detail": "Interests: Theodore Roosevelt National Park, Yellowstone, Mount Rushmore, Glacier, RV travel, American history", "share": 0.45},
@@ -251,6 +251,35 @@ camp(id="shop-holiday", program="Retail", revenue=True, priority=2,
          "primary": "Sunday, Nov. 29 is Museum Store Sunday. Shop the store at the Theodore Roosevelt Presidential Library, online or in Medora, North Dakota, and support the Library with every purchase.",
          "headline": "Museum Store Sunday", "desc": "Online and in Medora", "cta": "Shop Now", "url": SHOP,
          "media": img("store-interior"), "flight": "Nov 27–29"},
+     ])
+
+
+ORN = SHOP + "/products/trpl-2026-limited-edition-ornament"
+def orn(slug, ratio=None): return {"type": "image", "src": f"creative/placements/orn-{slug}-{ratio}.jpg" if ratio else f"creative/retail/ornament/{slug}.jpg",
+                                   "source": "Shopify product photo (Beacon Design)" if slug != "tree" else "Higgsfield GPT Image 2.6 scene built on the Shopify product photo; ornament unchanged"}
+camp(id="shop-ornament", program="Retail", revenue=True, priority=1,
+     name="RETAIL: 2026 Inaugural Year ornament", objective="Sales", optimization="Purchase (Shopify pixel + Conversions API)",
+     start="2026-12-01", end="2026-12-20", budget=3000,
+     spend=BURST("Cost per purchase (ROAS)", "A gift with a short season; spend while it can still arrive by Christmas."),
+     why="Matt, Nov 22: \"We should run a campaign for our new ornament.\" The first ornament from the Library's first year, $34.99, gift-boxed, made by Beacon Design. Launches only when the store shows it in stock (it showed Sold out on Nov 22; Matt: stock is coming). Funded from tix-summer.",
+     audiences=[{"name": "Warm audiences", "geo": "United States", "age": "18+", "detail": "Page and Instagram engagers, site and shop visitors (rt-allyear audiences)", "share": 0.45},
+                {"name": "Gift shoppers", "geo": "United States", "age": "35–65", "detail": "Advantage+ audience; ornaments, Christmas decorating, American history, presidential libraries", "share": 0.55}],
+     open_items=["The store page shows Sold out (Nov 22). Publish only after it shows Add to cart.",
+                 "Confirm the shipping cutoff for Christmas delivery and end the campaign then.",
+                 "The White House ornament claim comes from the store's product copy; confirm the wording with the store team before launch.",
+                 "The tree photo is AI-generated around the real product photo; Meta may add an 'AI info' label."],
+     ads=[
+        {"id": "orn-tree", "name": "On the tree", "format": "image",
+         "primary": "Hang the first year of the new Theodore Roosevelt Presidential Library in Medora, North Dakota, on your tree. The Inaugural Year ornament is gold and enamel, comes gift-boxed and is made by the company that crafts the official White House Christmas ornaments.",
+         "headline": "The Inaugural Year ornament", "desc": "$34.99 \u00b7 gift-boxed", "cta": "Shop Now", "url": ORN,
+         "media": orn("tree", "4x5"), "story": orn("tree", "9x16")},
+        {"id": "orn-carousel", "name": "The ornament up close", "format": "carousel",
+         "primary": "A keepsake from the first year of the new Theodore Roosevelt Presidential Library in Medora, North Dakota. The limited-edition Inaugural Year ornament is $34.99 and ready to give in its own box. Every purchase supports the Library.",
+         "cta": "Shop Now", "url": ORN,
+         "cards": [{"media": orn("tree", "1x1"), "headline": "The Inaugural Year ornament", "desc": "Limited edition"},
+                   {"media": orn("front", "1x1"), "headline": "The Library, in gold", "desc": "Gold and enamel"},
+                   {"media": orn("box", "1x1"), "headline": "Ready to give", "desc": "In its own gift box"},
+                   {"media": orn("angle", "1x1"), "headline": "Shop the ornament", "desc": "$34.99"}]},
      ])
 
 # ======================= SALT+SCORIA =======================

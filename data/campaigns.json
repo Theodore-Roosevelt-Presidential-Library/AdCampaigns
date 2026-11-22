@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T15:42:18+00:00",
+ "generated": "2026-11-22T16:15:06+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -453,7 +453,7 @@
    "optimization": "Purchase",
    "start": "2026-11-24",
    "end": "2027-01-19",
-   "budget": 20000,
+   "budget": 17670,
    "spend": {
     "mode": "burst",
     "metric": "Cost per landing page view",
@@ -712,12 +712,12 @@
    ],
    "status": "proposed",
    "days": 57,
-   "daily": 350.88,
+   "daily": 310.0,
    "schedule": [
     {
      "start": "2026-11-24",
      "end": "2027-01-19",
-     "daily": 350.88,
+     "daily": 310.0,
      "phase": "burst"
     }
    ]
@@ -1169,6 +1169,137 @@
      "end": "2026-12-18",
      "daily": 133.9,
      "phase": "scale"
+    }
+   ]
+  },
+  {
+   "id": "shop-ornament",
+   "program": "Retail",
+   "revenue": true,
+   "priority": 1,
+   "name": "RETAIL: 2026 Inaugural Year ornament",
+   "objective": "Sales",
+   "optimization": "Purchase (Shopify pixel + Conversions API)",
+   "start": "2026-12-01",
+   "end": "2026-12-20",
+   "budget": 3000,
+   "spend": {
+    "mode": "burst",
+    "metric": "Cost per purchase (ROAS)",
+    "why": "A gift with a short season; spend while it can still arrive by Christmas."
+   },
+   "why": "Matt, Nov 22: \"We should run a campaign for our new ornament.\" The first ornament from the Library's first year, $34.99, gift-boxed, made by Beacon Design. Launches only when the store shows it in stock (it showed Sold out on Nov 22; Matt: stock is coming). Funded from tix-summer.",
+   "audiences": [
+    {
+     "name": "Warm audiences",
+     "geo": "United States",
+     "age": "18+",
+     "detail": "Page and Instagram engagers, site and shop visitors (rt-allyear audiences)",
+     "share": 0.45
+    },
+    {
+     "name": "Gift shoppers",
+     "geo": "United States",
+     "age": "35–65",
+     "detail": "Advantage+ audience; ornaments, Christmas decorating, American history, presidential libraries",
+     "share": 0.55
+    }
+   ],
+   "open_items": [
+    "The store page shows Sold out (Nov 22). Publish only after it shows Add to cart.",
+    "Confirm the shipping cutoff for Christmas delivery and end the campaign then.",
+    "The White House ornament claim comes from the store's product copy; confirm the wording with the store team before launch.",
+    "The tree photo is AI-generated around the real product photo; Meta may add an 'AI info' label."
+   ],
+   "ads": [
+    {
+     "id": "orn-tree",
+     "name": "On the tree",
+     "format": "image",
+     "primary": "Hang the first year of the new Theodore Roosevelt Presidential Library in Medora, North Dakota, on your tree. The Inaugural Year ornament is gold and enamel, comes gift-boxed and is made by the company that crafts the official White House Christmas ornaments.",
+     "headline": "The Inaugural Year ornament",
+     "desc": "$34.99 · gift-boxed",
+     "cta": "Shop Now",
+     "url": "https://shop.trlibrary.com/products/trpl-2026-limited-edition-ornament",
+     "media": {
+      "type": "image",
+      "src": "creative/placements/orn-tree-4x5.jpg",
+      "source": "Higgsfield GPT Image 2.6 scene built on the Shopify product photo; ornament unchanged"
+     },
+     "story": {
+      "type": "image",
+      "src": "creative/placements/orn-tree-9x16.jpg",
+      "source": "Higgsfield GPT Image 2.6 scene built on the Shopify product photo; ornament unchanged"
+     },
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://shop.trlibrary.com/products/trpl-2026-limited-edition-ornament?utm_source=meta&utm_medium=paid_social&utm_campaign=shop-ornament&utm_content=orn-tree"
+    },
+    {
+     "id": "orn-carousel",
+     "name": "The ornament up close",
+     "format": "carousel",
+     "primary": "A keepsake from the first year of the new Theodore Roosevelt Presidential Library in Medora, North Dakota. The limited-edition Inaugural Year ornament is $34.99 and ready to give in its own box. Every purchase supports the Library.",
+     "cta": "Shop Now",
+     "url": "https://shop.trlibrary.com/products/trpl-2026-limited-edition-ornament",
+     "cards": [
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/orn-tree-1x1.jpg",
+        "source": "Higgsfield GPT Image 2.6 scene built on the Shopify product photo; ornament unchanged"
+       },
+       "headline": "The Inaugural Year ornament",
+       "desc": "Limited edition"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/orn-front-1x1.jpg",
+        "source": "Shopify product photo (Beacon Design)"
+       },
+       "headline": "The Library, in gold",
+       "desc": "Gold and enamel"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/orn-box-1x1.jpg",
+        "source": "Shopify product photo (Beacon Design)"
+       },
+       "headline": "Ready to give",
+       "desc": "In its own gift box"
+      },
+      {
+       "media": {
+        "type": "image",
+        "src": "creative/placements/orn-angle-1x1.jpg",
+        "source": "Shopify product photo (Beacon Design)"
+       },
+       "headline": "Shop the ornament",
+       "desc": "$34.99"
+      }
+     ],
+     "placements": [
+      "fb_feed",
+      "ig_feed",
+      "ig_story"
+     ],
+     "tracked_url": "https://shop.trlibrary.com/products/trpl-2026-limited-edition-ornament?utm_source=meta&utm_medium=paid_social&utm_campaign=shop-ornament&utm_content=orn-carousel"
+    }
+   ],
+   "status": "proposed",
+   "days": 20,
+   "daily": 150.0,
+   "schedule": [
+    {
+     "start": "2026-12-01",
+     "end": "2026-12-20",
+     "daily": 150.0,
+     "phase": "burst"
     }
    ]
   },
