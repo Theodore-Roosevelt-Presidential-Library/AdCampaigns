@@ -440,8 +440,8 @@ def xm(n, ratio="1/1"):  # Threefold's Holiday Trees photos (Nov 20 shoot, Drive
     return {"type": "image", "src": f"creative/placements/xmas-trees-{n}-{ratio.replace('/', 'x')}.jpg", "story": f"creative/placements/xmas-trees-{n}-9x16.jpg",
             "source": "Threefold photos of the Holiday Trees (Nov 20, 2026)", "ratio": ratio}
 XMAS_VIDEO = {"type": "video", "src": X + "christmas-elkhorn-trees-16x9.jpg", "file": X + "christmas-elkhorn-trees-16x9.mp4", "duration": "0:28",
-              "title": "The Holiday Trees, cut to O Christmas Tree, with a Christmas at the Elkhorn end card",
-              "source": "Threefold b-roll (TRPL_ChristmasTrees_20.NOV.26); music: O Christmas Tree, USAF Airmen of Note (public domain, US Air Force)",
+              "title": "The Holiday Trees, cut to Jingle Bells, with a Christmas at the Elkhorn end card",
+              "source": "Threefold b-roll (TRPL_ChristmasTrees_20.NOV.26); music: Jingle Bells, Starlifter and Roots in Blue, USAF Band of Mid-America, The Spirit of the Season (2020), public domain",
               "vertical": {"src": X + "christmas-elkhorn-trees-9x16.mp4", "poster": X + "christmas-elkhorn-trees-9x16.jpg"}}
 
 camp(id="evt-christmas", program="Events", revenue=True, priority=1,
@@ -451,7 +451,7 @@ camp(id="evt-christmas", program="Events", revenue=True, priority=1,
      why="The umbrella for the Library's first holiday season, sending people to trlibrary.com/holidays: the Holiday Trees (six built by North Dakota artisans), Elkhorn Evenings (Dec. 10, 17), family crafting, Santa (Dec. 17, 19) and the butchery workshop. Uses Threefold's Nov 20 photos and b-roll. Funded from the reserve ($1,000), Midwinter Table's unspent budget (sold out Nov 21, $420) and $1,600 of evt-holiday's placeholder budget; raise it if it delivers.",
      audiences=[{"name": "Regional", "geo": REGION, "age": "25–65", "detail": "Broad (Advantage+ audience)", "share": 0.6},
                 {"name": "Drive market", "geo": DRIVE, "age": "35–65", "detail": "Broad (Advantage+ audience); a December weekend trip", "share": 0.4}],
-     open_items=["Music is O Christmas Tree by the USAF Airmen of Note (public domain, Air Force public-domain music page). Matt to listen before launch.",
+     open_items=["Music: Jingle Bells, USAF Band of Mid-America (public domain; Matt approved Nov 22 after rejecting O Christmas Tree as not Christmas enough).",
                  "Overlaps evt-holiday (placeholder photo) and evt-elkhorn. Consider pausing evt-holiday once this is live.",
                  "The 9:16 cut uses the full frame over a blurred fill for the Spirit of the Land panel shot so its text isn't cropped."],
      ads=[

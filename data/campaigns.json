@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T21:55:22+00:00",
+ "generated": "2026-11-22T06:08:31+00:00",
  "credit": {
   "total": 150000,
   "expires": "2027-01-20",
@@ -2122,7 +2122,7 @@
     }
    ],
    "open_items": [
-    "Music is O Christmas Tree by the USAF Airmen of Note (public domain, Air Force public-domain music page). Matt to listen before launch.",
+    "Music: Jingle Bells, USAF Band of Mid-America (public domain; Matt approved Nov 22 after rejecting O Christmas Tree as not Christmas enough).",
     "Overlaps evt-holiday (placeholder photo) and evt-elkhorn. Consider pausing evt-holiday once this is live.",
     "The 9:16 cut uses the full frame over a blurred fill for the Spirit of the Land panel shot so its text isn't cropped."
    ],
@@ -2141,8 +2141,8 @@
       "src": "creative/events/xmas/christmas-elkhorn-trees-16x9.jpg",
       "file": "creative/events/xmas/christmas-elkhorn-trees-16x9.mp4",
       "duration": "0:28",
-      "title": "The Holiday Trees, cut to O Christmas Tree, with a Christmas at the Elkhorn end card",
-      "source": "Threefold b-roll (TRPL_ChristmasTrees_20.NOV.26); music: O Christmas Tree, USAF Airmen of Note (public domain, US Air Force)",
+      "title": "The Holiday Trees, cut to Jingle Bells, with a Christmas at the Elkhorn end card",
+      "source": "Threefold b-roll (TRPL_ChristmasTrees_20.NOV.26); music: Jingle Bells, Starlifter and Roots in Blue, USAF Band of Mid-America, The Spirit of the Season (2020), public domain",
       "vertical": {
        "src": "creative/events/xmas/christmas-elkhorn-trees-9x16.mp4",
        "poster": "creative/events/xmas/christmas-elkhorn-trees-9x16.jpg"
