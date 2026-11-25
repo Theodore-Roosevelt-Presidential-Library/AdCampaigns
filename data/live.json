@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-25T13:45:11+00:00",
+  "as_of": "2026-11-25T15:25:50+00:00",
   "source": "meta-ads-mcp",
   "account": {
     "id": "act_1085868274425806",
@@ -1310,7 +1310,7 @@
       "status": "ACTIVE",
       "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
-      "daily_budget": 9786,
+      "daily_budget": 19161,
       "start_time": "2026-11-04T12:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
@@ -2103,7 +2103,7 @@
       "status": "ACTIVE",
       "effective_status": "ACTIVE",
       "objective": "OUTCOME_SALES",
-      "daily_budget": 9091,
+      "daily_budget": 18466,
       "start_time": "2026-11-04T00:00:00-0700",
       "stop_time": "2027-01-19T23:59:00-0700",
       "insights": {
